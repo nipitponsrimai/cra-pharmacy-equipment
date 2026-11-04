@@ -13683,6 +13683,14 @@
         "tax_id": "0105522000669",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / สถาบันอุดมศึกษาและศูนย์วิจัย (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายสถาบันการศึกษาและหน่วยงานภาครัฐ (Government & Academic Accounts)",
+          "area_rep_hotline": "0-2318-8740, 0-2718-0500 ต่อ 101-108 (ฝ่ายขายเครื่องมือวิทยาศาสตร์)",
+          "sales_email_direct": "sales@becthai.com",
+          "line_id": "@becthai",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องมือพื้นฐาน Yamato, Hirayama, ตู้ดูดควัน และเครื่องแก้ว'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องไตเตรทคาร์ลฟิชเชอร์",
@@ -13897,6 +13905,14 @@
         "tax_id": "0105519011337",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ เหนือ & สถาบันการแพทย์/มหาวิทยาลัยวิจัย (ราชวิทยาลัยจุฬาภรณ์ - แจ้งวัฒนะ/หลักสี่)",
+          "sales_division": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma & Analytical Testing Division)",
+          "area_rep_hotline": "0-2433-8331, 0-2434-9191 ต่อ 110-118 (ฝ่ายขายสถาบัน) / มือถือประสานงาน: 081-831-9244",
+          "sales_email_direct": "center@sithiphorn.com, promotion@sithiphorn.com",
+          "line_id": "@sithiphorn",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ (CRA) คณะเภสัชศาสตร์ เพื่อขอสเปกและใบเสนอราคา (Buchi, Sotax, Electrolab)'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องทดสอบการไหลของผงและแกรนูล",
@@ -14110,6 +14126,14 @@
         "tax_id": "0105523002118",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ และปริมณฑล / มหาวิทยาลัยวิจัยและโรงพยาบาลรัฐ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "แผนกเครื่องมือวิทยาศาสตร์ DKSH Technology (Scientific Instrumentation - Academic & Medical Accounts)",
+          "area_rep_hotline": "0-2790-4000, 0-2790-4444 ต่อ แผนกเครื่องมือวิเคราะห์ (Analytical Dept.)",
+          "sales_email_direct": "heth.thailand@dksh.com",
+          "line_id": "@dkshthailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำสถาบันการศึกษา/ราชวิทยาลัยจุฬาภรณ์ แผนกเครื่องมือ Malvern, Mettler, Hitachi, Rudolph'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องไตเตรทคาร์ลฟิชเชอร์",
@@ -14290,6 +14314,14 @@
         "tax_id": "0105534122772",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / ศูนย์ราชการแจ้งวัฒนะ & สถาบันการแพทย์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Academic & Medical Research Account (Life Sciences & Analytical Instruments)",
+          "area_rep_hotline": "02-074-3366 (สำนักงานอาคารสิงห์ คอมเพล็กซ์) / 0-2619-0101",
+          "sales_email_direct": "thailand.sales@thermofisher.com",
+          "line_id": "@thermofisherth",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อ Account Manager / ผู้แทนขายประจำราชวิทยาลัยจุฬาภรณ์ (Applied Biosystems, Invitrogen, Heracell CO2/Tri-gas)'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องสเปกโตรมิเตอร์อินฟราเรดแบบฟูเรียร์ทรานส์ฟอร์ม",
@@ -14459,6 +14491,14 @@
         "tax_id": "0105543069455",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการแพทย์และมหาวิทยาลัยวิจัย (ราชวิทยาลัยจุฬาภรณ์ / รพ.จุฬาภรณ์)",
+          "sales_division": "Life Science Group (Academic & Research Account)",
+          "area_rep_hotline": "0-2651-8300, 0-2651-8311 (สายตรงฝ่ายขาย Life Science)",
+          "sales_email_direct": "sales_thailand@bio-rad.com",
+          "line_id": "@bioradthailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ แผนก Life Science (qPCR CFX Opus, ChemiDoc, Gel Electrophoresis)'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องนับจำนวนเซลล์อัตโนมัติ",
@@ -14572,6 +14612,14 @@
         "tax_id": "0105527011987",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการศึกษาและศูนย์วิจัยชีววิทยาศาสตร์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายอุปกรณ์วิทยาศาสตร์ มหาวิทยาลัยและโรงพยาบาล (Academic & Healthcare Division)",
+          "area_rep_hotline": "0-2274-8331, 0-2274-8332 ต่อ 150-155",
+          "sales_email_direct": "sales@gibthai.com",
+          "line_id": "@gibthai",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับปิเปตต์ อุปกรณ์เพาะเลี้ยงเซลล์ ตู้แช่แข็ง -80°C และสารเคมี Gibco/Invitrogen'"
+        },
         "matched_items": [
           {
             "item_th": "ถังบรรจุไนโตรเจนเหลว",
@@ -14683,6 +14731,14 @@
         "tax_id": "0105538090719",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ และมหาวิทยาลัยวิจัย (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายสเปกโทรสโกปีและโครมาโทกราฟี (Spectroscopy & Separation Division)",
+          "area_rep_hotline": "0-2454-9111 ต่อ 201-205 (ฝ่ายขายเครื่องมือวิเคราะห์)",
+          "sales_email_direct": "sales@scispec.co.th",
+          "line_id": "@scispec",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่อง Spectrophotometer UV-Vis, FTIR, และ Fluorescence'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องเพิ่มปริมาณสารพันธุกรรมด้วยวิธีพีซีอาร์",
@@ -14785,6 +14841,14 @@
         "tax_id": "0105539056689",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / สถาบันการศึกษาและห้องปฏิบัติการวิเคราะห์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเครื่องมือวิเคราะห์และเครื่องชั่งในห้องปฏิบัติการ (Lab Analytical Balances & Titration)",
+          "area_rep_hotline": "0-2723-0300 ต่อ แผนกเครื่องมือห้องปฏิบัติการ (Laboratory Division)",
+          "sales_email_direct": "th.marketing@mt.com",
+          "line_id": "@mettlerthailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ เครื่องชั่งวิเคราะห์ 4-5 ตำแหน่ง, Karl Fischer, และ pH Meter'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องไตเตรทคาร์ลฟิชเชอร์",
@@ -14864,6 +14928,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / สถาบันการศึกษาและการแพทย์ (ราชวิทยาลัยจุฬาภรณ์ - แจ้งวัฒนะ)",
+          "sales_division": "Life Science Academic Account & Liquid Handling Specialists",
+          "area_rep_hotline": "0-2579-2244 ต่อ 12-16 (ฝ่ายขายและการตลาด)",
+          "sales_email_direct": "info-thailand@eppendorf.com",
+          "line_id": "@eppendorfth",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องปั่นเหวี่ยง Centrifuge, Pipette, Mixers และ CO2 Incubator'"
+        },
         "matched_items": [
           {
             "item_th": "ไมโครปิเปตแบบปรับปริมาตรได้",
@@ -14944,6 +15016,14 @@
         "tax_id": "0105535105499",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยวิจัยและสถาบันวิทยาศาสตร์การแพทย์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายเครื่องมือวิจัยชีวฟิสิกส์และสรีรวิทยา (Electrophysiology & Advanced Screening)",
+          "area_rep_hotline": "0-2636-8980-4 ต่อ ฝ่ายขายเครื่องมือวิจัยขั้นสูง",
+          "sales_email_direct": "sales@coax.co.th",
+          "line_id": "@coaxgroup",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำโครงการวิจัยราชวิทยาลัยจุฬาภรณ์ (Molecular Devices, TA DSC, Patch Clamp, Harvard Pump)'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องทําลายเซลล์และทำให้เป็นเนื้อเดียวกัน",
@@ -15011,6 +15091,14 @@
         "tax_id": "0105547051917",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / มหาวิทยาลัยและโรงพยาบาล (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเครื่องมือห้องปฏิบัติการและการศึกษา (Lab Equipment & Education)",
+          "area_rep_hotline": "0-2361-9252, 0-2361-9253 (ฝ่ายขายสถาบัน)",
+          "sales_email_direct": "sales@scisolution.co.th",
+          "line_id": "@scisolution",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับ Vortex, Shaker, Water Bath, Hotplate Stirrer'"
+        },
         "matched_items": [
           {
             "item_th": "อ่างน้ำควบคุมอุณหภูมิ",
@@ -15078,6 +15166,14 @@
         "tax_id": "0105538058262",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการศึกษาและอุตสาหกรรมยา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma Testing Instruments)",
+          "area_rep_hotline": "0-2917-7440, 0-2917-7441",
+          "sales_email_direct": "sales@multilab.co.th",
+          "line_id": "@multilab",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องทดสอบการแตกกระจายตัว Disintegration, Friability, และ Dissolution'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องทดสอบการไหลของผงและแกรนูล",
@@ -15146,6 +15242,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ และปริมณฑล / คณะแพทยศาสตร์และเภสัชศาสตร์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายเครื่องมือสรีรวิทยา เครื่องมือแพทย์ และหุ่นฝึกทักษะ (Medical & Skill Training Manikins)",
+          "area_rep_hotline": "0-2933-1133, 0-2933-1144 ต่อ ฝ่ายขายเครื่องมือการศึกษาและการแพทย์",
+          "sales_email_direct": "sales@meditop.co.th",
+          "line_id": "@meditop",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับหุ่นฝึกหัดเจาะเลือด, เครื่องตรวจคลื่นไฟฟ้าหัวใจ ECG, และหุ่น CPR'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องตรวจคลื่นไฟฟ้าหัวใจ",
@@ -15215,6 +15319,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันวิจัยและมหาวิทยาลัยรัฐ (ราชวิทยาลัยจุฬาภรณ์ - หลักสี่)",
+          "sales_division": "Life Sciences and Applied Chemical Markets (LC, LC/MS, BioTek Microplate)",
+          "area_rep_hotline": "0-2636-1600 (สายตรงฝ่ายขายและเทคนิค)",
+          "sales_email_direct": "inquiry_lspan@agilent.com",
+          "line_id": "@agilent_th",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อ Account Manager ประจำราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่อง HPLC, BioTek Microplate Reader, และ Seahorse XF'"
+        },
         "matched_items": [
           {
             "item_th": "โครมาโทกราฟีแบบของเหลวสมรรถนะสูง พร้อมเครื่องตรวจจับแบบหลายหัวตรวจ",
@@ -15273,6 +15385,14 @@
         "tax_id": "0105565164868",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการแพทย์และศูนย์วิจัยขั้นสูง (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Life Science & Diagnostic Solutions (High-Content Screening, Multimode Readers)",
+          "area_rep_hotline": "0-2381-4200 (สายตรงสำนักงานสุขุมวิท 63)",
+          "sales_email_direct": "thailand.info@revvity.com",
+          "line_id": "@revvityth",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำราชวิทยาลัยจุฬาภรณ์ สำหรับ EnSight/Victor Microplate Reader, Operetta CLS, และ FTIR'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องสเปกโตรมิเตอร์อินฟราเรดแบบฟูเรียร์ทรานส์ฟอร์ม",
@@ -15329,6 +15449,14 @@
         "tax_id": "0105546074786",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยและสถาบันวิจัยเคมี (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายเคมีวิเคราะห์และเครื่องมือทดสอบสมบัติทางกายภาพ",
+          "area_rep_hotline": "0-2285-4500, 0-2285-4501",
+          "sales_email_direct": "sales@barascientific.com",
+          "line_id": "@barascientific",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องมือโครมาโทกราฟีและอุปกรณ์เตรียมตัวอย่าง'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องสเปกโตรมิเตอร์อินฟราเรดแบบฟูเรียร์ทรานส์ฟอร์ม",
@@ -15386,6 +15514,14 @@
         "tax_id": "0105549040335",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / คณะเภสัชศาสตร์และอุตสาหกรรมยา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma QC & Formulations)",
+          "area_rep_hotline": "0-2503-3450, 0-2503-3451 (ฝ่ายขายสถาบัน)",
+          "sales_email_direct": "sales@innovatech.co.th",
+          "line_id": "@innovatech",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องทดสอบการละลายยา Dissolution, เครื่องวัดความชื้น, และตู้ควบคุมสภาวะ'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องทดสอบการไหลของผงและแกรนูล",
@@ -15443,6 +15579,14 @@
         "tax_id": "0105546059922",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / สถาบันการศึกษา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายเครื่องมือวิทยาศาสตร์ทั่วไปและเครื่องแก้วห้องปฏิบัติการ",
+          "area_rep_hotline": "0-2736-2210, 0-2736-2211",
+          "sales_email_direct": "sales@snpscientific.com",
+          "line_id": "@snpscientific",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องปั่นเหวี่ยง, ตู้บ่มเพาะเชื้อ, และเครื่องมือพื้นฐาน'"
+        },
         "matched_items": [
           {
             "item_th": "ไมโครปิเปตแบบปรับปริมาตรได้",
@@ -15502,6 +15646,14 @@
         "tax_id": "0105523002118",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยและอุตสาหกรรมยา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Pharmaceutical & Academic Solutions (UPLC, HPLC, Tandem Quadrupole MS)",
+          "area_rep_hotline": "0-2318-8740, 0-2718-0500 ต่อ ฝ่ายขาย Waters",
+          "sales_email_direct": "waters_thailand@waters.com",
+          "line_id": "@watersthailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำสถาบันการศึกษา/ราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่อง ACQUITY UPLC และ Arc HPLC'"
+        },
         "matched_items": [
           {
             "item_th": "โครมาโทกราฟีแบบของเหลวสมรรถนะสูง พร้อมเครื่องตรวจจับแบบหลายหัวตรวจ",
@@ -15548,6 +15700,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการแพทย์และศูนย์วิจัยจุลทรรศน์ศาสตร์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Carl Zeiss Microscopy Division (Research & Healthcare Imaging)",
+          "area_rep_hotline": "0-2248-8787 ต่อ แผนก Microscopy (Research Accounts)",
+          "sales_email_direct": "microscopy.th@zeiss.com",
+          "line_id": "@zeissthailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำราชวิทยาลัยจุฬาภรณ์ สำหรับกล้องจุลทรรศน์คอนโฟคอล, Inverted Fluorescence, และ Live Cell Imaging'"
+        },
         "matched_items": [
           {
             "item_th": "กล้องจุลทรรศน์หัวกลับ",
@@ -15593,6 +15753,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการศึกษาและห้องปฏิบัติการชีวภาพ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "แผนกกล้องจุลทรรศน์และเครื่องมือทางชีววิทยา (Microscopes & Optical Imaging)",
+          "area_rep_hotline": "0-2653-8255, 0-2653-8555 ต่อ 410-415 (ฝ่ายขายกล้องจุลทรรศน์)",
+          "sales_email_direct": "inds@hollywood.co.th",
+          "line_id": "@hollywoodinter",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับกล้องจุลทรรศน์สเตอริโอ, กล้องหัวกลับเซลล์, และระบบถ่ายภาพชีวภาพ'"
+        },
         "matched_items": [
           {
             "item_th": "กล้องจุลทรรศน์หัวกลับ",
@@ -15638,6 +15806,14 @@
         "tax_id": "0105546074786",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยวิจัยและหน่วยงานรัฐ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายเคมีวิเคราะห์และสเปกโทรสโกปี",
+          "area_rep_hotline": "0-2632-4300, 0-2632-4301",
+          "sales_email_direct": "sales@parascientific.com",
+          "line_id": "@parascientific",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่อง HPLC, GC, และเครื่องมือวิเคราะห์ทางเภสัชกรรม'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องวิเคราะห์ปริมาณความชื้นและเถ้าแบบอัตโนมัติ",
@@ -15684,6 +15860,14 @@
         "tax_id": "0105541018695",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยและสถาบันวิจัยชีวภาพ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Laboratory Products & Services (Balances, Pipettes, Water, Filtration)",
+          "area_rep_hotline": "0-2643-8361, 0-2643-8362 ต่อ ฝ่ายขายเครื่องมือวิเคราะห์",
+          "sales_email_direct": "enquiry.thailand@sartorius.com",
+          "line_id": "@sartoriusth",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องชั่งความแม่นยำสูง Cubis, ระบบน้ำบริสุทธิ์ Arium, และ Tacta Pipettes'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องชั่งวิเคราะห์ (ทศนิยม 6 ตำแหน่ง)",
@@ -15729,6 +15913,14 @@
         "tax_id": "0105534080182",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / มหาวิทยาลัยวิจัย (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายระบบน้ำบริสุทธิ์และเครื่องมือวิทยาศาสตร์พื้นฐาน (Pure & Ultrapure Water Systems)",
+          "area_rep_hotline": "0-2652-0700, 0-2652-0800 ต่อ ฝ่ายขายสถาบัน",
+          "sales_email_direct": "sales@mythtechnology.com",
+          "line_id": "@mythtechnology",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับระบบผลิตน้ำบริสุทธิ์สูง Type 1 (Milli-Q alternative) และ Autoclave'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องวิเคราะห์ปริมาณความชื้นและเถ้าแบบอัตโนมัติ",
@@ -15777,6 +15969,14 @@
         "tax_id": "0105538100625",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยและศูนย์วิจัยอณูชีววิทยา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายจีโนมิกส์และอณูชีววิทยา (Genomics & Molecular Biology Solutions)",
+          "area_rep_hotline": "0-2350-3090 ต่อ 101-105 (ฝ่ายขายมหาวิทยาลัย)",
+          "sales_email_direct": "sales@bio-active.co.th",
+          "line_id": "@bioactive",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับระบบคัดแยกสารพันธุกรรม, PCR Reagents, และชุดสกัด DNA/RNA'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องนับจำนวนเซลล์อัตโนมัติ",
@@ -15812,6 +16012,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันวิทยาศาสตร์การแพทย์และโรงพยาบาล (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "BD Biosciences (Flow Cytometry & Cell Analysis)",
+          "area_rep_hotline": "0-2646-8600, 0-2646-8650 ต่อ แผนก BD Biosciences",
+          "sales_email_direct": "bdbiosciences_thailand@bd.com",
+          "line_id": "@bdbiosciences",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องตรวจนับและคัดแยกเซลล์ BD FACSLyric / FACSVerse Flow Cytometer'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องตรวจวิเคราะห์เซลล์แบบอัตโนมัติ",
@@ -15847,6 +16055,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / สถาบันการศึกษา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายอุปกรณ์วิทยาศาสตร์ชีวภาพและตู้ปลอดเชื้อ",
+          "area_rep_hotline": "0-2886-4550, 0-2886-4551",
+          "sales_email_direct": "sales@smchemical.com",
+          "line_id": "@smchemical",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับตู้ความปลอดภัยทางชีวภาพและอุปกรณ์เพาะเลี้ยงเซลล์'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องปั๊มสารละลายแบบกระบอกฉีดยา",
@@ -15881,6 +16097,14 @@
         "tax_id": "0105547071667",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / มหาวิทยาลัยและโรงพยาบาล (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายเครื่องมือวิทยาศาสตร์และตู้ความปลอดภัยทางชีวภาพ (Biosafety Cabinets & Clean Benches)",
+          "area_rep_hotline": "0-2882-5511 ต่อ 11-14",
+          "sales_email_direct": "sales@nanotech.co.th",
+          "line_id": "@nanotechinter",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับตู้ปลอดเชื้อ BSC Class II, Laminar Flow, และ Autoclave'"
+        },
         "matched_items": [
           {
             "item_th": "ตู้ชีวภาพนิรภัย ระดับ 2 ขนาด 4 ฟุต",
@@ -15915,6 +16139,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ และปริมณฑล / ศูนย์วิจัยและมหาวิทยาลัย (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายระบบควบคุมอุณหภูมิและความชื้นห้องปฏิบัติการ",
+          "area_rep_hotline": "0-2993-8400, 0-2993-8401",
+          "sales_email_direct": "sales@maepengineering.com",
+          "line_id": "@maepengineering",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับตู้แช่แข็งอุณหภูมิต่ำ -80°C และตู้ควบคุมสภาวะ'"
+        },
         "matched_items": [
           {
             "item_th": "ตู้ชีวภาพนิรภัย ระดับ 2 ขนาด 4 ฟุต",
@@ -15950,6 +16182,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตสถาบันการแพทย์และสุขภาพ (ราชวิทยาลัยจุฬาภรณ์ / รพ.จุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเครื่องมือแพทย์และสรีรวิทยาทางคลินิก (Medical & Academic Body Composition)",
+          "area_rep_hotline": "0-2105-4148, 0-2105-4149 ต่อ ฝ่ายขายโรงพยาบาลและสถาบันการศึกษา",
+          "sales_email_direct": "inbodythailand@inbody.com",
+          "line_id": "@inbodythailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องตรวจวัดองค์ประกอบร่างกาย InBody 770 / InBody 970'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องวิเคราะห์องค์ประกอบของร่างกาย",
@@ -15985,6 +16225,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตคณะแพทยศาสตร์และเภสัชศาสตร์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Life Science Research & Teaching Solutions (PowerLab Systems)",
+          "area_rep_hotline": "0-2617-1510, 0-2617-1511 (สายตรงผู้เชี่ยวชาญสรีรวิทยา)",
+          "sales_email_direct": "info.sea@adinstruments.com",
+          "line_id": "@adinstruments",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายเขตราชวิทยาลัยจุฬาภรณ์ สำหรับระบบบันทึกสัญญาณสรีรวิทยา PowerLab และซอฟต์แวร์ LabChart'"
+        },
         "matched_items": [
           {
             "item_th": "เครื่องตรวจคลื่นไฟฟ้าหัวใจ",
@@ -16021,6 +16269,14 @@
         "tax_id": "0105534019122",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตมหาวิทยาลัยและสถาบันวิจัยการแพทย์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "Merck Life Science & Research Reagents (Academic Account)",
+          "area_rep_hotline": "0-2667-8000, 0-2667-8333 ต่อ แผนก Life Science (Academic Division)",
+          "sales_email_direct": "customer.service.thailand@merckgroup.com",
+          "line_id": "@merckthailand",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำราชวิทยาลัยจุฬาภรณ์ สำหรับสารเคมีมาตรฐานเกรดวิเคราะห์ (Sigma-Aldrich), Milli-Q, และ Cell Culture Reagents'"
+        },
         "matched_items": []
       },
       {
@@ -16043,6 +16299,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / คณะเภสัชศาสตร์และโรงงานยา (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเคมีภัณฑ์เกรดยาและห้องปฏิบัติการวิเคราะห์ (Pharmaceutical & Lab Chemicals)",
+          "area_rep_hotline": "0-2224-8111, 0-2224-8112",
+          "sales_email_direct": "sales@danpratheep.com",
+          "line_id": "@danpratheep",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับสารเคมีบริสุทธิ์, ตัวทำละลาย HPLC Grade, และสารมาตรฐาน USP/BP'"
+        },
         "matched_items": []
       },
       {
@@ -16065,6 +16329,14 @@
         "tax_id": "0105547000573",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / สถาบันการศึกษาและห้องปฏิบัติการเคมี (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายคอลัมน์โครมาโทกราฟีและอุปกรณ์สิ้นเปลือง HPLC/GC (Consumables & Parts)",
+          "area_rep_hotline": "0-2432-6110, 0-2432-6111",
+          "sales_email_direct": "sales@analytical-lab.com",
+          "line_id": "@analyticallab",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับคอลัมน์ HPLC C18, ไส้กรอง Syringe Filter, และขวด Vial'"
+        },
         "matched_items": []
       },
       {
@@ -16087,6 +16359,14 @@
         "tax_id": "0105500000000",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / สถาบันการศึกษาและราชการ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายขายเฟอร์นิเจอร์ห้องปฏิบัติการและตู้ดูดควัน (Lab Design & Fume Hoods)",
+          "area_rep_hotline": "0-2921-5050, 0-2921-5051",
+          "sales_email_direct": "sales@developscience.com",
+          "line_id": "@developscience",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับตู้ดูดควัน Fume Hood, ระบบท่อลม, และม้านั่งปฏิบัติการ'"
+        },
         "matched_items": []
       },
       {
@@ -16109,6 +16389,14 @@
         "tax_id": "0105554107571",
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
+        "cra_territory": {
+          "territory_name": "เขตกรุงเทพฯ / หน่วยงานมหาวิทยาลัยและห้องปฏิบัติการวิเคราะห์ (ราชวิทยาลัยจุฬาภรณ์)",
+          "sales_division": "ฝ่ายบริการสอบเทียบมาตรฐานเครื่องมือวัด (ISO/IEC 17025 Metrology Division)",
+          "area_rep_hotline": "0-2946-8800, 0-2946-8801",
+          "sales_email_direct": "service@crystalcalibration.com",
+          "line_id": "@crystalcal",
+          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อทีมวิศวกรสอบเทียบประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับสอบเทียบเครื่องชั่ง, ปิเปตต์, และตู้ควบคุมอุณหภูมิ'"
+        },
         "matched_items": []
       }
     ],
