@@ -117,9 +117,9 @@ h1 { font-size: 26px; line-height: 1.3; }
 h2 { font-size: 19px; line-height: 1.35; }
 h3 { font-size: 16px; }
 a { color: var(--accent-text); }
-button, input, select { font: inherit; color: inherit; }
-.wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
-header.top { padding: 28px 0 0; }
+.wrap { max-width: 1640px; width: 96%; margin: 0 auto; padding: 0 24px; }
+@media (min-width: 1920px) { .wrap { max-width: 1800px; width: 95%; } }
+@media (max-width: 1400px) { .wrap { max-width: 100%; width: 100%; padding: 0 18px; } }
 .top-row { display: flex; gap: 16px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
 .eyebrow { font-size: 13px; color: var(--accent-text); font-weight: 600; letter-spacing: .02em; margin-bottom: 6px; }
 .sub { color: var(--text-2); margin-top: 6px; font-size: 14px; }
@@ -579,6 +579,59 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
 .dist-match-quote { background: #e0f2fe; color: #0369a1; }
 .dist-match-alt { background: #fef3c7; color: #92400e; }
 
+/* Optimized Desktop Front Viewing for Equipment & Vendor Matrix */
+#distMatrixWrap {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  overflow-x: auto;
+}
+
+#distMatrixTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+#distMatrixTable th {
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 13.5px;
+  padding: 12px 14px;
+  border-bottom: 2px solid var(--border-strong);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+#distMatrixTable td {
+  padding: 12px 14px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+#distMatrixTable tbody tr:nth-child(even) td {
+  background: rgba(15, 26, 46, 0.02);
+}
+
+#distMatrixTable tbody tr:hover td {
+  background: rgba(56, 189, 248, 0.06);
+}
+
+/* Desktop Front-viewing Column Proportions */
+#distMatrixTable th:nth-child(1), #distMatrixTable td:nth-child(1) { width: 44px; text-align: center; }
+#distMatrixTable th:nth-child(2), #distMatrixTable td:nth-child(2) { min-width: 210px; }
+#distMatrixTable th:nth-child(3), #distMatrixTable td:nth-child(3) { min-width: 145px; }
+#distMatrixTable th:nth-child(4), #distMatrixTable td:nth-child(4) { min-width: 230px; }
+#distMatrixTable th:nth-child(5), #distMatrixTable td:nth-child(5) { width: 135px; white-space: nowrap; text-align: center; }
+#distMatrixTable th:nth-child(6), #distMatrixTable td:nth-child(6) { min-width: 175px; }
+#distMatrixTable th:nth-child(7), #distMatrixTable td:nth-child(7) { min-width: 180px; }
+#distMatrixTable th:nth-child(8), #distMatrixTable td:nth-child(8) { min-width: 140px; }
+
 @media print {
 
   nav.tabs, .tools, .toolbar, .no-print { display: none !important; }
@@ -1004,15 +1057,23 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
     <!-- 4 KPI Metrics -->
     <div class="grid g4" id="distKpis"></div>
 
-    <!-- Filter & Search Toolbar -->
+    <!-- Filter & Search Toolbar (Desktop Optimized Layout) -->
     <div class="card" style="margin-top:16px;">
-      <div class="toolbar" style="flex-wrap:wrap; gap:12px; margin-bottom:14px;">
+      <!-- Row 1: Category Chips -->
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; padding-bottom:12px; border-bottom:1px solid var(--border);">
         <div class="chips" id="distCategoryChips"></div>
-        <div style="display:flex; gap:8px; align-items:center; flex:1; min-width:280px;">
-          <input class="search" id="distSearch" type="search" placeholder="ค้นหาชื่อครุภัณฑ์, แบรนด์, บริษัท, Tax ID, เบอร์โทร, อีเมล, UNSPSC..." style="flex:1;">
-          <span class="count" id="distCount" style="white-space:nowrap;"></span>
+      </div>
+
+      <!-- Row 2: Search Input & View Toggles -->
+      <div class="toolbar" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:16px;">
+        <div style="display:flex; gap:10px; align-items:center; flex:1; max-width:520px; min-width:280px;">
+          <div style="position:relative; flex:1;">
+            <i class="fa-solid fa-magnifying-glass" style="position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--muted); font-size:13px;"></i>
+            <input class="search" id="distSearch" type="search" placeholder="ค้นหาชื่อครุภัณฑ์, แบรนด์, บริษัท, Tax ID, เบอร์โทร, อีเมล, UNSPSC..." style="width:100%; padding-left:34px;">
+          </div>
+          <span class="count" id="distCount" style="white-space:nowrap; font-weight:600; color:var(--text-2);"></span>
         </div>
-        <div style="display:flex; gap:6px; flex-wrap:wrap;" id="distViewToggle">
+        <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;" id="distViewToggle">
           <button class="btn btn-primary" id="btnViewMatrix" title="มุมมองตาราง ๕๖ รายการสินค้า"><i class="fa-solid fa-list-ol"></i> ๑. รายการสินค้า (๕๖ รายการ)</button>
           <button class="btn" id="btnViewAuthCards" title="มุมมองแยกเฉพาะบริษัทตัวแทนทางการ"><i class="fa-solid fa-building-circle-check"></i> ๒. บริษัทตัวแทนทางการ</button>
           <button class="btn" id="btnViewAllCards" title="มุมมองรวม Vendor ทั้งหมดและร้านคู่เทียบ"><i class="fa-solid fa-boxes-packing"></i> ๓. Vendor ทั้งหมด (๓๖ บริษัท)</button>
