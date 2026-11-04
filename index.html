@@ -632,6 +632,86 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
 #distMatrixTable th:nth-child(7), #distMatrixTable td:nth-child(7) { min-width: 180px; }
 #distMatrixTable th:nth-child(8), #distMatrixTable td:nth-child(8) { min-width: 140px; }
 
+/* -------------------------------------------------------------
+   1920 X 1080 FULL HD DISPLAY OPTIMIZATION (PANEL SIZING)
+------------------------------------------------------------- */
+@media screen and (min-width: 1720px) {
+  .wrap {
+    max-width: 1880px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* 4 KPI Cards across top on 1920x1080 */
+  .grid.g4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .kpi .value {
+    font-size: 36px;
+  }
+  .kpi .detail {
+    font-size: 13.5px;
+  }
+
+  /* Panel and Table container on 1920x1080 */
+  #distMatrixWrap {
+    max-height: calc(100vh - 290px);
+    overflow-y: auto;
+    overflow-x: hidden; /* No horizontal scrollbar needed at 1920px */
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--surface);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Sticky header stays fixed when scrolling down the 56 items */
+  #distMatrixTable th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--surface-2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  /* 1920 x 1080 Table Column Widths Perfectly Distributed across 1840px */
+  #distMatrixTable {
+    width: 100%;
+    table-layout: fixed;
+  }
+  #distMatrixTable th:nth-child(1), #distMatrixTable td:nth-child(1) { width: 50px; text-align: center; } /* # */
+  #distMatrixTable th:nth-child(2), #distMatrixTable td:nth-child(2) { width: 330px; } /* ชื่อครุภัณฑ์ */
+  #distMatrixTable th:nth-child(3), #distMatrixTable td:nth-child(3) { width: 220px; } /* ยี่ห้อ / รุ่นแนะนำ */
+  #distMatrixTable th:nth-child(4), #distMatrixTable td:nth-child(4) { width: 350px; } /* ตัวแทนทางการ */
+  #distMatrixTable th:nth-child(5), #distMatrixTable td:nth-child(5) { width: 160px; text-align: center; } /* Tax ID */
+  #distMatrixTable th:nth-child(6), #distMatrixTable td:nth-child(6) { width: 260px; } /* UNSPSC & เกณฑ์ราคากลาง ม.๔ */
+  #distMatrixTable th:nth-child(7), #distMatrixTable td:nth-child(7) { width: 260px; } /* ร้านคู่เทียบเสนอราคา */
+  #distMatrixTable th:nth-child(8), #distMatrixTable td:nth-child(8) { width: 220px; } /* วัตถุประสงค์ / หมายเหตุ */
+
+  /* Company Cards layout in View 2 & 3 on 1920x1080 */
+  #distCompanyList {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px !important;
+  }
+  .dist-card {
+    margin-bottom: 0 !important;
+    height: 100%;
+  }
+
+  /* Year 71 table on 1920x1080 */
+  #p-year71 .tbl-wrap {
+    max-height: calc(100vh - 290px);
+    overflow-y: auto;
+  }
+  #p-year71 th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}
+
 @media print {
 
   nav.tabs, .tools, .toolbar, .no-print { display: none !important; }
