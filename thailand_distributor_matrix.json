@@ -1,0 +1,2361 @@
+{
+  "total_items": 124,
+  "directory": {
+    "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด": {
+      "short_name": "เบคไทย (Becthai)",
+      "address": "ถ.เพชรบุรีตัดใหม่ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310",
+      "tel": "0-2318-8740, 0-2718-0500",
+      "website": "www.becthai.com",
+      "email": "sales@becthai.com",
+      "specialties": "เครื่องแก้ว, สารเคมี, ตู้ดูดควัน (Fume Hood), หม้อนึ่งฆ่าเชื้อ (Autoclave), เครื่องชั่ง, เครื่องมือวิเคราะห์ทั่วไป",
+      "brands": [
+        "Yamato",
+        "Hirayama",
+        "Advantec",
+        "A&D",
+        "Eyela",
+        "Stuart"
+      ]
+    },
+    "บริษัท สิทธิพรแอสโซซิเอส จำกัด": {
+      "short_name": "สิทธิพรแอสโซซิเอส (Sithiphorn)",
+      "address": "451 ถ.สิรินธร แขวงบางพลัด เขตบางพลัด กรุงเทพฯ 10700",
+      "tel": "0-2433-8331, 0-2434-9191",
+      "website": "www.sithiphorn.com",
+      "email": "center@sithiphorn.com",
+      "specialties": "เครื่องมือทดสอบทางเภสัชกรรม (Dissolution, Disintegration, Friability, Hardness), กล้องจุลทรรศน์, โครมาโทกราฟี, เครื่องระเหยสุญญากาศ",
+      "brands": [
+        "Buchi",
+        "Electrolab",
+        "Sotax",
+        "Copley Scientific",
+        "Memmert",
+        "Olympus/Evident",
+        "Konik"
+      ]
+    },
+    "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด / ดีเคเอสเอช เทคโนโลยี": {
+      "short_name": "ดีเคเอสเอช (DKSH Thailand)",
+      "address": "2533 ถ.สุขุมวิท แขวงบางจาก เขตพระโขนง กรุงเทพฯ 10260",
+      "tel": "0-2790-4000, 0-2790-4444",
+      "website": "www.dksh.com/th-th/home/technology",
+      "email": "heth.thailand@dksh.com",
+      "specialties": "เครื่องมือวิเคราะห์ขั้นสูง, การวัดขนาดอนุภาค (DLS/Zeta), XRPD, เครื่องชั่งความละเอียดสูง, Rheometer, กล้องจุลทรรศน์อิเล็กตรอน",
+      "brands": [
+        "Malvern Panalytical",
+        "Beckman Coulter",
+        "Mettler Toledo",
+        "Hitachi High-Tech",
+        "Rudolph Research"
+      ]
+    },
+    "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด": {
+      "short_name": "โคแอ็กซ์ กรุ๊ป (Coax Group)",
+      "address": "90/1 อาคารสาทรธานี 1 ชั้น 9 ถ.สาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+      "tel": "0-2636-8980-4",
+      "website": "www.coax.co.th",
+      "email": "sales@coax.co.th",
+      "specialties": "เครื่องมือสรีรวิทยาไฟฟ้าขั้นสูง (Patch Clamp), High-Throughput Screening (FLIPR, ImageXpress), เครื่องวิเคราะห์ความร้อน (DSC/TGA), Syringe Pump",
+      "brands": [
+        "Molecular Devices",
+        "TA Instruments",
+        "Harvard Apparatus",
+        "Nanion",
+        "Qsonica"
+      ]
+    },
+    "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด": {
+      "short_name": "ไบโอ-ราด (Bio-Rad Thailand)",
+      "address": "อาคารเมืองไทย-ภัทร คอมเพล็กซ์ อาคาร 2 ชั้น 24 ถ.รัชดาภิเษก ห้วยขวาง กรุงเทพฯ 10310",
+      "tel": "0-2651-8311",
+      "website": "www.bio-rad.com",
+      "email": "sales_thailand@bio-rad.com",
+      "specialties": "เครื่องมืออณูชีววิทยา, Real-time qPCR, Droplet Digital PCR (ddPCR), ถ่ายภาพเจลและเมมเบรน (ChemiDoc), ชุดแยกโปรตีน (SDS-PAGE / Western Blot)",
+      "brands": [
+        "Bio-Rad"
+      ]
+    },
+    "บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด": {
+      "short_name": "แอจิเลนต์ (Agilent Thailand)",
+      "address": "990 อาคารอับดุลราฮิม เพลส ชั้น 28 ถ.พระราม 4 แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+      "tel": "0-2636-1600",
+      "website": "www.agilent.com",
+      "email": "inquiry_lspan@agilent.com",
+      "specialties": "HPLC, LC-MS, GC, GC-MS, เครื่องวัดเมแทบอลิซึมของเซลล์ (Seahorse XF Pro), Microplate Reader (BioTek Synergy)",
+      "brands": [
+        "Agilent",
+        "BioTek",
+        "Seahorse"
+      ]
+    },
+    "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด": {
+      "short_name": "เทอร์โม ฟิชเชอร์ (Thermo Fisher)",
+      "address": "อาคารพหลโยธินเพลส ชั้น 24 ถ.พหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400",
+      "tel": "0-2619-0101",
+      "website": "www.thermofisher.com",
+      "email": "thailand.sales@thermofisher.com",
+      "specialties": "ตู้บ่มเซลล์ CO₂/Tri-gas (Heracell), ตู้ปลอดเชื้อ BSC Class II, NanoDrop One, เครื่องส่งยีนเข้าเซลล์ (Neon Electroporator), Mass Spectrometry",
+      "brands": [
+        "Thermo Scientific",
+        "Applied Biosystems",
+        "Invitrogen",
+        "Gibco"
+      ]
+    },
+    "บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด / Revvity": {
+      "short_name": "เรฟวิตี้ / เพอร์กินเอลเมอร์ (Revvity / PerkinElmer)",
+      "address": "29 อาคารบางกอกบิสซิเนสเซ็นเตอร์ ชั้น 22 ซ.สุขุมวิท 63 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110",
+      "tel": "0-2381-4200",
+      "website": "www.revvity.com",
+      "email": "thailand.info@revvity.com",
+      "specialties": "High-Content Imaging (Operetta CLS), Liquid Scintillation Counter, Microplate Reader (EnSight/Victor), FTIR, DSC, ICP-MS",
+      "brands": [
+        "Revvity",
+        "PerkinElmer"
+      ]
+    },
+    "บริษัท เมอร์ค จำกัด": {
+      "short_name": "เมอร์ค ประเทศไทย (Merck Thailand)",
+      "address": "อาคารเอ็มโพเรียมทาวเวอร์ ชั้น 19 ถ.สุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
+      "tel": "0-2667-8000",
+      "website": "www.merckgroup.com/th-th",
+      "email": "customerservice.th@merckgroup.com",
+      "specialties": "เครื่องวัดความต้านทานเซลล์ TEER (Millicell ERS 3.0), เครื่องผลิตน้ำบริสุทธิ์สูง (Milli-Q), ชุดกรองสเตอไรล์, สารเคมีเกรดวิจัยและฟาร์มา",
+      "brands": [
+        "Merck Millipore",
+        "Sigma-Aldrich",
+        "Milli-Q",
+        "Supelco"
+      ]
+    },
+    "บริษัท ไบโอ-แอคทีฟ จำกัด": {
+      "short_name": "ไบโอ-แอคทีฟ (Bio-Active)",
+      "address": "88/1 ถ.บรมราชชนนี แขวงฉิมพลี เขตตลิ่งชัน กรุงเทพฯ 10170",
+      "tel": "0-2350-3090",
+      "website": "www.bio-active.co.th",
+      "email": "sales@bio-active.co.th",
+      "specialties": "เครื่องจัดลำดับดีเอ็นเอแบบพกพา (Oxford Nanopore MinION), เครื่องถ่ายภาพเซลล์มีชีวิต (Live Cell Imaging Celloger), คัดแยกเซลล์สนามแม่เหล็ก (MiniMACS), Microtome/Cryostat (Leica)",
+      "brands": [
+        "Oxford Nanopore",
+        "Curiosis",
+        "Miltenyi Biotec",
+        "Leica Biosystems",
+        "Lonza"
+      ]
+    },
+    "บริษัท วอเตอร์ส (ประเทศไทย) จำกัด": {
+      "short_name": "วอเตอร์ส (Waters Thailand)",
+      "address": "อาคารทูแปซิฟิคเพลส ชั้น 14 ถ.สุขุมวิท คลองเตย กรุงเทพฯ 10110",
+      "tel": "0-2653-2980",
+      "website": "www.waters.com",
+      "email": "waters_thailand@waters.com",
+      "specialties": "โครมาโทกราฟีของเหลวความดันสูงพิเศษ (UPLC - ACQUITY), HPLC (Arc HPLC), LC-MS/MS, คอลัมน์และรีเอเจนต์",
+      "brands": [
+        "Waters",
+        "ACQUITY",
+        "Xevo",
+        "Oasis"
+      ]
+    },
+    "บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด": {
+      "short_name": "คาร์ล ไซส์ส (Carl Zeiss Thailand)",
+      "address": "193/113-117 อาคารเลครัชดาออฟฟิสคอมเพล็กซ์ ชั้น 27 ถ.รัชดาภิเษก คลองเตย กรุงเทพฯ 10110",
+      "tel": "0-2248-8787",
+      "website": "www.zeiss.co.th",
+      "email": "microscopy.th@zeiss.com",
+      "specialties": "กล้องจุลทรรศน์คอนโฟคอลเลเซอร์ (Confocal Laser Scanning Microscope LSM 900), กล้องจุลทรรศน์ฟลูออเรสเซนซ์ขั้นสูง, กล้องถ่ายภาพอิเล็กตรอน (SEM)",
+      "brands": [
+        "ZEISS"
+      ]
+    },
+    "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด": {
+      "short_name": "ฮอลลีวู้ด อินเตอร์เนชั่นแนล (Hollywood International)",
+      "address": "501/4-8 ถ.พญาไท แขวงถนนพญาไท เขตราชเทวี กรุงเทพฯ 10400",
+      "tel": "0-2653-8555, 0-2653-8255",
+      "website": "www.hollywood.co.th",
+      "email": "inds@hollywood.co.th",
+      "specialties": "กล้องจุลทรรศน์ส่องกลับ (Inverted Microscope Eclipse Ts2-FL), กล้องจุลทรรศน์วิจัยฟลูออเรสเซนซ์ Nikon, ระบบวิเคราะห์ภาพดิจิทัล (NIS-Elements)",
+      "brands": [
+        "Nikon Instruments"
+      ]
+    },
+    "บริษัท เบคตัน ดิคคินสัน (ประเทศไทย) จำกัด": {
+      "short_name": "เบคตัน ดิคคินสัน (BD Biosciences Thailand)",
+      "address": "อาคารชาร์เตอร์สแควร์ ชั้น 28 ถ.สาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+      "tel": "0-2646-8600",
+      "website": "www.bd.com",
+      "email": "bdb_thailand@bd.com",
+      "specialties": "เครื่องแยกเซลล์ฟลูออเรสเซนต์ (FACS Sorter - FACSMelody, FACSAria), Flow Cytometer (BD FACSLyric), แอนติบอดีและสีย้อมเซลล์",
+      "brands": [
+        "BD Biosciences",
+        "BD FACSDiva"
+      ]
+    },
+    "บริษัท บาราไซแอนติฟิค จำกัด": {
+      "short_name": "บาราไซแอนติฟิค (Bara Scientific)",
+      "address": "968 อาคารอื้อจือเหลียง ชั้น 7 ถ.พระราม 4 แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+      "tel": "0-2632-4300",
+      "website": "www.barascientific.com",
+      "email": "bsc@barascientific.com",
+      "specialties": "โครมาโทกราฟี HPLC/GC Shimadzu, สเปกโตรสโกปี FTIR/UV-Vis, เครื่องชั่งวิเคราะห์, เครื่องวิเคราะห์อนุภาค",
+      "brands": [
+        "Shimadzu",
+        "Rigaku",
+        "Erlab"
+      ]
+    },
+    "บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด": {
+      "short_name": "เมทเล่อร์-โทเลโด (Mettler-Toledo Thailand)",
+      "address": "272 ซ.ศูนย์วิจัย 4 ถ.พระราม 9 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310",
+      "tel": "0-2723-0300",
+      "website": "www.mt.com",
+      "email": "th.admin@mt.com",
+      "specialties": "เครื่องชั่งวิเคราะห์ 4-6 ตำแหน่ง, เครื่องไตเตรท Karl Fischer, เครื่องวัดความชื้น (Moisture Analyzer), pH/Ion Meter, เครื่องวัดจุดหลอมเหลว",
+      "brands": [
+        "Mettler Toledo",
+        "Rainin"
+      ]
+    },
+    "บริษัท กิ๊บไทย จำกัด": {
+      "short_name": "กิ๊บไทย (Gibthai)",
+      "address": "44/6 ถ.พญาไท แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพฯ 10400",
+      "tel": "0-2246-8800",
+      "website": "www.gibthai.com",
+      "email": "sales@gibthai.com",
+      "specialties": "อุปกรณ์เพาะเลี้ยงเซลล์, สารชีวภาพ, Ussing Chamber, ตู้บ่มเซลล์, เครื่องชั่ง, หลอดทดลองและพลาสติกแล็บเกรดวิจัย",
+      "brands": [
+        "Corning",
+        "Thermo Fisher",
+        "Physiologic Instruments",
+        "Nalgene"
+      ]
+    },
+    "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด": {
+      "short_name": "เอส.เอ็ม.เคมิคอล (S.M. Chemical Supplies)",
+      "address": "21/8 ซ.ศูนย์วิจัย ถ.เพชรบุรีตัดใหม่ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310",
+      "tel": "0-2319-4820",
+      "website": "www.smchem.co.th",
+      "email": "smchem@smchem.co.th",
+      "specialties": "โครมาโทกราฟีโปรตีน FPLC/ÄKTA, สารเคมีวิจัย, เครื่องมือเตรียมตัวอย่างชีววิทยาศาสตร์, Syringe Pump",
+      "brands": [
+        "Cytiva",
+        "Thermo Fisher",
+        "Harvard Apparatus"
+      ]
+    },
+    "บริษัท อินโนวาเทค ไซแอนทิฟิก จำกัด": {
+      "short_name": "อินโนวาเทค (Innovatech Scientific)",
+      "address": "122/19 หมู่ 6 ต.บางรักพัฒนา อ.บางบัวทอง จ.นนทบุรี 11110",
+      "tel": "0-2920-5650, 0-2920-5651",
+      "website": "www.innovatech.co.th",
+      "email": "info@innovatech.co.th",
+      "specialties": "เครื่องทดสอบเม็ดยา (Tablet Hardness, Disintegration, Friability), Polarimeter, เครื่องทดสอบการไหลของผง",
+      "brands": [
+        "Pharma Test",
+        "Schmidt + Haensch"
+      ]
+    },
+    "บริษัท แดนประทีป เคมีคอล จำกัด": {
+      "short_name": "แดนประทีป เคมีคอล (Danpratiph)",
+      "address": "100/18 ถ.เทศบาลรังสรรค์เหนือ แขวงลาดยาว เขตจตุจักร กรุงเทพฯ 10900",
+      "tel": "0-2580-0300",
+      "website": "www.danpratiph.com",
+      "email": "danpratiph@danpratiph.com",
+      "specialties": "เครื่องตัดชิ้นเนื้อ Microtome แบบมอเตอร์ไฟฟ้า, ใบมีดทังสเตนคาร์ไบด์, เครื่องแช่เยือกแข็งตัดชิ้นเนื้อ (Cryostat)",
+      "brands": [
+        "Leica Biosystems"
+      ]
+    },
+    "บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด": {
+      "short_name": "เอสเอ็นพี ไซแอนติฟิค (SNP Scientific)",
+      "address": "48/1 ถ.รามคำแหง แขวงสะพานสูง เขตสะพานสูง กรุงเทพฯ 10240",
+      "tel": "0-2729-4500",
+      "website": "www.snpscientific.com",
+      "email": "sales@snpscientific.com",
+      "specialties": "ไมโครปิเปต Eppendorf, ตู้แช่แข็ง -20°C/-80°C, แก๊สโครมาโทกราฟี GC, HPLC, ตู้บ่มเพาะเชื้อ",
+      "brands": [
+        "Eppendorf",
+        "YMC",
+        "NuAire"
+      ]
+    },
+    "บริษัท ซายน์ลูชั่น จำกัด": {
+      "short_name": "ซายน์ลูชั่น (Scienelution)",
+      "address": "55/12 ม.1 ถ.ราชพฤกษ์ ต.บางขนุน อ.บางกรวย จ.นนทบุรี 11130",
+      "tel": "0-2447-6888",
+      "website": "www.scienelution.com",
+      "email": "sales@scienelution.com",
+      "specialties": "ภาชนะทำแห้ง Desiccator, Friabilator, เครื่องกวนสารละลาย, ตู้ควบคุมอุณหภูมิและความชื้น",
+      "brands": [
+        "Jeio Tech",
+        "Daihan"
+      ]
+    },
+    "บริษัท พาราไซแอนติฟิค จำกัด": {
+      "short_name": "พาราไซแอนติฟิค (Para Scientific)",
+      "address": "29 ซ.ลาดพร้าว 80 แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพฯ 10310",
+      "tel": "0-2933-6688",
+      "website": "www.parascientific.com",
+      "email": "info@parascientific.com",
+      "specialties": "เครื่องวิเคราะห์ความร้อน DSC, TGA, Liquid Scintillation Counter, X-ray Spectrometer",
+      "brands": [
+        "Rigaku",
+        "Hitachi"
+      ]
+    },
+    "บริษัท ไซสเปค จำกัด": {
+      "short_name": "ไซสเปค (Scispec)",
+      "address": "9 ซ.อ่อนนุช 39 แขวงสวนหลวง เขตสวนหลวง กรุงเทพฯ 10250",
+      "tel": "0-2320-5200",
+      "website": "www.scispec.co.th",
+      "email": "sales@scispec.co.th",
+      "specialties": "เครื่องมืออณูชีววิทยา, Gel Doc / ChemiDoc, PCR, Spectrophotometer",
+      "brands": [
+        "Bio-Rad",
+        "Analytik Jena"
+      ]
+    },
+    "บริษัท มิท เทคโนโลยี จำกัด": {
+      "short_name": "มิท เทคโนโลยี (Mett Technology)",
+      "address": "11/24 ม.3 ถ.แจ้งวัฒนะ ต.คลองเกลือ อ.ปากเกร็ด จ.นนทบุรี 11120",
+      "tel": "0-2962-6300",
+      "website": "www.mittechnology.com",
+      "email": "sales@mittechnology.com",
+      "specialties": "เครื่องวิเคราะห์ความชื้นและเถ้าอัตโนมัติ, ตู้แช่แข็งชีวการแพทย์, เครื่องวัดการละลายตัวยา",
+      "brands": [
+        "LECO",
+        "Panasonic/PHCbi"
+      ]
+    },
+    "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด": {
+      "short_name": "แอนนาไลท์ติเคิลแลบไซน์ (Analytical Lab Science)",
+      "address": "14/15 ซ.พหลโยธิน 34 แขวงเสนานิคม เขตจตุจักร กรุงเทพฯ 10900",
+      "tel": "0-2941-8600",
+      "website": "www.analyticallab.co.th",
+      "email": "contact@analyticallab.co.th",
+      "specialties": "เครื่องมือโครมาโทกราฟี UPLC, HPLC, Polarimeter, เครื่องมือวิเคราะห์เคมีคลินิก",
+      "brands": [
+        "Waters",
+        "Jasco"
+      ]
+    },
+    "บริษัท มัลติแล็บ จำกัด": {
+      "short_name": "มัลติแล็บ (Multilab)",
+      "address": "33/32 ม.3 ถ.แจ้งวัฒนะ ต.บางพูด อ.ปากเกร็ด จ.นนทบุรี 11120",
+      "tel": "0-2964-8800",
+      "website": "www.multilab.co.th",
+      "email": "info@multilab.co.th",
+      "specialties": "เครื่องทดสอบเม็ดยาทางเภสัชกรรม (Hardness, Disintegration, Friability), Polarimeter",
+      "brands": [
+        "Copley",
+        "Atago"
+      ]
+    },
+    "บริษัท เมดิทอป จำกัด": {
+      "short_name": "เมดิทอป (Meditop)",
+      "address": "288 ถ.พหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400",
+      "tel": "0-2615-2800",
+      "website": "www.meditop.com",
+      "email": "meditop@meditop.com",
+      "specialties": "หุ่นจำลองทางการแพทย์ฝึกทักษะการช่วยชีวิต (CPR, AED Manikin), เครื่องตรวจคลื่นไฟฟ้าหัวใจ (ECG/EKG)",
+      "brands": [
+        "Laerdal",
+        "Fukuda Denshi"
+      ]
+    },
+    "บริษัท อินบอดี้ (ประเทศไทย) จำกัด": {
+      "short_name": "อินบอดี้ ประเทศไทย (InBody Thailand)",
+      "address": "อาคารภิรัชทาวเวอร์ แอท เอ็มควอเทียร์ ชั้น 26 ถ.สุขุมวิท กรุงเทพฯ 10110",
+      "tel": "0-2261-2680",
+      "website": "www.inbody.co.th",
+      "email": "info@inbody.co.th",
+      "specialties": "เครื่องตรวจวิเคราะห์องค์ประกอบร่างกายระดับมาตรฐานการแพทย์ (Body Composition Analyzer)",
+      "brands": [
+        "InBody"
+      ]
+    },
+    "บริษัท เอดีอินสตรูเม้นท์ส (เอเชีย) จำกัด": {
+      "short_name": "เอดีอินสตรูเม้นท์ส (ADInstruments Asia/Thailand)",
+      "address": "ตัวแทนจำหน่ายในไทย ผ่าน Advance Medical Systems",
+      "tel": "0-2636-8290",
+      "website": "www.adinstruments.com",
+      "email": "info.sea@adinstruments.com",
+      "specialties": "ระบบบันทึกสัญญาณสรีรวิทยาไฟฟ้าการสอนและวิจัย (PowerLab, LabChart, EKG/EMG/EEG)",
+      "brands": [
+        "ADInstruments",
+        "PowerLab"
+      ]
+    }
+  },
+  "items": [
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องมือวัดความต้านทานไฟฟ้าของเซลล์",
+      "name_en": "Epithelial voltohmmeter (TEER)",
+      "brand": "Merck Millipore",
+      "model": "Millicell ERS 3.0",
+      "price_range": "500,000.0 - 500,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เมอร์ค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท ซายน์ลูชั่น จำกัด"
+      ],
+      "distributors_str": "• บริษัท เมอร์ค จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท ซายน์ลูชั่น จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องวัดการขนส่งไอออนเพื่อศึกษากระแสไฟฟ้าจากเซลล์",
+      "name_en": "Ussing chamber system (cell & tissue)",
+      "brand": "Physiologic Instruments",
+      "model": "P2300 EM8-C EasyMount",
+      "price_range": "3,500,000.0 - 3,500,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เวิลด์ เมดิคอล เอ็กซ์ปอร์ต จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท เวิลด์ เมดิคอล เอ็กซ์ปอร์ต จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องตรวจวัดปริมาณรังสีเบต้าแบบลิควิดซินทิเลชัน",
+      "name_en": "Liquid scintillation beta counter",
+      "brand": "-",
+      "model": "-",
+      "price_range": "710,000.0 - 710,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "กล้องถ่ายภาพเซลล์มีชีวิต",
+      "name_en": "Live cell imaging",
+      "brand": "Curiosis",
+      "model": "Celloger Mini Plus",
+      "price_range": "1,500,000.0 - 1,500,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-แอคทีฟ จำกัด",
+        "บริษัท สมาร์ท ไซแอนซ์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-แอคทีฟ จำกัด\n• บริษัท สมาร์ท ไซแอนซ์ จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องตรวจวัดการเคลื่อนที่ไอออนสำหรับเซลล์ภายใต้กล้องจุลทรรศน์หัวกลับ",
+      "name_en": "Patch-clamp system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "14,000,000.0 - 14,000,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องตรวจวัดการเคลื่อนที่ไอออนสำหรับเซลล์แบบอัตโนมัติ",
+      "name_en": "Automated patch-clamp system",
+      "brand": "Nanion",
+      "model": "Patchliner",
+      "price_range": "3,760,000.0 - 11,280,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด"
+      ],
+      "distributors_str": "• บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องอ่านปฏิกิริยาบนไมโครเพลทแบบมัลติโหมด",
+      "name_en": "Multimode microplate reader (Abs/Flu)",
+      "brand": "Agilent BioTek",
+      "model": "Synergy H1",
+      "price_range": "2,482,667.0 - 2,482,667.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องเพิ่มปริมาณสารพันธุกรรมในสภาพจริง",
+      "name_en": "Real-time qPCR",
+      "brand": "Bio-Rad",
+      "model": "CFX Opus 96",
+      "price_range": "1,300,000.0 - 1,300,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท ไซสเปค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท ไซสเปค จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องวิเคราะห์เซลล์ด้วยหลักการโฟลไซโตเมทรี",
+      "name_en": "Flow cytometer",
+      "brand": "Beckman Coulter",
+      "model": "CytoFLEX",
+      "price_range": "1,904,000.0 - 1,904,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เบ็คแมน คูลเตอร์ (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท เบ็คแมน คูลเตอร์ (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องวิเคราะห์เมแทบอลิซึมของเซลล์มีชีวิต",
+      "name_en": "Cell metabolic analyzer",
+      "brand": "Agilent",
+      "model": "Seahorse XF Pro",
+      "price_range": "7,072,000.0 - 7,072,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "กล้องจุลทรรศน์หัวกลับชนิดฟลูออเรสเซนต์",
+      "name_en": "Inverted fluorescence microscope",
+      "brand": "Nikon",
+      "model": "Eclipse Ts2-FL",
+      "price_range": "425,000.0 - 425,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด"
+      ],
+      "distributors_str": "• บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "กล้องจุลทรรศน์คอนโฟคอลแบบเลเซอร์สแกน",
+      "name_en": "Confocal laser scanning microscope",
+      "brand": "ZEISS",
+      "model": "LSM 900",
+      "price_range": "6,885,000.0 - 6,885,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องคัดแยกเซลล์ด้วยการเรืองแสง",
+      "name_en": "Fluorescence-activated cell sorter",
+      "brand": "BD Biosciences",
+      "model": "FACSMelody",
+      "price_range": "6,120,000.0 - 6,120,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เบคตัน ดิคคินสัน (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท เบคตัน ดิคคินสัน (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ระบบตัดต่อยีน CRISPR-Cas9",
+      "name_en": "Electroporation for Cas9 delivery",
+      "brand": "Invitrogen",
+      "model": "Neon NxT",
+      "price_range": "405,000.0 - 405,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ชุด Western blot แบบแช่ ครบชุด",
+      "name_en": "Western blot, full tank (Tetra Cell + Trans-Blot + PowerPac)",
+      "brand": "Bio-Rad",
+      "model": "#1658033",
+      "price_range": "95,500.0 - 95,500.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท ไซสเปค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท ไซสเปค จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ชุดถ่ายโอนโปรตีนแบบกึ่งแห้ง",
+      "name_en": "Western blot, semi-dry transfer",
+      "brand": "Bio-Rad",
+      "model": "Trans-Blot Turbo",
+      "price_range": "121,500.0 - 121,500.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท ไซสเปค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท ไซสเปค จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ตู้บ่มเพาะเลี้ยงเซลล์ภายใต้ก๊าซคาร์บอนไดออกไซด์",
+      "name_en": "CO₂ incubator",
+      "brand": "Thermo Scientific",
+      "model": "Heracell VIOS 160i",
+      "price_range": "430,000.0 - 430,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ตู้บ่มเพาะเลี้ยงเซลล์แบบควบคุมก๊าซสามชนิด",
+      "name_en": "Tri-gas incubator",
+      "brand": "Thermo Scientific",
+      "model": "Heracell VIOS 160i Tri-Gas",
+      "price_range": "612,000.0 - 612,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ตู้ชีวนิรภัยระดับ 2 สำหรับงาน BSL-2",
+      "name_en": "Class II A2 biosafety cabinet",
+      "brand": "Thermo Scientific",
+      "model": "1500 Series",
+      "price_range": "481,500.0 - 481,500.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องเพิ่มปริมาณสารพันธุกรรม (PCR ทั่วไป)",
+      "name_en": "Conventional PCR thermal cycler",
+      "brand": "Bio-Rad",
+      "model": "T100",
+      "price_range": "233,000.0 - 233,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท ไซสเปค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท ไซสเปค จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องวัดปริมาณและความบริสุทธิ์ DNA/RNA/โปรตีน",
+      "name_en": "Microvolume UV-Vis spectrophotometer",
+      "brand": "Thermo Scientific",
+      "model": "NanoDrop One",
+      "price_range": "327,000.0 - 327,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องวัดปริมาณสารพันธุกรรมแบบดิจิทัลดรอปเล็ต",
+      "name_en": "Droplet digital PCR",
+      "brand": "Bio-Rad",
+      "model": "QX200 ddPCR System",
+      "price_range": "2,210,000.0 - 3,060,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท ไซสเปค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท ไซสเปค จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องถ่ายภาพเจล Chemi / UV / Fluorescence",
+      "name_en": "Gel documentation imaging system",
+      "brand": "Bio-Rad",
+      "model": "ChemiDoc MP",
+      "price_range": "1,230,000.0 - 1,230,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท ไซสเปค จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท ไซสเปค จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ระบบถ่ายภาพและวิเคราะห์เซลล์อัตโนมัติ",
+      "name_en": "High-content imaging system",
+      "brand": "PerkinElmer (Revvity)",
+      "model": "Operetta CLS",
+      "price_range": "17,500,000.0 - 17,500,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด / Revvity",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด"
+      ],
+      "distributors_str": "• บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด / Revvity\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "เครื่องคัดกรองการตอบสนองของเซลล์ปริมาณสูง",
+      "name_en": "High-throughput cellular screening",
+      "brand": "Molecular Devices",
+      "model": "FLIPR Penta",
+      "price_range": "20,000,000.0 - 20,000,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด",
+        "บริษัท ไบโอ-แอคทีฟ จำกัด"
+      ],
+      "distributors_str": "• บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด\n• บริษัท ไบโอ-แอคทีฟ จำกัด"
+    },
+    {
+      "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research Equipment)",
+      "folder": "-",
+      "name_th": "ระบบถ่ายภาพคัดกรองเซลล์อัตโนมัติด้วย AI",
+      "name_en": "High-content screening system",
+      "brand": "Molecular Devices",
+      "model": "ImageXpress HCS.ai",
+      "price_range": "15,000,000.0 - 25,500,000.0 บาท",
+      "requester": "อ.นิพิฐพนธ์ / อ.สิริอร / อ.ปัฐวิกา",
+      "distributors": [
+        "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด",
+        "บริษัท ไบโอ-แอคทีฟ จำกัด"
+      ],
+      "distributors_str": "• บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด\n• บริษัท ไบโอ-แอคทีฟ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "71",
+      "name_th": "เครื่องอ่านโซน (การยับยั้งเชื้อ)",
+      "name_en": "Zone reader",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้) (Hold นวัตกรรมอาหาร))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เคเอสซี แล็บ จำกัด",
+        "บริษัท บี สมาร์ท ซายเอ็นซ์ จำกัด",
+        "บริษัท ซีทีแลบอราตอรี่ จำกัด"
+      ],
+      "distributors_str": "• บริษัท เคเอสซี แล็บ จำกัด\n• บริษัท บี สมาร์ท ซายเอ็นซ์ จำกัด\n• บริษัท ซีทีแลบอราตอรี่ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "72",
+      "name_th": "เครื่องสเปกโตรมิเตอร์อินฟราเรดแบบฟูเรียร์ทรานส์ฟอร์ม",
+      "name_en": "Fourier Transform Infrared Spectroscopy, FTIR + ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "73",
+      "name_th": "เครื่องศึกษาการเปลี่ยนแปลงพลังงานความร้อนของสารตัวอย่าง",
+      "name_en": "Differential Scanning Calorimeter (DSC)+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด",
+        "บริษัท พาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด\n• บริษัท พาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "75",
+      "name_th": "เครื่องวิเคราะห์การเลี้ยวเบนของรังสีเอ็กซ์",
+      "name_en": "X-ray Powder Diffraction, XRPD+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: NA (ตัดออก))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "76",
+      "name_th": null,
+      "name_en": "Powder flow analyzer",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: NA (ตัดออก))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "77",
+      "name_th": "เครื่องวิเคราะห์ศักย์ซีตาและขนาดอนุภาค",
+      "name_en": "Zeta potential analyzer - (DLS) (Malven Panalytical)+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท พาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท พาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "78",
+      "name_th": "เครื่องเตรียมผงและเม็ดยาแบบฟลูอิดไดซ์เบด",
+      "name_en": "Fluidized Bed Processor (dryer, coater, granulator)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้) (Hold (Y5)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "79",
+      "name_th": "เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน",
+      "name_en": "Hot Melt Extruder",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: Hold (พักไว้) (Hold (Y5)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "80",
+      "name_th": "เครื่องทำแห้งเยือกแข็งแบบสูญญากาศ",
+      "name_en": "Freeze dryer (หลายหัวแยกจากกันอย่างอิสระ)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้) (Hold (Y5)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "81",
+      "name_th": "เครื่องทำแห้งแบบพ่นฝอย",
+      "name_en": "Spray dryer",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้) (Hold (Y5)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "83",
+      "name_th": "เครื่องไตเตรทคาร์ลฟิชเชอร์",
+      "name_en": "Karl Fischer Titration Apparatus",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด",
+        "บริษัท ดีเวลลอป ไซเอ็นซ์ แอนด์ ดีไซน์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด\n• บริษัท ดีเวลลอป ไซเอ็นซ์ แอนด์ ดีไซน์ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "84",
+      "name_th": "โครมาโทกราฟีแบบของเหลวสมรรถนะสูงพิเศษ",
+      "name_en": "Ultra Performance Liquid Chromatography (UPLC)+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด",
+        "บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด\n• บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "85",
+      "name_th": "เครื่องลิควิดโครมาโทกราฟี-แมสสเปกโตรเมทรีแบบคู่ (Liquid Chromatography-Tandem Mass Spectrometry, LC-MS/MS)",
+      "name_en": "LC-MS/MS+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท วอเตอร์ส (ประเทศไทย) จำกัด",
+        "บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด",
+        "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท วอเตอร์ส (ประเทศไทย) จำกัด\n• บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด\n• บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "86",
+      "name_th": "ชุดทดสอบความหนาแน่นของผงยา",
+      "name_en": "Bulk & Tapped Density Tester",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "91",
+      "name_th": "ตู้ทดสอบความคงตัวของตัวอย่างต่อแสง",
+      "name_en": "Photostability chamber",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "92",
+      "name_th": "เครื่องปิดซีลด้วยความร้อน",
+      "name_en": "Heat sealer",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "93",
+      "name_th": "เครื่องทดสอบการรั่วซึมด้วยระบบสุญญากาศ",
+      "name_en": "Vacuum leask tester",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "94",
+      "name_th": "เครื่องบรรจุยาและผลิตภัณฑ์แบบแผงบลิสเตอร์",
+      "name_en": "Blister packaging machine",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 3 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "95",
+      "name_th": "เครื่องสตริปแพ็คยา แบบอัตโนมัติ",
+      "name_en": "Strip packaging machine",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 4 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "96",
+      "name_th": "เครื่องทดสอบความแข็งแรงรอยซีล",
+      "name_en": "Seal strength tester",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 5 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "97",
+      "name_th": "เครื่องปิดฝาขวดกึ่งอัตโนมัติ",
+      "name_en": "Semi-automatic Capper+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "98",
+      "name_th": "เครื่องทดสอบแรงบิด",
+      "name_en": "Torque tester",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 7 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "99",
+      "name_th": "เครื่องทดสอบการปล่อยตก",
+      "name_en": "Drop tester",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 8 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "100",
+      "name_th": "เครื่องวัดและทดสอบความสั่นสะเทือนแบบพกพา",
+      "name_en": "Vibration tester",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 9 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "101",
+      "name_th": "เครื่องผสมแรงเฉือนสูง",
+      "name_en": "High Shear Mixer / Granulator",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "102",
+      "name_th": "เครื่องบดลดขนาดอนุภาคแบบกรวย",
+      "name_en": "Cone mill",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "103",
+      "name_th": "เครื่องบดละเอียดพิเศษด้วยกระแสอบลมความดันสูง",
+      "name_en": "Jet mill",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "104",
+      "name_th": "เครื่องตอกเม็ดยาระบบโรตารี่ แบบอัตโนมัติ",
+      "name_en": "Rotary tablet press",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: Hold (พักไว้) (Hold (Y3)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "105",
+      "name_th": "เครื่องบรรจุแคปซูลกึ่งอัตโนมัติ",
+      "name_en": "Capsule filling machine (semi-auto)+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: Hold (พักไว้) (Hold (Y3)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "106",
+      "name_th": "High shear homogenizer",
+      "name_en": "High shear homogenizer",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: ระบุว่า FY 70)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "107",
+      "name_th": "เครื่องผสมระบบสุญญากาศ",
+      "name_en": "Vacuum mixer",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 10 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "108",
+      "name_th": "ระบบบรรจุของเหลว",
+      "name_en": "Liquid filling system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 11 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "109",
+      "name_th": "ระบบบรรจุสารชนิดผง",
+      "name_en": "Powder filling system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 12 ชุด (สถานะ: Hold (พักไว้) (Hold (3205)))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "110",
+      "name_th": "ระบบบรรจุและปิดผนึกหลอด",
+      "name_en": "Tube filling system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 13 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "112",
+      "name_th": "ตู้ชีวภาพนิรภัย ระดับ 2 ขนาด 4 ฟุต",
+      "name_en": "Biological safety cabinet (BSC class II)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 5 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท นาโนเทค อินเตอร์ จำกัด",
+        "บริษัท เอ็มเออีพี เอ็นจิเนียริ่ง เทค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท นาโนเทค อินเตอร์ จำกัด\n• บริษัท เอ็มเออีพี เอ็นจิเนียริ่ง เทค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "113",
+      "name_th": "ไมโครปิเปตแบบปรับปริมาตรได้",
+      "name_en": "Micropipette set ไมโครปิเปด ขนาดต่างๆ (P1, P10, P20, P200, P1000, multichanel P100, P300)+ stand",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 15 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "115",
+      "name_th": "โปรแกรมคอมพิวเตอร์สำหรับการออกแบบการทดลองและการวิเคราะห์สูตรตำรับ",
+      "name_en": "DoE / Formulation Software",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 14 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "117",
+      "name_th": "โปรแกรมคอมพิวเตอร์จำลองการทดลองทางสรีรวิทยา",
+      "name_en": "PK simulation tools (GastroPlus / Simcyp) (100 license ตลอดชีพ)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "118",
+      "name_th": "ถังบรรจุไนโตรเจนเหลว",
+      "name_en": "Liquid nitrogen storage tank (≥120 L) - สำหรับเก็บตัวอย่างแช่แข็ง ขนาดไม่น้อยกว่า 120 ลิตร + ที่วางถังแก๊ส พร้อมล้อเลื่อน",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 12 ถัง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "119",
+      "name_th": "ถังบรรจุไนโตรเจนเหลว",
+      "name_en": "Liquid nitrogen tank (10 L) -ขนาด 10 ลิตร + ที่วางถังแก๊ส พร้อมล้อเลื่อน",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ถัง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "121",
+      "name_th": "ตู้แช่แข็งอุณหภูมิต่ำมาก ชนิดตั้งตรง",
+      "name_en": "Upright ultra-low freezer (-80°C) + true online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "122",
+      "name_th": "ตู้แช่เย็นและแช่แข็งสำหรับห้องปฏิบัติการ",
+      "name_en": "Refrigerator 4°C, double door (≥20 cu.ft.) - ตู้เย็น 4 องศาเซลเซียส แบบ 2 ประตู ขนาดไม่น้อยกว่า 20 คิว (มี freezer ด้วยในตัว)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 4 ตู้ (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "123",
+      "name_th": "อ่างน้ำควบคุมอุณหภูมิ",
+      "name_en": "Temperature-controlled water bath (24 L)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "124",
+      "name_th": "เครื่องทำน้ำแข็งเกล็ด",
+      "name_en": "Flake ice machine",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "125",
+      "name_th": "กล้องจุลทรรศน์หัวกลับ",
+      "name_en": "Inverted microscope",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "SA",
+      "distributors": [
+        "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด",
+        "บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด\n• บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "131",
+      "name_th": "เครื่องปั่นเหวี่ยงสารชนิดควบคุมอุณหภูมิ",
+      "name_en": "Refrigerated centrifuge - ตัวเล็ก (+spin-down 12 ตัว) + ชุดหัวเปลี่ยนสำหรับการปันเหวี่ยง (tube, plate)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "132",
+      "name_th": "ชุดเครื่องปั๊มแรงดันสุญญากาศ",
+      "name_en": "Vacuum pump system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "133",
+      "name_th": "เครื่องนับจำนวนเซลล์อัตโนมัติ",
+      "name_en": "Automated cell counter",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "134",
+      "name_th": "เครื่องตรวจวิเคราะห์เซลล์แบบอัตโนมัติ",
+      "name_en": "Flow cytometer",
+      "brand": "Beckman Coulter",
+      "model": "CytoFLEX",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS",
+      "distributors": [
+        "บริษัท เบ็คแมน คูลเตอร์ (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท เบ็คแมน คูลเตอร์ (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "135",
+      "name_th": "ตู้บ่มเชื้อควบคุมด้วยก๊าซคาร์บอนไดออกไซด์ ชนิดให้ความร้อนด้วยระบบน้ำ",
+      "name_en": "CO₂ incubator (water-jacketed) ตู้บ่มเชื้อแบบใช้ก๊าซคาร์บอนไดออกไซด์แบบให้ความร้อนด้วยระบบน้ำ + ถังแก๊ส + ระบบความปลอดภัย +UPS (1 for cell + 1 for bacteria)",
+      "brand": "Thermo Scientific",
+      "model": "Heracell VIOS 160i",
+      "price_range": "จำนวน 2 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "136",
+      "name_th": "ถังแก๊สคาร์บอนไดออกไซด์",
+      "name_en": "CO₂ gas cylinder+ ถังแก๊ส + ระบบความปลอดภัย +UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "139",
+      "name_th": "กล้องจุลทรรศน์ฟลูออเรสเซนส์พร้อมระบบถ่ายภาพความละเอียดสูง",
+      "name_en": "Fluorescence microscope with camera + ชุดคอมพิวเตอร์ + UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด",
+        "บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด\n• บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "140",
+      "name_th": "เครื่องปั่นเหวี่ยงสารความเร็วรอบสูงชนิดควบคุมอุณหภูมิแบบตั้งโต๊ะ",
+      "name_en": "High-speed refrigerated centrifuge+ ชุดหัวเปลี่ยนสำหรับการปันเหวี่ยง (tube, plate)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "141",
+      "name_th": "ตู้ควบคุมอุณหภูมิบ่มเชื้อพร้อมเขย่า",
+      "name_en": "Incubator shaker + ที่วางภาชนะที่เปลี่ยนได้หลายแบบ",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "143",
+      "name_th": null,
+      "name_en": "",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: NA (ตัดออก))",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "144",
+      "name_th": "เครื่องเพิ่มปริมาณสารพันธุกรรมด้วยวิธีพีซีอาร์",
+      "name_en": "Basic PCR machine",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "145",
+      "name_th": "เครื่องเพิ่มปริมาณสารพันธุกรรมแบบเรียลไทม์",
+      "name_en": "Real-time PCR system+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "146",
+      "name_th": "เครื่องอุ่นหลอดทดลอง",
+      "name_en": "Test tube heater + ชุดหัวเปลี่ยน",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "147",
+      "name_th": "เตาอบไมโครเวฟ",
+      "name_en": "Microwave oven",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "148",
+      "name_th": null,
+      "name_en": "",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None เครื่อง (สถานะ: NA (ตัดออก))",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "150",
+      "name_th": "เครื่องวัดปริมาณสารพันธุกรรมชนิดละเอียด",
+      "name_en": "DNA/RNA quantitation system - Nanodrop",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL",
+      "distributors": [
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "151",
+      "name_th": "เครื่องถ่ายภาพจากเจลและเมมเบรน",
+      "name_en": "Gel imaging systemเครื่องถ่ายภาพเจลและเมมเบรนแบบหลายฟังก์ชัน+ ชุดคอมพิวเตอร์  (Gel Doc?)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "152",
+      "name_th": "ตู้แสงเหนือม่วง",
+      "name_en": "UV-Cabinet",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 เครื่อง (สถานะ: ยังไม่ระบุ (?????))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "154",
+      "name_th": "ชุดถ่ายภาพเคมีลูมิเนสเซนต์",
+      "name_en": "Chemiluminescence imaging system (Gel Doc?)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "155",
+      "name_th": "ชุดวิเคราะห์สารพันธุกรรม (all-in-one)",
+      "name_en": "DNA electrophoresis system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL, SA",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "156",
+      "name_th": "ชุดเครื่องแยกและวิเคราะห์โปรตีนแบบแนวตั้ง",
+      "name_en": "Protein electrophoresis system - SDS-PAGE",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "158",
+      "name_th": "เครื่องปั่นเหวี่ยงความเร็วรอบสูงมาก",
+      "name_en": "Ultracentrifuge",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "162",
+      "name_th": "ตู้ปฎิบัติงานพีซีอาร์ พร้อมขาตั้ง (รวมกับ BSCII folder 112)",
+      "name_en": "PCR workstation",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "163",
+      "name_th": "เครื่องไฮบริไดเซชั่น",
+      "name_en": "Hybridization system",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "164",
+      "name_th": "เครื่องทําลายเซลล์และทำให้เป็นเนื้อเดียวกัน",
+      "name_en": "Cell disruptor/homogenizer",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "165",
+      "name_th": "เครื่องตรวจวิเคราะห์ลำดับสารพันธุกรรม",
+      "name_en": "Genome sequencing system (portable NGS)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท กิ๊บไทย จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท กิ๊บไทย จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "166",
+      "name_th": "เครื่องชั่งวิเคราะห์ (ทศนิยม 6 ตำแหน่ง)",
+      "name_en": "Analytical balance, 6 decimal + ชุด calibration",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด",
+        "บริษัท ซาร์โทเรียส (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด\n• บริษัท ซาร์โทเรียส (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "167",
+      "name_th": "เครื่องโครมาโทกราฟีของเหลวประสิทธิภาพสูงสำหรับการแยกโปรตีน Exclusion",
+      "name_en": "Fast protein liquid chromatography: Ion Exchange, Affinity,  Size + ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท วอเตอร์ส (ประเทศไทย) จำกัด",
+        "บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด",
+        "บริษัท บาราไซแอนติฟิค จำกัด",
+        "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท วอเตอร์ส (ประเทศไทย) จำกัด\n• บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด\n• บริษัท บาราไซแอนติฟิค จำกัด\n• บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "174",
+      "name_th": "ชุดอุปกรณ์คัดแยกเซลล์ด้วยสนามแม่เหล็ก",
+      "name_en": "Para cell sorter (MiniMacs)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 เครื่อง (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "175",
+      "name_th": "เครื่องส่งถ่ายสารเข้าสู่เซลล์ด้วยกระแสไฟฟ้า",
+      "name_en": "Electroporator+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "177",
+      "name_th": "เครื่องอ่านและวิเคราะห์ปฏิกิริยาบนไมโครเพลทชนิดหลายโหมด",
+      "name_en": "Multi-mode microplate reader+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "182",
+      "name_th": "เครื่องวัดอัตราการไหลสูงสุดของลมหายใจ",
+      "name_en": "Peak flow meter+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 30 ชุด (สถานะ: ระบุว่า FY 70)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "183",
+      "name_th": "เครื่องตรวจคลื่นไฟฟ้าหัวใจ",
+      "name_en": "ECG/EKG machine -(Fukuda, PowerLab)+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เอดีอินสตรูเม้นท์ส (เอเชีย) จำกัด",
+        "บริษัท เมดิทอป จำกัด"
+      ],
+      "distributors_str": "• บริษัท เอดีอินสตรูเม้นท์ส (เอเชีย) จำกัด\n• บริษัท เมดิทอป จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "185",
+      "name_th": "เครื่องวิเคราะห์องค์ประกอบของร่างกาย",
+      "name_en": "Body composition monitor+ เซ็นเซอร์ความสูง (Tanita, Omron, Inbody) + คอมพิวเตอร์ + สายวัด",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท อินบอดี้ (ประเทศไทย) จำกัด",
+        "บริษัท เซ็นทรัลเทรดดิ้ง จำกัด"
+      ],
+      "distributors_str": "• บริษัท อินบอดี้ (ประเทศไทย) จำกัด\n• บริษัท เซ็นทรัลเทรดดิ้ง จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "186",
+      "name_th": "หุ่นจำลอง Manikin (แขน)",
+      "name_en": "Training manikin",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 15 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "187",
+      "name_th": "GastroPlus, PDPlus (หาซื้อไม่ได้)",
+      "name_en": "GastroPlus / PDPlus software",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "189",
+      "name_th": "เครื่องวิเคราะห์ปริมาณความชื้นและเถ้าแบบอัตโนมัติ",
+      "name_en": "Moisture and Ash analyzer+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท มิท เทคโนโลยี จำกัด",
+        "บริษัท เอ็นเทค อินดัสเทรียล โซลูชั่น จำกัด",
+        "บริษัท วอลเลอร์ เคมิคอล (ประเทศไทย) จำกัด"
+      ],
+      "distributors_str": "• บริษัท มิท เทคโนโลยี จำกัด\n• บริษัท เอ็นเทค อินดัสเทรียล โซลูชั่น จำกัด\n• บริษัท วอลเลอร์ เคมิคอล (ประเทศไทย) จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "190",
+      "name_th": "เครื่องโพลารีมิเตอร์",
+      "name_en": "Polarimeter+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด",
+        "บริษัท มัลติแล็บ จำกัด",
+        "บริษัท อินโนวาเทค ไซแอนทิฟิก จำกัด"
+      ],
+      "distributors_str": "• บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด\n• บริษัท มัลติแล็บ จำกัด\n• บริษัท อินโนวาเทค ไซแอนทิฟิก จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "192",
+      "name_th": "เครื่องหาปริมาณความชื้น",
+      "name_en": "Moisture Balance+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 3 เครื่อง (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด",
+        "บริษัท ซาร์โทเรียส (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด\n• บริษัท ซาร์โทเรียส (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "194",
+      "name_th": "เครื่องทดสอบการไหลของผงและแกรนูล",
+      "name_en": "Powders and Granules flowability Tester+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "195",
+      "name_th": "โครมาโทกราฟีแบบของเหลวสมรรถนะสูง พร้อมเครื่องตรวจจับแบบหลายหัวตรวจ",
+      "name_en": "High performance liquid chromatography-Multidetector+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด",
+        "บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด",
+        "บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+      ],
+      "distributors_str": "• บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด\n• บริษัท ดีเคเอสเอช เทคโนโลยี จำกัด\n• บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "202",
+      "name_th": "เครื่องอ่านปฏิกิริยาบนไมโครเพลท",
+      "name_en": "microplate reader+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "203",
+      "name_th": "ชุดเครื่องตรวจติดตามความดันโลหิตและระดับน้ำตาลในเลือดแบบต่อเนื่อง",
+      "name_en": "24-hour Blood Pressure Monitor และ Continuous Glucose Monitoring+ ชุดคอมพิวเตอร์",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 30 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "204",
+      "name_th": "ชุดหุ่นฝึกการช่วยชีวิตขั้นพื้นฐานพร้อมเครื่องติดตามคลื่นไฟฟ้าหัวใจ",
+      "name_en": "Basic life saving (CPR, AED, choking) 6 ชุด + (EKG monitor 1 ชุด)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 6 ชุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "205",
+      "name_th": null,
+      "name_en": "UV-Clean Workstations",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: NA (ตัดออก))",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "206",
+      "name_th": null,
+      "name_en": "UV Transilluminators",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "207",
+      "name_th": "เครื่องเขย่าแนวตั้งแบบสองด้าน",
+      "name_en": "Vertical shaker",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "208",
+      "name_th": "เครื่องเขย่าสารสารละลายชนิดหมุนวนในแนวราบ",
+      "name_en": "Orbital shaker",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "PL",
+      "distributors": [
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
+        "บริษัท อินโนวาเทค ไซแอนทิฟิก จำกัด",
+        "บริษัท มัลติแล็บ จำกัด"
+      ],
+      "distributors_str": "• บริษัท สิทธิพรแอสโซซิเอส จำกัด\n• บริษัท อินโนวาเทค ไซแอนทิฟิก จำกัด\n• บริษัท มัลติแล็บ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "210",
+      "name_th": null,
+      "name_en": "Thermal Cycler",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน None None (สถานะ: NA (ตัดออก))",
+      "requester": "NS, PL, SA",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "211",
+      "name_th": "เครื่องปั๊มสารละลายแบบกระบอกฉีดยา",
+      "name_en": "syringe pump (e.g. Harvard Apparatus)",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 3 ชุุด (สถานะ: ขอปี 71 ตามรายวิชา)",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด",
+        "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด"
+      ],
+      "distributors_str": "• บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด\n• บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "212",
+      "name_th": "ชุดเครื่องผสมสารแบบไมโครฟลูอิดิกส์",
+      "name_en": "Microfluidic mixer (e.g. Dolomite)+ ชุดคอมพิวเตอร์ + True online UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 1 ชุุด (สถานะ: Hold (พักไว้))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท ไบโอ-แอคทีฟ จำกัด",
+        "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด"
+      ],
+      "distributors_str": "• บริษัท ไบโอ-แอคทีฟ จำกัด\n• บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "-",
+      "name_th": "ชุดตู้บ่มเชื้อเซลล์ควบคุมปริมาณก๊าซคาร์บอนไดออกไซด์และไนโตรเจน ชนิดให้ความร้อนด้วยระบบน้ำ",
+      "name_en": "CO₂+N2 incubator (water-jacketed) ตู้บ่มเชื้อแบบใช้ก๊าซคาร์บอนไดออกไซด์+ก๊าซไนโตรเจนแบบให้ความร้อนด้วยระบบน้ำ  size เล็ก (80 L) + ถังก๊าซ + ระบบความปลอดภัย + UPS",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: Hold (พักไว้))",
+      "requester": "NS",
+      "distributors": [
+        "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+      ],
+      "distributors_str": "• บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด\n• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท สิทธิพรแอสโซซิเอส จำกัด"
+    },
+    {
+      "category": "๒. คำของบประมาณครุภัณฑ์ ปี ๒๕๗๑ (FY71 Procurement Request)",
+      "folder": "-",
+      "name_th": "Fume Hood 5 ฟุต",
+      "name_en": "",
+      "brand": "-",
+      "model": "-",
+      "price_range": "จำนวน 2 ชุด (สถานะ: NA (ตัดออก))",
+      "requester": "โครงการจัดตั้งคณะเภสัชศาสตร์",
+      "distributors": [
+        "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+        "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+        "บริษัท นาโนเทค อินเตอร์ จำกัด",
+        "บริษัท เอ็มเออีพี เอ็นจิเนียริ่ง เทค จำกัด"
+      ],
+      "distributors_str": "• บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด\n• บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด\n• บริษัท นาโนเทค อินเตอร์ จำกัด\n• บริษัท เอ็มเออีพี เอ็นจิเนียริ่ง เทค จำกัด"
+    }
+  ]
+}

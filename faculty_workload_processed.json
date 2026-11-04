@@ -1,0 +1,3662 @@
+{
+  "categories": [
+    {
+      "id": "responsible",
+      "title": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)",
+      "description": "คณาจารย์ผู้รับผิดชอบการบริหารหลักสูตร กำกับมาตรฐาน และผลลัพธ์การเรียนรู้ (PLOs) ตามเกณฑ์มาตรฐานหลักสูตร พ.ศ. ๒๕๖๕ และสภาเภสัชกรรม",
+      "members": [
+        {
+          "no": "๑",
+          "name": "นางจุฑามณี สุทธิสีสังข์",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางจุฑามณี สุทธิสีสังข์",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "เภสัชวิทยา",
+              "institution": "คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๐"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เภสัชวิทยา",
+              "institution": "คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๒๖"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๒๓"
+            }
+          ],
+          "courses_count": 2,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๑",
+              "code_en": "CHPD4311",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบประสาทส่วนกลาง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Central Nervous System 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Wichaiyo S, Suthisisang C. Current understandings on biological characteristics of thrombolytics in acute ischemic stroke. Seminars in Thrombosis and Hemostasis. 2026; 52(02): 199-208.\nChuenchom O, Suansanae T, Lukanapichonchut L, Suwanmajo S, Suthisisang C. Real world clinical outcomes of treatment of cannabis-induced psychosis and prevalence of cannabis-related primary psychosis: a retrospective study. BMC Psychiatry. 2024; 24: 626.\nSusantitapong K, Dilokpattanamongkol P, Sutherasan Y, Liamsombut S, Suthisisang C. Effects of gabapentin on slow-wave sleep period in critically ill adult patients: A randomized controlled trial. Clinical and Translational Science. 2024;17:e13815."
+          ]
+        },
+        {
+          "no": "๒",
+          "name": "นายไพบูลย์ จึงสุวดี",
+          "rank": "ศาสตราจารย์",
+          "full_title": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Pharmacy",
+              "institution": "University of Vienna, Austria",
+              "year": "๒๕๔๔"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เภสัชกรรมคลินิก",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๘"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยเชียงใหม่",
+              "year": "๒๕๓๖"
+            }
+          ],
+          "courses_count": 19,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๘",
+              "code_en": "CHPD1108",
+              "name_th": "ภูมิคุ้มกันวิทยา",
+              "name_en": "Immunology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๑",
+              "code_en": "CHPD2301",
+              "name_th": "หลักการส่งมอบยาและการให้คำปรึกษาด้านยา",
+              "name_en": "Principles of Dispensing and Counseling",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๒",
+              "code_en": "CHPD2302",
+              "name_th": "การตรวจร่างกายในการบริบาลทางเภสัชกรรม",
+              "name_en": "Physical Examination in Pharmaceutical Care",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๓",
+              "code_en": "CHPD2303",
+              "name_th": "หลักการชีวเภสัชกรรมและเภสัชจลนศาสตร์",
+              "name_en": "Principles of Biopharmaceutics and Pharmacokinetics",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๔",
+              "code_en": "CHPD2304",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบกล้ามเนื้อ กระดูก ภูมิคุ้มกัน ผิวหนัง และตา",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Musculoskeletal, Immune, Skin and Ophthalmic Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๕",
+              "code_en": "CHPD2305",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคติดเชื้อและโรคระบบทางเดินหายใจ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Infectious Diseases and Respiratory system",
+              "credit": "๔ (๔-๐-๘)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๖",
+              "code_en": "CHPD3306",
+              "name_th": "การบูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบทางเดินอาหารและตับ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Gastrointestinal and Liver Disorders",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๗",
+              "code_en": "CHPD3307",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบต่อมไร้ท่อ ภาวะอ้วน และระบบสืบพันธุ์",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Endocrinology, Obesity and Reproductive System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๘",
+              "code_en": "CHPD3308",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบไต ทางเดินปัสสาวะ และกระเพาะปัสสาวะ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Kidney, Urinary Tract and Bladder Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๙",
+              "code_en": "CHPD3309",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบหัวใจและหลอดเลือด ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Cardiovascular System 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๔",
+              "code_en": "CHPD3404",
+              "name_th": "การประเมินทางการแพทย์และเภสัชกรรมบนพื้นฐาน เชิงประจักษ์",
+              "name_en": "Evidence-Based Medical and Pharmaceutical Evaluation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๐",
+              "code_en": "CHPD4310",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบหัวใจและหลอดเลือด ๒",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Cardiovascular System 2",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๓",
+              "code_en": "CHPD4313",
+              "name_th": "เภสัชบำบัดสำหรับโรคที่พบบ่อยในเภสัชกรรมชุมชน",
+              "name_en": "Pharmacotherapy of Common Illness in Community Pharmacy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๔",
+              "code_en": "CHPD4314",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๒",
+              "code_en": "CHPD5702",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๒",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 2",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๓",
+              "code_en": "CHPD5703",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านการบริบาลทางเภสัชกรรม ๑:  การจัดเตรียมโครงร่างวิจัย",
+              "name_en": "Research Practicum for Pharmaceutical Care 1:  Proposal Preparation",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๔",
+              "code_en": "CHPD5704",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านการบริบาลทางเภสัชกรรม ๒:  โครงงานพิเศษ",
+              "name_en": "Research Practicum for Pharmaceutical Care 2:  Special Project",
+              "credit": "๖ (๐-๑๘-๐)",
+              "credit_val": "๖"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๕",
+              "code_en": "CHPD5705",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านการบริบาลทางเภสัชกรรม",
+              "name_en": "Outcome-Based Pharmacy Competencies 2  for Pharmaceutical Care",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Stawicki B, Schacher T, Dushenkov A, Jungsuwadee P. Briefing on investigational chimeric antigen receptor T-cell immunotherapies in pediatric neoplasms. Journal of Pharmacy Practice. 2024;37(6):1346-1360."
+          ]
+        },
+        {
+          "no": "๓",
+          "name": "นางสาวนริศา คำแก่น",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+          "degrees": [
+            {
+              "degree": "F.A.C.P.",
+              "major": "Herbal Pharmacy",
+              "institution": "FAPA \nCollege of Pharmacy",
+              "year": "๒๕๖๗"
+            },
+            {
+              "degree": "อ.ภ.",
+              "major": "เภสัชกรรมสมุนไพร",
+              "institution": "สภาเภสัชกรรม",
+              "year": "๒๕๖๒"
+            },
+            {
+              "degree": "Ph.D.",
+              "major": "Biomedical Sciences",
+              "institution": "Charles Sturt University\nAustralia",
+              "year": "๒๕๔๖"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเวท",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๓๗"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์\nมหาวิทยาลัยสงขลานครินทร์",
+              "year": "๒๕๓๒"
+            }
+          ],
+          "courses_count": 9,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๑",
+              "code_en": "CHPD1101",
+              "name_th": "ยาสมุนไพรและพฤกษบำบัด",
+              "name_en": "Herbal Medicines and Phytotherapy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๓",
+              "code_en": "CHPD1103",
+              "name_th": "เภสัชเคมีวิเคราะห์และเทคนิคเชิงเครื่องมือในการควบคุมคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Analysis and Instrumental Techniques in Pharmaceutical Quality Control",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๒๑๑๐",
+              "code_en": "CHPD2110",
+              "name_th": "เคมีคลินิกพื้นฐานทางเภสัชกรรม",
+              "name_en": "Basic Clinical Chemistry for Pharmacy",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๑",
+              "code_en": "CHPD2201",
+              "name_th": "หลักการเคมีของยา",
+              "name_en": "Principles of Medicinal Chemistry",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๓",
+              "code_en": "CHPD3403",
+              "name_th": "นิติเภสัชศาสตร์และจริยธรรมวิชาชีพเภสัชกรรม",
+              "name_en": "Pharmacy Jurisprudence and Pharmacy Ethics",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๕๐๑",
+              "code_en": "CHPD4501",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "Outcome-Based Pharmacy Competencies 1",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๓",
+              "code_en": "CHPD5603",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านเภสัชกรรมอุตสาหการ ๑:  การจัดเตรียมโครงร่างวิจัย",
+              "name_en": "Research Practicum for Industrial Pharmacy 1:  Proposal Preparation",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๔",
+              "code_en": "CHPD5604",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านเภสัชกรรมอุตสาหการ ๒:  โครงงานพิเศษ",
+              "name_en": "Research Practicum for Industrial Pharmacy 2:  Special Project",
+              "credit": "๖ (๐-๑๘-๐)",
+              "credit_val": "๖"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๕",
+              "code_en": "CHPD5605",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านเภสัชกรรมอุตสาหการ",
+              "name_en": "Outcome-Based Pharmacy Competencies 2 for Industrial Pharmacy",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "๑.\tPromtang S, Sanguanphun T, Rodma D, Sunan R, Sayinta A, Fuangfoo T, Snitmatjaro N, Chaichantipyuth C, Kamkaen N, Meemon K, Chalorak P. Transcriptomic profiling of 6-OHDA-and reserpine-mediated neurotoxicity and neurobehavioral change in Caenorhabditis elegans model. Trends in Sciences. 2026;23(4):11920.\n๒.\tTangkiatkumjai M, Kamkaen N, Pakdeesattayapong D, Namthongbai N, Theantawee W, Sakthong P. Developing evidence-based criteria for selecting herbal medicines for the national list of essential medicines. BMC Complementary Medicine and Therapies. 2026. doi.org/10.1186/s12906-026-05494-0\n๓.\tThongnopkoon T, Vorarat S, Tadtong S, Samee W, Kamkaen N, Athikomkulchai S, Sareedenchai V, Udomluck N, Chittasupho C. Characterization, stability, and safety evaluation of a topical spray formulation containing vacuum-dried Ya Pra Sa Kra Tung Pew Pai Nok extract. Pharmaceutics. 2026;18:1347."
+          ]
+        },
+        {
+          "no": "๔",
+          "name": "นางสาวพิรุณรัตน์ เดชบำรุง",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Chemistry Nanoscience and Technology",
+              "institution": "National Center for Nanoscience and Technology\nUniversity China Academy of Science\nPeople's Republic of China",
+              "year": "๒๕๖๙"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเวท",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๕๘"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๕๕"
+            }
+          ],
+          "courses_count": 9,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๒",
+              "code_en": "CHPD1102",
+              "name_th": "เภสัชกรรมเชิงฟิสิกส์และการคำนวณทางเภสัชกรรม",
+              "name_en": "Physical Pharmacy and Pharmaceutical Calculation",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๓",
+              "code_en": "CHPD1103",
+              "name_th": "เภสัชเคมีวิเคราะห์และเทคนิคเชิงเครื่องมือในการควบคุมคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Analysis and Instrumental Techniques in Pharmaceutical Quality Control",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๓",
+              "code_en": "CHPD2203",
+              "name_th": "รูปแบบเภสัชภัณฑ์: สารละลายและคอลลอยด์",
+              "name_en": "Pharmaceutical Dosage Forms: Solutions and Colloids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๔",
+              "code_en": "CHPD2204",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาน้ำแขวนตะกอน อิมัลชัน และยากึ่งแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Suspensions, Emulsions and Semi-solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๕",
+              "code_en": "CHPD3205",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยารูปแบบของแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๖",
+              "code_en": "CHPD3206",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาปราศจากเชื้อและยาสูดพ่น",
+              "name_en": "Pharmaceutical Dosage Forms: Sterile and Inhalers",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๒",
+              "code_en": "CHPD5602",
+              "name_th": "การผลิตและระบบคุณภาพยาชีววัตถุ",
+              "name_en": "Manufacturing and Quality System of Biological Products",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Lapmanee S, Bhubhanil S, Wongchitrat P, Charoenphon N, Inchan A, Ngernsutivorakul T, Dechbumroong P, Khongkow M, Namdee K. Assessing the Safety and Therapeutic Efficacy of Cannabidiol Lipid Nanoparticles in Alleviating Metabolic and Memory Impairments and Hippocampal Histopathological Changes in Diabetic Parkinson's Rats. Pharmaceutics. 2024;16(4)."
+          ]
+        },
+        {
+          "no": "๕",
+          "name": "นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Veterinary Medicine (Veterinary Biomedical Sciences)",
+              "institution": "College of Veterinary Medicine\nSeoul National University Republic of Korea",
+              "year": "๒๕๖๗"
+            },
+            {
+              "degree": "M.Sc.",
+              "major": "Veterinary Medicine (Veterinary Biomedical Sciences)",
+              "institution": "College of Veterinary Medicine\nSeoul National University Republic of Korea",
+              "year": "๒๕๖๔"
+            },
+            {
+              "degree": "ภ.บ",
+              "major": "เภสัชศาสตร์\n(การบริบาลทางเภสัชกรรม)",
+              "institution": "คณะเภสัชศาสตร์ \nมหาวิทยาลัยศรีนครินทรวิโรฒ",
+              "year": "๒๕๖๑"
+            }
+          ],
+          "courses_count": 8,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๔",
+              "code_en": "CHPD1104",
+              "name_th": "จุลชีววิทยาที่จำเป็นทางเภสัชกรรม",
+              "name_en": "Essential Microbiology for Pharmacy",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๗",
+              "code_en": "",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "จภภศ๑๑๐๘",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๘",
+              "code_en": "CHPD1108",
+              "name_th": "ภูมิคุ้มกันวิทยา",
+              "name_en": "Immunology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๑๐",
+              "code_en": "CHPD2110",
+              "name_th": "เคมีคลินิกพื้นฐานทางเภสัชกรรม",
+              "name_en": "Basic Clinical Chemistry for Pharmacy",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๗",
+              "code_en": "CHPD3307",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบต่อมไร้ท่อ ภาวะอ้วน และระบบสืบพันธุ์",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Endocrinology, Obesity and Reproductive System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๘",
+              "code_en": "CHPD3308",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบไต ทางเดินปัสสาวะ และกระเพาะปัสสาวะ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Kidney, Urinary Tract and Bladder Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๔",
+              "code_en": "CHPD4314",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Nilkhet S, Vongthip W, Lertpatipanpong P, Prasansuklab A, Tencomnao T, Chuchawankul S Baek SJ. Ergosterol inhibits the proliferation of breast cancer cells by suppressing AKT/GSK-3beta/beta-catenin pathway. Scientific Reports. 2024;14(1):19664."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regular",
+      "title": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)",
+      "description": "คณาจารย์ประจำหลักสูตรเภสัชศาสตรบัณฑิต โครงการจัดตั้งคณะเภสัชศาสตร์ ราชวิทยาลัยจุฬาภรณ์ (*อาจารย์ผู้รับผิดชอบหลักสูตร ๕ ท่านแรก)",
+      "members": [
+        {
+          "no": "๑*",
+          "name": "นางจุฑามณี สุทธิสีสังข์",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางจุฑามณี สุทธิสีสังข์",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "เภสัชวิทยา",
+              "institution": "คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๐"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เภสัชวิทยา",
+              "institution": "คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๒๖"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๒๓"
+            }
+          ],
+          "courses_count": 2,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๑",
+              "code_en": "CHPD4311",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบประสาทส่วนกลาง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Central Nervous System 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Wichaiyo S, Suthisisang C. Current understandings on biological characteristics of thrombolytics in acute ischemic stroke. Seminars in Thrombosis and Hemostasis. 2026;52(02):199-208.\nChuenchom O, Suansanae T, Lukanapichonchut L, Suwanmajo S, Suthisisang C. Real world clinical outcomes of treatment of cannabis-induced psychosis and prevalence of cannabis-related primary psychosis: a retrospective study. BMC Psychiatry. 2024;24:626.\nSusantitapong K, Dilokpattanamongkol P, Sutherasan Y, Liamsombut S, Suthisisang C. Effects of gabapentin on slow-wave sleep period in critically ill adult patients: A randomized controlled trial. Clinical and Translational Science. 2024;17:e13815."
+          ]
+        },
+        {
+          "no": "๒*",
+          "name": "นายไพบูลย์ จึงสุวดี",
+          "rank": "ศาสตราจารย์",
+          "full_title": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Pharmacy",
+              "institution": "University of Vienna, Austria",
+              "year": "๒๕๔๔"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เภสัชกรรมคลินิก",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๘"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยเชียงใหม่",
+              "year": "๒๕๓๖"
+            }
+          ],
+          "courses_count": 19,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๘",
+              "code_en": "CHPD1108",
+              "name_th": "ภูมิคุ้มกันวิทยา",
+              "name_en": "Immunology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๑",
+              "code_en": "CHPD2301",
+              "name_th": "หลักการส่งมอบยาและการให้คำปรึกษาด้านยา",
+              "name_en": "Principles of Dispensing and Counseling",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๒",
+              "code_en": "CHPD2302",
+              "name_th": "การตรวจร่างกายในการบริบาลทางเภสัชกรรม",
+              "name_en": "Physical Examination in Pharmaceutical Care",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๓",
+              "code_en": "CHPD2303",
+              "name_th": "หลักการชีวเภสัชกรรมและเภสัชจลนศาสตร์",
+              "name_en": "Principles of Biopharmaceutics and Pharmacokinetics",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๔",
+              "code_en": "CHPD2304",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบกล้ามเนื้อ กระดูก ภูมิคุ้มกัน ผิวหนัง และตา",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Musculoskeletal, Immune, Skin and Ophthalmic Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๕",
+              "code_en": "CHPD2305",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคติดเชื้อและโรคระบบทางเดินหายใจ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Infectious Diseases and Respiratory system",
+              "credit": "๔ (๔-๐-๘)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๖",
+              "code_en": "CHPD3306",
+              "name_th": "การบูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบทางเดินอาหารและตับ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Gastrointestinal and Liver Disorders",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๗",
+              "code_en": "CHPD3307",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบต่อมไร้ท่อ ภาวะอ้วน และระบบสืบพันธุ์",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Endocrinology, Obesity and Reproductive System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๘",
+              "code_en": "CHPD3308",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบไต ทางเดินปัสสาวะ และกระเพาะปัสสาวะ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Kidney, Urinary Tract and Bladder Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๙",
+              "code_en": "CHPD3309",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบหัวใจและหลอดเลือด ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Cardiovascular System 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๔",
+              "code_en": "CHPD3404",
+              "name_th": "การประเมินทางการแพทย์และเภสัชกรรมบนพื้นฐาน เชิงประจักษ์",
+              "name_en": "Evidence-Based Medical and Pharmaceutical Evaluation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๐",
+              "code_en": "CHPD4310",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบหัวใจและหลอดเลือด ๒",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Cardiovascular System 2",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๓",
+              "code_en": "CHPD4313",
+              "name_th": "เภสัชบำบัดสำหรับโรคที่พบบ่อยในเภสัชกรรมชุมชน",
+              "name_en": "Pharmacotherapy of Common Illness in Community Pharmacy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๔",
+              "code_en": "CHPD4314",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๒",
+              "code_en": "CHPD5702",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๒",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 2",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๓",
+              "code_en": "CHPD5703",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านการบริบาลทางเภสัชกรรม ๑:  การจัดเตรียมโครงร่างวิจัย",
+              "name_en": "Research Practicum for Pharmaceutical Care 1:  Proposal Preparation",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๔",
+              "code_en": "CHPD5704",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านการบริบาลทางเภสัชกรรม ๒:  โครงงานพิเศษ",
+              "name_en": "Research Practicum for Pharmaceutical Care 2:  Special Project",
+              "credit": "๖ (๐-๑๘-๐)",
+              "credit_val": "๖"
+            },
+            {
+              "code_th": "จภภศ๕๗๐๕",
+              "code_en": "CHPD5705",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านการบริบาลทางเภสัชกรรม",
+              "name_en": "Outcome-Based Pharmacy Competencies 2  for Pharmaceutical Care",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Stawicki B, Schacher T, Dushenkov A, Jungsuwadee P. Briefing on investigational chimeric antigen receptor T-cell immunotherapies in pediatric neoplasms. Journal of Pharmacy Practice. 2024;37(6):1346-1360. doi:10.1177/08971900241247619"
+          ]
+        },
+        {
+          "no": "๓*",
+          "name": "นางสาวนริศา คำแก่น",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+          "degrees": [
+            {
+              "degree": "F.A.C.P.",
+              "major": "Herbal Pharmacy",
+              "institution": "FAPA \nCollege of Pharmacy",
+              "year": "๒๕๖๗"
+            },
+            {
+              "degree": "อ.ภ.",
+              "major": "เภสัชกรรมสมุนไพร",
+              "institution": "สภาเภสัชกรรม",
+              "year": "๒๕๖๒"
+            },
+            {
+              "degree": "Ph.D.",
+              "major": "Biomedical Sciences",
+              "institution": "Charles Sturt University\nAustralia",
+              "year": "๒๕๔๖"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเวท",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๓๗"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์\nมหาวิทยาลัยสงขลานครินทร์",
+              "year": "๒๕๓๒"
+            }
+          ],
+          "courses_count": 9,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๑",
+              "code_en": "CHPD1101",
+              "name_th": "ยาสมุนไพรและพฤกษบำบัด",
+              "name_en": "Herbal Medicines and Phytotherapy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๓",
+              "code_en": "CHPD1103",
+              "name_th": "เภสัชเคมีวิเคราะห์และเทคนิคเชิงเครื่องมือในการควบคุมคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Analysis and Instrumental Techniques in Pharmaceutical Quality Control",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๒๑๑๐",
+              "code_en": "CHPD2110",
+              "name_th": "เคมีคลินิกพื้นฐานทางเภสัชกรรม",
+              "name_en": "Basic Clinical Chemistry for Pharmacy",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๑",
+              "code_en": "CHPD2201",
+              "name_th": "หลักการเคมีของยา",
+              "name_en": "Principles of Medicinal Chemistry",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๓",
+              "code_en": "CHPD3403",
+              "name_th": "นิติเภสัชศาสตร์และจริยธรรมวิชาชีพเภสัชกรรม",
+              "name_en": "Pharmacy Jurisprudence and Pharmacy Ethics",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๕๐๑",
+              "code_en": "CHPD4501",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "Outcome-Based Pharmacy Competencies 1",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๓",
+              "code_en": "CHPD5603",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านเภสัชกรรมอุตสาหการ ๑:  การจัดเตรียมโครงร่างวิจัย",
+              "name_en": "Research Practicum for Industrial Pharmacy 1:  Proposal Preparation",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๔",
+              "code_en": "CHPD5604",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านเภสัชกรรมอุตสาหการ ๒:  โครงงานพิเศษ",
+              "name_en": "Research Practicum for Industrial Pharmacy 2:  Special Project",
+              "credit": "๖ (๐-๑๘-๐)",
+              "credit_val": "๖"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๕",
+              "code_en": "CHPD5605",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านเภสัชกรรมอุตสาหการ",
+              "name_en": "Outcome-Based Pharmacy Competencies 2 for Industrial Pharmacy",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "๑.\tPromtang S, Sanguanphun T, Rodma D, Sunan R, Sayinta A, Fuangfoo T, Snitmatjaro N, Chaichantipyuth C, Kamkaen N, Meemon K, Chalorak P. Transcriptomic profiling of 6-OHDA-and reserpine-mediated neurotoxicity and neurobehavioral change in Caenorhabditis elegans model. Trends in Sciences. 2026;23(4):11920.\n๒.\tTangkiatkumjai M, Kamkaen N, Pakdeesattayapong D, Namthongbai N, Theantawee W, Sakthong P. Developing evidence-based criteria for selecting herbal medicines for the national list of essential medicines. BMC Complementary Medicine and Therapies. 2026. doi.org/10.1186/s12906-026-05494-0\n๓.\tThongnopkoon T, Vorarat S, Tadtong S, Samee W, Kamkaen N, Athikomkulchai S, Sareedenchai V, Udomluck N, Chittasupho C. Characterization, stability, and safety evaluation of a topical spray formulation containing vacuum-dried Ya Pra Sa Kra Tung Pew Pai Nok extract. Pharmaceutics. 2026;18:1347."
+          ]
+        },
+        {
+          "no": "๔*",
+          "name": "นางสาวพิรุณรัตน์ เดชบำรุง",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Chemistry Nanoscience and Technology",
+              "institution": "National Center for Nanoscience and Technology\nUniversity China Academy of Science\nPeople's Republic of China",
+              "year": "๒๕๖๙"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเวท",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๕๘"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๕๕"
+            }
+          ],
+          "courses_count": 9,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๒",
+              "code_en": "CHPD1102",
+              "name_th": "เภสัชกรรมเชิงฟิสิกส์และการคำนวณทางเภสัชกรรม",
+              "name_en": "Physical Pharmacy and Pharmaceutical Calculation",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๓",
+              "code_en": "CHPD1103",
+              "name_th": "เภสัชเคมีวิเคราะห์และเทคนิคเชิงเครื่องมือในการควบคุมคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Analysis and Instrumental Techniques in Pharmaceutical Quality Control",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๓",
+              "code_en": "CHPD2203",
+              "name_th": "รูปแบบเภสัชภัณฑ์: สารละลายและคอลลอยด์",
+              "name_en": "Pharmaceutical Dosage Forms: Solutions and Colloids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๔",
+              "code_en": "CHPD2204",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาน้ำแขวนตะกอน อิมัลชัน และยากึ่งแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Suspensions, Emulsions and Semi-solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๕",
+              "code_en": "CHPD3205",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยารูปแบบของแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๖",
+              "code_en": "CHPD3206",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาปราศจากเชื้อและยาสูดพ่น",
+              "name_en": "Pharmaceutical Dosage Forms: Sterile and Inhalers",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๒",
+              "code_en": "CHPD5602",
+              "name_th": "การผลิตและระบบคุณภาพยาชีววัตถุ",
+              "name_en": "Manufacturing and Quality System of Biological Products",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Lapmanee S, Bhubhanil S, Wongchitrat P, Charoenphon N, Inchan A, Ngernsutivorakul T, Dechbumroong P, Khongkow M, and Namdee K. Assessing the safety and therapeutic efficacy of cannabidiol lipid nanoparticles in alleviating metabolic and memory impairments and hippocampal histopathological changes in diabetic Parkinson's rats. Pharmaceutics. 2024;16(4)."
+          ]
+        },
+        {
+          "no": "๕*",
+          "name": "นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Veterinary Medicine (Veterinary Biomedical Sciences)",
+              "institution": "College of Veterinary Medicine\nSeoul National University Republic of Korea",
+              "year": "๒๕๖๗"
+            },
+            {
+              "degree": "M.Sc.",
+              "major": "Veterinary Medicine (Veterinary Biomedical Sciences)",
+              "institution": "College of Veterinary Medicine\nSeoul National University Republic of Korea",
+              "year": "๒๕๖๔"
+            },
+            {
+              "degree": "ภ.บ",
+              "major": "เภสัชศาสตร์\n(การบริบาลทางเภสัชกรรม)",
+              "institution": "คณะเภสัชศาสตร์ \nมหาวิทยาลัยศรีนครินทรวิโรฒ",
+              "year": "๒๕๖๑"
+            }
+          ],
+          "courses_count": 8,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๔",
+              "code_en": "CHPD1104",
+              "name_th": "จุลชีววิทยาที่จำเป็นทางเภสัชกรรม",
+              "name_en": "Essential Microbiology for Pharmacy",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๗",
+              "code_en": "",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "จภภศ๑๑๐๘",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๘",
+              "code_en": "CHPD1108",
+              "name_th": "ภูมิคุ้มกันวิทยา",
+              "name_en": "Immunology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๑๐",
+              "code_en": "CHPD2110",
+              "name_th": "เคมีคลินิกพื้นฐานทางเภสัชกรรม",
+              "name_en": "Basic Clinical Chemistry for Pharmacy",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๗",
+              "code_en": "CHPD3307",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบต่อมไร้ท่อ ภาวะอ้วน และระบบสืบพันธุ์",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Endocrinology, Obesity and Reproductive System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๘",
+              "code_en": "CHPD3308",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบไต ทางเดินปัสสาวะ และกระเพาะปัสสาวะ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Kidney, Urinary Tract and Bladder Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๔",
+              "code_en": "CHPD4314",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Nilkhet S, Vongthip W, Lertpatipanpong P, Prasansuklab A, Tencomnao T, Chuchawankul S, Baek SJ. Ergosterol inhibits the proliferation of breast cancer cells by suppressing AKT/GSK-3beta/beta-catenin pathway. Scientific Reports. 2024;14(1):19664."
+          ]
+        },
+        {
+          "no": "๖",
+          "name": "นายนิพิฐพนธ์ ศรีไม้",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นายนิพิฐพนธ์ ศรีไม้",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Physiology",
+              "institution": "Faculty of Science Mahidol university",
+              "year": "๒๕๖๗"
+            },
+            {
+              "degree": "M.Sc.",
+              "major": "Physiology",
+              "institution": "Faculty of Science Mahidol university",
+              "year": "๒๕๖๓"
+            },
+            {
+              "degree": "วท.บ.",
+              "major": "ชีววิทยา",
+              "institution": "คณะวิทยาศาสตร์ \nมหาวิทยาลัยนเรศวร",
+              "year": "๒๕๖๐"
+            }
+          ],
+          "courses_count": 5,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๔",
+              "code_en": "CHPD1104",
+              "name_th": "จุลชีววิทยาที่จำเป็นทางเภสัชกรรม",
+              "name_en": "Essential Microbiology for Pharmacy",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๕",
+              "code_en": "CHPD1105",
+              "name_th": "กายวิภาคศาสตร์และสรีรวิทยามนุษย์แบบบูรณาการ ๑",
+              "name_en": "Integrated Human Anatomy and Physiology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๖",
+              "code_en": "CHPD1106",
+              "name_th": "กายวิภาคศาสตร์และสรีรวิทยามนุษย์แบบบูรณาการ ๒",
+              "name_en": "Integrated Human Anatomy and Physiology 2",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๗",
+              "code_en": "",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "จภภศ๑๑๐๘",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๒",
+              "code_en": "CHPD2302",
+              "name_th": "การตรวจร่างกายในการบริบาลทางเภสัชกรรม",
+              "name_en": "Physical Examination in Pharmaceutical Care",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            }
+          ],
+          "publications": [
+            "Srimai N, Tonum K, Sureram S, Tubsuwan A, Kittakoop P, Soodvilai S. Activation of farnesoid X receptor inhibits TMEM16A-mediated chloride secretion in renal collecting duct cells and retards renal cyst progression. American Journal of Physiology-Renal Physiology. 2026;330(4):F444–F455. \nTonum K, Srimai N, Soodvilai, S. Ivermectin ameliorates cyst progression in polycystic kidney disease rats and renal cell-derived cysts via suppression of chloride secretion. Pharmaceutical Sciences Asia. 2026;53(2):112-121. \nPayaka A, Sansenya S, Mansalai P, Srimai N, Wattanaumadechakul D, Thubthed R, Jitprawetand N, Rattanahanvet T. Targeting acetylcholinesterase inhibitor by 2,4-Di-tert-butylphenol an allelopathic compound in rice based on in silico, in vitro, fluorescence and HPLC analyses. Biocatalysis and Agricultural Biotechnology. 2026;103945:1878-8181. \nTonum K, JintanapanyaP, Srimai N, Chabange N, Soodvilai S. Metabolites of lansoprazole inhibit CFTR-mediated Cl– transport and retard cyst progression. Science Asia. 2025;51(3):2025044."
+          ]
+        },
+        {
+          "no": "๗",
+          "name": "นางสาวสิริอร อักษรทอง",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวสิริอร อักษรทอง",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Experimental Surgery",
+              "institution": "Faculty of Medicine and Health Science\nMcGill University\nCanada",
+              "year": "๒๕๖๙"
+            },
+            {
+              "degree": "M.Sc.",
+              "major": "Physiology",
+              "institution": "Faculty of Science Mahidol university",
+              "year": "๒๕๖๓"
+            },
+            {
+              "degree": "วท.บ.",
+              "major": "ชีววิทยา\nเกียรตินิยม อันดับ ๑",
+              "institution": "คณะวิทยาศาสตร์\nมหาวิทยาลัยสงขลานครินทร์",
+              "year": "๒๕๕๙"
+            }
+          ],
+          "courses_count": 7,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๔",
+              "code_en": "CHPD1104",
+              "name_th": "จุลชีววิทยาที่จำเป็นทางเภสัชกรรม",
+              "name_en": "Essential Microbiology for Pharmacy",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๕",
+              "code_en": "CHPD1105",
+              "name_th": "กายวิภาคศาสตร์และสรีรวิทยามนุษย์แบบบูรณาการ ๑",
+              "name_en": "Integrated Human Anatomy and Physiology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๖",
+              "code_en": "CHPD1106",
+              "name_th": "กายวิภาคศาสตร์และสรีรวิทยามนุษย์แบบบูรณาการ ๒",
+              "name_en": "Integrated Human Anatomy and Physiology 2",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๗",
+              "code_en": "",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "จภภศ๑๑๐๘",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๔",
+              "code_en": "CHPD2304",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบกล้ามเนื้อ กระดูก ภูมิคุ้มกัน ผิวหนัง และตา",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Musculoskeletal, Immune, Skin and Ophthalmic Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๗",
+              "code_en": "CHPD3307",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบต่อมไร้ท่อ ภาวะอ้วน และระบบสืบพันธุ์",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Endocrinology, Obesity and Reproductive System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Patel P, Aksornthong S, Komarova SV. Collagen secretion and maturation in osteogenesis imperfecta: Systematic review and meta-analysis. Bone Reports. 2026;30:101928.\nPatel P, Aksornthong S, Komarova SV. Post-translational modifications of collagen type I in osteogenesis imperfecta: Systematic review and meta-analysis. Bone Reports. 2025;28:101894.\nThonapan N, Wongdee K, Aksornthong S, Teerapornpuntakit J, Tiyasatkulkovit W, Panupinthu N, Charoenphandhu N. Long-term excessive salt consumption alters villous and crypt morphology and the protein expression of uroguanylin, TRPV6 and PMCA1b in the rat small intestine. PLoS One. 2025;20(1):e0317415."
+          ]
+        },
+        {
+          "no": "๘",
+          "name": "นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+          "degrees": [
+            {
+              "degree": "ปร.ด",
+              "major": "เภสัชศาสตร์สังคม เศรษฐศาสตร์และการบริหาร",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๖๓"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "การพัฒนาทรัพยากรมนุษย์และองค์การ",
+              "institution": "คณะพัฒนาทรัพยากรมนุษย์สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+              "year": "๒๕๔๘"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "บริบาลทางเภสัชกรรม",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณมหาวิทยาลัย",
+              "year": "๒๕๕๔"
+            },
+            {
+              "degree": "ภ.บ",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๓"
+            }
+          ],
+          "courses_count": 6,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๔๐๑",
+              "code_en": "CHPD2401",
+              "name_th": "นโยบายสุขภาพและศาสตร์ระบบสุขภาพ",
+              "name_en": "Health Policy and Health System Sciences",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๒",
+              "code_en": "CHPD3402",
+              "name_th": "ระเบียบวิธีวิจัย",
+              "name_en": "Research Methodology",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๓",
+              "code_en": "CHPD3403",
+              "name_th": "นิติเภสัชศาสตร์และจริยธรรมวิชาชีพเภสัชกรรม",
+              "name_en": "Pharmacy Jurisprudence and Pharmacy Ethics",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๔",
+              "code_en": "CHPD3404",
+              "name_th": "การประเมินทางการแพทย์และเภสัชกรรมบนพื้นฐาน เชิงประจักษ์",
+              "name_en": "Evidence-Based Medical and Pharmaceutical Evaluation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๔๐๕",
+              "code_en": "CHPD4405",
+              "name_th": "เภสัชเศรษฐศาสตร์",
+              "name_en": "Pharmacoeconomics",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๔๐๖",
+              "code_en": "CHPD4406",
+              "name_th": "การเฝ้าระวังความปลอดภัยด้านยา",
+              "name_en": "Pharmacovigilance",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Phongpunpisand P, Pumtong S, Sunantiwat M, Anuratphanich L. Bridging the gaps in promoting pharmaceutical services for visually impaired persons in public hospitals, in Bangkok: Pharmacists’ perspectives. Hospital Topics. 2025;103(2):130-137.\nPhongpunpisand P, Pumtong S, Sunantiwat M, Anuratphanich L. Designing hospital and pharmacy services for visually impaired persons in Bangkok, Thailand. Hospital Topics. 2024;102(3):135-144."
+          ]
+        },
+        {
+          "no": "๙",
+          "name": "นายวัชระ กาญจนกวินกุล",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "วิจัยและพัฒนา\nเภสัชภัณฑ์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๕๕"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๔๙"
+            }
+          ],
+          "courses_count": 8,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๕",
+              "code_en": "CHPD3205",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยารูปแบบของแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๘",
+              "code_en": "CHPD3208",
+              "name_th": "ระบบคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Quality System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๒",
+              "code_en": "CHPD4212",
+              "name_th": "วิทยาการข้อมูลประยุกต์และนวัตกรรมทางเภสัชกรรม",
+              "name_en": "Applied Data Sciences and Pharmacy Innovation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๕๐๑",
+              "code_en": "CHPD4501",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "Outcome-Based Pharmacy Competencies 1",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๑",
+              "code_en": "CHPD5601",
+              "name_th": "เภสัชอุตสาหกรรม",
+              "name_en": "Industrial Pharmacy",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๕",
+              "code_en": "CHPD5605",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านเภสัชกรรมอุตสาหการ",
+              "name_en": "Outcome-Based Pharmacy Competencies 2 for Industrial Pharmacy",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Kanjanakawinkul W, Chaiyasit K, Kiporntheranunt M, Wiriyasuttiwong W, Udomsuk L, Pongrojphao S. Herb-drug interaction digital platform for cancer healthcare. International Journal of Applied Biomedical Engineering. 2025;18(1):8.\nLueadnakrob K, Juntrapirom S, Rongthong T, Kanjanakawinkul W, Chaiyana W. Functional performance and safety evaluation of optimized plant-based dye mixtures for intense hair coloration. Cosmetics. 2025;12(78):12020078.\nInthorn J, Chomchalao P, Rithchumpon P, Juntrapirom S, Kanjanakawinkul W, Rades T, Chaiyana W. Potential of cricket chitosan for nanoparticle development through ionotropic gelation: Novel source for cosmeceutical delivery systems. Pharmaceutics. 2024;16(12):1618."
+          ]
+        },
+        {
+          "no": "๑๐",
+          "name": "นางสาวฐิติพร รองทอง",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวฐิติพร รองทอง",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "วิจัยและพัฒนา\nเภสัชภัณฑ์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๕๗"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๕๒"
+            }
+          ],
+          "courses_count": 8,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๕",
+              "code_en": "CHPD3205",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยารูปแบบของแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๘",
+              "code_en": "CHPD3208",
+              "name_th": "ระบบคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Quality System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๒",
+              "code_en": "CHPD4212",
+              "name_th": "วิทยาการข้อมูลประยุกต์และนวัตกรรมทางเภสัชกรรม",
+              "name_en": "Applied Data Sciences and Pharmacy Innovation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๕๐๑",
+              "code_en": "CHPD4501",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "Outcome-Based Pharmacy Competencies 1",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๑",
+              "code_en": "CHPD5601",
+              "name_th": "เภสัชอุตสาหกรรม",
+              "name_en": "Industrial Pharmacy",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๕",
+              "code_en": "CHPD5605",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านเภสัชกรรมอุตสาหการ",
+              "name_en": "Outcome-Based Pharmacy Competencies 2 for Industrial Pharmacy",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Tabboon P, Limpongsa E, Rongthong T, Pongjanyakul T, Jaipakdee N. Intestinal permeation characteristics via non-everted gut sac of diterpene lactones from pure andrographolide and three different andrographis extracts: An investigation into liqui-mass with different solvents. Pharmaceutics. 2026;18(90):1-28."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "instructor",
+      "title": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)",
+      "description": "คณาจารย์ผู้สอนประจำที่มีความเชี่ยวชาญเฉพาะด้าน",
+      "members": [
+        {
+          "no": "๑",
+          "name": "นายสัญญา หกพุดซา",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นายสัญญา หกพุดซา",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Physical Biochemistry",
+              "institution": "University of Nottingham\nUnited Kingdom",
+              "year": "๒๕๔๗"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๔๑"
+            }
+          ],
+          "courses_count": 9,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๒",
+              "code_en": "CHPD1102",
+              "name_th": "เภสัชกรรมเชิงฟิสิกส์และการคำนวณทางเภสัชกรรม",
+              "name_en": "Physical Pharmacy and Pharmaceutical Calculation",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๓",
+              "code_en": "CHPD1103",
+              "name_th": "เภสัชเคมีวิเคราะห์และเทคนิคเชิงเครื่องมือในการควบคุมคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Analysis and Instrumental Techniques in Pharmaceutical Quality Control",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๓",
+              "code_en": "CHPD2203",
+              "name_th": "รูปแบบเภสัชภัณฑ์: สารละลายและคอลลอยด์",
+              "name_en": "Pharmaceutical Dosage Forms: Solutions and Colloids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๔",
+              "code_en": "CHPD2204",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาน้ำแขวนตะกอน อิมัลชัน และยากึ่งแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Suspensions, Emulsions and Semi-solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๕",
+              "code_en": "CHPD3205",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยารูปแบบของแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๖",
+              "code_en": "CHPD3206",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาปราศจากเชื้อและยาสูดพ่น",
+              "name_en": "Pharmaceutical Dosage Forms: Sterile and Inhalers",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๘",
+              "code_en": "CHPD3208",
+              "name_th": "ระบบคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Quality System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๑",
+              "code_en": "CHPD5601",
+              "name_th": "เภสัชอุตสาหกรรม",
+              "name_en": "Industrial Pharmacy",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": []
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "title": "อาจารย์พิเศษ (๑๗ ท่าน)",
+      "description": "ผู้ทรงคุณวุฒิและผู้เชี่ยวชาญจากสถาบันพี่เลี้ยง (คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล), โรงพยาบาลจุฬาภรณ์, ศูนย์ไซโคลตรอนและเพทสแกนแห่งชาติ และสถาบันชั้นนำ",
+      "members": [
+        {
+          "no": "๑",
+          "name": "นางสาวกนกวรรณ จารุกำจร",
+          "rank": "ศาสตราจารย์",
+          "full_title": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Pharmaceutical Sciences",
+              "institution": "University of Toyama, Japan",
+              "year": "๒๕๔๔"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเคมี",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๓๖"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์\nเกียรตินิยม อันดับ ๑",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๓๓"
+            }
+          ],
+          "courses_count": 8,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๓",
+              "code_en": "CHPD1103",
+              "name_th": "เภสัชเคมีวิเคราะห์และเทคนิคเชิงเครื่องมือในการควบคุมคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Analysis and Instrumental Techniques in Pharmaceutical Quality Control",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๘",
+              "code_en": "CHPD3208",
+              "name_th": "ระบบคุณภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Quality System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๕๐๑",
+              "code_en": "CHPD4501",
+              "name_th": "รายวิชาบังคับก่อน:",
+              "name_en": "Outcome-Based Pharmacy Competencies 1",
+              "credit": "",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๓",
+              "code_en": "CHPD5603",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านเภสัชกรรมอุตสาหการ ๑:  การจัดเตรียมโครงร่างวิจัย",
+              "name_en": "Research Practicum for Industrial Pharmacy 1:  Proposal Preparation",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๔",
+              "code_en": "CHPD5604",
+              "name_th": "การฝึกปฏิบัติการวิจัยด้านเภสัชกรรมอุตสาหการ ๒:  โครงงานพิเศษ",
+              "name_en": "Research Practicum for Industrial Pharmacy 2:  Special Project",
+              "credit": "๖ (๐-๑๘-๐)",
+              "credit_val": "๖"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๕",
+              "code_en": "CHPD5605",
+              "name_th": "สมรรถนะวิชาชีพเภสัชกรรมตามผลลัพธ์การเรียนรู้ ๒:  ด้านเภสัชกรรมอุตสาหการ",
+              "name_en": "Outcome-Based Pharmacy Competencies 2 for Industrial Pharmacy",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Intan AEK, Zetta DN, Jarukamjorn K, Srisongkram T. MetaAMPK: Accurate prediction of adenosine monophosphate activated protein kinase activators using a meta-learner neural network. ACS Omega. 2025;10(33):43616-43631.\nChatuphonprasert W, Sukkasem N, Maneechot P, Wattanathorn J, Jarukamjorn K.* Anethum graveolens L. restores expression of free fatty acid synthesis-related genes in high fat induced-HepG2 cells. Journal of Herbal Medicine. 2024;46:100901. \nChatuphonprasert W, Tatiya-aphiradee N, Sutthanut K, Thammawat S, Puthongking P, Nopwinyoowong N, Jarukamjorn K.* Combinatory effects of Dipterocarpus alatus twig emulgel: Wound-restoring, antibacterial, and anti-inflammatory activities against methicillin-resistant Staphylococcus aureus-infected mouse superficial wounds. Heliyon. 2023;9:e17483.\nNopwinyoowong N, Chatuphonprasert W, Tatiya-aphiradee N, Jarukamjorn K.* Garcinia mangostana pericarp and alpha-mangostin normalized the expression of colonic and renal cytochrome P450 genes and abated the expression of renal inflammatory genes in dextran sulfate sodium-induced ulcerative colitis in mice. Journal of Applied Pharmaceutical Science. 2023;13(7):251-257.\nChatuphonprasert W, Tukam-mee W, Wattanathorn J, Jarukamjorn K.* Impact of Morus alba L. on the expression of drug-metabolizing enzymes and transporters in Caco-2 cells. Journal of Applied Pharmaceutical Science. 2022;12(7):147-159."
+          ]
+        },
+        {
+          "no": "๒",
+          "name": "นายบุญชู ศรีตุลารักษ์",
+          "rank": "ศาสตราจารย์",
+          "full_title": "ศาสตราจารย์ นายบุญชู ศรีตุลารักษ์",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "เภสัชเคมีและผลิตภัณฑ์ธรรมชาติ",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๔๖"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเวท",
+              "institution": "คณะเภสัชศาสตร์ \nจุฬาลงกรณ์มหาวิทยาลัย",
+              "year": "๒๕๔๒"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยสงขลานครินทร์",
+              "year": "๒๕๓๙"
+            }
+          ],
+          "courses_count": 2,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๑",
+              "code_en": "CHPD1101",
+              "name_th": "ยาสมุนไพรและพฤกษบำบัด",
+              "name_en": "Herbal Medicines and Phytotherapy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๒",
+              "code_en": "CHPD2202",
+              "name_th": "การวิเคราะห์โดยเครื่องมือขั้นสูงในการควบคุมคุณภาพ ทางเภสัชกรรม",
+              "name_en": "Advanced Instrumental Analysis in Pharmaceutical Quality Control",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Pengdee C, Dehlinger A, Chaichompoo W, Kongkatitham V, Chaotham C, Rojsitthisak P, Böttcher C, Sritularak B. Immunomodulatory potential of a bibenzyl-dihydrophenanthrene derivative Isolated from Calanthe cardioglossa. Journal of Natural Products 2025;88:537-545.\nAngsuwattana P, Wichitnithad W, Punpreuk Y, Halim H, Sritularak B, Thitikornpong W, Rojsitthisak P. Development of a simplified heart-cutting two-dimensional liquid chromatography method for green analysis of four polyphenols in Aerides plants. ACS Sustainable Chemistry and Engineering. 2025;13:4489-4498.\nNuamnaichati N, Suriya U, Khine HEE, Sungthong R, Suwannamai P, Sritularak B, Prompetchara E, Laomeephol C, Alduina R, Chaotham C. Arene substitutions in orchid bibenzyls: Mechanistic insights into glucose uptake and lipid metabolism for targeting metabolic disorders. Nutrients. 2025;17:1104.\nThungmungmee S, Sritularak B, Wisidsri N, Kanana N, Nimmano N. Exploring anti-aging potential of Dendrobium species and novel microemulsion delivery of Dendrobium kentrophyllum extract for anti-aging effect. Nanotechnology, Science and Applications. 2025;18: 157—171.\nThongphichai W, Hasriadi H, Wasana PWD, Jayashan SS, Sritularak B, Towiwat P, Sukrong S. Anti-inflammatory activity of Curcuma wanenlueanga Saensouk, Thomudtha & Boonma rhizomes and the search for its bioactive markers by harmonizing bioassay-guided isolation and network pharmacology. BMC Complementary Medicine and Therapies 2025;25:143."
+          ]
+        },
+        {
+          "no": "๓",
+          "name": "นายกิตติศักดิ์ ศรีภา",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นายกิตติศักดิ์ ศรีภา",
+          "degrees": [
+            {
+              "degree": "Dr.rer.nat",
+              "major": "Pharmaceutical Chemistry",
+              "institution": "University of Wuerzburg\n Germany",
+              "year": "๒๕๔๖"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เภสัชเคมี",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๙"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๖"
+            }
+          ],
+          "courses_count": 3,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๒๐๑",
+              "code_en": "CHPD2201",
+              "name_th": "หลักการเคมีของยา",
+              "name_en": "Principles of Medicinal Chemistry",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๔",
+              "code_en": "CHPD2304",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบกล้ามเนื้อ กระดูก ภูมิคุ้มกัน ผิวหนัง และตา",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Musculoskeletal, Immune, Skin and Ophthalmic Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๕",
+              "code_en": "CHPD2305",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคติดเชื้อและโรคระบบทางเดินหายใจ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Infectious Diseases and Respiratory system",
+              "credit": "๔ (๔-๐-๘)",
+              "credit_val": "๔"
+            }
+          ],
+          "publications": [
+            "Visansirikula S, Yanasoc S, Boondamd Y, Prasittisaf K, Prutthiwanasana B, Chongruchiroj S, Sripha K. Discovery of novel coumarin triazolyl and phenoxyphenyl triazolyl derivatives targeting amyloid beta aggregation-mediated oxidative stress and neuroinflammation for enhanced neuroprotection. RSC Medicinal Chemistry. 2024;15(8):2745-2765.\nLaivut S, Jarusintanakorn S, Sripha K. Exploring novel indomethacin derived compounds via investigation of NSAIDs through molecular docking and in vitro testing for anti-amyloid beta aggregation. Pharmaceutical Sciences Asia. 2024;51(1):59-73. \nLaivut S, Moongkarndi P, Kitphati W, Rukthong P, Sathirakul K, Sripha K. Design, synthesis, and neuroprotective activity of phenoxyindole derivatives on antiamyloid beta (A) aggregation, antiacetylcholinesterase, and antioxidant activities. Pharmaceuticals. 2023;16:355.\nChongruchiroj S, Pratuangdejkul J, Sripha K, Prutthiwanasan B. Computational modeling and synthesis of lecithin molecularly imprinted polymer for endotoxin removal. Chemicals Paper. 2023;77:1479-1487.\nCharoongchit P, Suksiriworapong J, Sripha K, Mao S, Sapin-Minet A, Maincent P, Junyaprasert VB. Self-aggregation of cationically modified poly(-caprolactone)2-co-poly(ethyleneglycol) copolymers: Effect of cationic grafting ligand and poly(-caprolactone) chain length. Materials Science and Engineering: C. 2017;72:444-455."
+          ]
+        },
+        {
+          "no": "๔",
+          "name": "นายธนรัตน์ สรวลเสน่ห์",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นายธนรัตน์ สรวลเสน่ห์",
+          "degrees": [
+            {
+              "degree": "F.A.C.P.",
+              "major": "Clinical Pharmacy",
+              "institution": "Federation of Asian Pharmaceutical Association",
+              "year": "๒๕๕๗"
+            },
+            {
+              "degree": "B.C.G.P.",
+              "major": "Geriatric Pharmacotherapy",
+              "institution": "American Pharmacist Association, USA",
+              "year": "๒๕๕๗"
+            },
+            {
+              "degree": "อ.ภ.",
+              "major": "เภสัชบำบัด",
+              "institution": "วิทยาลัยเภสัชบำบัด \nสภาเภสัชกรรม",
+              "year": "๒๕๕๕"
+            },
+            {
+              "degree": "B.C.P.P.",
+              "major": "Psychiatric Pharmacotherapy",
+              "institution": "American Pharmacist Association, USA",
+              "year": "๒๕๕๓"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชกรรมคลินิก",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๗"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๒"
+            }
+          ],
+          "courses_count": 4,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๓๐๑",
+              "code_en": "CHPD2301",
+              "name_th": "หลักการส่งมอบยาและการให้คำปรึกษาด้านยา",
+              "name_en": "Principles of Dispensing and Counseling",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๒",
+              "code_en": "CHPD2302",
+              "name_th": "การตรวจร่างกายในการบริบาลทางเภสัชกรรม",
+              "name_en": "Physical Examination in Pharmaceutical Care",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๑",
+              "code_en": "CHPD4311",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบประสาทส่วนกลาง ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Central Nervous System 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๒",
+              "code_en": "CHPD4312",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบประสาทส่วนกลาง ๒",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Central Nervous System 2",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Pariwatcharakul P, Homhual P, Prachgosin P, Sa-Nguanpanich N, Thongchot L, Liao P, Suansanae T. Dose-dependent effects of benzodiazepines and other psychotropic drugs on seizure duration in electroconvulsive therapy. Journal of ECT. 2025. https://doi.org/10.1097/YCT.0000000000001189\nWai HS, Pathomwichaiwat T, Suansanae T, Nathisuwan S, Rattanavipanon W. Effect of turmeric products on knee osteoarthritis: a systematic review and network meta-analysis. BMC Complementary Medicine and Therapies. 2025;25(1):292.\nTecha-Angkoon P, Pitakpatapee Y, Saengphatrachai W, Srivanitchapoom P, Suansanae T. Impact of pharmacist-physician collaboration on patient outcomes in Parkinson's disease: a randomised controlled trial in tertiary care. International Journal of Clinical Pharmacy. 2025;47(3):834-843.\nSaetan A, Chindavijak B, Suksomboon N, Suansanae T. Prescribed medications for alleviating suffering symptoms in patients receiving palliative care at a tertiary care hospital. Annals of Palliative Medicine. 2024;13(6):1362-1370.\nChuenchom O, Suansanae T, Lukanapichonchut L, Suwanmajo S, Suthisisang C. Real world clinical outcomes of treatment of cannabis-induced psychosis and prevalence of cannabis-related primary psychosis: a retrospective study. BMC Psychiatry. 2024;24:626."
+          ]
+        },
+        {
+          "no": "๕",
+          "name": "นางสาวผกาทิพย์ รื่นระเริงศักดิ์",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาวผกาทิพย์ รื่นระเริงศักดิ์",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Nanotechnology for Drug Delivery",
+              "institution": "School of Pharmacy University of London\nUnited Kingdom",
+              "year": "๒๕๕๐"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เภสัชศาสตร์ (นานาชาติ)\n(วิทยาศาสตร์เครื่องสำอาง)",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๕"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๑"
+            }
+          ],
+          "courses_count": 3,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๒",
+              "code_en": "CHPD1102",
+              "name_th": "เภสัชกรรมเชิงฟิสิกส์และการคำนวณทางเภสัชกรรม",
+              "name_en": "Physical Pharmacy and Pharmaceutical Calculation",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๓",
+              "code_en": "CHPD2203",
+              "name_th": "รูปแบบเภสัชภัณฑ์: สารละลายและคอลลอยด์",
+              "name_en": "Pharmaceutical Dosage Forms: Solutions and Colloids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๒๒๐๔",
+              "code_en": "CHPD2204",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาน้ำแขวนตะกอน อิมัลชัน และยากึ่งแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Suspensions, Emulsions and Semi-solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Thongsri P, Pewkliang Y, Borwornpinyo S, Wongkajornsilp A, Ruenraroengsak P, Anurathapan U, Sobhonslidsuk A, Hongeng S, Sa-Ngiamsuntorn K. Panduratin A from Boesenbergia rotunda suppresses hepatitis B virus by targeting HNF1α and synergizing with antiviral agents. Chinese Medicine. 2026;21(1):10.\nNamporn T, Manopwisedjaroen S, Ngodngamthaweesuk M, Pasomsub E, Jiravejchakul N, Saengfak R, Nealiga MJ, Sea-Be A, Basu A, Naruphontjirakul P, Hongeng S, Tetley TD, Thitithanyanont A, Ruenraroengsak P. Evidence of Mpox clade IIb infection in primary human alveolar epithelium. Emerging Microbes and Infections. 2025;14(1):2477845.\nChongwilaikasem N, Sithisarn P, Rojsanga P, Ruenraroengsak P, Sithisarn P. Development of roselle ointment with antibacterial effects. Pharmaceutical Sciences Asia. 2024;51:369-380.\nBasu A, Namporn T, Ruenraroengsak P. Critical review in designing plant-based anticancer nanoparticles against hepatocellular carcinoma. Pharmaceutics. 2023;12(2):1339-1357.\nKatsumiti A, Ruenraroengsak P, Cajaraville MP, Thorley AJ, Tetley TD. Immortalisation of primary human alveolar epithelial lung cells using a non-viral vector to study respiratory bioreactivity in vitro. Scientific Reports. 2020;10(1):20486."
+          ]
+        },
+        {
+          "no": "๖",
+          "name": "นายมนตรี จาตุรันต์ภิญโญ",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นายมนตรี จาตุรันต์ภิญโญ",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Pharmaceutics",
+              "institution": "University of Queensland\nAustralia",
+              "year": "๒๕๕๐"
+            },
+            {
+              "degree": "M. Eng.",
+              "major": "Material Science",
+              "institution": "University of Tokyo\nJapan",
+              "year": "๒๕๔๖"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๐"
+            }
+          ],
+          "courses_count": 3,
+          "courses": [
+            {
+              "code_th": "จภภศ๓๒๐๕",
+              "code_en": "CHPD3205",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยารูปแบบของแข็ง",
+              "name_en": "Pharmaceutical Dosage Forms: Solids",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๒๐๖",
+              "code_en": "CHPD3206",
+              "name_th": "รูปแบบเภสัชภัณฑ์: ยาปราศจากเชื้อและยาสูดพ่น",
+              "name_en": "Pharmaceutical Dosage Forms: Sterile and Inhalers",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๑",
+              "code_en": "CHPD5601",
+              "name_th": "เภสัชอุตสาหกรรม",
+              "name_en": "Industrial Pharmacy",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Sukthongchaikool R, Tongdee R, Munee P, Phengphala Y, Jarusintanakorn S, Pechkrajang C, Jaturanpinyo M, Chanasuk C, Buranaphalin S. Non-destructive analysis of barium sulphate tablets by near-infrared spectroscopy. Farmacia. 2024;72(5):1105-1112. \nPrasopsom M, Pratuangdejkul J, Petchprayoon C, Wichaiyo S, Jaturanpinyo M, Satitpatipan V. Formulations of Topical Ointment for Wound Healing Activity using Gynura procumbens (Lour.) Merr. Leaves Extract. Pharm Sci Asia 2024;51(3):270-281.\nSan SM, Jaturanpinyo M, Limwikrant W. Effects of wall material on medium-chain triglyceride (MCT) oil microcapsules prepared by spray drying. Pharmaceutics. 2022;14(6):1281.\nPhechkrajang C, Khongkaew P, Limwikrant W, Jaturanpinyo M. Non-destructive analysis of chlorpheniramine maleate tablets and granules by chemometrics-assisted attenuated total reflectance infrared spectroscopy. Molecules. 2022;27(12):3760.\nChooluck, K., Rojsanga, P., Phechkrajang, C., Jaturanpinyo, M. Bioanalytical method validation for determination of rosmarinic acid in simulated biological media using HPLC. International Journal of Applied Pharmaceutics. 2021;13(2):110–113."
+          ]
+        },
+        {
+          "no": "๗",
+          "name": "นางสาววรัญญา จตุพรประเสริฐ",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "วิจัยและพัฒนา\nเภสัชภัณฑ์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๕๕"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์\nเกียรตินิยม อันดับ ๒",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น",
+              "year": "๒๕๕๑"
+            }
+          ],
+          "courses_count": 8,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๑๑๐",
+              "code_en": "CHPD2110",
+              "name_th": "เคมีคลินิกพื้นฐานทางเภสัชกรรม",
+              "name_en": "Basic Clinical Chemistry for Pharmacy",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๕",
+              "code_en": "CHPD4315",
+              "name_th": "พิษวิทยาคลินิก",
+              "name_en": "Clinical Toxicology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๔๐๓",
+              "code_en": "",
+              "name_th": "รายวิชา จภภศ๔๔๐๓",
+              "name_en": "",
+              "credit": "-",
+              "credit_val": "-"
+            },
+            {
+              "code_th": "จภภศ๐๐๕๑",
+              "code_en": "CHPD0051",
+              "name_th": "ยาและวิถีสุขภาพยุคดิจิทัล",
+              "name_en": "Medicine and Lifestyle in a Digital Age",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๐๐๕๒",
+              "code_en": "CHPD0052",
+              "name_th": "การดูแลสุขภาพด้วยหัวใจความเป็นมนุษย์ตามวิถีพุทธ",
+              "name_en": "Humanized Health Care in the Buddhist Way",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๐๐๕๓",
+              "code_en": "CHPD0053",
+              "name_th": "การดูแลสุขภาพแต่ละช่วงวัย",
+              "name_en": "Health Care for Different Age Groups",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๐๐๕๔",
+              "code_en": "CHPD0054",
+              "name_th": "มานุษยวิทยาทางการแพทย์",
+              "name_en": "Medical Anthropology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Tippayanate N, Chaiprom K, Chatuphonprasert W, Khamya A, Sriprow J, Sripol C, Thronsao M. From stakeholder expectations to curriculum gaps in EMS education: Implications for learning-to-practice alignment. Advances in Medical Education and Practice. 2026;31:593070.\nUdomsak W, Kucinska M, Pospieszna J, Dams-Kozlowska H, Chatuphonprasert W, Murias M. Antioxidant enzymes in cancer cells: Their role in photodynamic therapy resistance and potential as targets for improved treatment outcomes. International Journal of Molecular Sciences. 2024;25(6):3164.\nChatuphonprasert W, Tatiya-Aphiradee N, Sutthanut K, Thammawat S, Puthongking P, Nopwinyoowong N, Jarukamjorn K. Combinatory effects of Dipterocarpus alatus twig emulgel: Wound-restoring, antibacterial, and anti-inflammatory activities against methicillin-resistant Staphylococcus aureus-infected mouse superficial wounds. Heliyon. 2023;9:e17483.\nEllinger I, Chatuphonprasert W. Cholesterol and early development. In: Cholesterol. 2022. pp. 403-450. Academic Press.\nSriset Y, Sukkasem N, Chatuphonprasert W, Jarukamjorn K. Nephroprotective effects of hesperidin and myricetin against high-fat diet plus ethanol-induced renal oxidative damage in mice. Revista Brasileira de Farmacognosia. 2022;32(4):555-562."
+          ]
+        },
+        {
+          "no": "๘",
+          "name": "นางวิลาสินี หิรัญพานิช ซาโตะ",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางวิลาสินี หิรัญพานิช ซาโตะ",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Pharmaceutical Sciences",
+              "institution": "School of Pharmacy\nShowa University, Japan",
+              "year": "๒๕๕๒"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชวิทยา\n(นานาชาติ)",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๔"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์\nเกียรตินิยม อันดับ ๑",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยเชียงใหม่",
+              "year": "๒๕๔๒"
+            }
+          ],
+          "courses_count": 4,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๑๐๙",
+              "code_en": "CHPD2109",
+              "name_th": "หลักการทางเภสัชวิทยา",
+              "name_en": "Principles of Pharmacology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๔",
+              "code_en": "CHPD2304",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบกล้ามเนื้อ กระดูก ภูมิคุ้มกัน ผิวหนัง และตา",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Musculoskeletal, Immune, Skin and Ophthalmic Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๒๓๐๕",
+              "code_en": "CHPD2305",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคติดเชื้อและโรคระบบทางเดินหายใจ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry, and Pharmacotherapy: Infectious Diseases and Respiratory system",
+              "credit": "๔ (๔-๐-๘)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๕",
+              "code_en": "CHPD4315",
+              "name_th": "พิษวิทยาคลินิก",
+              "name_en": "Clinical Toxicology",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Sato VH, Sato H, Sangfuang M, Nontakham J, Buraphacheep Junyaprasert V, Teeranachaideekul V, Morakul B. Enhancement of in vitro transcellular absorption and in vivo oral bioavailability of apigenin by self-nanoemulsifying drug delivery systems. Scientific Reports. 2024;14:32148.\nKanchanadumkerng P, Sato VH, Charoenthai N, Suksawat T, Lomarat P, Chewchinda S. Formulation optimization of orodispersible film containing essential oil from fruits of Zanthoxylum rhetsa (Roxb.) DC. using response surface methodology and evaluation of its antioxidant, and antiglycation activities. Food Hydrocolloids for Health. 2025;7:100220.\nKitphati W, Sato VH, Peungvicha P, Saengklub N, Chewchinda S, Kongkiatpaiboon S, Goli AS, Sangfuang M, Nontakham J, Chatsumpun N, Man S. Antihyperglycemic activity of a novel polyherbal formula (HF344), a mixture of fifteen herb extracts, for the management of type 2 diabetes: Evidence from in vitro, ex vivo, and in vivo studies. Heliyon. 2024;10(19):e38703.\nSato VH, Sato H, Sangfuang M, Nontakham J, Junyaprasert VB, Teeranachaideekul V, Morakul B. Enhancement of in vitro transcellular absorption and in vivo oral bioavailability of apigenin by self-nanoemulsifying drug delivery systems. Scientific Reports. 2024;7(12):3795-3803.\nThavaree T, Achira S, Kanchanadumkerng, P, Sato VH, Parichatikanond W, Charoenwiwattanakij P, Chewchinda S. Development of gummy jelly incorporated with Lysiphyllum strychnifolium leaf extract and its antioxidant and glucosidase inhibitory activities. Natural and Life Sciences Communications. 2023;22(2):e2023019."
+          ]
+        },
+        {
+          "no": "๙",
+          "name": "นางสาววีรวรรณ อุชายภิชาติ",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาววีรวรรณ อุชายภิชาติ",
+          "degrees": [
+            {
+              "degree": "Research Fellows",
+              "major": "Clinical Pharmacology",
+              "institution": "School of Medicine Flinders University\nAustralia",
+              "year": "๒๕๕๒"
+            },
+            {
+              "degree": "Ph.D.",
+              "major": "Clinical Pharmacology",
+              "institution": "School of Medicine Flinders University\nAustralia",
+              "year": "๒๕๕๐"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชกรรมคลินิก",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๐"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์\nเกียรตินิยม อันดับ ๑",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๗"
+            }
+          ],
+          "courses_count": 3,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๓๐๓",
+              "code_en": "CHPD2303",
+              "name_th": "หลักการชีวเภสัชกรรมและเภสัชจลนศาสตร์",
+              "name_en": "Principles of Biopharmaceutics and Pharmacokinetics",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๙",
+              "code_en": "CHPD3309",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบหัวใจและหลอดเลือด ๑",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Cardiovascular System 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๐",
+              "code_en": "CHPD4310",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบหัวใจและหลอดเลือด ๒",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Cardiovascular System 2",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Uchaipichat V. Inhibitory effects of Kratom constituents, mitragynine and 7-hydroxymitragynine, on 4-methylumbelliferone glucuronidation by human UDP-glucuronosyltransferases. Toxicology Reports. 2025;14:101951.\nKhusakul P, Inthuwong R, Pratummet P, Yindeesuk T, Nikonpitakkul K, Chaichalermpong W, Jantharuechai S, Wongvipaporn C, Uchaipichat V. Development and validation of the knowledge assessment tool for new oral anticoagulant use in patients with atrial fibrillation. KKU Research Journal. 2024;24 (3):148-160.\nUchaipichat V. Inhibitory Effects of tricyclic antidepressants on human liver microsomal morphine glucuronidation: application of IVIVE to predict potential drug-drug interactions in humans. Current Drug Metabolism. 2023;24(12):835-843.\nUchaipichat V, Rowland A, Miners JO. Inhibitory effects of non-steroidal anti-inflammatory drugs on human liver microsomal morphine glucuronidation: Implications for drug-drug interaction liability. Drug Metabolism and Pharmacokinetics. 2022;42:100442.\nUchaipichat V. In vitro inhibitory effects of major bioactive constituents of Andrographis paniculata, Curcuma longa and Silybum marianum on human liver microsomal morphine glucuronidation: A prediction of potential herb-drug interactions arising from andrographolide, curcumin and silybin inhibition in humans. Drug Metabolism and Pharmacokinetics. 2018;33(1):67-76."
+          ]
+        },
+        {
+          "no": "๑๐",
+          "name": "นางสาวสุพรรณิการ์ ถวิลหวัง",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาวสุพรรณิการ์ ถวิลหวัง",
+          "degrees": [
+            {
+              "degree": "Post-doctoral Associate",
+              "major": "",
+              "institution": "Baylor College of Medicine\nTexas, USA",
+              "year": "๒๕๖๐"
+            },
+            {
+              "degree": "Ph.D.",
+              "major": "Medical Pharmacology",
+              "institution": "University of Arizona\nArizona, USA",
+              "year": "๒๕๕๖"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๕"
+            }
+          ],
+          "courses_count": 4,
+          "courses": [
+            {
+              "code_th": "จภภศ๓๒๐๗",
+              "code_en": "CHPD3207",
+              "name_th": "เทคโนโลยีชีวภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Biotechnology",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๐๙",
+              "code_en": "CHPD4209",
+              "name_th": "ชีววัตถุ วัคซีน และผลิตภัณฑ์ยาเพื่อการบำบัดรักษาขั้นสูง",
+              "name_en": "Biologics, Vaccines and Advanced Therapy Medicinal Products",
+              "credit": "๔ (๓-๓-๖)",
+              "credit_val": "๔"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๑",
+              "code_en": "CHPD4211",
+              "name_th": "เซลล์ต้นกำเนิด วิศวกรรมเนื้อเยื่อ และการแพทย์ฟื้นฟู",
+              "name_en": "Stem Cells, Tissue Engineering and Regenerative Medicine",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๖",
+              "code_en": "CHPD4316",
+              "name_th": "เภสัชศาสตร์แม่นยำ",
+              "name_en": "Precision Pharmacy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Inthanachai T, Boonkrai C, Phakham T, Pisitkun T, Thaiwong R, Chuthaphakdikun V, Sakunrangsit N, Limprasutr V, Chinsuwan T, Hirankarn N, Suppipat K, Watanabe N, Tawinwung S. Novel B7-H3 CAR T cells show potent antitumor effects in glioblastoma: a preclinical study. Journal for ImmunoTherapy of Cancer. 2025;13(1):e010083\nKhaniya A, Suppipat K, Tawinwung S, Hirankarn N Testing T cell activation-based promoters in driving a dual CAR T cell by utilizing different transcription factor binding sites Chulalongkorn Medical Journal. 2024;68(3):185–193\nPe KCS, Jewmoung S, Rad SAH, Chantarat N, Chanswangphuwana C, Tashiro H, Suppipat K, Tawinwung S. Optimization of anti-TIM3 chimeric antigen receptor with CD8α spacer and TNFR-based costimulation for enhanced efficacy in AML therapy. Biomedicine and Pharmacotherapy. 2024;179:117388.\nChantarat N, Pe KCS, Suppipat K, Vimolmangkang S, Tawinwung S  Effects of cannabidiol on the functions of chimeric antigen receptor T cells in hematologic malignancies. Cannabis and Cannabinoid Research. 2024;9(3):819–829.\nSakunrangsit N, Khuisangeam N, Inthanachai T, Yodsurang V, Taechawattananant P, Suppipat K, Tawinwung S. Incorporating IL7 receptor alpha signaling in the endodomain of B7H3-targeting chimeric antigen receptor T cells mediates antitumor activity in glioblastoma. Cancer Immunology and Immunotherapy. 2024;73(6):98."
+          ]
+        },
+        {
+          "no": "๑๑",
+          "name": "นางสุวิมล ยี่ภู่",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสุวิมล ยี่ภู่",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "เภสัชศาสตร์ชีวภาพ",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๕๖"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชกรรมคลินิก",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๒"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์  มหาวิทยาลัยเชียงใหม่",
+              "year": "๒๕๓๘"
+            }
+          ],
+          "courses_count": 4,
+          "courses": [
+            {
+              "code_th": "จภภศ๓๓๐๖",
+              "code_en": "CHPD3306",
+              "name_th": "การบูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบทางเดินอาหารและตับ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Gastrointestinal and Liver Disorders",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๗",
+              "code_en": "CHPD3307",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบต่อมไร้ท่อ ภาวะอ้วน และระบบสืบพันธุ์",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Endocrinology, Obesity and Reproductive System",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๓๐๘",
+              "code_en": "CHPD3308",
+              "name_th": "บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบไต ทางเดินปัสสาวะ และกระเพาะปัสสาวะ",
+              "name_en": "Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Kidney, Urinary Tract and Bladder Systems",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๓๑๓",
+              "code_en": "CHPD4313",
+              "name_th": "เภสัชบำบัดสำหรับโรคที่พบบ่อยในเภสัชกรรมชุมชน",
+              "name_en": "Pharmacotherapy of Common Illness in Community Pharmacy",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Tontisirin T, Yeephu S, Kovavisarach E, et al. Clinical guidance for pain management in pregnancy. Thai Journal of Anesthesiology. 2026;52(1):65-108.\nKhamthasee K, Sirithongkum A, Santiyanon N, Yeephu S. Knowledge of drug allergy and factors related to knowledge score of patients with history of drug allergy in one community hospital. Chiangrai Medical Journal. 2022;14(3):44-56.\nFeungfu L, Raksasilp T, Swaengsak N, Chysirichote T, Santiyanon N, Yeephu S. Evaluation of time in therapeutic range among patients receiving warfarin therapy: A retrospective cohort study at one private hospital in Thailand. Pharm Science Asia. 2021;48(2):107-114.\nKhaiman S, Buahom S, Mekasuwannadit S, Yeephu S, Potaros T. Outpatient and caregiver understanding of auxiliary instructions on medication labels at Ongkharak Hospital, Nakhon Nayok. Journal of Health Science and Medical Research. 2019;37(4):269-276.\nSantiyanon N, Yeephu S. Interaction between warfarin and astaxanthin: A case report. Journal of Cardiology Cases. 2019;19:173-175."
+          ]
+        },
+        {
+          "no": "๑๒",
+          "name": "นางสาวอุษา ฉายเกล็ดแก้ว",
+          "rank": "รองศาสตราจารย์",
+          "full_title": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+          "degrees": [
+            {
+              "degree": "Ph.D.",
+              "major": "Pharmaceutical Economics and Policy",
+              "institution": "University of Southern California, USA",
+              "year": "๒๕๔๖"
+            },
+            {
+              "degree": "M.A.",
+              "major": "Economics",
+              "institution": "University of Southern California, USA",
+              "year": "๒๕๔๓"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๘"
+            }
+          ],
+          "courses_count": 6,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๔๐๑",
+              "code_en": "CHPD2401",
+              "name_th": "นโยบายสุขภาพและศาสตร์ระบบสุขภาพ",
+              "name_en": "Health Policy and Health System Sciences",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๒",
+              "code_en": "CHPD3402",
+              "name_th": "ระเบียบวิธีวิจัย",
+              "name_en": "Research Methodology",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๓",
+              "code_en": "CHPD3403",
+              "name_th": "นิติเภสัชศาสตร์และจริยธรรมวิชาชีพเภสัชกรรม",
+              "name_en": "Pharmacy Jurisprudence and Pharmacy Ethics",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๓๔๐๔",
+              "code_en": "CHPD3404",
+              "name_th": "การประเมินทางการแพทย์และเภสัชกรรมบนพื้นฐาน เชิงประจักษ์",
+              "name_en": "Evidence-Based Medical and Pharmaceutical Evaluation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๔๐๕",
+              "code_en": "CHPD4405",
+              "name_th": "เภสัชเศรษฐศาสตร์",
+              "name_en": "Pharmacoeconomics",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            },
+            {
+              "code_th": "จภภศ๔๔๐๖",
+              "code_en": "CHPD4406",
+              "name_th": "การเฝ้าระวังความปลอดภัยด้านยา",
+              "name_en": "Pharmacovigilance",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Suraarunsumrit P, Srinonprasert V, Thavorncharoensap M, Chaikledkaew U, Kongmalai T, Pitiyarn S, Petchthai P, Tankayura K, Kliangda C, McKay G, Thakkinstian A. Clinical outcomes and cost-utility analysis of comprehensive geriatric assessment models in hospitalized frail older patients in Thailand. 2026. DOI: 10.1186/s12877-026-07718-x\nYoungkong S, Thavorncharoensap M, Chaikledkaew U, Luangsinsiri C, Tim-Aroon T, Kuptanon C, Sathienkijkanchai A, Rojnueangnit K, Wichajarn K, Boonyawat B, Suphapeetiporn K, Wattanasirichaigoon D. Impacts and economic burden of pompe disease on patients and families in Thailand: A mixed method study. ClinicoEconomics and Outcomes Research. 2026;18:1-11.\nJittikoon J, Saengsiwaritt W, Chanhom N, Chaikledkaew U, Wattanapokayakit S, Mahasirimongkol S, Udomsinprasert W. Association of NAT2 promoter hypermethylation with susceptibility to hepatotoxicity due to antituberculosis drugs and biomarker potential. Scientific Reports. 2025;15(1):10197.\nMalasai K, Jittikoon J, Udomsinprasert W, Talungchit P, Youngkong S, Sangroongruangsri S, Mahasirimongkol S, Chaikledkaew U. Cost-benefit analysis of genetic testing as a prenatal diagnostic tool for Thalassemia: A single-center study from central Thailand. Clinicoecon Outcomes Research. 2025;17:33-43.\nOkech T, Thavorncharoensap M, Chaikledkaew U, Omondi GP, Nyokabi P, Thumbi SM, Thakkinstian A. Determining health-related quality of life among children with malaria in Kenya: does the choice of EQ-5D value set matter? Health Qual Life Outcomes. 2025;17:835-848."
+          ]
+        },
+        {
+          "no": "๑๓",
+          "name": "นางสาวเจนนิษฐ์ มีนวัฒนา",
+          "rank": "ผู้ช่วยศาสตราจารย์",
+          "full_title": "ผู้ช่วยศาสตราจารย์ นางสาวเจนนิษฐ์ มีนวัฒนา",
+          "degrees": [
+            {
+              "degree": "Pharmacy Residency",
+              "major": "Internal Medicine",
+              "institution": "College of Pharmacy\nUniversity of Arizona, USA",
+              "year": "๒๕๕๙"
+            },
+            {
+              "degree": "Doctor of Pharmacy",
+              "major": "Summa cum laude",
+              "institution": "College of Pharmacy\nUniversity of Illinois \nat Chicago, USA",
+              "year": "๒๕๕๗"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๙"
+            }
+          ],
+          "courses_count": 3,
+          "courses": [
+            {
+              "code_th": "จภภศ๒๓๐๒",
+              "code_en": "CHPD2302",
+              "name_th": "การตรวจร่างกายในการบริบาลทางเภสัชกรรม",
+              "name_en": "Physical Examination in Pharmaceutical Care",
+              "credit": "๑ (๐-๓-๐)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๕๐๒",
+              "code_en": "CHPD5502",
+              "name_th": "การจัดการคุณภาพและความเสี่ยงทางเภสัชกรรม แบบบูรณาการเพื่อความปลอดภัยของผู้ป่วย",
+              "name_en": "Integrated Pharmaceutical Quality and Risk Management for Patient Safety",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            }
+          ],
+          "publications": [
+            "Turongkaravee S, Nathisuwan S, Baisamut T, Meanwatthana J. Cost-utility analysis of genomic profiling in directing targeted therapy in advanced NSCLC in Thailand. Applied Health Economics and Health Policy. 2025;23(3):479-491.\nTrachu N, Reungwetwattana T, Meanwatthana J, Sukasem C, Majam T, Saengsiwaritt W, Jittikoon J, Udomsinprasert W. Leukocytes telomere length as a biomarker of adverse drug reactions induced by Osimertinib in advanced non-small cell lung cancer. Scientific Reports. 2024;10;7(11):3334-3357.\nMajam T, Sukasem C, Reungwetwattana T, Chansriwong P, Atasilp C, Trachu N, Thamrongjirapat T, Sukprasong R, Meanwatthana J. CYP450 and drug efflux transporters polymorphism influence clinical outcomes of Thai osimertinib-treated non-small cell lung cancer patients. Frontiers in Pharmacology. 2023;71(43):16194-16203.\nMeanwatthana J, Mitsuntisuk P. Assessment of direct-acting oral anticoagulants for the treatment of venous thromboembolism in cancer patients in Thai tertiary care hospital. Pharmaceutical Sciences Asia. 2022;49():147-152.\nMeanwatthana J, Chantarasap P, Chuatrisorn I, Wiriya T, Jitawatanarat P. Pharmacist's role in immune-related adverse events management: real-world incidence and risk evaluation from immunotherapy. International Journal of Pharmacy Practice. 2022;30(4):377-382."
+          ]
+        },
+        {
+          "no": "๑๔",
+          "name": "นายจตุรงค์ ประเทืองเดชกุล",
+          "rank": "ผู้ช่วยศาสตราจารย์",
+          "full_title": "ผู้ช่วยศาสตราจารย์ นายจตุรงค์ ประเทืองเดชกุล",
+          "degrees": [
+            {
+              "degree": "Post-doctoral fellows",
+              "major": "Molecular Modeling",
+              "institution": "Lariboisiere Hospital\nParis, France",
+              "year": "๒๕๕๒"
+            },
+            {
+              "degree": "Ph.D.",
+              "major": "Cellular Biology",
+              "institution": "Université Paris 5\n(René Descartes)\nParis, France",
+              "year": "๒๕๔๘"
+            },
+            {
+              "degree": "วท.ม.",
+              "major": "เทคโนโลยีชีวภาพ",
+              "institution": "คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๐"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๖"
+            }
+          ],
+          "courses_count": 1,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๔",
+              "code_en": "CHPD1104",
+              "name_th": "จุลชีววิทยาที่จำเป็นทางเภสัชกรรม",
+              "name_en": "Essential Microbiology for Pharmacy",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Prasopsom M, Pratuangdejkul J, Petchprayoon C, Wichaiyo S, Jaturanpinyo M, Satitpatipan V. Formulations of topical ointment for wound healing activity using Gynura procumbens (Lour.) Merr. leaves extract. Pharmaceutical Sciences Asia. 2024;51:270-281.\nNaing S, Sandech N, Maiuthed A, Chongruchiroj S, Pratuangdejkul J, Lomarat P. Garcinia mangostana L. pericarp extract and its active compound α-mangostin as potential inhibitors of immune checkpoint programmed death ligand-1. Molecules. 2023;28(19):6991.\nDuangupama T, Pratuangdejkul J, Chongruchiroj S, Pittayakhajonwut P, Intaraudom C, Tadtong S, Nunthanavanit P, Samee W, He YW, Tanasupawat S, Thawai C. New insights into the neuroprotective and beta-secretase1 inhibitor profiles of tirandamycin B isolated from a newly found Streptomyces composti sp. nov. Scientific Reports. 2023;13(1):4825. \nChongruchiroj S, Pratuangdejkul J, Sripha K, Prutthiwanasan B. Computational modeling and synthesis of lecithin molecularly imprinted polymer for endotoxin removal. Chemical Papers. 2023;77:1479–1487. \nMahaklan L, Pratuangdejkul J, Satitpatipan V. Antimicrobial effect of coconut oil on Staphylococcus aureus: an implication of Staphylococcus epidermidis induced fermentation. Life Sciences, Medicine and Biomedicine. 2022;6(1):100."
+          ]
+        },
+        {
+          "no": "๑๕",
+          "name": "นางวรวรรณ กิจผาติ",
+          "rank": "ผู้ช่วยศาสตราจารย์",
+          "full_title": "ผู้ช่วยศาสตราจารย์ นางวรวรรณ กิจผาติ",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "พิษวิทยาสิ่งแวดล้อม",
+              "institution": "สถาบันเทคโนโลยีแห่งเอเชีย",
+              "year": "๒๕๕๑"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๑"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๓๗"
+            }
+          ],
+          "courses_count": 2,
+          "courses": [
+            {
+              "code_th": "จภภศ๑๑๐๕",
+              "code_en": "CHPD1105",
+              "name_th": "กายวิภาคศาสตร์และสรีรวิทยามนุษย์แบบบูรณาการ ๑",
+              "name_en": "Integrated Human Anatomy and Physiology 1",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๑๑๐๖",
+              "code_en": "CHPD1106",
+              "name_th": "กายวิภาคศาสตร์และสรีรวิทยามนุษย์แบบบูรณาการ ๒",
+              "name_en": "Integrated Human Anatomy and Physiology 2",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            }
+          ],
+          "publications": [
+            "Boondam Y, Saefoong C, Niltup N, Monteil A, Kitphati W. The cognitive restoration effects of resveratrol: Insight molecular through behavioral studies in various cognitive impairment models. ACS Pharmacology and Translational Science. 2024;7(11):3334-3357.\nKitphati W, Sato VH, Peungvicha P, Saengklub N, Chewchinda S, Kongkiatpaiboon S, Goli AS, Sangfuang M, Nontakham J, Chatsumpun N, Mangmool S, Sato H. Antihyperglycemic activity of a novel polyherbal formula (HF344), a mixture of fifteen herb extracts, for the management of type 2 diabetes: Evidence from in vitro, ex vivo, and in vivo studies. Heliyon. 2024;10(19):e38703.\nSuwanklang P, Thilavech T, Limwikrant W, Kitphati W, Supharattanasitthi W, Lomarat L. Analysis of lutein content in microencapsulated marigold flower extract (Tagetes erecta L.) using UHPLC-Q-Orbitrap-HRMS and its cytotoxicity in ARPE-19 cells. Molecules. 2023;28(16):6025.\nLaivut S, Moongkarndi P, Kitphati W, Rukthong P, Sathirakul K, Sripha S. Design, synthesis, and neuroprotective activity of phenoxyindole derivatives on antiamyloid beta (Aβ) aggregation, antiacetylcholinesterase, and antioxidant activities. Pharmaceuticals (Basel). 2023;16(3):355.\nHartanti D, Chatsumpun N. Kitphati W, Peungvicha P, Supharattanasitthi W. The standardized Jamu pahitan, an Indonesian antidiabetic formulation, stimulating the glucose uptake and insulin secretion in the in-vitro models. Heliyon. 2023;9:e14018."
+          ]
+        },
+        {
+          "no": "๑๖",
+          "name": "นางสาวสลินทิพย์ จารุสินธนาการ",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นางสาวสลินทิพย์ จารุสินธนาการ",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "Drug Innovation",
+              "institution": "Utrecht University\nThe Netherlands",
+              "year": "๒๕๖๘"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชเคมี",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๕๓"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๙"
+            }
+          ],
+          "courses_count": 4,
+          "courses": [
+            {
+              "code_th": "จภภศ๓๒๐๗",
+              "code_en": "CHPD3207",
+              "name_th": "เทคโนโลยีชีวภาพทางเภสัชกรรม",
+              "name_en": "Pharmaceutical Biotechnology",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๐",
+              "code_en": "CHPD4210",
+              "name_th": "การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ",
+              "name_en": "Regulation of Pharmaceutical and Biological Products",
+              "credit": "๓ (๒-๓-๔)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๕๕๐๒",
+              "code_en": "CHPD5502",
+              "name_th": "การจัดการคุณภาพและความเสี่ยงทางเภสัชกรรม แบบบูรณาการเพื่อความปลอดภัยของผู้ป่วย",
+              "name_en": "Integrated Pharmaceutical Quality and Risk Management for Patient Safety",
+              "credit": "๑ (๑-๐-๒)",
+              "credit_val": "๑"
+            },
+            {
+              "code_th": "จภภศ๕๖๐๒",
+              "code_en": "CHPD5602",
+              "name_th": "การผลิตและระบบคุณภาพยาชีววัตถุ",
+              "name_en": "Manufacturing and Quality System of Biological Products",
+              "credit": "๒ (๑-๓-๒)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Jarusintanakorn S, Mastrobattista E, Yamabhai M. Ectoine enhances recombinant antibody production in Chinese hamster ovary cells by promoting cell cycle arrest. New Biotechnology. 2024;83:56-65.\nLaivut S, Jarusintanakorn S, Sripha K. Exploring novel indomethacin-derived compounds via investigation of NSAIDs through molecular docking and in vitro testing for anti-amyloid beta aggregation. Pharmaceutical Sciences Asia. 2024;51:59-73.\nSukthongchaikool R, Tongdee R, Munee P, Phengphala Y, Jarusintanakorn S, Phechkrajang C, Jaturanpinyo M, Chanasuk C, Buranaphalin S. Non-destructive analysis of barium sulphate tablets by near-infrared spectroscopy. Farmacia. 2024;72:1105-1112.\nJarusintanakorn S, Rangnoi K, Yamabhai M,Mastrobattista E. Effect of adenosine and cordycepin on recombinant antibody production yields in two different Chinease hamster ovary cell lines. Biotechnology Progress. 2023;20:e3403.\nJarusintanakorn S, Phechkrajang C, Khongkaew P, Mastrobattista E*, Yamabhai M. Determination of Chinese hamster ovary (CHO) cell densities and antibody titers from small volumes of cell culture supernatants using multivariate analysis and partial least squares regression of UV-Vis spectra. Analytical and Bioanalytical Chemistry. 2021;413(23):5743-5753."
+          ]
+        },
+        {
+          "no": "๑๗",
+          "name": "นายพงศธร เพียบเพียร",
+          "rank": "อาจารย์",
+          "full_title": "อาจารย์ นายพงศธร เพียบเพียร",
+          "degrees": [
+            {
+              "degree": "ปร.ด.",
+              "major": "วิทยาศาสตร์ข้อมูลเพื่อการดูแลสุขภาพ",
+              "institution": "คณะแพทยศาสตร์ รามาธิบดี มหาวิทยาลัยมหิดล",
+              "year": "๒๕๖๔"
+            },
+            {
+              "degree": "ภ.ม.",
+              "major": "เภสัชกรรมคลินิก",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๕๔"
+            },
+            {
+              "degree": "ภ.บ.",
+              "major": "เภสัชศาสตร์",
+              "institution": "คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล",
+              "year": "๒๕๔๖"
+            }
+          ],
+          "courses_count": 3,
+          "courses": [
+            {
+              "code_th": "จภภศ๓๔๐๒",
+              "code_en": "CHPD3402",
+              "name_th": "ระเบียบวิธีวิจัย",
+              "name_en": "Research Methodology",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๒๑๒",
+              "code_en": "CHPD4212",
+              "name_th": "วิทยาการข้อมูลประยุกต์และนวัตกรรมทางเภสัชกรรม",
+              "name_en": "Applied Data Sciences and Pharmacy Innovation",
+              "credit": "๓ (๓-๐-๖)",
+              "credit_val": "๓"
+            },
+            {
+              "code_th": "จภภศ๔๔๐๖",
+              "code_en": "CHPD4406",
+              "name_th": "การเฝ้าระวังความปลอดภัยด้านยา",
+              "name_en": "Pharmacovigilance",
+              "credit": "๒ (๒-๐-๔)",
+              "credit_val": "๒"
+            }
+          ],
+          "publications": [
+            "Kiertiburanakul S, Malathum K, Watcharananan SP, Bunupuradah P, Piebpien P, Rujiraviroj U, et al. High coverage and safety of influenza A (H1N1) 2009 monovalent vaccination among health care personnel in Thailand. American Journal of Infection Control. 2011;39(6):525-528. \nPrakobsrikul N, Malathum K, Santanirand P, Chumnumwat S, Piebpien P, Montakantikul P. Correlation between antimicrobial consumption and the prevalence of carbapenem-resistant Escherichia coli and carbapenem-resistant Klebsiella pneumoniae at a university hospital in Thailand. Journal of Clinical Pharmacy and Therapeutics. 2019;44(2):292-299.\nSuthutvoravut U, Kunakorntham P, Semayai A, Tansawet A, Pattanaprateep O, Piebpien P, et al. Cost-effectiveness analysis of isolation strategies for asymptomatic and mild symptom COVID-19 patients. Cost Effectiveness and Resource Allocation. 2023;9;21(1):85.\nTansawet A, Numthavaj P, Teza H, Pattanateepapon A, Piebpien P, Poprom N, et al. External validation and revision of Penn incisional hernia prediction model: A largescale retrospective cohort of abdominal operations. Surgeon. 2024;22(1):e34-e40.\nPiebpien P, Tansawet A, Pattanaprateep O, Pattanateepapon A, Wilasrusmee C, Mckay GJ, et al. Can machine learning models improve the prediction of surgical site infection in abdominal surgery than traditional statistical models? Journal of International Medical Research. 2024;;52(11):3000605241293696."
+          ]
+        }
+      ]
+    }
+  ],
+  "course_instructors_map": {
+    "จภภศ๒๑๐๙": [
+      {
+        "name": "รองศาสตราจารย์ นางจุฑามณี สุทธิสีสังข์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางจุฑามณี สุทธิสีสังข์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางวิลาสินี หิรัญพานิช ซาโตะ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๑": [
+      {
+        "name": "รองศาสตราจารย์ นางจุฑามณี สุทธิสีสังข์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางจุฑามณี สุทธิสีสังข์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายธนรัตน์ สรวลเสน่ห์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๘": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๒๓๐๑": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายธนรัตน์ สรวลเสน่ห์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๓๐๒": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายนิพิฐพนธ์ ศรีไม้",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายธนรัตน์ สรวลเสน่ห์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "ผู้ช่วยศาสตราจารย์ นางสาวเจนนิษฐ์ มีนวัฒนา",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๓๐๓": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาววีรวรรณ อุชายภิชาติ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๓๐๔": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายกิตติศักดิ์ ศรีภา",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางวิลาสินี หิรัญพานิช ซาโตะ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๓๐๕": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายกิตติศักดิ์ ศรีภา",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางวิลาสินี หิรัญพานิช ซาโตะ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๓๐๖": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสุวิมล ยี่ภู่",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๓๐๗": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสุวิมล ยี่ภู่",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๓๐๘": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสุวิมล ยี่ภู่",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๓๐๙": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาววีรวรรณ อุชายภิชาติ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๔๐๔": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๐": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาววีรวรรณ อุชายภิชาติ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๓": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสุวิมล ยี่ภู่",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๔": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๕๗๐๒": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๕๗๐๓": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๕๗๐๔": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๕๗๐๕": [
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายไพบูลย์ จึงสุวดี",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๑": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายบุญชู ศรีตุลารักษ์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๓": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๑๑๐": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๒๐๑": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายกิตติศักดิ์ ศรีภา",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๔๐๓": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๕๐๑": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๕๖๐๓": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๕๖๐๔": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๕๖๐๕": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวนริศา คำแก่น",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๒": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวผกาทิพย์ รื่นระเริงศักดิ์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๒๐๒": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นายบุญชู ศรีตุลารักษ์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๒๐๓": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวผกาทิพย์ รื่นระเริงศักดิ์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๒๐๔": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวผกาทิพย์ รื่นระเริงศักดิ์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๒๐๕": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายมนตรี จาตุรันต์ภิญโญ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๒๐๖": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายมนตรี จาตุรันต์ภิญโญ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๒๑๐": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "ผู้ช่วยศาสตราจารย์ นางสาวเจนนิษฐ์ มีนวัฒนา",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสลินทิพย์ จารุสินธนาการ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๕๖๐๒": [
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวพิรุณรัตน์ เดชบำรุง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสลินทิพย์ จารุสินธนาการ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๔": [
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายนิพิฐพนธ์ ศรีไม้",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ผู้ช่วยศาสตราจารย์ นายจตุรงค์ ประเทืองเดชกุล",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๗": [
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวปัฐวิกา เลิศปฏิภานพงษ์",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายนิพิฐพนธ์ ศรีไม้",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๕": [
+      {
+        "name": "อาจารย์ นายนิพิฐพนธ์ ศรีไม้",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ผู้ช่วยศาสตราจารย์ นางวรวรรณ กิจผาติ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๑๑๐๖": [
+      {
+        "name": "อาจารย์ นายนิพิฐพนธ์ ศรีไม้",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสิริอร อักษรทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "ผู้ช่วยศาสตราจารย์ นางวรวรรณ กิจผาติ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๒๔๐๑": [
+      {
+        "name": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๔๐๒": [
+      {
+        "name": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายพงศธร เพียบเพียร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๔๐๕": [
+      {
+        "name": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๔๐๖": [
+      {
+        "name": "อาจารย์ นางสาวประภัสสรา พงศ์พันธุ์พิศาล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางสาวอุษา ฉายเกล็ดแก้ว",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายพงศธร เพียบเพียร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๒๐๘": [
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "ศาสตราจารย์ นางสาวกนกวรรณ จารุกำจร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๒๑๒": [
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายพงศธร เพียบเพียร",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๕๖๐๑": [
+      {
+        "name": "อาจารย์ นายวัชระ กาญจนกวินกุล",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวฐิติพร รองทอง",
+        "category": "อาจารย์ประจำหลักสูตร (๑๐ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นายสัญญา หกพุดซา",
+        "category": "อาจารย์ผู้สอน (จากส่วนงาน/สถาบันอื่น)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นายมนตรี จาตุรันต์ภิญโญ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๒": [
+      {
+        "name": "รองศาสตราจารย์ นายธนรัตน์ สรวลเสน่ห์",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๕": [
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "รองศาสตราจารย์ นางวิลาสินี หิรัญพานิช ซาโตะ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๐๐๕๑": [
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๐๐๕๒": [
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๐๐๕๓": [
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๐๐๕๔": [
+      {
+        "name": "รองศาสตราจารย์ นางสาววรัญญา จตุพรประเสริฐ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๓๒๐๗": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวสุพรรณิการ์ ถวิลหวัง",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสลินทิพย์ จารุสินธนาการ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๒๐๙": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวสุพรรณิการ์ ถวิลหวัง",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๒๑๑": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวสุพรรณิการ์ ถวิลหวัง",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๔๓๑๖": [
+      {
+        "name": "รองศาสตราจารย์ นางสาวสุพรรณิการ์ ถวิลหวัง",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ],
+    "จภภศ๕๕๐๒": [
+      {
+        "name": "ผู้ช่วยศาสตราจารย์ นางสาวเจนนิษฐ์ มีนวัฒนา",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      },
+      {
+        "name": "อาจารย์ นางสาวสลินทิพย์ จารุสินธนาการ",
+        "category": "อาจารย์พิเศษ (๑๗ ท่าน)"
+      }
+    ]
+  }
+}

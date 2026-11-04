@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบถาม-ตอบและสืบค้นหลักสูตรเภสัชศาสตรบัณฑิต รจภ. (Doctor of Pharmacy AI Explorer)</title>
+  <meta name="description" content="ระบบถาม-ตอบอัจฉริยะและสืบค้นหลักสูตรเภสัชศาสตรบัณฑิต (หลักสูตร ๖ ปี) (หลักสูตรใหม่ พ.ศ. ๒๕๗๑) โครงการจัดตั้งคณะเภสัชศาสตร์ ราชวิทยาลัยจุฬาภรณ์">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="curriculum_styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Royal Header -->
+    <header class="main-header">
+      <div class="header-inner">
+        <div class="brand-identity">
+          <div class="logo-box">
+            <i class="fa-solid fa-mortar-pestle logo-icon"></i>
+            <span class="logo-badge">CRA</span>
+          </div>
+          <div class="brand-text">
+            <div class="institution-name">ราชวิทยาลัยจุฬาภรณ์ • โครงการจัดตั้งคณะเภสัชศาสตร์</div>
+            <h1 class="program-title">หลักสูตรเภสัชศาสตรบัณฑิต (หลักสูตรใหม่ พ.ศ. ๒๕๗๑)</h1>
+            <div class="program-sub">Doctor of Pharmacy Program (6-Year Program) | AI & Interactive Knowledge Hub</div>
+          </div>
+        </div>
+
+        <div class="header-actions">
+        <a href="index.html#overview" class="btn-config" id="btn-to-dashboard" style="text-decoration:none; background:linear-gradient(135deg, rgba(197, 155, 39, 0.25), rgba(2, 132, 199, 0.25)); border-color:var(--accent-gold); color:#fbbf24;" title="กลับสู่แดชบอร์ดครุภัณฑ์"><i class="fa-solid fa-table-columns"></i> <span>แดชบอร์ดครุภัณฑ์</span></a>
+        
+          <div class="meta-tag-pills">
+            <span class="pill pill-gold"><i class="fa-solid fa-award"></i> ๑๙๕ หน่วยกิต</span>
+            <span class="pill pill-cyan"><i class="fa-solid fa-dna"></i> ATMPs & Precision Rx</span>
+            <span class="pill pill-purple"><i class="fa-solid fa-graduation-cap"></i> พี่เลี้ยง: ม.มหิดล</span>
+          </div>
+          <a href="index.html#workload" class="btn-config" style="text-decoration:none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.25), rgba(59, 130, 246, 0.25)); border-color: var(--accent-cyan); color: #38bdf8;" title="เปิดแดชบอร์ดภาระงานสอนอาจารย์รายบุคคล (Faculty Workload)">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <span>ภาระงานสอนอาจารย์</span>
+          </a>
+          <a href="booklet.html" class="btn-config" style="text-decoration:none; background: linear-gradient(135deg, rgba(197, 155, 39, 0.25), rgba(2, 132, 199, 0.25)); border-color: var(--accent-gold); color: #fbbf24;" title="เปิดเล่มหลักสูตรฉบับเต็ม (Digital Booklet)">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <span>เปิดเล่มหลักสูตรฉบับเต็ม</span>
+          </a>
+          <button id="btn-api-config" class="btn-config" title="ตั้งค่า Gemini API Key">
+            <i class="fa-solid fa-gear"></i>
+            <span>ตั้งค่า AI Key</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="app-nav">
+        <button class="nav-tab active" data-tab="tab-chat">
+          <i class="fa-solid fa-robot"></i>
+          <span>ถาม-ตอบอัจฉริยะ (AI Q&A)</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-council">
+          <i class="fa-solid fa-landmark"></i>
+          <span>เตรียมเสนอสภาฯ (Council Q&A)</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-plan">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>แผนการศึกษา ๖ ปี</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-courses">
+          <i class="fa-solid fa-book-medical"></i>
+          <span>คลังรายวิชา (Courses)</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-plos">
+          <i class="fa-solid fa-bullseye"></i>
+          <span>ผลลัพธ์การเรียนรู้ (17 PLOs)</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-faculty">
+          <i class="fa-solid fa-user-doctor"></i>
+          <span>คณาจารย์ผู้รับผิดชอบ</span>
+        </button>
+        <button class="nav-tab" data-tab="tab-overview">
+          <i class="fa-solid fa-chart-pie"></i>
+          <span>ภาพรวมหลักสูตร</span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- TAB 1: AI CHAT ASSISTANT -->
+      <section id="tab-chat" class="tab-pane active">
+        <div class="chat-layout">
+          <!-- Chat Sidebar / Quick Prompts -->
+          <aside class="chat-sidebar">
+            <div class="sidebar-card">
+              <div class="sidebar-header">
+                <i class="fa-solid fa-wand-magic-sparkles text-gold"></i>
+                <h3>คำถามยอดนิยม / ประเด็นสำคัญ</h3>
+              </div>
+              <p class="sidebar-desc">คลิกเพื่อถามคำถามสำคัญเกี่ยวกับหลักสูตรทันที:</p>
+              <div class="prompt-chips">
+                <button class="chip-btn" data-query="จุดเด่นและอัตลักษณ์สำคัญของหลักสูตรเภสัชศาสตร์ รจภ คืออะไร มีความแตกต่างจากที่อื่นอย่างไร?">
+                  <i class="fa-solid fa-star"></i> จุดเด่น & อัตลักษณ์หลักสูตร
+                </button>
+                <button class="chip-btn" data-query="โครงสร้างหน่วยกิต ๑๙๕ หน่วยกิต แบ่งเป็นหมวดวิชาอะไรบ้าง สอดคล้องกับเกณฑ์ อว. และสภาเภสัชกรรมอย่างไร?">
+                  <i class="fa-solid fa-cubes"></i> โครงสร้าง ๑๙๕ หน่วยกิต
+                </button>
+                <button class="chip-btn" data-query="หลักสูตรนี้สอนเรื่อง ATMPs, ยาชีววัตถุ และวัคซีนอย่างไร มีรายวิชาใดบ้างที่รองรับ?">
+                  <i class="fa-solid fa-vial-virus"></i> ATMPs & ยาชีววัตถุ
+                </button>
+                <button class="chip-btn" data-query="การฝึกปฏิบัติงานวิชาชีพ ๒,๐๐๐ ชั่วโมง แบ่งการฝึกอย่างไรในชั้นปีที่ ๕ และ ๖?">
+                  <i class="fa-solid fa-clock-rotate-left"></i> การฝึกงาน ๒,๐๐๐ ชม.
+                </button>
+                <button class="chip-btn" data-query="สถาบันพี่เลี้ยงคือสถาบันใด และมีบทบาทร่วมผลิตหลักสูตรอย่างไร?">
+                  <i class="fa-solid fa-handshake"></i> บทบาทสถาบันพี่เลี้ยง (ม.มหิดล)
+                </button>
+                <button class="chip-btn" data-query="อาจารย์ผู้รับผิดชอบหลักสูตร ๕ ท่านมีใครบ้าง และมีผลงานความเชี่ยวชาญอย่างไร?">
+                  <i class="fa-solid fa-users"></i> อาจารย์ผู้รับผิดชอบ ๕ ท่าน
+                </button>
+                <button class="chip-btn" data-query="แผนการรับนักศึกษาในระยะ ๗ ปี และเกณฑ์การสำเร็จการศึกษาเป็นอย่างไร?">
+                  <i class="fa-solid fa-user-graduate"></i> แผนรับนักศึกษา & เกณฑ์จบ
+                </button>
+                <button class="chip-btn" data-query="หลักสูตรนี้บูรณาการปัญญาประดิษฐ์ (AI) และวิทยาการข้อมูลสุขภาพในรายวิชาใดบ้าง?">
+                  <i class="fa-solid fa-microchip"></i> การบูรณาการ AI & Data
+                </button>
+              </div>
+            </div>
+
+            <div class="sidebar-card info-card">
+              <div class="engine-badge">
+                <span class="status-dot"></span>
+                <span>Active Knowledge Engine</span>
+              </div>
+              <h4>คลังข้อมูลในระบบ</h4>
+              <ul class="engine-features">
+                <li><i class="fa-solid fa-check text-cyan"></i> เอกสารหลักสูตรฉบับสมบูรณ์ ๒๒๒๙ ย่อหน้า</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> ตารางข้อมูล ๒๔ ตารางครบถ้วน</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> คลังคำอธิบายรายวิชา ๑๐๑ วิชา</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> ผลลัพธ์การเรียนรู้ ๑๗ PLOs</li>
+                <li><i class="fa-solid fa-check text-cyan"></i> รองรับทั้ง Built-in AI & Live Gemini API</li>
+              </ul>
+            </div>
+          </aside>
+
+          <!-- Chat Window -->
+          <div class="chat-container">
+            <div class="chat-header-banner">
+              <div class="ai-avatar">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div class="ai-info">
+                <div class="ai-title">เภสัชกรอัจฉริยะ รจภ. (PharmD CRA Assistant)</div>
+                <div class="ai-status">พร้อมตอบทุกข้อซักถามเกี่ยวกับหลักสูตรเภสัชศาสตรบัณฑิตแบบเจาะลึก อ้างอิงตามเล่มหลักสูตรจริง</div>
+              </div>
+              <button id="btn-clear-chat" class="btn-clear" title="ล้างการสนทนา">
+                <i class="fa-solid fa-rotate-left"></i> ล้างแชท
+              </button>
+            </div>
+
+            <!-- Messages Stream -->
+            <div id="chat-messages" class="chat-messages">
+              <!-- Welcome message -->
+              <div class="chat-bubble bot-bubble">
+                <div class="bubble-avatar"><i class="fa-solid fa-robot"></i></div>
+                <div class="bubble-content">
+                  <div class="bubble-name">PharmD CRA Assistant</div>
+                  <div class="bubble-text">
+                    <p>สวัสดีครับ! ผมคือ <strong>ผู้ช่วยอัจฉริยะประจำหลักสูตรเภสัชศาสตรบัณฑิต ราชวิทยาลัยจุฬาภรณ์</strong></p>
+                    <p>ผมได้ศึกษาและรวบรวมข้อมูลทั้งหมดจาก <strong>เล่มหลักสูตรเภสัชศาสตรบัณฑิต (หลักสูตร ๖ ปี) (หลักสูตรใหม่ พ.ศ. ๒๕๗๑)</strong> ไว้อย่างครบถ้วน พร้อมช่วยท่านตอบข้อซักถาม ค้นหารายวิชา เจาะลึกโครงสร้าง ๑๙๕ หน่วยกิต หรือเตรียมความพร้อมสำหรับการนำเสนอต่อสภาราชวิทยาลัยและสภาเภสัชกรรมครับ</p>
+                    <p><em>ท่านสามารถพิมพ์คำถามที่ต้องการ หรือคลิกปุ่มหัวข้อด่วนทางซ้ายมือได้ทันทีครับ!</em></p>
+                  </div>
+                  <div class="bubble-time">เมื่อสักครู่</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Input Bar -->
+            <div class="chat-input-wrapper">
+              <form id="chat-form" class="chat-form">
+                <input type="text" id="chat-input" placeholder="พิมพ์คำถามเกี่ยวกับหลักสูตร เช่น จุดเด่นหลักสูตร, โครงสร้างหน่วยกิต, ATMPs, อาจารย์..." autocomplete="off">
+                <button type="submit" id="btn-send" class="btn-send">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <span>ส่งคำถาม</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: COUNCIL Q&A CHEAT SHEET -->
+      <section id="tab-council" class="tab-pane">
+        <div class="section-heading">
+          <div class="badge-title"><i class="fa-solid fa-landmark"></i> เตรียมพร้อมเสนอสภาฯ</div>
+          <h2>คลังคำถาม-คำตอบสำคัญ สำหรับการเสนอสภาราชวิทยาลัย</h2>
+          <p>รวมประเด็นยุทธศาสตร์ กฎหมายวิชาชีพ และข้อซักถามเชิงลึกที่สภาราชวิทยาลัยหรือคณะกรรมการกลั่นกรองมักจะตั้งคำถาม พร้อมแนวคำตอบมาตรฐานตามเล่มหลักสูตร</p>
+        </div>
+
+        <div class="council-filter-bar">
+          <button class="filter-btn active" data-council-cat="all">ทั้งหมด</button>
+          <button class="filter-btn" data-council-cat="strategic">ยุทธศาสตร์และความจำเป็น</button>
+          <button class="filter-btn" data-council-cat="curriculum">โครงสร้างและการเรียนการสอน</button>
+          <button class="filter-btn" data-council-cat="practice">การฝึกงาน ๒,๐๐๐ ชม.</button>
+          <button class="filter-btn" data-council-cat="faculty">ความพร้อมคณาจารย์และพี่เลี้ยง</button>
+        </div>
+
+        <div id="council-accordion" class="council-accordion">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- TAB 3: 6-YEAR STUDY PLAN -->
+      <section id="tab-plan" class="tab-pane">
+        <div class="section-heading">
+          <div class="badge-title"><i class="fa-solid fa-calendar-days"></i> แผนการศึกษาตลอด ๖ ปี</div>
+          <h2>แผนการจัดการศึกษา หลักสูตรเภสัชศาสตรบัณฑิต (๑๙๕ หน่วยกิต)</h2>
+          <p>โครงสร้างรายวิชาและหน่วยกิตในแต่ละภาคการศึกษา ตั้งแต่ชั้นปีที่ ๑ ถึงชั้นปีที่ ๖</p>
+        </div>
+
+        <div class="plan-controls">
+          <div class="year-tabs">
+            <button class="year-btn active" data-year="1">ชั้นปีที่ ๑</button>
+            <button class="year-btn" data-year="2">ชั้นปีที่ ๒</button>
+            <button class="year-btn" data-year="3">ชั้นปีที่ ๓</button>
+            <button class="year-btn" data-year="4">ชั้นปีที่ ๔</button>
+            <button class="year-btn" data-year="5">ชั้นปีที่ ๕</button>
+            <button class="year-btn" data-year="6">ชั้นปีที่ ๖ (ฝึกงาน)</button>
+          </div>
+          <div class="track-toggle">
+            <span class="track-label">สาขาเน้น (ปี ๕-๖):</span>
+            <button class="track-btn active" data-track="care">ด้านการบริบาลทางเภสัชกรรม (Care Track)</button>
+            <button class="track-btn" data-track="industrial">ด้านเภสัชกรรมอุตสาหการ (Industrial Track)</button>
+          </div>
+        </div>
+
+        <div id="study-plan-display" class="study-plan-display">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- TAB 4: COURSES CATALOG -->
+      <section id="tab-courses" class="tab-pane">
+        <div class="section-heading">
+          <div class="badge-title"><i class="fa-solid fa-book-bookmark"></i> คลังคำอธิบายรายวิชา</div>
+          <h2>ค้นหารายวิชาทั้งหมดในหลักสูตร (๑๐๑ รายวิชา)</h2>
+          <p>สืบค้นรหัสวิชา ชื่อวิชาภาษาไทย/อังกฤษ จำนวนหน่วยกิต วิชาบังคับก่อน และคำอธิบายรายวิชาอย่างละเอียด</p>
+        </div>
+
+        <div class="courses-filter-box">
+          <div class="search-input-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="course-search-input" placeholder="ค้นหาด้วยรหัสวิชา หรือชื่อวิชา เช่น จภภศ๔๒๐๙, ATMP, มะเร็ง, AI, เคมี...">
+            <button id="btn-clear-search" class="btn-clear-search"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="course-group-filters">
+            <button class="group-btn active" data-group="all">ทุกกลุ่มวิชา</button>
+            <button class="group-btn" data-group="gened">ศึกษาทั่วไป (จภภศ๐๐..)</button>
+            <button class="group-btn" data-group="basic">พื้นฐานวิชาชีพ (จภภศ๑๑../๒๑..)</button>
+            <button class="group-btn" data-group="indus">เภสัชกรรมอุตสาหการ</button>
+            <button class="group-btn" data-group="care">การบริบาลทางเภสัชกรรม</button>
+            <button class="group-btn" data-group="practice">การฝึกปฏิบัติงานวิชาชีพ</button>
+          </div>
+        </div>
+
+        <div class="courses-count-bar">
+          <span>พบรายวิชา: <strong id="courses-count-num">101</strong> วิชา</span>
+        </div>
+
+        <div id="courses-grid" class="courses-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- TAB 5: 17 PLOs -->
+      <section id="tab-plos" class="tab-pane">
+        <div class="section-heading">
+          <div class="badge-title"><i class="fa-solid fa-bullseye"></i> มาตรฐานผลลัพธ์การเรียนรู้</div>
+          <h2>ผลลัพธ์การเรียนรู้ระดับหลักสูตร (๑๗ PLOs)</h2>
+          <p>ครอบคลุม ๑๕ Specific PLOs และ ๒ Generic PLOs สอดคล้องกับกรอบ KSEC และมาตรฐานวิชาชีพของสภาเภสัชกรรม</p>
+        </div>
+
+        <div class="plo-ksec-summary">
+          <div class="ksec-badge ksec-k">
+            <div class="ksec-title"><i class="fa-solid fa-brain"></i> Knowledge (ความรู้)</div>
+            <div class="ksec-count">S-PLO๑, S-PLO๒, S-PLO๔, S-PLO๘</div>
+          </div>
+          <div class="ksec-badge ksec-s">
+            <div class="ksec-title"><i class="fa-solid fa-hand-holding-medical"></i> Skill (ทักษะ)</div>
+            <div class="ksec-count">S-PLO๓, ๕, ๖, ๗, ๙, ๑๐, ๑๑, ๑๒, ๑๓</div>
+          </div>
+          <div class="ksec-badge ksec-e">
+            <div class="ksec-title"><i class="fa-solid fa-scale-balanced"></i> Ethics (จริยธรรม)</div>
+            <div class="ksec-count">S-PLO๑๔, G-PLO๑๕</div>
+          </div>
+          <div class="ksec-badge ksec-c">
+            <div class="ksec-title"><i class="fa-solid fa-id-badge"></i> Character (ลักษณะบุคคล)</div>
+            <div class="ksec-count">G-PLO๑๖, S-PLO๑๗</div>
+          </div>
+        </div>
+
+        <div id="plos-container" class="plos-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- TAB 6: FACULTY -->
+      <section id="tab-faculty" class="tab-pane">
+        <div class="section-heading">
+          <div class="badge-title"><i class="fa-solid fa-user-doctor"></i> บุคลากรและศักยภาพอาจารย์</div>
+          <h2>คณาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน)</h2>
+          <p>อาจารย์ผู้รับผิดชอบหลักสูตรตามเกณฑ์มาตรฐานคุณวุฒิ สป.อว. และสภาเภสัชกรรม ผู้ทรงคุณวุฒิระดับปริญญาเอกและผู้เชี่ยวชาญระดับสากล</p>
+        </div>
+
+        <div id="faculty-grid" class="faculty-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Faculty Workload Banner -->
+        <div style="margin: 32px 0; background: linear-gradient(135deg, rgba(2, 132, 199, 0.08), rgba(11, 31, 61, 0.04)); border: 1.5px solid var(--accent-cyan); border-radius: 16px; padding: 26px 30px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; box-shadow: 0 4px 20px rgba(2, 132, 199, 0.1);">
+          <div style="max-width: 720px;">
+            <div style="display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700; color:var(--accent-cyan); text-transform:uppercase; margin-bottom:6px;">
+              <i class="fa-solid fa-chalkboard-user"></i> ฐานข้อมูลภาระงานสอนคณาจารย์ฉบับสมบูรณ์
+            </div>
+            <h3 style="font-family:var(--font-heading); font-size:19px; color:var(--text-main); margin-bottom:8px;">ระบบตรวจสอบภาระงานสอนคณาจารย์รายบุคคล (Faculty Workload Dashboard)</h3>
+            <p style="font-size:14px; color:var(--text-muted); line-height:1.6;">ครอบคลุมอาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน), อาจารย์ประจำหลักสูตร (๑๐ ท่าน), อาจารย์ผู้สอน (๑ ท่าน) และอาจารย์พิเศษ (๑๗ ท่าน) รวม ๓๓ ตำแหน่งอาจารย์ แสดงรายวิชาที่สอน คุณวุฒิ และผลงานวิจัย สามารถสลับมุมมองค้นหาตามรายวิชาและพิมพ์รายงานได้ทันที</p>
+          </div>
+          <a href="index.html#workload" class="btn-primary" style="text-decoration:none; display:inline-flex; align-items:center; gap:10px; padding:13px 24px; font-size:14px; font-weight:600; border-radius:12px; background: linear-gradient(135deg, #0284c7, #1d4ed8); color:#fff; box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35);" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <span>เปิดหน้าภาระงานสอนอาจารย์</span>
+          </a>
+        </div>
+
+        <div class="mentor-banner">
+          <div class="mentor-icon"><i class="fa-solid fa-school-flag"></i></div>
+          <div class="mentor-info">
+            <h3>สถาบันพี่เลี้ยง: คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล</h3>
+            <p>คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล ร่วมเป็นสถาบันพี่เลี้ยงตามเกณฑ์สภาเภสัชกรรม ที่ ๗๓/๒๕๖๘ เพื่อร่วมกำกับมาตรฐานการศึกษา พัฒนาคณาจารย์ และสนับสนุนการจัดการศึกษาและการฝึกปฏิบัติงานวิชาชีพ</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 7: CURRICULUM OVERVIEW -->
+      <section id="tab-overview" class="tab-pane">
+        <div class="section-heading">
+          <div class="badge-title"><i class="fa-solid fa-chart-pie"></i> ข้อมูลภาพรวม</div>
+          <h2>ข้อมูลพื้นฐานและโครงสร้างหลักสูตร</h2>
+        </div>
+
+        <div class="overview-grid">
+          <div class="overview-card">
+            <div class="card-icon"><i class="fa-solid fa-certificate"></i></div>
+            <h3>ชื่อปริญญา</h3>
+            <p><strong>ภาษาไทย:</strong> เภสัชศาสตรบัณฑิต (ภ.บ.)</p>
+            <p><strong>ภาษาอังกฤษ:</strong> Doctor of Pharmacy (Pharm.D.)</p>
+          </div>
+
+          <div class="overview-card">
+            <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>สัดส่วนหน่วยกิต (๑๙๕ หน่วยกิต)</h3>
+            <ul class="credit-list">
+              <li>หมวดวิชาศึกษาทั่วไป: <strong>๒๔ หน่วยกิต</strong></li>
+              <li>หมวดวิชาเฉพาะ: <strong>๑๖๕ หน่วยกิต</strong>
+                <ul>
+                  <li>วิชาพื้นฐานวิชาชีพ: ๒๗ หน่วยกิต</li>
+                  <li>วิชาชีพ: ๘๙ หน่วยกิต</li>
+                  <li>ฝึกงานภาคบังคับ (ปี ๕): ๖ หน่วยกิต (๓๐๐ ชม.)</li>
+                  <li>วิชาสาขาเน้น: ๑๕ หน่วยกิต</li>
+                  <li>ฝึกงานสาขาเน้น (ปี ๖): ๒๘ หน่วยกิต (๑,๗๐๐ ชม.)</li>
+                </ul>
+              </li>
+              <li>หมวดวิชาเลือกเสรี: <strong>๖ หน่วยกิต</strong></li>
+            </ul>
+          </div>
+
+          <div class="overview-card">
+            <div class="card-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+            <h3>แผนการรับนักศึกษา (ระยะ ๗ ปี)</h3>
+            <table class="simple-table">
+              <thead>
+                <tr>
+                  <th>ปี พ.ศ.</th>
+                  <th>๒๕๗๑</th>
+                  <th>๒๕๗๒</th>
+                  <th>๒๕๗๓</th>
+                  <th>๒๕๗๔</th>
+                  <th>๒๕๗๕</th>
+                  <th>๒๕๗๖</th>
+                  <th>๒๕๗๗</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>รับเข้าปี ๑</td>
+                  <td><strong>๓๐</strong></td>
+                  <td>๓๐</td>
+                  <td>๓๐</td>
+                  <td>๔๐</td>
+                  <td>๔๐</td>
+                  <td>๔๐</td>
+                  <td><strong>๕๐</strong></td>
+                </tr>
+                <tr>
+                  <td>คาดว่าจบ</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td><strong>๓๐</strong></td>
+                  <td>๓๐</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="overview-card">
+            <div class="card-icon"><i class="fa-solid fa-stethoscope"></i></div>
+            <h3>โอกาสในการประกอบวิชาชีพ</h3>
+            <p><strong>วิชาชีพมาตรฐาน:</strong> เภสัชกรโรงพยาบาล, เภสัชกรอุตสาหการ, เภสัชกรชุมชน (ร้านยา), เภสัชกรคุ้มครองผู้บริโภค/อย., เภสัชกรขึ้นทะเบียนยา (RA)</p>
+            <p><strong>วิชาชีพเฉพาะทางตามจุดเน้น รจภ:</strong> เภสัชกรเฉพาะทางด้านยาชีววัตถุ วัคซีน และ ATMPs, เภสัชกรด้าน Precision Pharmacy และ Pharmacogenomics, เภสัชกรรังสี (Radiopharmacist ณ ศูนย์ไซโคลตรอน), เภสัชกรนักวิเคราะห์ข้อมูลสุขภาพ (Health Data Scientist)</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal for Course Details -->
+    <div id="course-modal" class="modal-backdrop">
+      <div class="modal-card">
+        <button id="btn-close-modal" class="modal-close">&times;</button>
+        <div id="modal-content" class="modal-content-body">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for API Configuration -->
+    <div id="config-modal" class="modal-backdrop">
+      <div class="modal-card modal-small">
+        <button id="btn-close-config" class="modal-close">&times;</button>
+        <div class="config-header">
+          <i class="fa-solid fa-robot text-gold"></i>
+          <h3>ตั้งค่า Gemini API (ตัวเลือกเสริม)</h3>
+        </div>
+        <p class="config-info">
+          ระบบมี <strong>Smart Built-in Knowledge Engine</strong> ตอบคำถามจากเล่มหลักสูตรได้ทันทีโดยไม่ต้องใส่ Key<br>
+          หากต้องการเชื่อมต่อกับ Gemini API สด ให้ระบุ API Key ด้านล่าง:
+        </p>
+        <div class="form-group">
+          <label for="gemini-key-input">Gemini API Key:</label>
+          <input type="password" id="gemini-key-input" placeholder="AIzaSy..." autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="gemini-model-select">Model:</label>
+          <select id="gemini-model-select">
+            <option value="gemini-1.5-flash">Gemini 1.5 Flash (เร็ว & แนะนำ)</option>
+            <option value="gemini-1.5-pro">Gemini 1.5 Pro (ฉลาดลึกซึ้ง)</option>
+            <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+          </select>
+        </div>
+        <div class="modal-actions">
+          <button id="btn-save-key" class="btn-primary">บันทึกการตั้งค่า</button>
+          <button id="btn-clear-key" class="btn-secondary">ล้าง Key (ใช้ Built-in)</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-inner">
+        <div>เอกสารอ้างอิง: [เล่มหลักสูตรเภสัชศาสตรบัณฑิต รจภ ระหว่างรอ-เสนอสภาราชวิทยาลัย.docx]</div>
+        <div>โครงการจัดตั้งคณะเภสัชศาสตร์ ราชวิทยาลัยจุฬาภรณ์ © พ.ศ. ๒๕๖๙ - ๒๕๗๑</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="curriculum_app.js"></script>
+</body>
+</html>

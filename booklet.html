@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คู่มือสรุปสาระสำคัญและคลังถาม-ตอบ หลักสูตรเภสัชศาสตรบัณฑิต รจภ. (พ.ศ. ๒๕๗๑)</title>
+  <meta name="description" content="เล่มคู่มือสรุปสาระสำคัญเชิงลึกและคลังคำถาม-คำตอบ หลักสูตรเภสัชศาสตรบัณฑิต (หลักสูตร ๖ ปี) (หลักสูตรใหม่ พ.ศ. ๒๕๗๑) โครงการจัดตั้งคณะเภสัชศาสตร์ ราชวิทยาลัยจุฬาภรณ์">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    /* ==========================================================================
+       Executive Digital Booklet Stylesheet
+       ========================================================================== */
+    :root {
+      --primary-navy: #0b1f3d;
+      --secondary-navy: #132a4e;
+      --accent-royal: #1d4ed8;
+      --accent-gold: #c59b27;
+      --accent-gold-light: #fef3c7;
+      --accent-cyan: #0284c7;
+      --accent-cyan-light: #e0f2fe;
+      
+      --text-main: #1e293b;
+      --text-muted: #475569;
+      --text-light: #64748b;
+      --bg-body: #f8fafc;
+      --bg-paper: #ffffff;
+      --bg-tint: #f1f5f9;
+      --border-color: #e2e8f0;
+      --border-accent: #cbd5e1;
+      
+      --font-heading: 'Prompt', sans-serif;
+      --font-body: 'Sarabun', sans-serif;
+      --font-mono: 'Inter', monospace;
+      --font-size-base: 16px;
+      --shadow-paper: 0 10px 30px -5px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0,0,0,0.1);
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    /* Dark Mode Theme */
+    body.theme-dark {
+      --primary-navy: #070d18;
+      --secondary-navy: #0e1726;
+      --accent-royal: #3b82f6;
+      --accent-gold: #fbbf24;
+      --accent-gold-light: rgba(245, 158, 11, 0.15);
+      --accent-cyan: #38bdf8;
+      --accent-cyan-light: rgba(2, 132, 199, 0.15);
+      
+      --text-main: #f1f5f9;
+      --text-muted: #cbd5e1;
+      --text-light: #94a3b8;
+      --bg-body: #050912;
+      --bg-paper: #0b1528;
+      --bg-tint: #101f3b;
+      --border-color: rgba(255, 255, 255, 0.1);
+      --border-accent: rgba(255, 255, 255, 0.18);
+      --shadow-paper: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: var(--font-size-base);
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.8;
+      font-size: 1rem;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      position: relative;
+    }
+
+    /* Progress bar */
+    #reading-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #0284c7, #c59b27, #1d4ed8);
+      width: 0%;
+      z-index: 9999;
+      transition: width 0.1s;
+    }
+
+    /* Sticky Reading Control Toolbar */
+    .reading-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--bg-paper);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      backdrop-filter: blur(10px);
+    }
+
+    .toolbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .cra-seal-mini {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #1e3a8a, #0284c7);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .t-btn {
+      background: var(--bg-tint);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 7px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-family: var(--font-heading);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .t-btn:hover {
+      background: var(--accent-cyan-light);
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
+    }
+
+    .t-btn.btn-gold {
+      background: var(--accent-gold-light);
+      color: #b45309;
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+    body.theme-dark .t-btn.btn-gold {
+      color: #fbbf24;
+    }
+
+    /* Main Container & Layout */
+    .booklet-layout {
+      max-width: 1280px;
+      margin: 30px auto 60px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+
+    /* Sticky Sidebar Navigation */
+    .booklet-sidebar {
+      position: sticky;
+      top: 70px;
+      background: var(--bg-paper);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-paper);
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+    }
+
+    .toc-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent-gold);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .toc-menu {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .toc-menu a {
+      display: block;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+      transition: all 0.2s ease;
+      line-height: 1.4;
+    }
+
+    .toc-menu a:hover {
+      background: var(--bg-tint);
+      color: var(--accent-cyan);
+      padding-left: 14px;
+    }
+
+    .toc-menu a.active {
+      background: var(--accent-cyan-light);
+      color: var(--accent-cyan);
+      font-weight: 600;
+      border-left: 3px solid var(--accent-cyan);
+    }
+
+    /* Main Paper Body */
+    .booklet-paper {
+      background: var(--bg-paper);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 50px 60px;
+      box-shadow: var(--shadow-paper);
+    }
+
+    /* Cover Section */
+    .booklet-cover {
+      text-align: center;
+      padding: 40px 20px 50px 20px;
+      border-bottom: 2px solid var(--border-color);
+      margin-bottom: 45px;
+      position: relative;
+    }
+
+    .cover-royal-badge {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 20px auto;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #0b1f3d, #0284c7);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      box-shadow: 0 10px 25px rgba(2, 132, 199, 0.35);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .cover-inst {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .cover-title {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .cover-title-en {
+      font-family: var(--font-mono);
+      font-size: 16px;
+      color: var(--text-light);
+      margin-bottom: 24px;
+    }
+
+    .cover-pills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .cpill {
+      font-family: var(--font-heading);
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-tint);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .cpill-gold {
+      background: var(--accent-gold-light);
+      color: #92400e;
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+    body.theme-dark .cpill-gold { color: #fbbf24; }
+
+    .cpill-blue {
+      background: var(--accent-cyan-light);
+      color: #0369a1;
+      border-color: rgba(2, 132, 199, 0.3);
+    }
+    body.theme-dark .cpill-blue { color: #38bdf8; }
+
+    .cover-note {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Section Headings */
+    .section-block {
+      margin-bottom: 45px;
+      padding-top: 15px;
+    }
+
+    .sec-num {
+      display: inline-block;
+      font-family: var(--font-heading);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+
+    h2.sec-heading {
+      font-family: var(--font-heading);
+      font-size: 23px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h3.sub-heading {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin: 24px 0 12px 0;
+    }
+
+    /* Quotes and Royal Decree Callouts */
+    .royal-quote-box {
+      background: linear-gradient(135deg, rgba(2, 132, 199, 0.06), rgba(245, 158, 11, 0.06));
+      border-left: 4px solid var(--accent-gold);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 20px 24px;
+      margin: 20px 0;
+      font-size: 15.5px;
+      color: var(--text-main);
+      line-height: 1.85;
+      font-style: italic;
+    }
+
+    .quote-author {
+      font-style: normal;
+      font-family: var(--font-heading);
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      margin-top: 8px;
+      text-align: right;
+    }
+
+    /* Summary Metric Grid */
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    .metric-card {
+      background: var(--bg-tint);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      text-align: center;
+    }
+
+    .metric-val {
+      font-family: var(--font-heading);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      margin-bottom: 4px;
+    }
+
+    .metric-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Tables */
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 20px 0;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+    }
+
+    table.doc-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14.5px;
+    }
+
+    table.doc-table th, table.doc-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      text-align: left;
+    }
+
+    table.doc-table th {
+      background: var(--bg-tint);
+      font-family: var(--font-heading);
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    table.doc-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    table.doc-table tr:hover td {
+      background: rgba(2, 132, 199, 0.03);
+    }
+
+    /* PLO Badges */
+    .badge-plo {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      background: var(--accent-royal);
+      padding: 3px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .ksec-tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .kt-k { background: rgba(2, 132, 199, 0.15); color: var(--accent-cyan); }
+    .kt-s { background: rgba(16, 185, 129, 0.15); color: #059669; }
+    .kt-e { background: rgba(245, 158, 11, 0.15); color: #d97706; }
+    .kt-c { background: rgba(168, 85, 247, 0.15); color: #9333ea; }
+
+    /* Q&A Accordion in Booklet */
+    .qa-box {
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      margin-bottom: 16px;
+      background: var(--bg-paper);
+      overflow: hidden;
+    }
+
+    .qa-q-row {
+      padding: 16px 20px;
+      background: var(--bg-tint);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .qa-num {
+      width: 26px;
+      height: 26px;
+      background: var(--accent-gold);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .qa-ans-row {
+      padding: 20px 24px;
+      color: var(--text-main);
+      line-height: 1.8;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .qa-ans-row p {
+      margin-bottom: 10px;
+    }
+
+    .qa-ans-row ul, .qa-ans-row ol {
+      margin: 8px 0 12px 24px;
+    }
+
+    /* Study Plan Breakdown Cards */
+    .study-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    .year-study-card {
+      background: var(--bg-tint);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px;
+    }
+
+    .year-study-card h4 {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      color: var(--accent-cyan);
+      margin-bottom: 8px;
+    }
+
+    /* Faculty Cards */
+    .fac-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 18px;
+      margin: 20px 0;
+    }
+
+    .fac-item {
+      background: var(--bg-tint);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px;
+    }
+
+    .fac-item h4 {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .fac-item .f-sub {
+      font-size: 12px;
+      color: var(--accent-cyan);
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .fac-item p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    /* Innovative Courses Grid */
+    .course-mini-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 14px;
+      margin: 20px 0;
+    }
+
+    .course-mini-card {
+      background: var(--bg-tint);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+    }
+
+    .cm-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .cm-code {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    .cm-credit {
+      font-size: 12px;
+      color: var(--accent-gold);
+      font-weight: 600;
+    }
+
+    .cm-title {
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .cm-desc {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Back to top button */
+    .back-to-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--primary-navy);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      border: 1px solid var(--accent-gold);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.25s ease;
+      z-index: 999;
+    }
+
+    .back-to-top.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* ==========================================================================
+       Print Optimization Stylesheet
+       ========================================================================== */
+    @media print {
+      #reading-progress,
+      .reading-toolbar,
+      .booklet-sidebar,
+      .back-to-top {
+        display: none !important;
+      }
+
+      body {
+        background: #fff !important;
+        color: #000 !important;
+        font-size: 11pt;
+        line-height: 1.5;
+      }
+
+      .booklet-layout {
+        display: block !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .booklet-paper {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+      }
+
+      .booklet-cover {
+        page-break-after: always;
+        padding-top: 100px;
+        border-bottom: none !important;
+      }
+
+      .section-block {
+        page-break-inside: avoid;
+        margin-bottom: 30px;
+      }
+
+      table.doc-table th, table.doc-table td {
+        border: 1px solid #94a3b8 !important;
+        padding: 6px 8px !important;
+      }
+
+      .qa-ans-row {
+        display: block !important;
+      }
+
+      @page {
+        size: A4 portrait;
+        margin: 20mm 15mm 20mm 15mm;
+      }
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 900px) {
+      .booklet-layout {
+        grid-template-columns: 1fr;
+      }
+      .booklet-sidebar {
+        display: none;
+      }
+      .booklet-paper {
+        padding: 28px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="reading-progress"></div>
+
+  <!-- Sticky Top Reading Toolbar -->
+  <header class="reading-toolbar">
+    <div class="toolbar-brand">
+      <div class="cra-seal-mini"><i class="fa-solid fa-mortar-pestle"></i></div>
+      <span>หลักสูตรเภสัชศาสตรบัณฑิต รจภ. (หลักสูตร ๖ ปี พ.ศ. ๒๕๗๑)</span>
+    </div>
+
+    <div class="toolbar-actions">
+      <a href="index.html#overview" onclick="if(window.parent&&window.parent.show){window.parent.show('overview');return false;}" class="t-btn btn-gold" id="btn-to-dashboard" title="กลับสู่แดชบอร์ดครุภัณฑ์"><i class="fa-solid fa-table-columns"></i> <span>แดชบอร์ดครุภัณฑ์</span></a>
+      
+      <a href="index.html#workload" onclick="if(window.parent&&window.parent.show){window.parent.show('workload');return false;}" class="t-btn" style="background: var(--accent-cyan-light); color: var(--accent-cyan); border-color: var(--accent-cyan);" title="เปิดแดชบอร์ดภาระงานสอนคณาจารย์รายบุคคล">
+        <i class="fa-solid fa-chalkboard-user"></i>
+        <span>ภาระงานสอนอาจารย์</span>
+      </a>
+      <a href="curriculum_explorer.html" class="t-btn btn-gold" title="เปิดระบบถาม-ตอบ AI และค้นหารายวิชา">
+        <i class="fa-solid fa-robot"></i>
+        <span>ระบบถาม-ตอบ AI</span>
+      </a>
+      <button class="t-btn" id="btn-theme" title="สลับโหมดหน้าจอ/โหมดกระดาษ">
+        <i class="fa-solid fa-moon"></i>
+        <span>โหมดมืด</span>
+      </button>
+      <button class="t-btn" id="btn-font-dec" title="ลดขนาดตัวอักษร">A-</button>
+      <button class="t-btn" id="btn-font-inc" title="เพิ่มขนาดตัวอักษร">A+</button>
+      <button class="t-btn" onclick="window.print()" title="พิมพ์หรือบันทึกเป็น PDF">
+        <i class="fa-solid fa-print"></i>
+        <span>พิมพ์ / PDF</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Booklet Layout -->
+  <div class="booklet-layout">
+    <!-- Sidebar Sticky Navigation Table of Contents -->
+    <aside class="booklet-sidebar">
+      <div class="toc-title">
+        <i class="fa-solid fa-list-ul"></i> สารบัญเอกสาร
+      </div>
+      <ul class="toc-menu">
+        <li><a href="#cover">หน้าปกหลักสูตร</a></li>
+        <li><a href="#sec1">๑. สาระสำคัญผู้บริหาร</a></li>
+        <li><a href="#sec2">๒. ปรัชญา ปณิธาน พันธกิจ</a></li>
+        <li><a href="#sec3">๓. ผลลัพธ์การเรียนรู้ ๑๗ PLOs</a></li>
+        <li><a href="#sec4">๔. โครงสร้าง ๑๙๕ หน่วยกิต</a></li>
+        <li><a href="#sec5">๕. ระบบรหัสประจำวิชา</a></li>
+        <li><a href="#sec6">๖. แผนการศึกษา ๖ ปี</a></li>
+        <li><a href="#sec7">๗. อาจารย์ผู้รับผิดชอบ ๕ ท่าน</a></li>
+        <li><a href="#sec8">๘. แผนรับ นศ. & เกณฑ์จบ</a></li>
+        <li><a href="#sec9">๙. คลังถาม-ตอบเสนอสภาฯ (๑๐ ข้อ)</a></li>
+        <li><a href="#sec10">๑๐. รายวิชาเด่น & นวัตกรรม</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Booklet Content -->
+    <main class="booklet-paper">
+      <!-- COVER PAGE -->
+      <section id="cover" class="booklet-cover">
+        <div class="cover-royal-badge">
+          <i class="fa-solid fa-mortar-pestle"></i>
+        </div>
+        <div class="cover-inst">โครงการจัดตั้งคณะเภสัชศาสตร์ • ราชวิทยาลัยจุฬาภรณ์</div>
+        <h1 class="cover-title">คู่มือสรุปสาระสำคัญเชิงลึกและคลังคำถาม-คำตอบ<br>หลักสูตรเภสัชศาสตรบัณฑิต (หลักสูตร ๖ ปี)</h1>
+        <div class="cover-title-en">Doctor of Pharmacy Program (6-Year Program) • (หลักสูตรใหม่ พ.ศ. ๒๕๗๑)</div>
+
+        <div class="cover-pills">
+          <span class="cpill cpill-gold"><i class="fa-solid fa-award"></i> ไม่น้อยกว่า ๑๙๕ หน่วยกิต</span>
+          <span class="cpill cpill-blue"><i class="fa-solid fa-clock"></i> ฝึกงานครบ ๒,๐๐๐ ชั่วโมง</span>
+          <span class="cpill"><i class="fa-solid fa-dna"></i> ATMPs & Precision Rx</span>
+          <span class="cpill"><i class="fa-solid fa-handshake"></i> พี่เลี้ยง: คณะเภสัชศาสตร์ ม.มหิดล</span>
+          <span class="cpill"><i class="fa-solid fa-file-signature"></i> เสนอสภาราชวิทยาลัย & สภาเภสัชกรรม</span>
+        </div>
+
+        <p class="cover-note">จัดทำขึ้นเพื่อการศึกษา ทำความเข้าใจเชิงลึก และเตรียมความพร้อมในการตอบข้อซักถามในการเสนอสภาราชวิทยาลัยจุฬาภรณ์ และคณะกรรมการสภาเภสัชกรรม</p>
+      </section>
+
+      <!-- SECTION 1 -->
+      <section id="sec1" class="section-block">
+        <span class="sec-num">หมวดที่ ๑</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-compass text-cyan"></i> สรุปสาระสำคัญสำหรับผู้บริหาร (Executive Summary)</h2>
+        
+        <div class="metric-grid">
+          <div class="metric-card">
+            <div class="metric-val">๑๙๕</div>
+            <div class="metric-label">หน่วยกิตรวมตลอดหลักสูตร</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">๒,๐๐๐</div>
+            <div class="metric-label">ชั่วโมงฝึกปฏิบัติงานวิชาชีพ</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">๖ ปี</div>
+            <div class="metric-label">ระยะเวลาการศึกษา (ระบบทวิภาค)</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">๒๕๗๑</div>
+            <div class="metric-label">กำหนดเปิดสอน (ภาคเรียนที่ ๑)</div>
+          </div>
+        </div>
+
+        <p>หลักสูตรเภสัชศาสตรบัณฑิต (หลักสูตร ๖ ปี) (หลักสูตรใหม่ พ.ศ. ๒๕๗๑) โครงการจัดตั้งคณะเภสัชศาสตร์ ราชวิทยาลัยจุฬาภรณ์ ได้รับการออกแบบขึ้นเพื่อตอบสนองต่อยุทธศาสตร์การพัฒนาประเทศ นโยบายอุตสาหกรรมยาใหม่ (New S-Curve) และรองรับพลวัตความก้าวหน้าทางการแพทย์ยุคดิจิทัล โดยมีจุดเน้นสำคัญ ๔ มิติหลัก:</p>
+        
+        <ul>
+          <li><strong>ยาชีววัตถุ วัคซีน และ ATMPs (Advanced Therapy Medicinal Products):</strong> ครอบคลุมการบำบัดรักษาขั้นสูง เซลล์บำบัด ยีนบำบัด (CAR-T Cell Therapy) และสเต็มเซลล์ ซึ่งเป็นศาสตร์ที่กำลังขาดแคลนบุคลากรอย่างมาก</li>
+          <li><strong>เภสัชศาสตร์แม่นยำ (Precision Pharmacy) และเภสัชพันธุศาสตร์:</strong> การวางแผนการรักษาและการใช้ยาเฉพาะบุคคล (Personalized Healthcare)</li>
+          <li><strong>ปัญญาประดิษฐ์และวิทยาการข้อมูลสุขภาพ (AI & Health Big Data):</strong> ปลูกฝังทักษะพลเมืองดิจิทัล จริยธรรม AI ใน Healthcare และการวิเคราะห์ข้อมูลขนาดใหญ่ด้านยา</li>
+          <li><strong>ความเชี่ยวชาญด้านโรคมะเร็งและเภสัชภัณฑ์รังสี:</strong> ต่อยอดจากจุดแข็งของโรงพยาบาลจุฬาภรณ์ และศูนย์ไซโคลตรอนและเพทสแกนแห่งชาติ</li>
+        </ul>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section id="sec2" class="section-block">
+        <span class="sec-num">หมวดที่ ๒</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-landmark-dome"></i> ปรัชญา ปณิธาน วิสัยทัศน์ พันธกิจ และวัตถุประสงค์</h2>
+        
+        <div class="royal-quote-box">
+          “ราชวิทยาลัยจุฬาภรณ์ เป็นองค์กรที่ข้าพเจ้าตั้งใจจัดตั้งขึ้น เพื่อถวายพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช ตามพระราชปณิธานที่ทรงมุ่งหวังให้ประชาชนมีสุขภาพที่ดี และมีคุณภาพชีวิตที่ได้มาตรฐาน โดยราชวิทยาลัยจุฬาภรณ์จะเป็นศูนย์กลางการเรียนการสอน และการวิจัย ที่จะสร้างบัณฑิต และพัฒนาบุคลากรทางการแพทย์ วิทยาศาสตร์สาธารณสุข และสิ่งแวดล้อม ที่มีจิตในการทำประโยชน์ให้ผู้อื่น ก่อนคิดถึงประโยชน์ของตัวเอง...”
+          <div class="quote-author">— พระปณิธานใน ศาสตราจารย์ ดร. สมเด็จพระเจ้าน้องนางเธอ เจ้าฟ้าจุฬาภรณวลัยลักษณ์ อัครราชกุมารี กรมพระศรีสวางควัฒน วรขัตติยราชนารี</div>
+        </div>
+
+        <h3 class="sub-heading">ปรัชญาหลักสูตร (Philosophy)</h3>
+        <p><strong>"เป็นเลิศทางเภสัชศาสตร์ ด้านชีวเภสัชภัณฑ์เพื่อทุกชีวิต"</strong> มุ่งผลิตเภสัชกรที่มีสมรรถนะตามมาตรฐานวิชาชีพ พร้อมรับนวัตกรรมยาระดับสากล เป็นคนดี มีความรู้คู่คุณธรรม บูรณาการศาสตร์ทางเภสัชกรรมสู่ความเชี่ยวชาญด้านยาชีววัตถุ วัคซีน และ ATMPs และเทคโนโลยีดิจิทัล ยึดมั่นในหลักจริยธรรมและจิตอาสา พร้อมทักษะการเรียนรู้ตลอดชีวิต เพื่อสร้างสุขภาวะสังคมที่ยั่งยืน</p>
+
+        <h3 class="sub-heading">พันธกิจ ๔ ด้าน</h3>
+        <ol>
+          <li>ผลิตบัณฑิตที่มีสมรรถนะตามมาตรฐานวิชาชีพและมีความเชี่ยวชาญเฉพาะด้านชีวเภสัชภัณฑ์และเภสัชภัณฑ์รังสี</li>
+          <li>บ่มเพาะแนวคิดด้านการวิจัยและนวัตกรรมยา บูรณาการปัญญาประดิษฐ์และเทคโนโลยีดิจิทัล</li>
+          <li>ให้บริการวิชาการแก่สังคมด้านยาและสุขภาพ ปลูกฝังจิตอาสาและลดความเหลื่อมล้ำในการเข้าถึงยานวัตกรรม</li>
+          <li>ส่งเสริมการทำนุบำรุงศิลปวัฒนธรรม และบริหารหลักสูตรตามหลักธรรมาภิบาล</li>
+        </ol>
+      </section>
+
+      <!-- SECTION 3 -->
+      <section id="sec3" class="section-block">
+        <span class="sec-num">หมวดที่ ๓</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-bullseye"></i> ผลลัพธ์การเรียนรู้ระดับหลักสูตร (๑๗ PLOs)</h2>
+        <p>หลักสูตรกำหนดผลลัพธ์การเรียนรู้ระดับหลักสูตร ๑๗ ข้อ แบ่งเป็น <strong>Specific PLOs (S-PLO) ๑๕ ข้อ</strong> และ <strong>Generic PLOs (G-PLO) ๒ ข้อ</strong> ตามกรอบ KSEC:</p>
+
+        <div class="table-wrapper">
+          <table class="doc-table">
+            <thead>
+              <tr>
+                <th style="width: 110px;">รหัส PLO</th>
+                <th>คำอธิบายผลลัพธ์การเรียนรู้ (Program Learning Outcomes)</th>
+                <th style="width: 140px;">มิติ KSEC</th>
+                <th style="width: 150px;">โดเมนการเรียนรู้</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑</span></td>
+                <td>ประยุกต์ใช้หลักการและทฤษฎีทางเภสัชกรรม เภสัชวิทยา เทคโนโลยีชีวภาพ และวิทยาศาสตร์สุขภาพ เพื่อวิเคราะห์และคาดการณ์ผลการออกฤทธิ์และอาการไม่พึงประสงค์ของยา ผลิตภัณฑ์สุขภาพ รวมถึงยาชีววัตถุ วัคซีน และ ATMPs</td>
+                <td><span class="ksec-tag kt-k">ความรู้ (K)</span></td>
+                <td>Cognitive (Applying)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๒</span></td>
+                <td>วิเคราะห์ความรู้เกี่ยวกับหลักการสำคัญในการผลิต การวิจัยและพัฒนา การควบคุมและประกันคุณภาพ รวมถึงการกระจายยา และการขึ้นทะเบียนยา ผลิตภัณฑ์สุขภาพ รวมถึงยาชีววัตถุ วัคซีน ATMPs และเภสัชภัณฑ์รังสี</td>
+                <td><span class="ksec-tag kt-k">ความรู้ (K)</span></td>
+                <td>Cognitive (Analyzing)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๓</span></td>
+                <td>วางแผนการบริบาลทางเภสัชกรรม การจัดการความปลอดภัยจากการใช้ยาชีววัตถุ วัคซีน และ ATMPs ด้วยความรู้ด้านเภสัชบำบัด เภสัชพันธุศาสตร์ และเภสัชศาสตร์แม่นยำ ตามมาตรฐานวิชาชีพ</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Cognitive / Psychomotor</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๔</span></td>
+                <td>ประยุกต์ใช้ข้อมูลขนาดใหญ่ ความรู้ระบบบริการสุขภาพ นโยบายยา กฎหมาย และความคุ้มค่าของยา ชีววัตถุ วัคซีน และ ATMPs เพื่อการบริหารจัดการตามบริบทองค์กร</td>
+                <td><span class="ksec-tag kt-k">ความรู้ & ทักษะ</span></td>
+                <td>Cognitive (Applying)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๕</span></td>
+                <td>เลือกใช้เครื่องมือทางสถิติที่ถูกต้อง รวมทั้งหลักฐานเชิงประจักษ์ เพื่อสนับสนุนการตัดสินใจในการผลิต การควบคุมและประกันคุณภาพ การวิจัยและพัฒนา และการบริบาลทางเภสัชกรรม</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Cognitive / Skill</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๖</span></td>
+                <td>ประยุกต์ใช้ชีวสารสนเทศ ปัญญาประดิษฐ์ (AI) และเทคโนโลยีข้อมูลขนาดใหญ่ระดับพื้นฐาน เพื่อเพิ่มประสิทธิภาพการออกแบบ การผลิต การวิจัยและพัฒนายา ชีววัตถุ วัคซีน และ ATMPs</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Psychomotor / Cognitive</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๗</span></td>
+                <td>วิเคราะห์ข้อมูลความปลอดภัยและประสิทธิผลของยา ชีววัตถุ วัคซีน และ ATMPs ด้วยเทคโนโลยีวิทยาศาสตร์ข้อมูล เพื่อการบริหารและพัฒนาระบบยา</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Cognitive (Analyzing)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๘</span></td>
+                <td>ประเมินความถูกต้องและความเป็นปัจจุบันของหลักฐานทางวิชาการที่เกี่ยวข้องกับเภสัชกรรมบำบัด ยา ผลิตภัณฑ์สุขภาพ ชีววัตถุ วัคซีน และ ATMPs</td>
+                <td><span class="ksec-tag kt-k">ความรู้ & ทักษะ</span></td>
+                <td>Cognitive (Evaluating)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๙</span></td>
+                <td>นำระเบียบวิธีวิจัยไปพัฒนาเพื่อสร้างนวัตกรรมทางเภสัชศาสตร์</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Cognitive (Creating) / Skill</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑๐</span></td>
+                <td>สื่อสารให้คำแนะนำทางเภสัชศาสตร์อย่างเหมาะสมกับกลุ่มเป้าหมาย โดยให้ความสำคัญกับการรับฟังและการแสดงความเคารพในความเห็นต่าง</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Affective / Skill</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑๑</span></td>
+                <td>ดำเนินการด้านการผลิต วิจัยพัฒนา ควบคุมและประกันคุณภาพ และการขึ้นทะเบียนยา ผลิตภัณฑ์สุขภาพ ยาชีววัตถุ วัคซีน ATMPs และเภสัชภัณฑ์รังสี ตามกฎหมายและมาตรฐานสากล</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Psychomotor (Precision)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑๒</span></td>
+                <td>ให้การบริบาลทางเภสัชกรรม สำหรับผู้ป่วยที่ได้รับยา ผลิตภัณฑ์สุขภาพ ชีววัตถุ วัคซีน และ ATMPs ได้ตามมาตรฐานวิชาชีพและหลักการใช้ยาอย่างสมเหตุผล (RDU)</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Psychomotor (Precision)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑๓</span></td>
+                <td>ปฏิบัติงานด้านการเฝ้าระวังความปลอดภัยด้านยา (Pharmacovigilance) ที่สอดคล้องกับนโยบายยา ระบบบริการสุขภาพ และการคุ้มครองผู้บริโภค</td>
+                <td><span class="ksec-tag kt-s">ทักษะ (S)</span></td>
+                <td>Psychomotor (Manipulation)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑๔</span></td>
+                <td>ประเมินสถานการณ์ปัญหาทางจริยธรรมและข้อขัดแย้งทางผลประโยชน์ที่เกี่ยวข้องกับการเข้าถึงและการใช้ยา ชีววัตถุ วัคซีน และ ATMPs พร้อมเสนอแนวทางแก้ไขที่ยึดมั่นในความถูกต้องต่อสังคมและผู้ป่วย</td>
+                <td><span class="ksec-tag kt-e">จริยธรรม (E)</span></td>
+                <td>Affective (Valuing)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">G-PLO๑๕</span></td>
+                <td>ดำรงตนและปฏิบัติงานตามกฎหมาย ระเบียบ ข้อบังคับ และจรรยาบรรณวิชาชีพ โดยยึดมั่นในหลักธรรมาภิบาล ความโปร่งใส เกียรติศักดิ์แห่งวิชาชีพ และความรับผิดชอบต่อสาธารณะ</td>
+                <td><span class="ksec-tag kt-e">จริยธรรม (E)</span></td>
+                <td>Affective (Characterization)</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">G-PLO๑๖</span></td>
+                <td>ทำงานร่วมกับสหวิชาชีพ (Interprofessional Collaboration) และบริหารจัดการตนเอง มีความยืดหยุ่นในการปรับตัวในสภาพแวดล้อมที่เปลี่ยนแปลง</td>
+                <td><span class="ksec-tag kt-c">ลักษณะบุคคล (C)</span></td>
+                <td>Affective / Character</td>
+              </tr>
+              <tr>
+                <td><span class="badge-plo">S-PLO๑๗</span></td>
+                <td>พัฒนาตนเองและวางแผนการเรียนรู้ตลอดชีวิต (Lifelong Learning) เพื่อก้าวทันความก้าวหน้าด้านยา ชีววัตถุ วัคซีน ATMPs และเทคโนโลยีการแพทย์ที่เปลี่ยนแปลงอย่างรวดเร็ว</td>
+                <td><span class="ksec-tag kt-c">ลักษณะบุคคล (C)</span></td>
+                <td>Affective / Character</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SECTION 4 -->
+      <section id="sec4" class="section-block">
+        <span class="sec-num">หมวดที่ ๔</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-layer-group"></i> โครงสร้างหลักสูตรและสัดส่วนหน่วยกิต (๑๙๕ หน่วยกิต)</h2>
+        
+        <div class="table-wrapper">
+          <table class="doc-table">
+            <thead>
+              <tr>
+                <th>หมวดวิชา</th>
+                <th style="width: 140px; text-align: center;">เกณฑ์ อว. / สภาฯ</th>
+                <th style="width: 140px; text-align: center;">หลักสูตร รจภ</th>
+                <th style="width: 100px; text-align: center;">ร้อยละ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>๑. หมวดวิชาศึกษาทั่วไป (General Education)</strong></td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๒๔</td>
+                <td style="text-align: center;"><strong>๒๔</strong></td>
+                <td style="text-align: center;">๑๒.๓%</td>
+              </tr>
+              <tr>
+                <td><strong>๒. หมวดวิชาเฉพาะ (Specialized Courses)</strong></td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๑๖๕</td>
+                <td style="text-align: center;"><strong>๑๖๕</strong></td>
+                <td style="text-align: center;">๘๔.๖%</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 30px;">๒.๑ วิชาพื้นฐานวิชาชีพ</td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๒๒</td>
+                <td style="text-align: center;">๒๗</td>
+                <td style="text-align: center;">๑๓.๘%</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 30px;">๒.๒ วิชาชีพ</td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๗๐</td>
+                <td style="text-align: center;">๘๙</td>
+                <td style="text-align: center;">๔๕.๖%</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 30px;">๒.๓ วิชาฝึกปฏิบัติวิชาชีพภาคบังคับ (ปี ๕ เทอม ๒)</td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๔</td>
+                <td style="text-align: center;">๖ (๓๐๐ ชม.)</td>
+                <td style="text-align: center;">๓.๑%</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 30px;">๒.๔ วิชาสาขาเน้น (สายบริบาล หรือ สายอุตสาหการ)</td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๑๕</td>
+                <td style="text-align: center;">๑๕</td>
+                <td style="text-align: center;">๗.๗%</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 30px;">๒.๕ วิชาฝึกปฏิบัติวิชาชีพสาขาเน้น (ปี ๖ ทั้งปี)</td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๑๖</td>
+                <td style="text-align: center;">๒๘ (๑,๗๐๐ ชม.)</td>
+                <td style="text-align: center;">๑๔.๔%</td>
+              </tr>
+              <tr>
+                <td><strong>๓. หมวดวิชาเลือกเสรี (Free Electives)</strong></td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๖</td>
+                <td style="text-align: center;"><strong>๖</strong></td>
+                <td style="text-align: center;">๓.๑%</td>
+              </tr>
+              <tr style="background: rgba(2, 132, 199, 0.08); font-weight: bold;">
+                <td>รวมตลอดหลักสูตร</td>
+                <td style="text-align: center;">ไม่น้อยกว่า ๑๙๕</td>
+                <td style="text-align: center; color: var(--accent-cyan); font-size: 16px;">๑๙๕ หน่วยกิต</td>
+                <td style="text-align: center;">๑๐๐%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><em>*รวมชั่วโมงฝึกปฏิบัติงานวิชาชีพตลอดหลักสูตร ๒,๐๐๐ ชั่วโมง (๓๐๐ + ๑,๗๐๐ ชั่วโมง) ตามเกณฑ์ประกาศสภาเภสัชกรรมครบถ้วน ๑๐๐%</em></p>
+      </section>
+
+      <!-- SECTION 5 -->
+      <section id="sec5" class="section-block">
+        <span class="sec-num">หมวดที่ ๕</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-barcode"></i> ระบบรหัสประจำวิชา (Course Coding System)</h2>
+        <p>รหัสวิชาประกอบด้วยตัวอักษร ๔ ตัว และตัวเลข ๔ หลัก เช่น <code>จภภศ ๔๒๐๙</code> (<code>CHPD 4209</code>)</p>
+        
+        <div class="table-wrapper">
+          <table class="doc-table">
+            <thead>
+              <tr>
+                <th style="width: 180px;">ตำแหน่ง</th>
+                <th>ความหมายและการจำแนก</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>อักษรลำดับที่ ๑ - ๒</strong></td>
+                <td><code>จภ</code> (CH) = ราชวิทยาลัยจุฬาภรณ์ (Chulabhorn Royal Academy)</td>
+              </tr>
+              <tr>
+                <td><strong>อักษรลำดับที่ ๓ - ๔</strong></td>
+                <td><code>ภศ</code> (PD) = คณะเภสัชศาสตร์ (Faculty of Pharmacy)</td>
+              </tr>
+              <tr>
+                <td><strong>ตัวเลขหลักพัน (หลักที่ ๑)</strong></td>
+                <td><strong>ชั้นปีที่จัดสอน:</strong> <code>๐</code> = วิชาศึกษาทั่วไป/เลือกเสรี, <code>๑</code> ถึง <code>๖</code> = รายวิชาชั้นปีที่ ๑ ถึง ๖</td>
+              </tr>
+              <tr>
+                <td><strong>ตัวเลขหลักร้อย (หลักที่ ๒)</strong></td>
+                <td><strong>กลุ่มวิชา:</strong>
+                  <code>๐</code> = ศึกษาทั่วไป/เลือกเสรี |
+                  <code>๑</code> = พื้นฐานวิชาชีพ |
+                  <code>๒</code> = เภสัชกรรมอุตสาหการ |
+                  <code>๓</code> = บริบาลทางเภสัชกรรม |
+                  <code>๔</code> = เภสัชศาสตร์สังคมและบริหารเภสัชกิจ |
+                  <code>๕</code> = วิชาชีพเภสัชกรรม/ฝึกงานบังคับ |
+                  <code>๖</code> = สาขาเน้นอุตสาหการ |
+                  <code>๗</code> = สาขาเน้นบริบาล |
+                  <code>๘</code> = ฝึกงานสาขาเน้นอุตสาหการ |
+                  <code>๙</code> = ฝึกงานสาขาเน้นบริบาล
+                </td>
+              </tr>
+              <tr>
+                <td><strong>ตัวเลขหลักสิบ & หน่วย</strong></td>
+                <td>ลำดับรายวิชาในกลุ่มนั้น ๆ (เริ่มตั้งแต่ <code>๐๑</code> เป็นต้นไป)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SECTION 6 -->
+      <section id="sec6" class="section-block">
+        <span class="sec-num">หมวดที่ ๖</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-calendar-days"></i> แผนการศึกษาตลอด ๖ ปี (Study Plan Overview)</h2>
+        
+        <div class="study-grid">
+          <div class="year-study-card">
+            <h4>ชั้นปีที่ ๑ (Year 1): ฐานรากวิทยาศาสตร์สุขภาพ & ดิจิทัล</h4>
+            <p><strong>เทอม ๑ (๒๐ นก.):</strong> ทักษะพลเมืองดิจิทัล (จภภศ๐๐๐๑), จริยธรรม AI ใน Healthcare (จภภศ๐๐๐๒), ยาสมุนไพรและพฤกษบำบัด (จภภศ๑๑๐๑), เภสัชกรรมเชิงฟิสิกส์ (จภภศ๑๑๐๒), กายวิภาคและสรีรวิทยา ๑ (จภภศ๑๑๐๕), เภสัชชีวเคมีและโมเลกุล (จภภศ๑๑๐๗)</p>
+            <p><strong>เทอม ๒ (๑๙ นก.):</strong> ทักษะวิจัยและ Data Science (จภภศ๐๐๐๓), กายวิภาคและสรีรวิทยา ๒ (จภภศ๑๑๐๖), จุลชีววิทยาเภสัชกรรม (จภภศ๑๑๐๔), เภสัชเคมีวิเคราะห์ (จภภศ๑๑๐๓), ภูมิคุ้มกันวิทยา (จภภศ๑๑๐๘), ภาษาอังกฤษวิชาชีพ (จภภศ๐๐๑๒)</p>
+          </div>
+
+          <div class="year-study-card">
+            <h4>ชั้นปีที่ ๒ (Year 2): วิทยาศาสตร์เภสัชกรรม & บริบาลเบื้องต้น</h4>
+            <p><strong>เทอม ๑ (๑๘ นก.):</strong> เคมีของยา (จภภศ๒๒๐๑), เครื่องมือวิเคราะห์ขั้นสูง (จภภศ๒๒๐๒), ยาสารละลายและคอลลอยด์ (จภภศ๒๒๐๓), เภสัชวิทยา (จภภศ๒๑๐๙), เคมีคลินิก (จภภศ๒๑๑๐), ตรวจร่างกาย (จภภศ๒๓๐๒), ชีวเภสัชกรรมและ PK (จภภศ๒๓๐๓)</p>
+            <p><strong>เทอม ๒ (๑๙ นก.):</strong> ยาน้ำแขวนตะกอน อิมัลชัน ยากึ่งแข็ง (จภภศ๒๒๐๔), การส่งมอบและปรึกษาด้านยา (จภภศ๒๓๐๑), บูรณาการระบบกล้ามเนื้อและกระดูก (จภภศ๒๓๐๔), บูรณาการโรคติดเชื้อและทางเดินหายใจ (จภภศ๒๓๐๕), นโยบายสุขภาพ (จภภศ๒๔๐๑)</p>
+          </div>
+
+          <div class="year-study-card">
+            <h4>ชั้นปีที่ ๓ (Year 3): เภสัชบำบัดเชิงระบบ & เทคโนโลยีเภสัชกรรม</h4>
+            <p><strong>เทอม ๑ (๑๘ นก.):</strong> ยาเม็ดและของแข็ง (จภภศ๓๒๐๕), เทคโนโลยีชีวภาพทางเภสัชกรรม (จภภศ๓๒๐๗), ระบบคุณภาพ (จภภศ๓๒๐๘), บูรณาการระบบทางเดินอาหารและตับ (จภภศ๓๓๐๖), บูรณาการต่อมไร้ท่อ (จภภศ๓๓๐๗), ระเบียบวิธีวิจัย (จภภศ๓๔๐๒)</p>
+            <p><strong>เทอม ๒ (๑๘ นก.):</strong> ยาปราศจากเชื้อและยาสูดพ่น (จภภศ๓๒๐๖), บูรณาการโรคไต (จภภศ๓๓๐๘), บูรณาการระบบหัวใจและหลอดเลือด ๑ (จภภศ๓๓๐๙), นิติเภสัชศาสตร์และจริยธรรม (จภภศ๓๔๐๓), Evidence-Based Medicine (จภภศ๓๔๐๔)</p>
+          </div>
+
+          <div class="year-study-card">
+            <h4>ชั้นปีที่ ๔ (Year 4): ATMPs, มะเร็งวิทยา & Precision Pharmacy</h4>
+            <p><strong>เทอม ๑ (๑๙ นก.):</strong> <strong>ชีววัตถุ วัคซีน และ ATMPs (จภภศ๔๒๐๙ - ๔ นก.)</strong>, วิทยาการข้อมูลประยุกต์และนวัตกรรมยา (จภภศ๔๒๑๒), บูรณาการหัวใจ ๒ (จภภศ๔๓๑๐), บูรณาการระบบประสาท ๑ (จภภศ๔๓๑๑), เภสัชกรรมชุมชน (จภภศ๔๓๑๓), เภสัชเศรษฐศาสตร์ (จภภศ๔๔๐๕)</p>
+            <p><strong>เทอม ๒ (๑๙ นก.):</strong> การกำกับดูแลยาและชีววัตถุ (จภภศ๔๒๑๐), เซลล์ต้นกำเนิดและวิศวกรรมเนื้อเยื่อ (จภภศ๔๒๑๑), <strong>บูรณาการโรคมะเร็ง ๑ (จภภศ๔๓๑๔)</strong>, <strong>เภสัชศาสตร์แม่นยำ (จภภศ๔๓๑๖)</strong>, พิษวิทยาคลินิก (จภภศ๔๓๑๕), เฝ้าระวังความปลอดภัยยา (จภภศ๔๔๐๖), สมรรถนะวิชาชีพ ๑ (จภภศ๔๕๐๑)</p>
+          </div>
+
+          <div class="year-study-card">
+            <h4>ชั้นปีที่ ๕ (Year 5): วิชาสาขาเน้น & ฝึกงานบังคับ (๓๐๐ ชม.)</h4>
+            <p><strong>เทอม ๑ (๑๖ นก.):</strong> การจัดการความเสี่ยง (จภภศ๕๕๐๒), สหวิชาชีพ (จภภศ๕๕๐๓), โครงร่างวิจัย (๒ นก.), วิชาสาขาเน้นสายบริบาลหรือสายอุตสาหการ (๕ นก.), เลือกเสรี ๒ วิชา (๔ นก.)</p>
+            <p><strong>เทอม ๒ (๑๔ นก.):</strong> โครงงานพิเศษวิจัย (๖ นก.), สมรรถนะวิชาชีพ ๒ (๒ นก.), <strong>ฝึกงานวิชาชีพภาคบังคับ ๖ หน่วยกิต (๓๐๐ ชม.):</strong> โรงพยาบาล (จภภศ๕๕๐๔ - ๑๕๐ ชม.) + ร้านยาชุมชน (จภภศ๕๕๐๕ - ๑๕๐ ชม.)</p>
+          </div>
+
+          <div class="year-study-card">
+            <h4>ชั้นปีที่ ๖ (Year 6): ฝึกงานสาขาเน้นเต็มรูปแบบ (๑,๗๐๐ ชม.)</h4>
+            <p><strong>ตลอดปีการศึกษา (๒๘ หน่วยกิต):</strong> แบ่งการฝึกออกเป็น <strong>๗ ผลัด (Rotation)</strong> ผลัดละ ๔ หน่วยกิต (๖ สัปดาห์ / ๒๔๐-๒๕๐ ชม.ต่อผลัด รวม ๑,๗๐๐ ชั่วโมง)</p>
+            <p><strong>สายบริบาล:</strong> บริบาลผู้ป่วยนอก (OPD), ผู้ป่วยใน (IPD), ระบบยา รพ., <strong>บริบาลผู้ป่วยมะเร็ง ณ รพ.จุฬาภรณ์</strong>, ปฐมภูมิ, ร้านยา, เฝ้าระวังยา</p>
+            <p><strong>สายอุตสาหการ:</strong> ฝ่ายผลิตยาแผนปัจจุบันและชีววัตถุ, การควบคุมคุณภาพ (QC), การประกันคุณภาพ (QA), การวิจัยและพัฒนา (R&D), การขึ้นทะเบียนยา</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7 -->
+      <section id="sec7" class="section-block">
+        <span class="sec-num">หมวดที่ ๗</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-user-doctor"></i> คณาจารย์ผู้รับผิดชอบหลักสูตรและสถาบันพี่เลี้ยง</h2>
+        
+        <div class="fac-grid">
+          <div class="fac-item">
+            <h4>๑. รองศาสตราจารย์ ดร.เภสัชกรหญิงจุฑามณี สุทธิสีสังข์ <span style="color:#d97706;">★</span></h4>
+            <div class="f-sub">อาจารย์ผู้รับผิดชอบหลักสูตร / ผู้เชี่ยวชาญด้านเภสัชวิทยาและนโยบายยา</div>
+            <p><strong>คุณวุฒิ:</strong> ปร.ด. (เภสัชวิทยา) ม.มหิดล, วท.ม. (เภสัชวิทยา) ม.มหิดล, ภ.บ. ม.มหิดล</p>
+            <p><strong>ความเชี่ยวชาญ:</strong> เภสัชวิทยาของระบบประสาทและหลอดเลือดสมอง, การประเมินผลลัพธ์ทางคลินิก, นโยบายสาธารณสุขและระบบยา</p>
+            <p><strong>ภาระงานสอน (๒ วิชา):</strong> <code>จภภศ๒๑๐๙</code> หลักการทางเภสัชวิทยา, <code>จภภศ๔๓๑๑</code> บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบประสาทส่วนกลาง ๑</p>
+          </div>
+
+          <div class="fac-item">
+            <h4>๒. ศาสตราจารย์ ดร.เภสัชกรไพบูลย์ จึงสุวดี <span style="color:#d97706;">★</span></h4>
+            <div class="f-sub">อาจารย์ผู้รับผิดชอบหลักสูตร / ผู้เชี่ยวชาญด้านมะเร็งวิทยาและชีวบำบัด</div>
+            <p><strong>คุณวุฒิ:</strong> Ph.D. in Pharmacy (Univ. of Vienna, Austria), วท.ม. (เภสัชกรรมคลินิก) ม.มหิดล, ภ.บ. ม.เชียงใหม่</p>
+            <p><strong>ความเชี่ยวชาญ:</strong> CAR-T Cell Immunotherapy, เภสัชบำบัดโรคมะเร็ง, Precision Pharmacy, การบริบาลขั้นสูง</p>
+            <p><strong>ภาระงานสอน (๑๙ วิชา):</strong> <code>จภภศ๑๑๐๘</code>, <code>จภภศ๒๑๐๙</code>, <code>จภภศ๒๓๐๑-๒๓๐๕</code>, <code>จภภศ๓๓๐๖-๓๓๐๙</code>, <code>จภภศ๓๔๐๔</code>, <code>จภภศ๔๓๑๐</code>, <code>จภภศ๔๓๑๓-๔๓๑๔</code>, <code>จภภศ๕๗๐๒-๕๗๐๕</code></p>
+          </div>
+
+          <div class="fac-item">
+            <h4>๓. รองศาสตราจารย์ ดร.เภสัชกรหญิงนริศา คำแก่น <span style="color:#d97706;">★</span></h4>
+            <div class="f-sub">อาจารย์ผู้รับผิดชอบหลักสูตร / ผู้เชี่ยวชาญสมุนไพรและพฤกษบำบัด</div>
+            <p><strong>คุณวุฒิ:</strong> วุฒิบัตร อ.ภ. เภสัชกรรมสมุนไพร, F.A.C.P., Ph.D. in Biomedical Sciences (Charles Sturt Univ.), ภ.ม. (เภสัชเวท) จุฬาฯ, ภ.บ. ม.สงขลานครินทร์</p>
+            <p><strong>ความเชี่ยวชาญ:</strong> ยาสมุนไพรและพฤกษบำบัด, นวัตกรรมสารสกัดมาตรฐานในบัญชียาหลักแห่งชาติ, นิติเภสัชศาสตร์</p>
+            <p><strong>ภาระงานสอน (๙ วิชา):</strong> <code>จภภศ๑๑๐๑</code>, <code>จภภศ๑๑๐๓</code>, <code>จภภศ๒๑๑๐</code>, <code>จภภศ๒๒๐๑</code>, <code>จภภศ๓๔๐๓</code>, <code>จภภศ๔๕๐๑</code>, <code>จภภศ๕๖๐๓-๕๖๐๕</code></p>
+          </div>
+
+          <div class="fac-item">
+            <h4>๔. อาจารย์ ดร.เภสัชกรหญิงพิรุณรัตน์ เดชบำรุง <span style="color:#d97706;">★</span></h4>
+            <div class="f-sub">อาจารย์ผู้รับผิดชอบหลักสูตร / ผู้เชี่ยวชาญเภสัชกรรมระดับนาโน</div>
+            <p><strong>คุณวุฒิ:</strong> Ph.D. in Chemistry Nanoscience & Tech (CAS, จีน), ภ.ม. (เภสัชเวท) จุฬาฯ, ภ.บ. (เกียรตินิยม จุฬาฯ)</p>
+            <p><strong>ความเชี่ยวชาญ:</strong> นาโนเทคโนโลยีทางการแพทย์, ระบบนำส่งอนุภาคไขมันระดับนาโน (Lipid Nanoparticles - LNPs), การผลิตและระบบคุณภาพชีววัตถุ</p>
+            <p><strong>ภาระงานสอน (๙ วิชา):</strong> <code>จภภศ๑๑๐๒-๑๑๐๓</code>, <code>จภภศ๒๒๐๒-๒๒๐๔</code>, <code>จภภศ๓๒๐๕-๓๒๐๖</code>, <code>จภภศ๔๒๑๐</code>, <code>จภภศ๕๖๐๒</code></p>
+          </div>
+
+          <div class="fac-item">
+            <h4>๕. อาจารย์ ดร.เภสัชกรหญิงปัฐวิกา เลิศปฏิภานพงษ์ <span style="color:#d97706;">★</span></h4>
+            <div class="f-sub">อาจารย์ผู้รับผิดชอบหลักสูตร / ผู้เชี่ยวชาญชีวการแพทย์และเภสัชวิทยาโมเลกุล</div>
+            <p><strong>คุณวุฒิ:</strong> Ph.D. & M.Sc. in Veterinary Biomedical Sciences (Seoul National Univ., เกาหลีใต้), ภ.บ. (การบริบาลเภสัชกรรม) มศว</p>
+            <p><strong>ความเชี่ยวชาญ:</strong> ชีววิทยาโมเลกุลของเซลล์มะเร็ง, สัญญาณเคมีระดับเซลล์, การบริบาลทางเภสัชกรรม</p>
+            <p><strong>ภาระงานสอน (๘ วิชา):</strong> <code>จภภศ๑๑๐๔</code>, <code>จภภศ๑๑๐๗-๑๑๐๘</code>, <code>จภภศ๒๑๐๙-๒๑๑๐</code>, <code>จภภศ๓๓๐๗-๓๓๐๘</code>, <code>จภภศ๔๓๑๔</code></p>
+          </div>
+</div>
+
+        <div class="royal-quote-box" style="font-style: normal; border-left-color: var(--accent-cyan);">
+          <strong><i class="fa-solid fa-school-flag text-cyan"></i> สถาบันพี่เลี้ยง: คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล</strong><br>
+          หลักสูตรได้ลงนามบันทึกความร่วมมือและมี คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล ซึ่งเป็นสถาบันการศึกษาเภสัชศาสตร์ชั้นนำระดับประเทศและสากล ร่วมเป็นสถาบันพี่เลี้ยงตามประกาศเกณฑ์ของสภาเภสัชกรรม ที่ ๗๓/๒๕๖๘ โดยอาจารย์ผู้ทรงคุณวุฒิจาก ม.มหิดล จะร่วมให้คำแนะนำในการบริหารหลักสูตร กำกับระบบคุณภาพ AUN-QA ร่วมสอนในรายวิชาสำคัญ และเป็นแหล่งฝึกปฏิบัติงานวิชาชีพ
+        </div>
+
+        <div style="margin-top: 35px; padding-top: 25px; border-top: 2px dashed var(--border-color);">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
+            <div>
+              <h3 style="font-family:var(--font-heading); font-size:18px; color:var(--text-main); margin-bottom:4px;">
+                <i class="fa-solid fa-chalkboard-user text-cyan"></i> สรุปภาระงานสอนคณาจารย์ในหลักสูตรใหม่ (Faculty Workload Breakdown)
+              </h3>
+              <p style="font-size:13px; color:var(--text-muted);">ครอบคลุมอาจารย์ผู้รับผิดชอบหลักสูตร (๕ ท่าน), อาจารย์ประจำหลักสูตร (๑๐ ท่าน), อาจารย์ผู้สอน (๑ ท่าน) และอาจารย์พิเศษ (๑๗ ท่าน)</p>
+            </div>
+            <a href="index.html#workload" onclick="if(window.parent&&window.parent.show){window.parent.show('workload');return false;}" class="t-btn btn-gold" style="font-weight:600; text-decoration:none;" target="_blank">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span>เปิดแดชบอร์ดภาระงานเต็ม (workload.html)</span>
+            </a>
+          </div>
+
+          <div class="table-wrapper">
+            <table class="doc-table">
+              <thead>
+                <tr>
+                  <th style="width: 50px; text-align:center;">ลำดับ</th>
+                  <th style="width: 220px;">ชื่อ-นามสกุลอาจารย์</th>
+                  <th style="width: 170px;">กลุ่มอาจารย์</th>
+                  <th style="width: 100px; text-align:center;">จำนวนวิชา</th>
+                  <th>รหัสรายวิชาที่รับผิดชอบสอน</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center;">๑</td>
+                  <td><strong>รองศาสตราจารย์ ดร.เภสัชกรหญิงจุฑามณี สุทธิสีสังข์</strong> <span style="color:#d97706;">★</span></td>
+                  <td><span class="ksec-tag kt-e">ผู้รับผิดชอบหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๒</td>
+                  <td><code>จภภศ๒๑๐๙</code>, <code>จภภศ๔๓๑๑</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๒</td>
+                  <td><strong>ศาสตราจารย์ ดร.เภสัชกรไพบูลย์ จึงสุวดี</strong> <span style="color:#d97706;">★</span></td>
+                  <td><span class="ksec-tag kt-e">ผู้รับผิดชอบหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๑๙</td>
+                  <td><code>จภภศ๑๑๐๘</code>, <code>จภภศ๒๑๐๙</code>, <code>จภภศ๒๓๐๑-๒๓๐๕</code>, <code>จภภศ๓๓๐๖-๓๓๐๙</code>, <code>จภภศ๓๔๐๔</code>, <code>จภภศ๔๓๑๐</code>, <code>จภภศ๔๓๑๓-๔๓๑๔</code>, <code>จภภศ๕๗๐๒-๕๗๐๕</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๓</td>
+                  <td><strong>รองศาสตราจารย์ ดร.เภสัชกรหญิงนริศา คำแก่น</strong> <span style="color:#d97706;">★</span></td>
+                  <td><span class="ksec-tag kt-e">ผู้รับผิดชอบหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๙</td>
+                  <td><code>จภภศ๑๑๐๑</code>, <code>จภภศ๑๑๐๓</code>, <code>จภภศ๒๑๑๐</code>, <code>จภภศ๒๒๐๑</code>, <code>จภภศ๓๔๐๓</code>, <code>จภภศ๔๕๐๑</code>, <code>จภภศ๕๖๐๓-๕๖๐๕</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๔</td>
+                  <td><strong>อาจารย์ ดร.เภสัชกรหญิงพิรุณรัตน์ เดชบำรุง</strong> <span style="color:#d97706;">★</span></td>
+                  <td><span class="ksec-tag kt-e">ผู้รับผิดชอบหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๙</td>
+                  <td><code>จภภศ๑๑๐๒-๑๑๐๓</code>, <code>จภภศ๒๒๐๒-๒๒๐๔</code>, <code>จภภศ๓๒๐๕-๓๒๐๖</code>, <code>จภภศ๔๒๑๐</code>, <code>จภภศ๕๖๐๒</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๕</td>
+                  <td><strong>อาจารย์ ดร.เภสัชกรหญิงปัฐวิกา เลิศปฏิภานพงษ์</strong> <span style="color:#d97706;">★</span></td>
+                  <td><span class="ksec-tag kt-e">ผู้รับผิดชอบหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๘</td>
+                  <td><code>จภภศ๑๑๐๔</code>, <code>จภภศ๑๑๐๗-๑๑๐๘</code>, <code>จภภศ๒๑๐๙-๒๑๑๐</code>, <code>จภภศ๓๓๐๗-๓๓๐๘</code>, <code>จภภศ๔๓๑๔</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๖</td>
+                  <td><strong>อาจารย์ ดร.นิพิฐพนธ์ ศรีไม้</strong></td>
+                  <td><span class="ksec-tag kt-k">อาจารย์ประจำหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๕</td>
+                  <td><code>จภภศ๑๑๐๔-๑๑๐๗</code>, <code>จภภศ๒๓๐๒</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๗</td>
+                  <td><strong>อาจารย์ ดร.สิริอร อักษรทอง</strong></td>
+                  <td><span class="ksec-tag kt-k">อาจารย์ประจำหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๗</td>
+                  <td><code>จภภศ๑๑๐๔-๑๑๐๗</code>, <code>จภภศ๒๑๐๙</code>, <code>จภภศ๒๓๐๔</code>, <code>จภภศ๓๓๐๗</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๘</td>
+                  <td><strong>อาจารย์ ดร.เภสัชกรหญิงประภัสสรา พงศ์พันธุ์พิศาล</strong></td>
+                  <td><span class="ksec-tag kt-k">อาจารย์ประจำหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๖</td>
+                  <td><code>จภภศ๒๔๐๑</code>, <code>จภภศ๓๔๐๒-๓๔๐๔</code>, <code>จภภศ๔๔๐๕-๔๔๐๖</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๙</td>
+                  <td><strong>อาจารย์ ดร.เภสัชกรวัชระ กาญจนกวินกุล</strong></td>
+                  <td><span class="ksec-tag kt-k">อาจารย์ประจำหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๘</td>
+                  <td><code>จภภศ๒๒๐๒</code>, <code>จภภศ๓๒๐๕</code>, <code>จภภศ๓๒๐๘</code>, <code>จภภศ๔๒๑๐</code>, <code>จภภศ๔๒๑๒</code>, <code>จภภศ๔๕๐๑</code>, <code>จภภศ๕๖๐๑</code>, <code>จภภศ๕๖๐๕</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๑๐</td>
+                  <td><strong>อาจารย์ ดร.เภสัชกรหญิงฐิติพร รองทอง</strong></td>
+                  <td><span class="ksec-tag kt-k">อาจารย์ประจำหลักสูตร</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๘</td>
+                  <td><code>จภภศ๒๒๐๒</code>, <code>จภภศ๓๒๐๕</code>, <code>จภภศ๓๒๐๘</code>, <code>จภภศ๔๒๑๐</code>, <code>จภภศ๔๒๑๒</code>, <code>จภภศ๔๕๐๑</code>, <code>จภภศ๕๖๐๑</code>, <code>จภภศ๕๖๐๕</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๑๑</td>
+                  <td><strong>อาจารย์ ดร.เภสัชกรสัญญา หกพุดซา</strong></td>
+                  <td><span class="ksec-tag kt-c">อาจารย์ผู้สอน</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๘</td>
+                  <td><code>จภภศ๑๑๐๒-๑๑๐๓</code>, <code>จภภศ๒๒๐๒-๒๒๐๔</code>, <code>จภภศ๓๒๐๕-๓๒๐๖</code>, <code>จภภศ๓๒๐๘</code>, <code>จภภศ๕๖๐๑</code></td>
+                </tr>
+                <tr>
+                  <td style="text-align:center;">๑๒-๒๘</td>
+                  <td><strong>คณาจารย์อาจารย์พิเศษ (๑๗ ท่าน)</strong></td>
+                  <td><span class="ksec-tag kt-s">อาจารย์พิเศษ</span></td>
+                  <td style="text-align:center; font-weight:700; color:var(--accent-cyan);">๑-๖/ท่าน</td>
+                  <td>ผู้ทรงคุณวุฒิจาก ม.มหิดล, รพ.จุฬาภรณ์, ศูนย์ไซโคลตรอน ร่วมสอนในรายวิชาเฉพาะทางและชีวบำบัด</td>
+                </tr>
+</tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8 -->
+      <section id="sec8" class="section-block">
+        <span class="sec-num">หมวดที่ ๘</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-user-graduate"></i> แผนการรับนักศึกษา งบประมาณ และเกณฑ์สำเร็จการศึกษา</h2>
+        
+        <h3 class="sub-heading">แผนการรับนักศึกษาในระยะ ๗ ปี</h3>
+        <div class="table-wrapper">
+          <table class="doc-table" style="text-align: center;">
+            <thead>
+              <tr>
+                <th>ปีการศึกษา</th>
+                <th>๒๕๗๑</th>
+                <th>๒๕๗๒</th>
+                <th>๒๕๗๓</th>
+                <th>๒๕๗๔</th>
+                <th>๒๕๗๕</th>
+                <th>๒๕๗๖</th>
+                <th>๒๕๗๗</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align: left;"><strong>จำนวนรับเข้าปี ๑</strong></td>
+                <td><strong>๓๐</strong></td>
+                <td>๓๐</td>
+                <td>๓๐</td>
+                <td>๔๐</td>
+                <td>๔๐</td>
+                <td>๔๐</td>
+                <td><strong>๕๐</strong></td>
+              </tr>
+              <tr>
+                <td style="text-align: left;">รวมนักศึกษาทุกชั้นปี</td>
+                <td>๓๐</td>
+                <td>๖๐</td>
+                <td>๙๐</td>
+                <td>๑๓๐</td>
+                <td>๑๗๐</td>
+                <td>๒๑๐</td>
+                <td>๒๓๐</td>
+              </tr>
+              <tr style="background: rgba(2, 132, 199, 0.05); font-weight: bold;">
+                <td style="text-align: left;">จำนวนบัณฑิตที่คาดว่าจบ</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td style="color: var(--accent-cyan);">๓๐</td>
+                <td style="color: var(--accent-cyan);">๓๐</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="sub-heading">เกณฑ์การสำเร็จการศึกษา</h3>
+        <ol>
+          <li>สอบได้จำนวนหน่วยกิตครบตามหลักสูตร <strong>ไม่น้อยกว่า ๑๙๕ หน่วยกิต</strong> ภายในเวลาไม่ก่อน ๑๐ ภาคการศึกษา และไม่เกิน ๒๔ ภาคการศึกษา</li>
+          <li>มีแต้มเฉลี่ยสะสมรวม (GPAX) และแต้มเฉลี่ยสะสมหมวดวิชาเฉพาะ <strong>ไม่ต่ำกว่า ๒.๐๐</strong></li>
+          <li>มีชั่วโมงฝึกปฏิบัติงานวิชาชีพ <strong>ครบ ๒,๐๐๐ ชั่วโมง</strong> และได้รับผลการประเมินระดับ <strong>S (Satisfactory)</strong> ในทุกรายวิชาฝึกงาน</li>
+          <li>ผ่านเกณฑ์มาตรฐานภาษาอังกฤษและเทคโนโลยีสารสนเทศตามประกาศของราชวิทยาลัยจุฬาภรณ์</li>
+        </ol>
+      </section>
+
+      <!-- SECTION 9 -->
+      <section id="sec9" class="section-block">
+        <span class="sec-num">หมวดที่ ๙</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-comments-question-check"></i> คลังคำถาม-คำตอบสำคัญ สำหรับการเสนอสภาราชวิทยาลัย (๑๐ ข้อ)</h2>
+        <p>รวบรวมประเด็นยุทธศาสตร์ กฎหมายวิชาชีพ และข้อซักถามเชิงลึกที่สภาราชวิทยาลัยหรือคณะกรรมการกลั่นกรองมักจะตั้งคำถาม พร้อมแนวคำตอบมาตรฐานตามเล่มหลักสูตร:</p>
+
+        <!-- Accordion Items -->
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๑</span>
+              <span>ทำไมราชวิทยาลัยจุฬาภรณ์จึงต้องเปิดคณะเภสัชศาสตร์และหลักสูตรเภสัชศาสตรบัณฑิตในเวลานี้ มีความซ้ำซ้อนกับมหาวิทยาลัยอื่นหรือไม่?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>ไม่ซ้ำซ้อนและมีความจำเป็นเร่งด่วนใน ๓ ประเด็นยุทธศาสตร์:</strong></p>
+            <ol>
+              <li><strong>การเติมเต็มช่องว่างด้านนวัตกรรมขั้นสูงของประเทศ:</strong> หลักสูตรเภสัชศาสตร์ในปัจจุบันส่วนใหญ่ยังเน้นยาเคมีดั้งเดิม แต่หลักสูตร รจภ มุ่งเน้นเฉพาะด้าน <strong>ยาชีววัตถุ วัคซีน และ ATMPs (Cell & Gene Therapy)</strong> ตลอดจน <strong>เภสัชศาสตร์แม่นยำ (Precision Pharmacy)</strong> ซึ่งเป็นอุตสาหกรรมเป้าหมายใหม่ (New S-Curve) และประเทศไทยยังขาดแคลนเภสัชกรผู้เชี่ยวชาญด้านนี้อย่างมาก</li>
+              <li><strong>ตอบสนองพระปณิธานและจุดแข็งของ รจภ:</strong> สนับสนุนพันธกิจของโรงพยาบาลจุฬาภรณ์ในการรักษาโรคมะเร็ง โรคซับซ้อน และศูนย์ไซโคลตรอนและเพทสแกนแห่งชาติ ซึ่งต้องการเภสัชกรที่มีความรู้ลึกซึ้งด้านเภสัชภัณฑ์รังสี ยาชีวบำบัด และการดูแลรักษาเฉพาะบุคคล</li>
+              <li><strong>วิกฤตกำลังคนในระบบสาธารณสุข:</strong> ข้อมูลจากสภาเภสัชกรรม (มิ.ย. ๒๕๖๗) ระบุว่าไทยยังมีเภสัชกรในระบบบริการจริงเพียง ๒๔,๐๐๐ คน ขาดแคลนกว่าเป้าหมาย ๑๐,๐๐๐ คน โดยเฉพาะบุคลากรที่มีสมรรถนะเทคโนโลยีสุขภาพดิจิทัล</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๒</span>
+              <span>คำว่า "ATMPs" ในหลักสูตรนี้คืออะไร และนักศึกษาจะได้เรียนอะไรบ้าง?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>ATMPs ย่อมาจาก Advanced Therapy Medicinal Products หรือผลิตภัณฑ์ยาเพื่อการบำบัดรักษาขั้นสูง:</strong></p>
+            <ul>
+              <li><strong>ขอบเขต:</strong> ยีนบำบัด (Gene Therapy), เซลล์บำบัด (Cell Therapy เช่น CAR-T Cells), วิศวกรรมเนื้อเยื่อ และการแพทย์ฟื้นฟู (Stem Cells & Tissue Engineering)</li>
+              <li><strong>รายวิชารองรับในหลักสูตร:</strong>
+                <ul>
+                  <li><code>จภภศ๔๒๐๙</code> ชีววัตถุ วัคซีน และ ATMPs (๔ หน่วยกิต)</li>
+                  <li><code>จภภศ๔๒๑๐</code> การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ (๓ หน่วยกิต)</li>
+                  <li><code>จภภศ๔๒๑๑</code> เซลล์ต้นกำเนิด วิศวกรรมเนื้อเยื่อ และการแพทย์ฟื้นฟู (๒ หน่วยกิต)</li>
+                  <li><code>จภภศ๕๖๐๒</code> การผลิตและระบบคุณภาพยาชีววัตถุ (๒ หน่วยกิต)</li>
+                </ul>
+              </li>
+              <li>นักศึกษาจะได้เรียนตั้งแต่กระบวนการต้นน้ำ (Upstream/Downstream), การผลิตแบบปลอดเชื้อขั้นสูง, การควบคุมและประกันคุณภาพ (QA/QC), การขึ้นทะเบียนตามกฎหมายสากล, และการบริบาลทางคลินิก</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๓</span>
+              <span>จำนวนหน่วยกิต ๑๙๕ หน่วยกิต สอดคล้องกับเกณฑ์มาตรฐานของกระทรวง อว. และสภาเภสัชกรรมหรือไม่?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>สอดคล้องและถูกต้องครบถ้วนตามกฎหมายและเกณฑ์มาตรฐานทุกประการ:</strong></p>
+            <ul>
+              <li>เกณฑ์มาตรฐานหลักสูตรปริญญาตรี พ.ศ. ๒๕๖๕ (อว.) กำหนดหลักสูตร ๖ ปี ไม่น้อยกว่า ๑๘๐ หน่วยกิต</li>
+              <li>ประกาศสภาเภสัชกรรม ที่ ๒๘/๒๕๖๘ และ ๖๕/๒๕๖๑ กำหนดไม่น้อยกว่า ๑๙๕ หน่วยกิต</li>
+              <li><strong>หลักสูตร รจภ จัดไว้ที่ ๑๙๕ หน่วยกิต พอดี:</strong> หมวดศึกษาทั่วไป ๒๔ หน่วยกิต, หมวดวิชาเฉพาะ ๑๖๕ หน่วยกิต, หมวดเลือกเสรี ๖ หน่วยกิต</li>
+              <li>กระจายภาระการเรียนเฉลี่ยภาคเรียนละ ๑๖ - ๒๐ หน่วยกิต ไม่เกินเกณฑ์ข้อบังคับของราชวิทยาลัย</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๔</span>
+              <span>การฝึกปฏิบัติงานวิชาชีพ ๒,๐๐๐ ชั่วโมง มีการจัดสรรและบริหารจัดการอย่างไร?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>หลักสูตรจัดสรรการฝึกปฏิบัติงานวิชาชีพครบถ้วน ๒,๐๐๐ ชั่วโมง แบ่งออกเป็น ๒ ช่วง:</strong></p>
+            <ol>
+              <li><strong>ช่วงที่ ๑ (ชั้นปีที่ ๕ ภาคเรียนที่ ๒):</strong> ฝึกปฏิบัติงานวิชาชีพภาคบังคับ <strong>๖ หน่วยกิต (๓๐๐ ชั่วโมง)</strong> ในโรงพยาบาล (จภภศ๕๕๐๔ - ๑๕๐ ชม.) และร้านยาชุมชน (จภภศ๕๕๐๕ - ๑๕๐ ชม.)</li>
+              <li><strong>ช่วงที่ ๒ (ชั้นปีที่ ๖ ตลอดปีการศึกษา):</strong> ฝึกปฏิบัติงานวิชาชีพสาขาเน้น <strong>๒๘ หน่วยกิต (๑,๗๐๐ ชั่วโมง)</strong> แบ่งการฝึกออกเป็น <strong>๗ ผลัด (Rotation)</strong> ผลัดละไม่น้อยกว่า ๖ สัปดาห์ (๒๔๐-๒๕๐ ชม./ผลัด) ในแหล่งฝึกมาตรฐานที่สภาเภสัชกรรมรับรอง เช่น โรงพยาบาลจุฬาภรณ์, โรงพยาบาลศูนย์/ทั่วไป, โรงงานผลิตยาชีววัตถุ, องค์การเภสัชกรรม, สถาบันวิจัยจุฬาภรณ์</li>
+            </ol>
+            <p><em>รวมเวลาฝึกปฏิบัติงานตลอดหลักสูตร = ๓๐๐ + ๑,๗๐๐ = ๒,๐๐๐ ชั่วโมง ตามเกณฑ์สภาเภสัชกรรมครบถ้วน ๑๐๐%</em></p>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๕</span>
+              <span>คณาจารย์ผู้รับผิดชอบหลักสูตร ๕ ท่าน และอาจารย์ประจำ มีคุณสมบัติครบถ้วนตามเกณฑ์หรือไม่?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>ครบถ้วนตามเกณฑ์มาตรฐานคุณวุฒิระดับอุดมศึกษา พ.ศ. ๒๕๖๕ และเกณฑ์สภาเภสัชกรรม ๑๐๐%:</strong></p>
+            <ul>
+              <li>อาจารย์ผู้รับผิดชอบหลักสูตรทั้ง ๕ ท่าน มีคุณวุฒิระดับปริญญาเอก (Ph.D./ปร.ด.) หรือวุฒิบัตรผู้เชี่ยวชาญเฉพาะทาง (อ.ภ.) ทุกท่าน</li>
+              <li>มีตำแหน่งทางวิชาการระดับ <strong>ศาสตราจารย์ (๑ ท่าน), รองศาสตราจารย์ (๒ ท่าน), อาจารย์ ดร. (๒ ท่าน)</strong></li>
+              <li>ทุกท่านสำเร็จการศึกษาด้านเภสัชศาสตร์และมีใบอนุญาตประกอบวิชาชีพเภสัชกรรม</li>
+              <li>มีผลงานวิจัยที่ได้รับการตีพิมพ์ในวารสารวิชาการระดับนานาชาติ (Scopus / Web of Science ในระดับ Q1/Q2) อย่างต่อเนื่องในรอบ ๕ ปีที่ผ่านมา และมีภาระงานสอนตรงตามสาขาความเชี่ยวชาญ</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๖</span>
+              <span>บทบาทและความร่วมมือกับคณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล ในฐานะสถาบันพี่เลี้ยงเป็นอย่างไร?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล ร่วมเป็น "สถาบันพี่เลี้ยง" ตามเกณฑ์สภาเภสัชกรรม ที่ ๗๓/๒๕๖๘:</strong></p>
+            <ul>
+              <li><strong>การกำกับและประกันคุณภาพ:</strong> ร่วมวางแผน ออกแบบ และทบทวนหลักสูตรและการจัดกระบวนการเรียนรู้ให้ได้มาตรฐานสากล AUN-QA</li>
+              <li><strong>การสนับสนุนอาจารย์ผู้สอน:</strong> คณาจารย์ผู้ทรงคุณวุฒิจาก ม.มหิดล ร่วมสอนในรายวิชาเฉพาะทาง และเป็นอาจารย์ที่ปรึกษาร่วมในโครงงานพิเศษ</li>
+              <li><strong>เครือข่ายแหล่งฝึกงานและห้องปฏิบัติการ:</strong> สนับสนุนการใช้เครื่องมือขั้นสูงและการฝึกปฏิบัติงานวิชาชีพในแหล่งฝึกมาตรฐานของมหาวิทยาลัยมหิดล</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๗</span>
+              <span>การบูรณาการกับจุดแข็งของราชวิทยาลัยจุฬาภรณ์ (โรงพยาบาลจุฬาภรณ์ และศูนย์ไซโคลตรอน) เป็นอย่างไร?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>หลักสูตรเชื่อมโยงกับระบบนิเวศทางการแพทย์ระดับตติยภูมิขั้นสูงของ รจภ โดยตรง:</strong></p>
+            <ul>
+              <li><strong>ศูนย์ความเป็นเลิศด้านมะเร็ง โรงพยาบาลจุฬาภรณ์:</strong> นักศึกษาได้เรียนรู้และฝึกปฏิบัติการบริบาลผู้ป่วยมะเร็ง การผสมยาเคมีบำบัด ยาชีววัตถุ และการติดตามอาการไม่พึงประสงค์ ในรายวิชา <code>จภภศ๔๓๑๔</code>, <code>จภภศ๕๗๐๒</code>, และ <code>จภภศ๖๙๐๖</code></li>
+              <li><strong>ศูนย์ไซโคลตรอนและเพทสแกนแห่งชาติ:</strong> ศึกษาด้าน <strong>เภสัชภัณฑ์รังสี (Radiopharmaceuticals)</strong> ทั้งการสังเคราะห์ การควบคุมคุณภาพ และการบริหารจัดการรังสี ซึ่งเป็นความโดดเด่นที่สถาบันอื่นไม่มี</li>
+              <li><strong>การวิจัยทางคลินิกระดับนานาชาติ:</strong> บูรณาการการแพทย์แม่นยำ (Precision Medicine & Genomics) ร่วมกับคณะแพทยศาสตร์และการสาธารณสุข</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๘</span>
+              <span>การบูรณาการปัญญาประดิษฐ์ (AI) และวิทยาการข้อมูลสุขภาพในหลักสูตร มีรายวิชาใดรองรับบ้าง?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>หลักสูตรบรรจุวิชาด้านดิจิทัลและ AI ตั้งแต่ชั้นปีที่ ๑ ถึงปีที่ ๔ อย่างเป็นขั้นเป็นตอน:</strong></p>
+            <ul>
+              <li><strong>ปีที่ ๑ ภาคเรียนที่ ๑:</strong> <code>จภภศ๐๐๐๑</code> ทักษะพลเมืองดิจิทัลเพื่อการดำเนินชีวิตและการทำงานยุคใหม่ (๓ หน่วยกิต)</li>
+              <li><strong>ปีที่ ๑ ภาคเรียนที่ ๑:</strong> <code>จภภศ๐๐๐๒</code> พื้นฐานจริยธรรมปัญญาประดิษฐ์ด้านการดูแลสุขภาพ (Foundations of Ethical AI in Healthcare - ๒ หน่วยกิต)</li>
+              <li><strong>ปีที่ ๑ ภาคเรียนที่ ๒:</strong> <code>จภภศ๐๐๐๓</code> ทักษะการคิดเชิงวิจัยและวิทยาการข้อมูลเพื่อการพัฒนาที่ยั่งยืน (๒ หน่วยกิต)</li>
+              <li><strong>ปีที่ ๔ ภาคเรียนที่ ๑:</strong> <code>จภภศ๔๒๑๒</code> วิทยาการข้อมูลประยุกต์และนวัตกรรมทางเภสัชกรรม (Applied Data Sciences and Pharmacy Innovation - ๓ หน่วยกิต)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๙</span>
+              <span>แผนการรับนักศึกษาและงบประมาณการจัดการศึกษาในระยะ ๗ ปีเป็นอย่างไร?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>แผนการรับนักศึกษาดำเนินการแบบค่อยเป็นค่อยไปเพื่อรักษาคุณภาพสูงสุด:</strong></p>
+            <ul>
+              <li><strong>ปีการศึกษา ๒๕๗๑ - ๒๕๗๓:</strong> รับเข้าชั้นปีที่ ๑ จำนวน <strong>๓๐ คน/ปี</strong></li>
+              <li><strong>ปีการศึกษา ๒๕๗๔ - ๒๕๗๖:</strong> ขยายการรับเป็น <strong>๔๐ คน/ปี</strong></li>
+              <li><strong>ปีการศึกษา ๒๕๗๗ เป็นต้นไป:</strong> ขยายการรับเป็น <strong>๕๐ คน/ปี</strong></li>
+              <li><strong>บัณฑิตรุ่นแรก:</strong> คาดว่าจะสำเร็จการศึกษาในปีการศึกษา ๒๕๗๖ จำนวน ๓๐ คน</li>
+              <li>ระบบการคัดเลือกใช้ ๔ รูปแบบ: Portfolio รับตรง, โควตา (รวม รร.วิทยาศาสตร์จุฬาภรณราชวิทยาลัย), รับผ่านระบบ กสพท./ทปอ., และระบบพิเศษของราชวิทยาลัย</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="qa-box">
+          <div class="qa-q-row" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span class="qa-num">๑๐</span>
+              <span>เกณฑ์การสำเร็จการศึกษา และการขอรับใบอนุญาตประกอบวิชาชีพเภสัชกรรมเป็นอย่างไร?</span>
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="qa-ans-row">
+            <p><strong>เกณฑ์การสำเร็จการศึกษาและการสอบใบอนุญาตวิชาชีพ:</strong></p>
+            <ol>
+              <li>สอบได้จำนวนหน่วยกิตครบตามหลักสูตร <strong>ไม่น้อยกว่า ๑๙๕ หน่วยกิต</strong> ภายในเวลาไม่ก่อน ๑๐ ภาคการศึกษา และไม่เกิน ๒๔ ภาคการศึกษา</li>
+              <li>มีแต้มเฉลี่ยสะสมรวม (GPAX) และแต้มเฉลี่ยหมวดวิชาเฉพาะ <strong>ไม่ต่ำกว่า ๒.๐๐</strong></li>
+              <li>มีชั่วโมงฝึกปฏิบัติงานวิชาชีพ <strong>ครบ ๒,๐๐๐ ชั่วโมง</strong> และได้รับผลประเมินระดับ <strong>S (Pass)</strong> ในทุกรายวิชาฝึกงาน</li>
+              <li>ผ่านเกณฑ์มาตรฐานภาษาอังกฤษและเทคโนโลยีสารสนเทศตามประกาศของราชวิทยาลัยจุฬาภรณ์</li>
+              <li>ผู้สำเร็จการศึกษามีสิทธิ์สมัครสอบความรู้เพื่อขอขึ้นทะเบียนและรับใบอนุญาตเป็นผู้ประกอบวิชาชีพเภสัชกรรมจากสภาเภสัชกรรมตามขั้นตอนปกติ</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 10 -->
+      <section id="sec10" class="section-block">
+        <span class="sec-num">หมวดที่ ๑๐</span>
+        <h2 class="sec-heading"><i class="fa-solid fa-dna text-cyan"></i> คลังคำอธิบายรายวิชาเด่นและนวัตกรรมใหม่</h2>
+        <p>ตัวอย่างรายวิชาที่เป็นจุดเน้นความโดดเด่นและอัตลักษณ์ของหลักสูตรเภสัชศาสตรบัณฑิต ราชวิทยาลัยจุฬาภรณ์:</p>
+
+        <div class="course-mini-grid">
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๐๐๐๑ (CHPD0001)</span>
+              <span class="cm-credit">๓ (๓-๐-๖)</span>
+            </div>
+            <div class="cm-title">ทักษะพลเมืองดิจิทัลเพื่อการดำเนินชีวิตและการทำงานยุคใหม่</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Digital Citizenship Skills for Modern Life and Work</div>
+            <div class="cm-desc">ทักษะดิจิทัลที่จำเป็นในศตวรรษที่ ๒๑ เพื่อการดำรงชีวิต การเรียนรู้ และการทำงานอย่างมีประสิทธิภาพและปลอดภัยในยุคดิจิทัล พื้นฐานเทคโนโลยีและฝึกฝนการใช้เครื่องมือดิจิทัลที่ทันสมัยเพื่อสนับสนุนการเรียนรู้ การทำงาน และการสร้างสรรค์สื่อดิจิทัล รวมถึงการวิเคราะห์และประเมินข้อมูลอย่างมีวิจารณญาณ เพื่อก้าวทันความเปลี่ยนแปลงของโลกดิจิทัล การเป็นพลเมืองดิจิทัลที่มีความรับผิดชอบและมีจริยธรรม การเคารพสิทธิผู้อื่น การรับผิดชอบต่อการกระทำในโลกออนไลน์ การปฏิบัติตนอย่างสุภาพในสังคมดิจิทัล ทักษะการสื่อสารที่มีประสิทธิภาพและเหมาะสมผ่านแพลตฟอร์มดิจิทัล การปกป้องตนเองจากภัยคุกคามออนไลน์ และการทำธุรกรรมดิจิทัลอย่างปลอดภัย กฎหมายดิจิทัลที่เกี่ยวข้อง ผลกระทบด้านสุขภาพกายและจิตจากการใช้เทคโนโลยี</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๐๐๐๒ (CHPD0002)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">พื้นฐานจริยธรรมปัญญาประดิษฐ์ด้านการดูแลสุขภาพ</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Foundations of Ethical AI in Healthcare</div>
+            <div class="cm-desc">ความรู้พื้นฐานเกี่ยวกับปัญญาประดิษฐ์ (AI) การเรียนรู้เชิงลึก (Deep Learning) ประเภทของ AI และการประยุกต์ใช้ การใช้ AI ในการตัดสินใจ วิเคราะห์ข้อมูล และแก้ปัญหาในบริบทของสุขภาพและเภสัชกรรม การใช้เครื่องมือ AI ที่ทันสมัย การพัฒนาโครงการกลุ่มเพื่อเสริมสร้างทักษะในการประยุกต์ใช้ AI อย่างมีประสิทธิภาพ ประเด็นทางจริยธรรม กฎหมายและสิทธิผู้ป่วยในการใช้ AI ในการดูแลสุขภาพ การเคารพสิทธิของผู้ป่วยในการใช้ข้อมูลและการวิเคราะห์ผ่าน AI การใช้ AI เพื่อเสริมสร้างการดูแลผู้ป่วยแบบมีส่วนร่วมและเคารพความคิดเห็นของผู้ป่วย การนำเทคโนโลยี AI มาใช้เป็นไปอย่างมีคุณธรรม ปลอดภัย และมุ่งเน้นประโยชน์สูงสุดต่อผู้ป่วยและสังคม</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๐๐๐๓ (CHPD0003)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">ทักษะการคิดเชิงวิจัยและวิทยาการข้อมูลเพื่อการพัฒนาที่ยั่งยืน</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Research Thinking and Data Science for Sustainable Development</div>
+            <div class="cm-desc">หลักการและแนวคิดพื้นฐานของการวิจัยเชิงปริมาณและเชิงคุณภาพ แนวคิดของเป้าหมายการพัฒนาที่ยั่งยืน (sustainable development goals; SDGs) และการทำงานเป็นทีม กระบวนการวิจัย การออกแบบการวิจัยที่เป็นระบบ การกำหนดปัญหา วัตถุประสงค์ และคำถามการวิจัย การสืบค้นหลักฐานเชิงประจักษ์ การทบทวนวรรณกรรมเพื่อสร้างกรอบแนวคิดที่เชื่อมโยงกับ SDGs การระบุตัวแปรและสร้างสมมติฐาน และมีความยั่งยืนในทางปฏิบัติ การสร้างเครื่องมือและการเก็บรวบรวมข้อมูลอย่างมีประสิทธิภาพ การวิเคราะห์และแปลผลข้อมูลโดยใช้สถิติเชิงพรรณนาและเชิงอนุมานเบื้องต้น การใช้โปรแกรมและเครื่องมือวิเคราะห์ข้อมูลที่ทันสมัย</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๑๑๐๑ (CHPD1101)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">ยาสมุนไพรและพฤกษบำบัด</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Herbal Medicines and Phytotherapy</div>
+            <div class="cm-desc">การใช้สมุนไพรในชีวิตประจำวันเพื่อการบำบัดโรคและเสริมสุขภาพที่เกี่ยวข้องกับระบบต่าง ๆ   ของร่างกาย สมุนไพรที่มาจากบัญชียาหลักแห่งชาติด้านสมุนไพรและสมุนไพรในงานสาธารณสุขมูลฐาน การใช้สมุนไพรในเครื่องสำอาง พืชมีพิษและพืชเสพติด อันตรกิริยาระหว่างสมุนไพรและยาแผนปัจจุบัน       ยาตำรับในบัญชียาหลักแห่งชาติด้านสมุนไพร การควบคุมคุณภาพสมุนไพรตามตำรามาตรฐานยา</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๒๑๐๙ (CHPD2109)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">หลักการทางเภสัชวิทยา</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Principles of Pharmacology</div>
+            <div class="cm-desc">หลักการทั่วไปของการออกฤทธิ์ของยา หลักเภสัชพลศาสตร์ กลไกการจับตัวรับและการถ่ายทอดสัญญาณ ความสัมพันธ์ระหว่างขนาดยาและการตอบสนอง พารามิเตอร์ทางเภสัชพลศาสตร์ บทบาทของยาที่มีฤทธิ์กระตุ้นตัวรับและต้านตัวรับ การควบคุมและการเปลี่ยนแปลงจำนวนตัวรับ ปฏิกิริยาระหว่างยา อาการไม่พึงประสงค์จากยา การประยุกต์แนวคิดเพื่อทำความเข้าใจยาที่ออกฤทธิ์ต่อระบบประสาทอัตโนมัติและสารออโตคอยด์ การวิเคราะห์กราฟ กรณีศึกษา และการบูรณาการความรู้เภสัชวิทยาเพื่อการศึกษายาใหม่</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๓๒๐๗ (CHPD3207)</span>
+              <span class="cm-credit">๓ (๒-๓-๔)</span>
+            </div>
+            <div class="cm-title">เทคโนโลยีชีวภาพทางเภสัชกรรม</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Pharmaceutical Biotechnology</div>
+            <div class="cm-desc">หลักการและเทคโนโลยีชีวภาพทางเภสัชกรรมที่ใช้ในการพัฒนาและผลิตยาชีววัตถุ ครอบคลุมระบบชีวภาพที่ใช้เป็นแหล่งผลิต เทคนิคอณูชีววิทยาและเทคโนโลยีดีเอ็นเอสายผสม การเพาะเลี้ยงเซลล์และการหมัก กระบวนการต้นน้ำและปลายน้ำในการผลิตยาชีววัตถุ การประยุกต์ใช้ชีวสารสนเทศศาสตร์ในการวิเคราะห์ลำดับชีวโมเลกุลและออกแบบโปรตีนเชิงคำนวณ การวิเคราะห์ และพิสูจน์ลักษณะของชีวโมเลกุลและยาชีววัตถุ การประเมินเอกลักษณ์ โครงสร้าง หน้าที่ และความคงตัว การทดสอบฤทธิ์ทางชีวภาพเบื้องต้น แนวคิดด้านการควบคุมคุณภาพและหลักเกณฑ์วิธีการที่ดีในการผลิตยาชีววัตถุ บูรณาการภาคทฤษฎี ภาคปฏิบัติการ การทดลองเสมือนจริงและกิจกรรมเชิงปฏิบัติการ</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๔๒๐๙ (CHPD4209)</span>
+              <span class="cm-credit">๔ (๓-๓-๖)</span>
+            </div>
+            <div class="cm-title">ชีววัตถุ วัคซีน และผลิตภัณฑ์ยาเพื่อการบำบัดรักษาขั้นสูง</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Biologics, Vaccines and Advanced Therapy Medicinal Products</div>
+            <div class="cm-desc"></div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๔๒๑๐ (CHPD4210)</span>
+              <span class="cm-credit">๓ (๒-๓-๔)</span>
+            </div>
+            <div class="cm-title">การกำกับดูแลผลิตภัณฑ์ยาและชีววัตถุ</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Regulation of Pharmaceutical and Biological Products</div>
+            <div class="cm-desc">หลักการกำกับดูแลผลิตภัณฑ์ยาและยาชีววัตถุ บทบาทของหน่วยงานกำกับดูแลยาในระดับประเทศและสากล กระบวนการพัฒนายาและกรอบกฎหมายที่เกี่ยวข้องกับยาแผนปัจจุบัน ผลิตภัณฑ์สมุนไพร เครื่องสำอาง และยาสัตว์ ระบบคุณภาพทางเภสัชกรรมและบูรณภาพของข้อมูล (Data Integrity) หลักเกณฑ์วิธีการที่ดีในการผลิตยา (Good Manufacturing Practice; GMP) การวิจัยก่อนคลินิก (Non-clinical Development) และการทดลองทางคลินิก (Clinical Trials) ภายใต้หลักเกณฑ์วิธีการที่ดีในการศึกษาวิจัยทางคลินิก (Good Clinical Practice; GCP) โครงสร้างของเอกสารคำขอขึ้นทะเบียนยาตามรูปแบบ Common Technical Dossier (CTD) และ ASEAN Common Technical Dossier (ACTD) การจัดเตรียมเอกสารขึ้นทะเบียน (Chemistry Manufacturing and Controls; CMC) ข้อมูลก่อนคลินิกและข้อมูลทางคลินิกสำหรับการขึ้นทะเบียนยา หลักการกำกับดูแลยาชีววัตถุ ยาชีววัตถุคล้ายคลึง (Biosimilars) และผลิตภัณฑ์ยาเพื่อการบำบัดรักษาขั้นสูง (Advanced Therapy Medicinal Products; ATMPs) ช่องทางการขออนุมัติแบบเร่งด่วนและแบบพิเศษ การบริหารความเสี่ยง (Risk Management Plan; RMP) ระบบเฝ้าระวังความปลอดภัยด้านยา (Pharmacovigilance) และกระบวนการตรวจประเมินของหน่วยงานกำกับดูแล การฝึกปฏิบัติการรวบรวม ประเมิน และจัดทำข้อมูลเพื่อจัดทำแฟ้มข้อมูลการขึ้นทะเบียนจำลอง (Mock Regulatory Dossier) โดยยึดมั่นในจริยธรรมวิชาชีพ</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๔๒๑๑ (CHPD4211)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">เซลล์ต้นกำเนิด วิศวกรรมเนื้อเยื่อ และการแพทย์ฟื้นฟู</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Stem Cells, Tissue Engineering and Regenerative Medicine</div>
+            <div class="cm-desc">หลักการพื้นฐานของเซลล์ต้นกำเนิด วิศวกรรมเนื้อเยื่อ และการแพทย์ฟื้นฟู ชนิด คุณสมบัติ และการประยุกต์ใช้เซลล์ต้นกำเนิดทางการแพทย์ หลักการของวิศวกรรมเนื้อเยื่อและผลิตภัณฑ์วิศวกรรมเนื้อเยื่อ องค์ประกอบสำคัญ ได้แก่ เซลล์ วัสดุชีวภาพ โครงร่างสามมิติ และสารชีวโมเลกุล การเลือกใช้วัสดุชีวภาพและการประเมินความเข้ากันได้ทางชีวภาพ เทคโนโลยีการสร้างเนื้อเยื่อสามมิติและการพิมพ์ชีวภาพสามมิติ ออร์แกนอยด์ (organoids) ออร์แกน-ออน-ชิป (organ-on-chip) และแบบจำลองเนื้อเยื่อสามมิติสำหรับการศึกษาทางชีวการแพทย์ การพัฒนาและประเมินผลิตภัณฑ์ และการลดการใช้สัตว์ทดลอง หลักการพัฒนาและการผลิตผลิตภัณฑ์เซลล์และผลิตภัณฑ์วิศวกรรมเนื้อเยื่อ การประเมินคุณภาพ ความปลอดภัย ประสิทธิผล และความแรงของผลิตภัณฑ์ แนวคิดด้านการควบคุมคุณภาพและข้อกำหนดที่เกี่ยวข้อง การประยุกต์ใช้ทางคลินิก ตลอดจนประเด็นด้านจริยธรรมและความปลอดภัยของเซลล์ต้นกำเนิด วิศวกรรมเนื้อเยื่อ และการแพทย์ฟื้นฟู</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๔๒๑๒ (CHPD4212)</span>
+              <span class="cm-credit">๓ (๓-๐-๖)</span>
+            </div>
+            <div class="cm-title">วิทยาการข้อมูลประยุกต์และนวัตกรรมทางเภสัชกรรม</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Applied Data Sciences and Pharmacy Innovation</div>
+            <div class="cm-desc">วิชาขั้นสูงที่มุ่งเน้นการประยุกต์ใช้วิทยาการข้อมูลและปัญญาประดิษฐ์ (AI) ในระบบนิเวศทาง  เภสัชกรรม (Pharmacy Ecosystem) การเรียนรู้ผ่านการลงมือปฏิบัติจริง (Project-based Learning) โดยใช้ข้อมูลจริงขนาดใหญ่ (Real-world Data/Big Data) ที่จำลองจากระบบสารสนเทศโรงพยาบาล (HIS) เพื่อสนับสนุนการบริบาลเภสัชกรรมแม่นยำ (Precision Pharmacy) การออกแบบตัวชี้วัดคุณภาพ (KPIs) และการเฝ้าระวังความปลอดภัยด้านยาเชิงรุก บูรณาการกระบวนการคิดเชิงออกแบบ (Design Thinking) เข้ากับการพัฒนาต้นแบบนวัตกรรม (Prototype) และการสื่อสารข้อมูลด้วยการเล่าเรื่อง (Data Storytelling) ให้สามารถนำเสนอโซลูชันนวัตกรรมที่แก้ปัญหาระดับองค์กรและนโยบายสาธารณสุขได้อย่างมีประสิทธิภาพ</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๔๓๑๔ (CHPD4314)</span>
+              <span class="cm-credit">๓ (๓-๐-๖)</span>
+            </div>
+            <div class="cm-title">บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๑</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 1</div>
+            <div class="cm-desc">การบูรณาการความรู้ด้านพยาธิสรีรวิทยา เภสัชวิทยา เคมีของยา และเภสัชบำบัดของโรคระบบเลือดและมะเร็งที่สำคัญ ได้แก่ ภาวะโลหิตจาง และโรคมะเร็งชนิดต่าง ๆ ที่สำคัญ ได้แก่ มะเร็งปอด มะเร็งลำไส้ใหญ่และทวารหนัก มะเร็งเต้านม มะเร็งปากมดลูก และมะเร็งของระบบเลือด (ลิมโฟมา และลูวคีเมีย) หลักการเกิดมะเร็งและการรักษาด้วยยา ตลอดจนการจัดการภาวะแทรกซ้อนจากมะเร็งและเคมีบำบัด และความปลอดภัยในการใช้ยาเคมีบำบัด โดยเน้นการเชื่อมโยงกลไกการเกิดโรคกับกลไก     การออกฤทธิ์ของยา โครงสร้างทางเคมีของยา และความสัมพันธ์ระหว่างโครงสร้างกับฤทธิ์ทางชีวภาพ ตลอดจนการประยุกต์ใช้หลักฐานเชิงประจักษ์ในการตัดสินใจเลือกใช้ยาผ่านการเรียนรู้แบบกรณีศึกษา เพื่อพัฒนาทักษะการวิเคราะห์ปัญหาที่เกี่ยวข้องกับยา การวางแผนการรักษา และการติดตามประสิทธิผลและความปลอดภัยของการรักษาในผู้ป่วยโรคระบบเลือดและมะเร็ง</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๔๓๑๖ (CHPD4316)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">เภสัชศาสตร์แม่นยำ</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Precision Pharmacy</div>
+            <div class="cm-desc">กลไกและหลักการของเภสัชศาสตร์แม่นยำ (Precision Pharmacy) และเภสัชพันธุศาสตร์ (Pharmacogenomics; PGx) โดยเน้นความแปรผันทางพันธุกรรมเฉพาะบุคคลที่ส่งผลต่อการตอบสนองต่อยาทั้งในด้านเภสัชจลนศาสตร์และเภสัชพลศาสตร์ ครอบคลุมการประยุกต์ใช้ข้อมูลจีโนม โปรตีโอม            การแสดงออกของยีน ปัจจัยด้านสิ่งแวดล้อม และข้อมูลทางการแพทย์เพื่อการดูแลผู้ป่วยแบบเฉพาะบุคคล การฝึกทักษะการตีความผลทดสอบทางพันธุกรรมและการวิเคราะห์โดยใช้แนวทางของ Clinical Pharmacogenetics Implementation Consortium/Dutch Pharmacogenetics Working Group (CPIC/DPWG และฐานข้อมูล Pharmacogenomics Knowledgebase (PharmGKB) เพื่อลดการเกิดอาการไม่พึงประสงค์จากการใช้ยา รวมถึงการศึกษาบทบาทของ Companion diagnostics, Precision oncology การออกแบบบริการเภสัชกรรมที่ขับเคลื่อนด้วยข้อมูลจีโนม ตลอดจนประเด็นด้านเศรษฐศาสตร์ จริยธรรม และกฎหมายที่เกี่ยวข้องกับการตัดสินใจทางคลินิกในงานบริบาลทางเภสัชกรรม</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๕๕๐๔ ()</span>
+              <span class="cm-credit">๓ (๐-๙-๐)</span>
+            </div>
+            <div class="cm-title">การฝึกปฏิบัติงานวิชาชีพเภสัชกรรมในสถานพยาบาลภาคบังคับ</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">ไม่น้อยกว่า ๒๐๐ ชั่วโมง</div>
+            <div class="cm-desc"></div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๕๕๐๕ ()</span>
+              <span class="cm-credit">๓ (๐-๙-๐)</span>
+            </div>
+            <div class="cm-title">การฝึกปฏิบัติงานวิชาชีพเภสัชกรรมชุมชนภาคบังคับ</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">ไม่น้อยกว่า ๒๐๐ ชั่วโมง</div>
+            <div class="cm-desc"></div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๕๖๐๒ (CHPD5602)</span>
+              <span class="cm-credit">๒ (๑-๓-๒)</span>
+            </div>
+            <div class="cm-title">การผลิตและระบบคุณภาพยาชีววัตถุ</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Manufacturing and Quality System of Biological Products</div>
+            <div class="cm-desc">หลักการและการปฏิบัติด้านการผลิตและระบบคุณภาพยาชีววัตถุในระดับอุตสาหกรรม ครอบคลุม รีคอมบิแนนท์โปรตีนบำบัด โมโนโคลนอลแอนติบอดี วัคซีน และผลิตภัณฑ์ยาเพื่อการบำบัดรักษาขั้นสูง ระบบการผลิตและวัตถุดิบตั้งต้นทางชีวภาพ กระบวนการต้นน้ำและกระบวนการปลายน้ำ การขยายขนาดการผลิตและการถ่ายทอดเทคโนโลยี การตั้งตำรับ การบรรจุ และความคงสภาพของผลิตภัณฑ์ คุณลักษณะคุณภาพที่สำคัญ (Critical Quality Attributes; CQAs) พารามิเตอร์กระบวนการที่สำคัญ (Critical Process Parameters; CPPs) และกลยุทธ์การควบคุมกระบวนการ การควบคุมการปนเปื้อนและความปลอดภัยทางชีวภาพ การตรวจสอบความถูกต้องของกระบวนการผลิตและวิธีวิเคราะห์ ความสม่ำเสมอของกระบวนการผลิต การจัดการความเสี่ยงด้านคุณภาพ การจัดการการเปลี่ยนแปลงและการศึกษาความสามารถในการเปรียบเทียบผลิตภัณฑ์ หลักเกณฑ์วิธีการที่ดีในการผลิต ระบบคุณภาพทางเภสัชกรรม หลักการด้าน Chemistry, Manufacturing, and Controls (CMC) และข้อกำหนดที่เกี่ยวข้อง บูรณาการการเรียนรู้ผ่านการบรรยาย การฝึกปฏิบัติการ การวิเคราะห์ข้อมูล กรณีศึกษา และกิจกรรมเชิงปฏิบัติการด้านการผลิตและระบบคุณภาพยาชีววัตถุ</div>
+          </div>
+          
+          <div class="course-mini-card">
+            <div class="cm-header">
+              <span class="cm-code">จภภศ๕๗๐๒ (CHPD5702)</span>
+              <span class="cm-credit">๒ (๒-๐-๔)</span>
+            </div>
+            <div class="cm-title">บูรณาการเภสัชวิทยา เคมีของยา และเภสัชบำบัดในโรคระบบเลือดและมะเร็ง ๒</div>
+            <div style="font-size:11.5px; color:var(--text-light); margin-bottom:6px; font-style:italic;">Integrated Pharmacology, Medicinal Chemistry and Pharmacotherapy: Hematology and Oncology 2</div>
+            <div class="cm-desc">การบูรณาการความรู้ด้านพยาธิสรีรวิทยา เภสัชวิทยา เคมีของยา และเภสัชบำบัดของโรคระบบเลือดและมะเร็งที่สำคัญ ได้แก่ ความผิดปกติของการแข็งตัวของเลือด ความผิดปกติของระบบเลือดที่เกิดจากยา ความผิดปกติทางมะเร็งวิทยาที่เกิดจากยา (drug-induced oncologic disorders) ตลอดจนโรคมะเร็งชนิดต่าง ๆ เช่น มะเร็งตับ มะเร็งศีรษะและลำคอ มะเร็งกระเพาะอาหาร มะเร็งท่อน้ำดี มะเร็งต่อมลูกหมาก มะเร็งผิวหนัง และมะเร็งของระบบโลหิต (Multiple Myeloma) หลักการรักษาด้วยยา            การจัดการภาวะแทรกซ้อนจากมะเร็งและเคมีบำบัด เช่น ปวด ภาวะเม็ดเลือดผิดปกติจากเคมีบำบัด ภาวะฉุกเฉินทางมะเร็งวิทยา ภาวะลิ่มเลือดอุดตัน ความเป็นพิษต่อระบบทางเดินอาหาร และ ความปลอดภัยในการใช้ยาเคมีบำบัด รวมถึงการปลูกถ่ายเซลล์ต้นกำเนิดเม็ดเลือด โดยเน้นการเชื่อมโยงกลไกการเกิดโรคกับกลไกการออกฤทธิ์ของยา โครงสร้างทางเคมีของยา และความสัมพันธ์ระหว่างโครงสร้างกับฤทธิ์ทางชีวภาพ การประยุกต์ใช้หลักฐานเชิงประจักษ์ในการตัดสินใจเลือกใช้ยาผ่านการเรียนรู้แบบกรณีศึกษา    การพัฒนาทักษะการวิเคราะห์ปัญหาที่เกี่ยวข้องกับยา การวางแผนการรักษา และการติดตามประสิทธิผลและความปลอดภัยของการรักษาในผู้ป่วยโรคระบบเลือดและมะเร็ง</div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Back to Top Button -->
+      <button class="back-to-top" id="btn-back-to-top" title="กลับขึ้นด้านบน">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color); text-align: center; font-size: 13px; color: var(--text-light);">
+        <div>โครงการจัดตั้งคณะเภสัชศาสตร์ ราชวิทยาลัยจุฬาภรณ์ • Chulabhorn Royal Academy</div>
+        <div>เอกสารประกอบการเสนอสภาราชวิทยาลัยจุฬาภรณ์ และคณะกรรมการสภาเภสัชกรรม</div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // Reading Progress Indicator
+    window.addEventListener('scroll', () => {
+      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      document.getElementById('reading-progress').style.width = scrolled + '%';
+
+      // Back to top
+      const btt = document.getElementById('btn-back-to-top');
+      if (winScroll > 400) {
+        btt.classList.add('show');
+      } else {
+        btt.classList.remove('show');
+      }
+
+      // Active TOC link
+      const sections = document.querySelectorAll('.section-block, .booklet-cover');
+      let currentSecId = '';
+      sections.forEach(sec => {
+        const top = sec.offsetTop - 120;
+        if (winScroll >= top) {
+          currentSecId = sec.getAttribute('id');
+        }
+      });
+      if (currentSecId) {
+        document.querySelectorAll('.toc-menu a').forEach(a => {
+          a.classList.remove('active');
+          if (a.getAttribute('href') === '#' + currentSecId) {
+            a.classList.add('active');
+          }
+        });
+      }
+    });
+
+    // Back to top
+    document.getElementById('btn-back-to-top').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Font size controls
+    let currentFontSize = 16;
+    document.getElementById('btn-font-inc').addEventListener('click', () => {
+      if (currentFontSize < 22) {
+        currentFontSize += 1;
+        document.documentElement.style.fontSize = currentFontSize + 'px';
+      }
+    });
+    document.getElementById('btn-font-dec').addEventListener('click', () => {
+      if (currentFontSize > 13) {
+        currentFontSize -= 1;
+        document.documentElement.style.fontSize = currentFontSize + 'px';
+      }
+    });
+
+    // Theme Toggle
+    const themeBtn = document.getElementById('btn-theme');
+    themeBtn.addEventListener('click', () => {
+      document.body.classList.toggle('theme-dark');
+      const isDark = document.body.classList.contains('theme-dark');
+      themeBtn.innerHTML = isDark 
+        ? '<i class="fa-solid fa-sun"></i> <span>โหมดกระดาษ</span>'
+        : '<i class="fa-solid fa-moon"></i> <span>โหมดมืด</span>';
+    });
+  </script>
+</body>
+</html>
