@@ -3,22 +3,22 @@
   "title": "เปรียบเทียบครุภัณฑ์คณะเภสัชศาสตร์: ปี 71, รายการตามความเชี่ยวชาญ และประกาศสภาเภสัชกรรม 7/2558",
   "metrics": {
     "research_total": {
-      "count": 87,
+      "count": 84,
       "min": 96822597.5992,
       "max": 121734808.35260001
     },
     "in_plan": {
-      "count": 41,
+      "count": 40,
       "min": 12198709.2837,
       "max": 14886551.4951
     },
     "no_plan": {
-      "count": 36,
+      "count": 35,
       "min": 83896625.2269,
       "max": 106120993.7689
     },
     "held": {
-      "count": 10,
+      "count": 9,
       "min": 727263.0886,
       "max": 727263.0886
     },
@@ -30,11 +30,11 @@
       "unknown": 1
     },
     "in_y70": 15,
-    "in_y71": 32,
+    "in_y71": 31,
     "in_both": 6,
     "by_status": {
       "ตรงกับปี 71": {
-        "count": 22,
+        "count": 21,
         "min": 9390547.2354,
         "max": 11527308.7084
       },
@@ -49,12 +49,12 @@
         "max": 3045005.1696
       },
       "ปี 71 พักไว้ (Hold/NA)": {
-        "count": 10,
+        "count": 9,
         "min": 727263.0886,
         "max": 727263.0886
       },
       "ไม่มีในแผน": {
-        "count": 36,
+        "count": 35,
         "min": 83896625.2269,
         "max": 106120993.7689
       }
@@ -63,7 +63,7 @@
       "NS": 25,
       "SA": 23,
       "PL": 40,
-      "NK": 29
+      "NK": 30
     },
     "no_plan_by_user": {
       "NS": 13,
@@ -76,7 +76,7 @@
         "NS": 6,
         "SA": 12,
         "PL": 18,
-        "NK": 1
+        "NK": 0
       },
       "ครอบคลุมแล้วในปี 70": {
         "NS": 0,
@@ -88,7 +88,7 @@
         "NS": 5,
         "SA": 5,
         "PL": 8,
-        "NK": 4
+        "NK": 6
       },
       "ปี 71 พักไว้ (Hold/NA)": {
         "NS": 1,
@@ -315,11 +315,12 @@
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
       "group": "กล้องจุลทรรศน์/ภาพ",
-      "name": "High-content imaging/screening",
-      "users": "NS, PL",
+      "name": "High-content imaging/screening (Cell-based bioassay)",
+      "users": "NS, PL, NK",
       "user_list": [
         "NS",
-        "PL"
+        "PL",
+        "NK"
       ],
       "need_qty": null,
       "plan_qty": 0,
@@ -330,7 +331,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "รวม 3 แถวที่ซ้ำความหมาย (PL 1, NS 2)",
+      "note": "รวม 4 แถวที่ซ้ำความหมาย (PL 1, NS 2, NK 1: Cell-based bioassay platform / high-content screening สำหรับยืนยันฤทธิ์ชีวภาพของสารสกัดสมุนไพร)",
       "user_prices": "NS: ~17,500,000; NS: 15,000,000–25,500,000",
       "in_y70": false,
       "in_y71": false,
@@ -351,7 +352,9 @@
           "slide_no": 10
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Automated, multi-well measurement of biological activity & high-content cellular imaging",
+      "application": "Confirms bioactivity of standardized herbal extracts/fractions (NK) & high-content cell screening (NS, PL)"
     },
     {
       "id": "R02",
@@ -1041,10 +1044,11 @@
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold/NA)",
       "group": "เจล/โปรตีน",
-      "name": "Proteomics (shotgun/targeted)",
-      "users": "PL",
+      "name": "LC-MS/MS / UHPLC-QqQ-MS/MS (Proteomics & Herbal Quantitation)",
+      "users": "PL, NK",
       "user_list": [
-        "PL"
+        "PL",
+        "NK"
       ],
       "need_qty": null,
       "plan_qty": 0,
@@ -1055,25 +1059,28 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "update 3 พ.ย. 69 ทำให้ลำดับ 13 เป็น Hold จึงไม่มีในคำขอปี 71 แล้ว (เดิมสถานะ \"มีในแผน แต่ต้องตรวจสเปก\") ปี 71 มี LC-MS/MS แต่ลงปีงบ 2577 และต้องยืนยันว่าทำ proteomics ได้",
+      "note": "จัดกลุ่มรวม PL (Proteomics) และ NK (UHPLC-QqQ-MS/MS วิเคราะห์สารบ่งชี้สมุนไพรและสารพิษตกค้าง) · ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) ซึ่งติดสถานะ Hold",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Highly sensitive, targeted quantitation with multiple reaction monitoring (MRM) & tandem MS",
+      "application": "Quantitation of herbal markers, multi-residue pesticide analysis (NK) & targeted/shotgun proteomics (PL)"
     },
     {
       "id": "R23",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
       "group": "PCR",
-      "name": "Real-time qPCR (PL ขอ gradient)",
-      "users": "NS, PL, SA",
+      "name": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+      "users": "NS, PL, SA, NK",
       "user_list": [
         "NS",
         "PL",
-        "SA"
+        "SA",
+        "NK"
       ],
       "need_qty": 1,
       "plan_qty": 1,
@@ -1084,7 +1091,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": "2,985,300",
-      "note": "ราคาแผนสูงกว่าราคาในรายการวิจัยราว 2 เท่า และไม่ระบุ gradient",
+      "note": "ใช้ร่วมกันทั้ง 4 ท่าน (NS, PL, SA, NK) · ตรงกับคำขอปี 71 ลำดับ 57 (folder 145) ต้องตรวจสเปกบล็อก Gradient และความพร้อมสำหรับงาน DNA barcoding สมุนไพร",
       "user_prices": "SA: 1,327,161; NS: 1,300,000",
       "in_y70": false,
       "in_y71": true,
@@ -1107,7 +1114,9 @@
           "year": "Y1",
           "role": "Gene expression"
         }
-      ]
+      ],
+      "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
+      "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)"
     },
     {
       "id": "R24",
@@ -1326,10 +1335,11 @@
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
       "group": "อณูชีววิทยา",
-      "name": "Next-generation sequencer",
-      "users": "PL",
+      "name": "Next-generation sequencer (NGS & Herbal Metabarcoding)",
+      "users": "PL, NK",
       "user_list": [
-        "PL"
+        "PL",
+        "NK"
       ],
       "need_qty": null,
       "plan_qty": 1,
@@ -1340,7 +1350,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": "6,500,000",
-      "note": "ปี 71 เป็น portable NGS ตรวจว่าพอกับงานของ PL หรือไม่",
+      "note": "จัดกลุ่มรวม PL (Genome sequencing) และ NK (NGS metabarcoding พิสูจน์เอกลักษณ์สมุนไพรผสม) · ตรงกับคำขอปี 71 ลำดับ 71 (folder 165) ต้องตรวจสเปกความเข้ากันได้กับงาน Metabarcoding",
       "user_prices": null,
       "in_y70": false,
       "in_y71": true,
@@ -1348,7 +1358,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "High-throughput sequencing & multi-species NGS metabarcoding of herbal mixtures",
+      "application": "Genomic sequencing (PL) & species authentication of multi-herb formulations (NK)"
     },
     {
       "id": "R30",
@@ -2336,12 +2348,11 @@
       "id": "R59",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Pressurized liquid extraction (PLE / ASE)",
       "capability": "Automated high-pressure, high-temperature extraction with solvent and time control",
       "application": "Fast, reproducible extraction of standardized herbal extracts",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 1,
       "users": "NK",
       "user_list": [
@@ -2368,12 +2379,11 @@
       "id": "R60",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Multi-stage countercurrent extraction line",
       "capability": "Automated multi-tank extraction with closed-loop solvent recovery",
       "application": "Large-batch GMP extraction with consistent yield",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 2,
       "users": "NK",
       "user_list": [
@@ -2400,12 +2410,11 @@
       "id": "R61",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Supercritical fluid extraction (SFE-CO2) with modifier",
       "capability": "Solvent-free extraction with pressure and modifier programming",
       "application": "Essential oils and lipophilic compounds without residual solvent",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 3,
       "users": "NK",
       "user_list": [
@@ -2432,12 +2441,11 @@
       "id": "R62",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Ultrafiltration / nanofiltration membrane system",
       "capability": "Selective separation by molecular weight cut-off",
       "application": "Purification and concentration of polysaccharides and bioactive fractions",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 4,
       "users": "NK",
       "user_list": [
@@ -2464,12 +2472,11 @@
       "id": "R63",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Macroporous resin column chromatography system",
       "capability": "Automated adsorption and elution with fraction collection",
       "application": "Enrichment of target compounds such as flavonoids or saponins",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 5,
       "users": "NK",
       "user_list": [
@@ -2496,12 +2503,11 @@
       "id": "R64",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Thin-film evaporator / multi-effect concentrator",
       "capability": "Low-temperature, short-residence-time concentration",
       "application": "Preserves heat-sensitive actives during concentration",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 6,
       "users": "NK",
       "user_list": [
@@ -2528,12 +2534,11 @@
       "id": "R65",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การสกัดสมุนไพรขั้นสูง (NK)",
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "name": "Preparative HPLC / high-speed countercurrent chromatography (HSCCC)",
       "capability": "Scalable isolation of individual compounds with high purity",
       "application": "Preparation of reference standards and marker compounds",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "item_no": 7,
       "users": "NK",
       "user_list": [
@@ -2548,7 +2553,7 @@
       "y70_desc": null,
       "council_clause": "ข้อ 23 (Analytical HPLC)",
       "plan_5y_price": null,
-      "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (Marker compounds) (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC)",
+      "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC และ R21 เป็น FPLC สำหรับโปรตีนของ PL)",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -2560,12 +2565,11 @@
       "id": "R66",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Continuous manufacturing line (twin-screw granulator)",
       "capability": "Continuous wet or dry granulation with inline control",
       "application": "Consistent quality for high-volume herbal tablets and granules",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 1,
       "users": "NK",
       "user_list": [
@@ -2592,12 +2596,11 @@
       "id": "R67",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Process Analytical Technology (PAT): inline NIR and Raman probes",
       "capability": "Real-time monitoring of moisture, blend uniformity and API content",
       "application": "Batch release based on process data rather than end-testing only",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 2,
       "users": "NK",
       "user_list": [
@@ -2612,7 +2615,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์",
+      "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์ (เชื่อมต่อชุดสเปกโทรมิเตอร์ R79 ได้)",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -2624,12 +2627,11 @@
       "id": "R68",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Hot-melt extruder",
       "capability": "Solid dispersion formation with precise temperature and screw control",
       "application": "Improves solubility of poorly soluble herbal actives such as curcumin",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 3,
       "users": "NK",
       "user_list": [
@@ -2644,7 +2646,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold หากใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร เช่น เคอร์คูมิน",
+      "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold เพื่อใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -2656,12 +2658,11 @@
       "id": "R69",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Automated spray dryer with inlet/outlet control",
       "capability": "Controlled particle morphology and moisture content",
       "application": "Standardized herbal powder for capsules and sachets",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 4,
       "users": "NK",
       "user_list": [
@@ -2688,12 +2689,11 @@
       "id": "R70",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Lyophilizer with programmed freezing and drying cycles",
       "capability": "Automated, validated freeze-drying with recording",
       "application": "Stable products for heat-sensitive extracts and injectables",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 5,
       "users": "NK",
       "user_list": [
@@ -2708,7 +2708,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer แต่ติดสถานะ Hold (Y5) และต้องตรวจสเปกว่าเป็นแบบตั้งโปรแกรมวงจรแช่เยือกแข็ง/ทำแห้งพร้อมบันทึกข้อมูล (Shelf programmable lyophilizer) หรือไม่",
+      "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer ซึ่งติดสถานะ Hold (Y5) และตรงกับแผนแม่บทวิจัย 5 ปี ลำดับที่ 2 (Laboratory freeze dryer)",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -2720,12 +2720,11 @@
       "id": "R71",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Automatic capsule filling and tablet press with in-process weight control",
       "capability": "High-speed filling with automated weight and hardness checks",
       "application": "GMP-compliant production with minimal operator intervention",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 6,
       "users": "NK",
       "user_list": [
@@ -2740,7 +2739,7 @@
       "y70_desc": "Capsule-filling machine (ข้อ 7) และ Single-punch tablet machine (ข้อ 59) สำหรับการสอนพื้นฐาน",
       "council_clause": "ข้อ 7, ข้อ 59",
       "plan_5y_price": null,
-      "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต (In-process weight control)",
+      "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -2752,12 +2751,11 @@
       "id": "R72",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Hot-air or pan coating system with automated spray control",
       "capability": "Uniform film or enteric coating with controlled process parameters",
       "application": "Taste masking and targeted release of herbal tablets",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 7,
       "users": "NK",
       "user_list": [
@@ -2772,7 +2770,7 @@
       "y70_desc": "เครื่องเคลือบฟิล์ม (ข้อ 9) และเครื่องเคลือบแบบหม้อ (ข้อ 10) รวมในชุดปี 70",
       "council_clause": "ข้อ 9, ข้อ 10",
       "plan_5y_price": null,
-      "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติ (Automated spray control) หรือไม่ (ส่วน Fluidized Bed Coater ในปี 71 ลำดับ 7 ติด Hold)",
+      "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติหรือไม่",
       "user_prices": null,
       "in_y70": true,
       "in_y71": false,
@@ -2784,12 +2782,11 @@
       "id": "R73",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การผลิตและพัฒนาตำรับสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Cleanroom with HEPA filtration and environmental monitoring (ISO 8 / ISO 7)",
       "capability": "Continuous particle and microbial monitoring",
       "application": "Meets GMP grade requirements for sterile or high-purity herbal products",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "item_no": 8,
       "users": "NK",
       "user_list": [
@@ -2816,12 +2813,11 @@
       "id": "R74",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "name": "UHPLC-Q-TOF-MS (high-resolution LC-MS)",
       "capability": "Accurate-mass identification of hundreds of compounds in one run",
       "application": "Untargeted chemical profiling and identification of adulterants",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 1,
       "users": "NK",
       "user_list": [
@@ -2836,7 +2832,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC และลำดับ 13 เป็น LC-MS/MS (Hold) ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics/chemical profiling ของสมุนไพร",
+      "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC ส่วนลำดับ 13 (R22) เป็น QqQ LC-MS/MS ที่ติด Hold ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -2846,46 +2842,13 @@
     },
     {
       "id": "R75",
-      "status": "ปี 71 พักไว้ (Hold/NA)",
-      "plan_year": "ปี 71 (Hold)",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
-      "name": "UHPLC-QqQ-MS/MS (triple quadrupole)",
-      "capability": "Highly sensitive, targeted quantitation with multiple reaction monitoring",
-      "application": "Quantitation of markers and multi-residue pesticide analysis",
-      "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
-      "item_no": 2,
-      "users": "NK",
-      "user_list": [
-        "NK"
-      ],
-      "need_qty": 1,
-      "plan_qty": 1,
-      "qty_compare": "ตรงตามที่ขอ",
-      "min_price": null,
-      "max_price": null,
-      "y71_desc": "ลำดับ 13 · folder 85 · เครื่องลิควิดโครมาโทกราฟี-แมสสเปกโตรเมทรีแบบคู่ (Liquid Chromatography-Tandem Mass Spectrometry, LC-MS/MS) ×1 · Hold",
-      "y70_desc": null,
-      "council_clause": null,
-      "plan_5y_price": null,
-      "note": "ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) เครื่อง LC-MS/MS ซึ่งติดสถานะ Hold (สามารถใช้เครื่องร่วมกับความต้องการ R22 ของ PL ได้)",
-      "user_prices": null,
-      "in_y70": false,
-      "in_y71": false,
-      "courses": [],
-      "ns_specs": [],
-      "sa_phasing": []
-    },
-    {
-      "id": "R76",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "name": "Quantitative NMR (qNMR, 400–600 MHz)",
       "capability": "Absolute quantification without identical reference standards",
       "application": "Purity assignment of reference standards and marker compounds",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 3,
       "users": "NK",
       "user_list": [
@@ -2909,15 +2872,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R77",
+      "id": "R76",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "name": "GC-MS/MS",
       "capability": "High-sensitivity analysis of volatile compounds and pesticide residues",
       "application": "Essential oil profiling and residue testing",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 4,
       "users": "NK",
       "user_list": [
@@ -2941,15 +2903,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R78",
+      "id": "R77",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "name": "ICP-MS (inductively coupled plasma mass spectrometry)",
       "capability": "Trace-level multi-element analysis including heavy metals",
       "application": "Heavy metal limits (lead, arsenic, cadmium, mercury)",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 5,
       "users": "NK",
       "user_list": [
@@ -2973,49 +2934,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R79",
-      "status": "ตรงกับปี 71",
-      "plan_year": "ปี 71",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
-      "name": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding",
-      "capability": "Species-level identification of plant material and mixtures",
-      "application": "Authentication against substitution and misidentification",
-      "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
-      "item_no": 6,
-      "users": "NK",
-      "user_list": [
-        "NK"
-      ],
-      "need_qty": 1,
-      "plan_qty": 2,
-      "qty_compare": "ตรงตามที่ขอ",
-      "min_price": null,
-      "max_price": null,
-      "y71_desc": "ลำดับ 57 · folder 145 · เครื่องเพิ่มปริมาณสารพันธุกรรมแบบเรียลไทม์ (Real-time PCR) ×1 · CHPD1107\nลำดับ 71 · folder 165 · เครื่องตรวจวิเคราะห์ลำดับสารพันธุกรรม (Genome sequencing system - NGS) ×1 · CHPD1107",
-      "y70_desc": null,
-      "council_clause": null,
-      "plan_5y_price": null,
-      "note": "อยู่ในคำขอปี 71 ลำดับ 57 (Real-time qPCR) และลำดับ 71 (NGS) สามารถใช้ร่วมกับ R23 และ R29 ของ NS, PL, SA เพื่อพิสูจน์เอกลักษณ์พันธุ์พืชสมุนไพร (DNA barcoding) ได้ทันที",
-      "user_prices": null,
-      "in_y70": false,
-      "in_y71": true,
-      "courses": [
-        "CHPD1107"
-      ],
-      "ns_specs": [],
-      "sa_phasing": []
-    },
-    {
-      "id": "R80",
+      "id": "R78",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "name": "MALDI-TOF MS",
       "capability": "Rapid microbial identification from colonies",
       "application": "Identification of microbial contaminants in finished products",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 7,
       "users": "NK",
       "user_list": [
@@ -3039,15 +2965,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R81",
+      "id": "R79",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "name": "NIR and Raman spectrometers with chemometric software",
       "capability": "Non-destructive, rapid screening of raw materials and finished products",
       "application": "Incoming raw material screening and batch-to-batch consistency",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 8,
       "users": "NK",
       "user_list": [
@@ -3071,15 +2996,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R82",
+      "id": "R80",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (NA)",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "name": "X-ray powder diffraction (XRPD)",
       "capability": "Identification of crystalline and amorphous forms",
       "application": "Characterization of solid-state forms of herbal actives",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 9,
       "users": "NK",
       "user_list": [
@@ -3094,7 +3018,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": null,
-      "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผนหากใช้ศึกษาโครงสร้างผลึก/อสัณฐานของสารสกัดสมุนไพร",
+      "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผน",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -3103,15 +3027,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R83",
+      "id": "R81",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "name": "DSC and TGA thermal analyzers",
       "capability": "Thermal transitions, decomposition and moisture content",
       "application": "Stability and compatibility studies of formulations",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 10,
       "users": "NK",
       "user_list": [
@@ -3135,15 +3058,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R84",
+      "id": "R82",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "name": "Chromatographic fingerprint similarity software",
       "capability": "Automated similarity evaluation of HPLC or GC fingerprints",
       "application": "Fingerprint-based quality control as used in Chinese pharmacopeia practice",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 11,
       "users": "NK",
       "user_list": [
@@ -3167,15 +3089,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R85",
+      "id": "R83",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "name": "Automated dissolution tester with online UV/HPLC sampling",
       "capability": "Unattended release testing with automated sampling and analysis",
       "application": "Release profiling of tablets, granules and patches",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 12,
       "users": "NK",
       "user_list": [
@@ -3199,15 +3120,14 @@
       "sa_phasing": []
     },
     {
-      "id": "R86",
+      "id": "R84",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "name": "Electronic nose / electronic tongue",
       "capability": "Pattern-based sensory fingerprinting of aroma and taste",
       "application": "Rapid sensory consistency checks of herbal products",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "item_no": 13,
       "users": "NK",
       "user_list": [
@@ -3223,38 +3143,6 @@
       "council_clause": null,
       "plan_5y_price": null,
       "note": "ระบบจมูกและลิ้นอิเล็กทรอนิกส์ (E-nose / E-tongue) สำหรับสร้างลายพิมพ์นิ้วมือทางประสาทสัมผัสของกลิ่นและรสผลิตภัณฑ์สมุนไพร",
-      "user_prices": null,
-      "in_y70": false,
-      "in_y71": false,
-      "courses": [],
-      "ns_specs": [],
-      "sa_phasing": []
-    },
-    {
-      "id": "R87",
-      "status": "ไม่มีในแผน",
-      "plan_year": "ไม่มี",
-      "group": "การวิเคราะห์และควบคุมคุณภาพสมุนไพร (NK)",
-      "name": "Cell-based bioassay platform (high-content screening)",
-      "capability": "Automated, multi-well measurement of biological activity",
-      "application": "Confirms bioactivity of standardized extracts and fractions",
-      "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
-      "item_no": 14,
-      "users": "NK",
-      "user_list": [
-        "NK"
-      ],
-      "need_qty": 1,
-      "plan_qty": 0,
-      "qty_compare": "ยังไม่มีในแผนจัดซื้อ",
-      "min_price": null,
-      "max_price": null,
-      "y71_desc": null,
-      "y70_desc": null,
-      "council_clause": null,
-      "plan_5y_price": null,
-      "note": "แพลตฟอร์มทดสอบฤทธิ์ทางชีวภาพระดับเซลล์แบบ High-content screening เพื่อยืนยันฤทธิ์ของสารสกัดมาตรฐาน (สามารถใช้เครื่องร่วมกับ R01 High-content imaging/screening ของ NS และ PL ได้)",
       "user_prices": null,
       "in_y70": false,
       "in_y71": false,
@@ -4256,7 +4144,7 @@
       "qty": 1,
       "unit": "เครื่อง",
       "has_research_need": true,
-      "matched_research": "R83 DSC and TGA thermal analyzers",
+      "matched_research": "R81 DSC and TGA thermal analyzers",
       "requesters": "NK",
       "group": "ตรงกับความต้องการวิจัย",
       "council_link": null,
@@ -4287,7 +4175,7 @@
       "qty": 1,
       "unit": "เครื่อง",
       "has_research_need": true,
-      "matched_research": "R82 X-ray powder diffraction (XRPD)",
+      "matched_research": "R80 X-ray powder diffraction (XRPD)",
       "requesters": "NK",
       "group": "ตรงกับความต้องการวิจัย",
       "council_link": null,
@@ -4533,7 +4421,7 @@
       "qty": 1,
       "unit": "ชุด",
       "has_research_need": true,
-      "matched_research": "R22 Proteomics (shotgun/targeted); R75 UHPLC-QqQ-MS/MS (triple quadrupole)",
+      "matched_research": "R22 LC-MS/MS / UHPLC-QqQ-MS/MS (Proteomics & Herbal Quantitation)",
       "requesters": "PL, NK",
       "group": "ตรงกับความต้องการวิจัย",
       "council_link": null,
@@ -5722,7 +5610,7 @@
       "qty": 1,
       "unit": "ชุด",
       "has_research_need": true,
-      "matched_research": "R23 Real-time qPCR (PL ขอ gradient); R79 DNA barcoding and qPCR / NGS metabarcoding",
+      "matched_research": "R23 Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
       "requesters": "NS, PL, SA, NK",
       "group": "ตรงกับความต้องการวิจัย",
       "council_link": null,
@@ -6115,7 +6003,7 @@
       "qty": 1,
       "unit": "ชุด",
       "has_research_need": true,
-      "matched_research": "R29 Next-generation sequencer; R79 DNA barcoding and qPCR / NGS metabarcoding",
+      "matched_research": "R29 Next-generation sequencer (NGS & Herbal Metabarcoding)",
       "requesters": "PL, NK",
       "group": "ตรงกับความต้องการวิจัย",
       "council_link": null,
@@ -8652,6 +8540,42 @@
       "research_name": "Refrigerated microcentrifuge (≥15,000 rpm)"
     },
     {
+      "source_sheet": "NK หมวดที่ 3",
+      "source_row": 14,
+      "orig_item": "Cell-based bioassay platform (high-content screening) — Automated, multi-well measurement of biological activity",
+      "user": "NK",
+      "orig_val": "Confirms bioactivity of standardized extracts and fractions",
+      "research_id": "R01",
+      "research_name": "High-content imaging/screening (Cell-based bioassay)"
+    },
+    {
+      "source_sheet": "NK หมวดที่ 3",
+      "source_row": 2,
+      "orig_item": "UHPLC-QqQ-MS/MS (triple quadrupole) — Highly sensitive, targeted quantitation with multiple reaction monitoring",
+      "user": "NK",
+      "orig_val": "Quantitation of markers and multi-residue pesticide analysis",
+      "research_id": "R22",
+      "research_name": "LC-MS/MS / UHPLC-QqQ-MS/MS (Proteomics & Herbal Quantitation)"
+    },
+    {
+      "source_sheet": "NK หมวดที่ 3",
+      "source_row": 6,
+      "orig_item": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding — Species-level identification of plant material",
+      "user": "NK",
+      "orig_val": "Authentication against substitution and misidentification (ส่วน qPCR)",
+      "research_id": "R23",
+      "research_name": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)"
+    },
+    {
+      "source_sheet": "NK หมวดที่ 3",
+      "source_row": 6,
+      "orig_item": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding — Species-level identification of mixtures",
+      "user": "NK",
+      "orig_val": "Authentication against substitution and misidentification (ส่วน NGS metabarcoding)",
+      "research_id": "R29",
+      "research_name": "Next-generation sequencer (NGS & Herbal Metabarcoding)"
+    },
+    {
       "source_sheet": "NK หมวดที่ 1",
       "source_row": 1,
       "orig_item": "Pressurized liquid extraction (PLE / ASE) — Automated high-pressure, high-temperature extraction with solvent and time control",
@@ -8797,20 +8721,11 @@
     },
     {
       "source_sheet": "NK หมวดที่ 3",
-      "source_row": 2,
-      "orig_item": "UHPLC-QqQ-MS/MS (triple quadrupole) — Highly sensitive, targeted quantitation with multiple reaction monitoring",
-      "user": "NK",
-      "orig_val": "Quantitation of markers and multi-residue pesticide analysis",
-      "research_id": "R75",
-      "research_name": "UHPLC-QqQ-MS/MS (triple quadrupole)"
-    },
-    {
-      "source_sheet": "NK หมวดที่ 3",
       "source_row": 3,
       "orig_item": "Quantitative NMR (qNMR, 400–600 MHz) — Absolute quantification without identical reference standards",
       "user": "NK",
       "orig_val": "Purity assignment of reference standards and marker compounds",
-      "research_id": "R76",
+      "research_id": "R75",
       "research_name": "Quantitative NMR (qNMR, 400–600 MHz)"
     },
     {
@@ -8819,7 +8734,7 @@
       "orig_item": "GC-MS/MS — High-sensitivity analysis of volatile compounds and pesticide residues",
       "user": "NK",
       "orig_val": "Essential oil profiling and residue testing",
-      "research_id": "R77",
+      "research_id": "R76",
       "research_name": "GC-MS/MS"
     },
     {
@@ -8828,17 +8743,8 @@
       "orig_item": "ICP-MS (inductively coupled plasma mass spectrometry) — Trace-level multi-element analysis including heavy metals",
       "user": "NK",
       "orig_val": "Heavy metal limits (lead, arsenic, cadmium, mercury)",
-      "research_id": "R78",
+      "research_id": "R77",
       "research_name": "ICP-MS (inductively coupled plasma mass spectrometry)"
-    },
-    {
-      "source_sheet": "NK หมวดที่ 3",
-      "source_row": 6,
-      "orig_item": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding — Species-level identification of plant material and mixtures",
-      "user": "NK",
-      "orig_val": "Authentication against substitution and misidentification",
-      "research_id": "R79",
-      "research_name": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding"
     },
     {
       "source_sheet": "NK หมวดที่ 3",
@@ -8846,7 +8752,7 @@
       "orig_item": "MALDI-TOF MS — Rapid microbial identification from colonies",
       "user": "NK",
       "orig_val": "Identification of microbial contaminants in finished products",
-      "research_id": "R80",
+      "research_id": "R78",
       "research_name": "MALDI-TOF MS"
     },
     {
@@ -8855,7 +8761,7 @@
       "orig_item": "NIR and Raman spectrometers with chemometric software — Non-destructive, rapid screening of raw materials and finished products",
       "user": "NK",
       "orig_val": "Incoming raw material screening and batch-to-batch consistency",
-      "research_id": "R81",
+      "research_id": "R79",
       "research_name": "NIR and Raman spectrometers with chemometric software"
     },
     {
@@ -8864,7 +8770,7 @@
       "orig_item": "X-ray powder diffraction (XRPD) — Identification of crystalline and amorphous forms",
       "user": "NK",
       "orig_val": "Characterization of solid-state forms of herbal actives",
-      "research_id": "R82",
+      "research_id": "R80",
       "research_name": "X-ray powder diffraction (XRPD)"
     },
     {
@@ -8873,7 +8779,7 @@
       "orig_item": "DSC and TGA thermal analyzers — Thermal transitions, decomposition and moisture content",
       "user": "NK",
       "orig_val": "Stability and compatibility studies of formulations",
-      "research_id": "R83",
+      "research_id": "R81",
       "research_name": "DSC and TGA thermal analyzers"
     },
     {
@@ -8882,7 +8788,7 @@
       "orig_item": "Chromatographic fingerprint similarity software — Automated similarity evaluation of HPLC or GC fingerprints",
       "user": "NK",
       "orig_val": "Fingerprint-based quality control as used in Chinese pharmacopeia practice",
-      "research_id": "R84",
+      "research_id": "R82",
       "research_name": "Chromatographic fingerprint similarity software"
     },
     {
@@ -8891,7 +8797,7 @@
       "orig_item": "Automated dissolution tester with online UV/HPLC sampling — Unattended release testing with automated sampling and analysis",
       "user": "NK",
       "orig_val": "Release profiling of tablets, granules and patches",
-      "research_id": "R85",
+      "research_id": "R83",
       "research_name": "Automated dissolution tester with online UV/HPLC sampling"
     },
     {
@@ -8900,17 +8806,8 @@
       "orig_item": "Electronic nose / electronic tongue — Pattern-based sensory fingerprinting of aroma and taste",
       "user": "NK",
       "orig_val": "Rapid sensory consistency checks of herbal products",
-      "research_id": "R86",
+      "research_id": "R84",
       "research_name": "Electronic nose / electronic tongue"
-    },
-    {
-      "source_sheet": "NK หมวดที่ 3",
-      "source_row": 14,
-      "orig_item": "Cell-based bioassay platform (high-content screening) — Automated, multi-well measurement of biological activity",
-      "user": "NK",
-      "orig_val": "Confirms bioactivity of standardized extracts and fractions",
-      "research_id": "R87",
-      "research_name": "Cell-based bioassay platform (high-content screening)"
     }
   ],
   "courses": [
@@ -21119,8 +21016,10 @@
   "nk_herbal_requests": [
     {
       "id": "R59",
+      "id_label": "R59",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 1,
       "instrument": "Pressurized liquid extraction (PLE / ASE)",
       "capability": "Automated high-pressure, high-temperature extraction with solvent and time control",
@@ -21131,8 +21030,10 @@
     },
     {
       "id": "R60",
+      "id_label": "R60",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 2,
       "instrument": "Multi-stage countercurrent extraction line",
       "capability": "Automated multi-tank extraction with closed-loop solvent recovery",
@@ -21143,8 +21044,10 @@
     },
     {
       "id": "R61",
+      "id_label": "R61",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 3,
       "instrument": "Supercritical fluid extraction (SFE-CO2) with modifier",
       "capability": "Solvent-free extraction with pressure and modifier programming",
@@ -21155,8 +21058,10 @@
     },
     {
       "id": "R62",
+      "id_label": "R62",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 4,
       "instrument": "Ultrafiltration / nanofiltration membrane system",
       "capability": "Selective separation by molecular weight cut-off",
@@ -21167,8 +21072,10 @@
     },
     {
       "id": "R63",
+      "id_label": "R63",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 5,
       "instrument": "Macroporous resin column chromatography system",
       "capability": "Automated adsorption and elution with fraction collection",
@@ -21179,8 +21086,10 @@
     },
     {
       "id": "R64",
+      "id_label": "R64",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 6,
       "instrument": "Thin-film evaporator / multi-effect concentrator",
       "capability": "Low-temperature, short-residence-time concentration",
@@ -21191,20 +21100,24 @@
     },
     {
       "id": "R65",
+      "id_label": "R65",
+      "grouped_with": null,
+      "group": "การสกัดและแยกสารบริสุทธิ์",
       "table_no": 1,
-      "table_name": "หมวดที่ 1: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification)",
       "no": 7,
       "instrument": "Preparative HPLC / high-speed countercurrent chromatography (HSCCC)",
       "capability": "Scalable isolation of individual compounds with high purity",
       "application": "Preparation of reference standards and marker compounds",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (Marker compounds) (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC)"
+      "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC และ R21 เป็น FPLC สำหรับโปรตีนของ PL)"
     },
     {
       "id": "R66",
+      "id_label": "R66",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 1,
       "instrument": "Continuous manufacturing line (twin-screw granulator)",
       "capability": "Continuous wet or dry granulation with inline control",
@@ -21215,32 +21128,38 @@
     },
     {
       "id": "R67",
+      "id_label": "R67",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 2,
       "instrument": "Process Analytical Technology (PAT): inline NIR and Raman probes",
       "capability": "Real-time monitoring of moisture, blend uniformity and API content",
       "application": "Batch release based on process data rather than end-testing only",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์"
+      "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์ (เชื่อมต่อชุดสเปกโทรมิเตอร์ R79 ได้)"
     },
     {
       "id": "R68",
+      "id_label": "R68",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 3,
       "instrument": "Hot-melt extruder",
       "capability": "Solid dispersion formation with precise temperature and screw control",
       "application": "Improves solubility of poorly soluble herbal actives such as curcumin",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold หากใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร เช่น เคอร์คูมิน"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold เพื่อใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร"
     },
     {
       "id": "R69",
+      "id_label": "R69",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 4,
       "instrument": "Automated spray dryer with inlet/outlet control",
       "capability": "Controlled particle morphology and moisture content",
@@ -21251,44 +21170,52 @@
     },
     {
       "id": "R70",
+      "id_label": "R70",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 5,
       "instrument": "Lyophilizer with programmed freezing and drying cycles",
       "capability": "Automated, validated freeze-drying with recording",
       "application": "Stable products for heat-sensitive extracts and injectables",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer แต่ติดสถานะ Hold (Y5) และต้องตรวจสเปกว่าเป็นแบบตั้งโปรแกรมวงจรแช่เยือกแข็ง/ทำแห้งพร้อมบันทึกข้อมูล (Shelf programmable lyophilizer) หรือไม่"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer ซึ่งติดสถานะ Hold (Y5) และตรงกับแผนแม่บทวิจัย 5 ปี ลำดับที่ 2 (Laboratory freeze dryer)"
     },
     {
       "id": "R71",
+      "id_label": "R71",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 6,
       "instrument": "Automatic capsule filling and tablet press with in-process weight control",
       "capability": "High-speed filling with automated weight and hardness checks",
       "application": "GMP-compliant production with minimal operator intervention",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต (In-process weight control)"
+      "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต"
     },
     {
       "id": "R72",
+      "id_label": "R72",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 7,
       "instrument": "Hot-air or pan coating system with automated spray control",
       "capability": "Uniform film or enteric coating with controlled process parameters",
       "application": "Taste masking and targeted release of herbal tablets",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติ (Automated spray control) หรือไม่ (ส่วน Fluidized Bed Coater ในปี 71 ลำดับ 7 ติด Hold)"
+      "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติหรือไม่"
     },
     {
       "id": "R73",
+      "id_label": "R73",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 2,
-      "table_name": "หมวดที่ 2: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation)",
       "no": 8,
       "instrument": "Cleanroom with HEPA filtration and environmental monitoring (ISO 8 / ISO 7)",
       "capability": "Continuous particle and microbial monitoring",
@@ -21299,32 +21226,38 @@
     },
     {
       "id": "R74",
+      "id_label": "R74",
+      "grouped_with": null,
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 1,
       "instrument": "UHPLC-Q-TOF-MS (high-resolution LC-MS)",
       "capability": "Accurate-mass identification of hundreds of compounds in one run",
       "application": "Untargeted chemical profiling and identification of adulterants",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC และลำดับ 13 เป็น LC-MS/MS (Hold) ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics/chemical profiling ของสมุนไพร"
+      "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC ส่วนลำดับ 13 (R22) เป็น QqQ LC-MS/MS ที่ติด Hold ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics"
     },
     {
-      "id": "R75",
+      "id": "R22",
+      "id_label": "R22",
+      "grouped_with": "PL (R22)",
+      "group": "เจล/โปรตีน",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 2,
       "instrument": "UHPLC-QqQ-MS/MS (triple quadrupole)",
       "capability": "Highly sensitive, targeted quantitation with multiple reaction monitoring",
       "application": "Quantitation of markers and multi-residue pesticide analysis",
       "status": "ปี 71 พักไว้ (Hold/NA)",
-      "plan_year": "ปี 71 (Hold)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) เครื่อง LC-MS/MS ซึ่งติดสถานะ Hold (สามารถใช้เครื่องร่วมกับความต้องการ R22 ของ PL ได้)"
+      "plan_year": "ปี 71 (Hold/NA)",
+      "note": "จัดกลุ่มรวม PL (Proteomics) และ NK (UHPLC-QqQ-MS/MS วิเคราะห์สารบ่งชี้สมุนไพรและสารพิษตกค้าง) · ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) ซึ่งติดสถานะ Hold"
     },
     {
-      "id": "R76",
+      "id": "R75",
+      "id_label": "R75",
+      "grouped_with": null,
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 3,
       "instrument": "Quantitative NMR (qNMR, 400–600 MHz)",
       "capability": "Absolute quantification without identical reference standards",
@@ -21334,9 +21267,11 @@
       "note": "เครื่องนิวเคลียร์แมกเนติกเรโซแนนซ์เชิงปริมาณ (qNMR 400–600 MHz) สำหรับหาความบริสุทธิ์สัมบูรณ์ของสารมาตรฐานและสารบ่งชี้สมุนไพร"
     },
     {
-      "id": "R77",
+      "id": "R76",
+      "id_label": "R76",
+      "grouped_with": null,
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 4,
       "instrument": "GC-MS/MS",
       "capability": "High-sensitivity analysis of volatile compounds and pesticide residues",
@@ -21346,9 +21281,11 @@
       "note": "งบปี 70 (ข้อ 19) มีเครื่อง Gas chromatography (GC) แล้ว ต้องตรวจสเปกว่ามีหัวตรวจ Triple Quadrupole MS/MS สำหรับวิเคราะห์สารพิษตกค้างและน้ำมันหอมระเหยความไวสูงหรือไม่"
     },
     {
-      "id": "R78",
+      "id": "R77",
+      "id_label": "R77",
+      "grouped_with": null,
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 5,
       "instrument": "ICP-MS (inductively coupled plasma mass spectrometry)",
       "capability": "Trace-level multi-element analysis including heavy metals",
@@ -21358,21 +21295,25 @@
       "note": "เครื่อง ICP-MS สำหรับตรวจวิเคราะห์โลหะหนักปนเปื้อนระดับร่องรอย (ตะกั่ว สารหนู แคดเมียม ปรอท) ตามเกณฑ์ตำรายาสมุนไพร"
     },
     {
-      "id": "R79",
+      "id": "R23",
+      "id_label": "R23 / R29",
+      "grouped_with": "NS, PL, SA (R23 qPCR & R29 NGS)",
+      "group": "PCR / อณูชีววิทยา",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 6,
       "instrument": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding",
       "capability": "Species-level identification of plant material and mixtures",
       "application": "Authentication against substitution and misidentification",
-      "status": "ตรงกับปี 71",
+      "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
-      "note": "อยู่ในคำขอปี 71 ลำดับ 57 (Real-time qPCR) และลำดับ 71 (NGS) สามารถใช้ร่วมกับ R23 และ R29 ของ NS, PL, SA เพื่อพิสูจน์เอกลักษณ์พันธุ์พืชสมุนไพร (DNA barcoding) ได้ทันที"
+      "note": "ใช้ร่วมกันทั้ง 4 ท่าน (NS, PL, SA, NK) · ตรงกับคำขอปี 71 ลำดับ 57 (folder 145) ต้องตรวจสเปกบล็อก Gradient และความพร้อมสำหรับงาน DNA barcoding สมุนไพร"
     },
     {
-      "id": "R80",
+      "id": "R78",
+      "id_label": "R78",
+      "grouped_with": null,
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 7,
       "instrument": "MALDI-TOF MS",
       "capability": "Rapid microbial identification from colonies",
@@ -21382,9 +21323,11 @@
       "note": "เครื่อง MALDI-TOF MS สำหรับจำแนกชนิดจุลินทรีย์ปนเปื้อนในผลิตภัณฑ์สมุนไพรอย่างรวดเร็ว"
     },
     {
-      "id": "R81",
+      "id": "R79",
+      "id_label": "R79",
+      "grouped_with": null,
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 8,
       "instrument": "NIR and Raman spectrometers with chemometric software",
       "capability": "Non-destructive, rapid screening of raw materials and finished products",
@@ -21394,21 +21337,25 @@
       "note": "คำขอปี 71 ลำดับ 2 มีเฉพาะเครื่อง FTIR ยังไม่มีเครื่อง NIR และ Raman spectrometer พร้อมซอฟต์แวร์ Chemometrics สำหรับคัดกรองวัตถุดิบสมุนไพรแบบไม่ทำลายตัวอย่าง"
     },
     {
-      "id": "R82",
+      "id": "R80",
+      "id_label": "R80",
+      "grouped_with": null,
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 9,
       "instrument": "X-ray powder diffraction (XRPD)",
       "capability": "Identification of crystalline and amorphous forms",
       "application": "Characterization of solid-state forms of herbal actives",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (NA)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผนหากใช้ศึกษาโครงสร้างผลึก/อสัณฐานของสารสกัดสมุนไพร"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผน"
     },
     {
-      "id": "R83",
+      "id": "R81",
+      "id_label": "R81",
+      "grouped_with": null,
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 10,
       "instrument": "DSC and TGA thermal analyzers",
       "capability": "Thermal transitions, decomposition and moisture content",
@@ -21418,9 +21365,11 @@
       "note": "คำขอปี 71 ลำดับ 3 (folder 73) มีเครื่อง DSC อยู่แล้ว (ขอตามรายวิชา) แต่ต้องตรวจสเปกว่าครอบคลุมชุดวิเคราะห์ TGA (Thermogravimetric Analyzer) หรือเป็น STA (Simultaneous DSC-TGA) หรือไม่"
     },
     {
-      "id": "R84",
+      "id": "R82",
+      "id_label": "R82",
+      "grouped_with": null,
+      "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 11,
       "instrument": "Chromatographic fingerprint similarity software",
       "capability": "Automated similarity evaluation of HPLC or GC fingerprints",
@@ -21430,9 +21379,11 @@
       "note": "ซอฟต์แวร์ประเมินความคล้ายคลึงของลายพิมพ์นิ้วมือโครมาโทกราฟี (Chromatographic Fingerprint Similarity) ตามแนวทางตำรายาจีน (Chinese Pharmacopoeia)"
     },
     {
-      "id": "R85",
+      "id": "R83",
+      "id_label": "R83",
+      "grouped_with": null,
+      "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 12,
       "instrument": "Automated dissolution tester with online UV/HPLC sampling",
       "capability": "Unattended release testing with automated sampling and analysis",
@@ -21442,9 +21393,11 @@
       "note": "งบปี 70 (ข้อ 14) มีการจัดซื้อเครื่องวัดการละลาย (Dissolution apparatus) แล้ว ต้องตรวจสเปกว่ามีระบบสุ่มเก็บตัวอย่างอัตโนมัติเชื่อมออนไลน์กับ UV/HPLC หรือไม่"
     },
     {
-      "id": "R86",
+      "id": "R84",
+      "id_label": "R84",
+      "grouped_with": null,
+      "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 13,
       "instrument": "Electronic nose / electronic tongue",
       "capability": "Pattern-based sensory fingerprinting of aroma and taste",
@@ -21454,16 +21407,18 @@
       "note": "ระบบจมูกและลิ้นอิเล็กทรอนิกส์ (E-nose / E-tongue) สำหรับสร้างลายพิมพ์นิ้วมือทางประสาทสัมผัสของกลิ่นและรสผลิตภัณฑ์สมุนไพร"
     },
     {
-      "id": "R87",
+      "id": "R01",
+      "id_label": "R01",
+      "grouped_with": "NS, PL (R01)",
+      "group": "กล้องจุลทรรศน์/ภาพ",
       "table_no": 3,
-      "table_name": "หมวดที่ 3: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay)",
       "no": 14,
       "instrument": "Cell-based bioassay platform (high-content screening)",
       "capability": "Automated, multi-well measurement of biological activity",
       "application": "Confirms bioactivity of standardized extracts and fractions",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "แพลตฟอร์มทดสอบฤทธิ์ทางชีวภาพระดับเซลล์แบบ High-content screening เพื่อยืนยันฤทธิ์ของสารสกัดมาตรฐาน (สามารถใช้เครื่องร่วมกับ R01 High-content imaging/screening ของ NS และ PL ได้)"
+      "note": "รวม 4 แถวที่ซ้ำความหมาย (PL 1, NS 2, NK 1: Cell-based bioassay platform / high-content screening สำหรับยืนยันฤทธิ์ชีวภาพของสารสกัดสมุนไพร)"
     }
   ]
 }
