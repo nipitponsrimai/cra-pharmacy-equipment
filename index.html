@@ -1167,38 +1167,55 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap;">
           <button class="btn" id="btnFilterAllRes" onclick="filterResByUser('')" style="font-weight:600;"><i class="fa-solid fa-layer-group"></i> ผู้ขอทั้งหมด (๘๗)</button>
-          <button class="btn" id="btnFilterNK" onclick="filterResByUser('NK')" style="background:#0b1f3d; color:#ffbe3b; border-color:#c59b27; font-weight:600;"><i class="fa-solid fa-leaf"></i> รศ.ดร.นริศา (NK · ๒๙ รายการ)</button>
-          <button class="btn" id="btnToggleNKTables" onclick="toggleNKShowcase()" style="border-color:var(--accent); color:var(--accent-text); font-weight:600;"><i class="fa-solid fa-table-list"></i> ตาราง ๓ หมวดสมุนไพร (NK)</button>
+          <button class="btn" id="btnFilterNK" onclick="filterResByUser('NK')" style="background:#0b1f3d; color:#ffbe3b; border-color:#c59b27; font-weight:600;"><i class="fa-solid fa-leaf"></i> รศ.ดร.นริศา (NK · ๒๙)</button>
+          <button class="btn" onclick="filterResByUser('PL')" style="font-weight:600;">อ.ดร.ปัฐวิกา (PL · ๔๐)</button>
+          <button class="btn" onclick="filterResByUser('NS')" style="font-weight:600;">อ.ดร.นิพิฐพนธ์ (NS · ๒๕)</button>
+          <button class="btn" onclick="filterResByUser('SA')" style="font-weight:600;">อ.ดร.สิริอร (SA · ๒๓)</button>
+          <button class="btn" id="btnToggleNKTables" onclick="toggleNKShowcase()" style="border-color:var(--accent); color:var(--accent-text); font-weight:600;"><i class="fa-solid fa-table-list"></i> ซ่อน/แสดงตาราง ๓ หมวดสมุนไพร (NK)</button>
         </div>
       </div>
     </div>
 
-    <!-- Dedicated 3-Table Showcase for Narisa Kamkan's Herbal Pharmacy Requests -->
-    <div id="nkShowcaseWrap" class="card" style="margin-bottom:16px; border:1px solid rgba(197,155,39,0.45);" hidden>
-      <div class="card-head" style="border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:14px;">
+    <!-- 4 KPI Summary Cards for Research Needs -->
+    <div class="grid g4" id="resKpis" style="margin-bottom:16px;"></div>
+
+    <!-- Dedicated 3-Table Showcase for Narisa Kamkan's Herbal Pharmacy Requests (Visible by default) -->
+    <div id="nkShowcaseWrap" class="card" style="margin-bottom:16px; border:1px solid rgba(197,155,39,0.45);">
+      <div class="card-head" style="border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
         <div>
-          <div class="eyebrow" style="color:#b45309;"><i class="fa-solid fa-leaf"></i> NARISA KAMKAN'S REQUEST · ADVANCED HERBAL PHARMACY INSTRUMENTS (๒๙ รายการ)</div>
+          <div class="eyebrow" style="color:#b45309;"><i class="fa-solid fa-leaf"></i> NARISA KAMKAN'S REQUEST · ADVANCED HERBAL PHARMACY INSTRUMENTS (๒๙ รายการ · R59–R87)</div>
           <h2 style="font-size:18px; margin-top:3px;">ความต้องการเครื่องมือขั้นสูงด้านเภสัชกรรมสมุนไพร — รองศาสตราจารย์ ดร.เภสัชกรหญิงนริศา คำแก่น (NK)</h2>
           <p style="font-size:13px; color:var(--text-2); margin-top:2px;">แบ่งเป็น ๓ หมวดหลัก: ๑) การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (๗ รายการ) · ๒) กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (๘ รายการ) · ๓) การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (๑๔ รายการ) คลิกที่แถวเพื่อดูรายละเอียดการจับคู่แผนปี ๗๐–๗๑</p>
         </div>
-        <button class="btn btn-sm" onclick="toggleNKShowcase()">ซ่อนตาราง ๓ หมวด ▲</button>
+        <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+          <div class="chips" id="nkCatChips"></div>
+          <button class="btn btn-sm" onclick="toggleNKShowcase()">พับเก็บ ▲</button>
+        </div>
       </div>
       <div id="nkTablesContainer" style="display:flex; flex-direction:column; gap:18px;"></div>
     </div>
 
-    <div class="toolbar">
-      <div class="chips" id="resPlan"></div>
-      <select class="sel" id="resUser" aria-label="ผู้ขอ">
-        <option value="">ผู้ขอทั้งหมด (87)</option>
-        <option value="NK">NK — รศ.ดร.นริศา คำแก่น (29)</option>
-        <option value="NS">NS — อ.ดร.นิพิฐพนธ์ ศรีไม้ (25)</option>
-        <option value="SA">SA — อ.ดร.สิริอร อักษรทอง (23)</option>
-        <option value="PL">PL — อ.ดร.ภญ.ปัฐวิกา เลิศปฏิภานพงษ์ (40)</option>
-      </select>
-      <input class="search" id="resSearch" type="search" placeholder="ค้นหาชื่อเครื่องมือ, ความสามารถ (Capability), การประยุกต์ใช้ (Application), ยี่ห้อ, หมายเหตุ...">
-      <span class="count" id="resCount"></span>
+    <div class="card">
+      <div class="card-head" style="margin-bottom:10px;">
+        <div>
+          <h2>ตารางบูรณาการความต้องการครุภัณฑ์วิจัยทั้งหมด (R01–R87)</h2>
+          <p>ค้นหาและกรองตามสถานะในแผนจัดซื้อหรือตามอาจารย์ผู้ขอ คลิกที่แถวเพื่อเปิดหน้าต่างรายละเอียด</p>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="chips" id="resPlan"></div>
+        <select class="sel" id="resUser" aria-label="ผู้ขอ">
+          <option value="">ผู้ขอทั้งหมด (87)</option>
+          <option value="NK">NK — รศ.ดร.นริศา คำแก่น (29)</option>
+          <option value="NS">NS — อ.ดร.นิพิฐพนธ์ ศรีไม้ (25)</option>
+          <option value="SA">SA — อ.ดร.สิริอร อักษรทอง (23)</option>
+          <option value="PL">PL — อ.ดร.ภญ.ปัฐวิกา เลิศปฏิภานพงษ์ (40)</option>
+        </select>
+        <input class="search" id="resSearch" type="search" placeholder="ค้นหาชื่อเครื่องมือ, ความสามารถ (Capability), การประยุกต์ใช้ (Application), ยี่ห้อ, หมายเหตุ...">
+        <span class="count" id="resCount"></span>
+      </div>
+      <div class="tbl-wrap"><table id="resTable"></table></div>
     </div>
-    <div class="tbl-wrap"><table id="resTable"></table></div>
   </section>
 
   <!-- council -->
@@ -1731,49 +1748,92 @@ const D = {"generated_at": "สร้างไฟล์เมื่อ 4 พ.ย
     wrap.hidden = !wrap.hidden;
   };
 
+  if ($('resKpis')) {
+    const resKpiList = [
+      {
+        c: 'var(--accent)',
+        label: 'ความต้องการวิจัยรวมทั้งหมด',
+        value: `${M.research_total.count}<small> รายการ</small>`,
+        detail: `NS <b>${M.needs_by_user.NS}</b> · SA <b>${M.needs_by_user.SA}</b> · PL <b>${M.needs_by_user.PL}</b> · NK <b>${M.needs_by_user.NK}</b>`
+      },
+      {
+        c: 'var(--s-ok)',
+        label: 'อยู่ในแผนจัดซื้อ (ปี 70–71)',
+        value: `${ip.count}<small> / ${M.research_total.count} รายการ</small>`,
+        detail: `ตรงกับปี 71 <b>${st['ตรงกับปี 71'].count}</b> · งบปี 70 <b>${st['ครอบคลุมแล้วในปี 70'].count}</b> · ต้องตรวจสเปก <b>${st['มีในแผน แต่ต้องตรวจสเปก'].count}</b>`
+      },
+      {
+        c: '#c59b27',
+        label: 'รศ.ดร.นริศา คำแก่น (NK · สมุนไพร)',
+        value: `${M.needs_by_user.NK}<small> รายการ (3 หมวด)</small>`,
+        detail: `สกัด <b>7</b> · ผลิตตำรับ <b>8</b> · วิเคราะห์/QC <b>14</b> (ในแผน <b>5</b> · Hold/NA <b>6</b> · ขาดงบ <b>18</b>)`
+      },
+      {
+        c: 'var(--s-no)',
+        label: 'ยังไม่มีในแผน & ติด Hold/NA',
+        value: `${np.count + M.held.count}<small> รายการ</small>`,
+        detail: `ไม่มีในแผน <b>${np.count}</b> รายการ · ปี 71 พักไว้ (Hold/NA) <b>${M.held.count}</b> รายการ`
+      }
+    ];
+    $('resKpis').innerHTML = resKpiList.map((k) => `<div class="card kpi" style="--kc:${k.c}"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="detail">${k.detail}</div></div>`).join('');
+  }
+
   if ($('nkTablesContainer') && D.nk_herbal_requests) {
+    let nkActiveCat = 0;
     const groups = [
       { no: 1, title: 'หมวดที่ ๑: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification — ๗ รายการ)', icon: 'fa-flask-vial' },
       { no: 2, title: 'หมวดที่ ๒: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation — ๘ รายการ)', icon: 'fa-industry' },
       { no: 3, title: 'หมวดที่ ๓: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay — ๑๔ รายการ)', icon: 'fa-microscope' },
     ];
-    $('nkTablesContainer').innerHTML = groups.map(g => {
-      const items = D.nk_herbal_requests.filter(x => x.table_no === g.no);
-      return `
-        <div style="border:1px solid var(--border); border-radius:10px; overflow:hidden; background:var(--surface);">
-          <div style="background:var(--surface-2); padding:10px 14px; font-weight:700; font-size:14px; color:var(--text); border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
-            <span><i class="fa-solid ${g.icon}" style="color:var(--accent); margin-right:6px;"></i> ${esc(g.title)}</span>
-            <span class="pill st-neutral">${items.length} รายการ</span>
-          </div>
-          <div class="tbl-wrap" style="border:0; border-radius:0; max-height:none;">
-            <table class="mini" style="width:100%;">
-              <thead>
-                <tr>
-                  <th class="num" style="width:50px;">No.</th>
-                  <th style="width:70px;">รหัส</th>
-                  <th style="width:26%;">Advanced instrument</th>
-                  <th style="width:28%;">Advanced capability</th>
-                  <th style="width:26%;">Application in herbal pharmacy</th>
-                  <th style="width:14%;">สถานะในแผนปี 70–71</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${items.map(it => `
-                  <tr class="clickable" onclick="document.querySelector('[data-id=&quot;${esc(it.id)}&quot;]') ? openRes('${esc(it.id)}') : null" data-nk-id="${esc(it.id)}">
-                    <td class="num"><b>${it.no}</b></td>
-                    <td><b>${esc(it.id)}</b></td>
-                    <td><b>${esc(it.instrument)}</b></td>
-                    <td>${esc(it.capability)}</td>
-                    <td>${esc(it.application)}</td>
-                    <td>${pill(RS, it.status)}</td>
+    function renderNKShowcase() {
+      const visibleGroups = nkActiveCat ? groups.filter(g => g.no === nkActiveCat) : groups;
+      $('nkTablesContainer').innerHTML = visibleGroups.map(g => {
+        const items = D.nk_herbal_requests.filter(x => x.table_no === g.no);
+        return `
+          <div style="border:1px solid var(--border); border-radius:10px; overflow:hidden; background:var(--surface);">
+            <div style="background:var(--surface-2); padding:10px 14px; font-weight:700; font-size:14px; color:var(--text); border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+              <span><i class="fa-solid ${g.icon}" style="color:var(--accent); margin-right:6px;"></i> ${esc(g.title)}</span>
+              <span class="pill st-neutral">${items.length} รายการ</span>
+            </div>
+            <div class="tbl-wrap" style="border:0; border-radius:0; max-height:none;">
+              <table class="mini" style="width:100%;">
+                <thead>
+                  <tr>
+                    <th class="num" style="width:48px;">No.</th>
+                    <th style="width:65px;">รหัส</th>
+                    <th style="width:23%;">Advanced instrument</th>
+                    <th style="width:25%;">Advanced capability</th>
+                    <th style="width:23%;">Application in herbal pharmacy</th>
+                    <th style="width:14%;">สถานะในแผนปี 70–71</th>
                   </tr>
-                `).join('')}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  ${items.map(it => `
+                    <tr class="clickable" data-nk-id="${esc(it.id)}">
+                      <td class="num"><b>${it.no}</b></td>
+                      <td><b>${esc(it.id)}</b></td>
+                      <td><b>${esc(it.instrument)}</b></td>
+                      <td>${esc(it.capability)}</td>
+                      <td>${esc(it.application)}</td>
+                      <td>${pill(RS, it.status)}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
           </div>
-        </div>
-      `;
-    }).join('');
+        `;
+      }).join('');
+    }
+    if ($('nkCatChips')) {
+      chips($('nkCatChips'), [
+        ['0', 'ทั้งหมด 3 หมวด (29)'],
+        ['1', '๑. การสกัดสมุนไพร (7)'],
+        ['2', '๒. การผลิตและพัฒนาตำรับ (8)'],
+        ['3', '๓. การวิเคราะห์และควบคุมคุณภาพ (14)']
+      ], (v) => { nkActiveCat = Number(v); renderNKShowcase(); });
+    }
+    renderNKShowcase();
     $('nkTablesContainer').addEventListener('click', (e) => {
       const tr = e.target.closest('tr[data-nk-id]');
       if (tr) openRes(tr.dataset.nkId);
