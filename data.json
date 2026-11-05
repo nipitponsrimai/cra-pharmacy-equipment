@@ -63,7 +63,7 @@
       "NS": 25,
       "SA": 23,
       "PL": 40,
-      "NK": 30
+      "NK": 29
     },
     "no_plan_by_user": {
       "NS": 13,
@@ -88,7 +88,7 @@
         "NS": 5,
         "SA": 5,
         "PL": 8,
-        "NK": 6
+        "NK": 5
       },
       "ปี 71 พักไว้ (Hold/NA)": {
         "NS": 1,
@@ -1114,7 +1114,7 @@
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
       "group": "PCR",
-      "name": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+      "name": "Real-time qPCR & DNA barcoding / metabarcoding",
       "users": "NS, PL, SA, NK",
       "user_list": [
         "NS",
@@ -1131,7 +1131,7 @@
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": "2,985,300",
-      "note": "ใช้ร่วมกันทั้ง 4 ท่าน (NS, PL, SA, NK) · ตรงกับคำขอปี 71 ลำดับ 57 (folder 145) ต้องตรวจสเปกบล็อก Gradient และความพร้อมสำหรับงาน DNA barcoding สมุนไพร",
+      "note": "PL ขอ gradient · NK ใช้ทำ DNA barcoding และ qPCR พืชสมุนไพร (เชื่อมโยงงาน NGS Metabarcoding กับ R29)",
       "user_prices": "SA: 1,327,161; NS: 1,300,000",
       "in_y70": false,
       "in_y71": true,
@@ -1385,22 +1385,21 @@
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
       "group": "อณูชีววิทยา",
-      "name": "Next-generation sequencer (NGS & Herbal Metabarcoding)",
-      "users": "PL, NK",
+      "name": "Next-generation sequencer (NGS)",
+      "users": "PL",
       "user_list": [
-        "PL",
-        "NK"
+        "PL"
       ],
-      "need_qty": null,
+      "need_qty": 1,
       "plan_qty": 1,
-      "qty_compare": "ผู้ขอยังไม่ระบุจำนวน",
+      "qty_compare": "ตรง (1)",
       "min_price": null,
       "max_price": null,
       "y71_desc": "ลำดับ 71 · folder 165 · เครื่องตรวจวิเคราะห์ลำดับสารพันธุกรรม ×1 · CHPD1107",
       "y70_desc": null,
       "council_clause": null,
       "plan_5y_price": "6,500,000",
-      "note": "จัดกลุ่มรวม PL (Genome sequencing) และ NK (NGS metabarcoding พิสูจน์เอกลักษณ์สมุนไพรผสม) · ตรงกับคำขอปี 71 ลำดับ 71 (folder 165) ต้องตรวจสเปกความเข้ากันได้กับงาน Metabarcoding",
+      "note": "PL ขอ 1 เครื่อง (สามารถรองรับงาน NGS Metabarcoding สมุนไพรของ NK ร่วมกับ R23 ได้)",
       "user_prices": null,
       "in_y70": false,
       "in_y71": true,
@@ -21654,7 +21653,7 @@
   "faculty_showcases": {
     "NK": {
       "code": "NK",
-      "eyebrow": "NARISA KAMKAN'S REQUEST · ADVANCED HERBAL PHARMACY INSTRUMENTS (๒๙ รายการ)",
+      "eyebrow": "NARISA KAMKAN'S REQUEST · ADVANCED HERBAL PHARMACY INSTRUMENTS (๒๙ รายการ · R59–R84 + ใช้ร่วม R01, R22, R23)",
       "title": "ความต้องการเครื่องมือขั้นสูงด้านเภสัชกรรมสมุนไพร — รองศาสตราจารย์ ดร.เภสัชกรหญิงนริศา คำแก่น (NK)",
       "subtitle": "แบ่งเป็น ๓ หมวดหลัก: ๑) การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (๗ รายการ) · ๒) กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (๘ รายการ) · ๓) การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (๑๔ รายการ · ใช้ร่วมกับ NS/PL/SA ได้ ๓ รายการ คือ R01, R22, R23/R29)",
       "total_items": 29,
@@ -22044,7 +22043,7 @@
             },
             {
               "id": "R23",
-              "id_label": "R23 / R29",
+              "id_label": "R23",
               "grouped_with": "NS, PL, SA (R23 qPCR & R29 NGS)",
               "group": "PCR / อณูชีววิทยา",
               "table_no": 3,
@@ -22282,7 +22281,7 @@
               "no": 4,
               "id": "R23",
               "id_label": "R23",
-              "instrument": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+              "instrument": "Real-time qPCR & DNA barcoding / metabarcoding",
               "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
               "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)",
               "group": "PCR",
@@ -22344,10 +22343,9 @@
               "capability": "High-throughput sequencing & multi-species NGS metabarcoding of herbal mixtures",
               "application": "Genomic sequencing (PL) & species authentication of multi-herb formulations (NK)",
               "group": "อณูชีววิทยา",
-              "users": "PL, NK",
+              "users": "PL",
               "user_list": [
-                "PL",
-                "NK"
+                "PL"
               ],
               "status": "มีในแผน แต่ต้องตรวจสเปก",
               "plan_year": "ปี 71",
@@ -23360,7 +23358,7 @@
               "no": 3,
               "id": "R23",
               "id_label": "R23",
-              "instrument": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+              "instrument": "Real-time qPCR & DNA barcoding / metabarcoding",
               "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
               "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)",
               "group": "PCR",
@@ -23586,7 +23584,7 @@
               "no": 1,
               "id": "R23",
               "id_label": "R23",
-              "instrument": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+              "instrument": "Real-time qPCR & DNA barcoding / metabarcoding",
               "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
               "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)",
               "group": "PCR",
