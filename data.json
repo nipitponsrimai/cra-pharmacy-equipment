@@ -14852,13 +14852,14 @@
   },
   "distributors_data": {
     "summary": {
-      "total_companies": 36,
+      "total_companies": 43,
       "total_55_items": 56,
       "total_matched_equipment": 56,
       "authorized_dealers_count": 35,
       "quote_vendors_count": 13,
       "genz_items_count": 26,
-      "year71_items_count": 98
+      "year71_items_count": 98,
+      "rep_contacts_count": 10
     },
     "companies": [
       {
@@ -15080,6 +15081,16 @@
             "requester": "คณะเภสัชศาสตร์",
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
+          }
+        ],
+        "contact_reps": [
+          {
+            "name": "คุณสุพรรณิกา",
+            "phone": "062-593-2872",
+            "email": "d.supannika@becthai.com",
+            "pdf_label": "Becthai",
+            "pdf_rows": 5,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
           }
         ]
       },
@@ -15303,6 +15314,16 @@
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
+        ],
+        "contact_reps": [
+          {
+            "name": "คุณฐานิษ",
+            "phone": "",
+            "email": "thanit@sithiphorn.com",
+            "pdf_label": "STP",
+            "pdf_rows": 3,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
         ]
       },
       {
@@ -15490,6 +15511,16 @@
             "requester": "คณะเภสัชศาสตร์",
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
+          }
+        ],
+        "contact_reps": [
+          {
+            "name": "คุณนวพร",
+            "phone": "064-003-2685",
+            "email": "navaporn.c@dksh.com",
+            "pdf_label": "DKSH",
+            "pdf_rows": 13,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
           }
         ]
       },
@@ -17600,6 +17631,202 @@
           "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อทีมวิศวกรสอบเทียบประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับสอบเทียบเครื่องชั่ง, ปิเปตต์, และตู้ควบคุมอุณหภูมิ'"
         },
         "matched_items": []
+      },
+      {
+        "id": "npchem",
+        "short_name": "NP Chem",
+        "category_id": "general",
+        "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "086-864-1992",
+        "website": "",
+        "email": "",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "NP Chem",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณนิศาชล",
+            "phone": "086-864-1992",
+            "email": "",
+            "pdf_label": "NP Chem",
+            "pdf_rows": 1,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
+      },
+      {
+        "id": "pintertrade",
+        "short_name": "Pintertrade",
+        "category_id": "general",
+        "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "091-229-1048",
+        "website": "",
+        "email": "",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "Pintertrade",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณธัญญรัตน์",
+            "phone": "091-229-1048",
+            "email": "",
+            "pdf_label": "Pintertrade",
+            "pdf_rows": 1,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
+      },
+      {
+        "id": "bestmedical",
+        "short_name": "เบสท เมดิคอล (Best Medical)",
+        "category_id": "general",
+        "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "099-478-2641",
+        "website": "",
+        "email": "best_medical@hotmail.com",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "เบสท เมดิคอล (Best Medical)",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณปลา",
+            "phone": "099-478-2641",
+            "email": "best_medical@hotmail.com",
+            "pdf_label": "เบสท เมดิคอล",
+            "pdf_rows": 1,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
+      },
+      {
+        "id": "charatchai",
+        "short_name": "จรัสชัย",
+        "category_id": "general",
+        "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "02-417-7280, 02-417-7281",
+        "website": "",
+        "email": "",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "จรัสชัย",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "",
+            "phone": "02-417-7280, 02-417-7281",
+            "email": "",
+            "pdf_label": "จรัสชัย",
+            "pdf_rows": 1,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
+      },
+      {
+        "id": "worldwidetrade",
+        "short_name": "Worldwidetrade",
+        "category_id": "general",
+        "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "088-002-6218",
+        "website": "",
+        "email": "",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "Worldwidetrade",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณวรางคณา",
+            "phone": "088-002-6218",
+            "email": "",
+            "pdf_label": "Worldwidetrade",
+            "pdf_rows": 1,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
+      },
+      {
+        "id": "histocenter",
+        "short_name": "HistoCenter",
+        "category_id": "molecular",
+        "category_name": "ชีววิทยาโมเลกุล & Cell Imaging",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "061-385-3332",
+        "website": "",
+        "email": "wanwanat@histocenter.com",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "HistoCenter",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณ Wanwanat",
+            "phone": "061-385-3332",
+            "email": "wanwanat@histocenter.com",
+            "pdf_label": "HistoCenter",
+            "pdf_rows": 2,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
+      },
+      {
+        "id": "biomedia",
+        "short_name": "Biomedia",
+        "category_id": "molecular",
+        "category_name": "ชีววิทยาโมเลกุล & Cell Imaging",
+        "is_authorized_dealer": false,
+        "address": "",
+        "tel": "086-395-5985",
+        "website": "",
+        "email": "",
+        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "brands": [],
+        "name": "Biomedia",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": false,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณอภิชญา",
+            "phone": "086-395-5985",
+            "email": "",
+            "pdf_label": "Biomedia",
+            "pdf_rows": 1,
+            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+          }
+        ]
       }
     ],
     "items_55": [
