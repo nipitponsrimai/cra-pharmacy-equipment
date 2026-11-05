@@ -14859,7 +14859,10 @@
       "quote_vendors_count": 20,
       "genz_items_count": 26,
       "year71_items_count": 98,
-      "rep_contacts_count": 15
+      "rep_contacts_count": 15,
+      "pdf_reps_count": 10,
+      "email_reps_count": 5,
+      "direct_reps_total": 15
     },
     "companies": [
       {
@@ -14888,12 +14891,12 @@
         "has_quote_history": true,
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายสถาบันการศึกษาและหน่วยงานภาครัฐ (Government & Academic Accounts)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — Becthai)",
           "rep_name": "คุณสุพรรณิกา (Supannika)",
-          "area_rep_hotline": "062-593-2872 (มือถือสายตรงคุณสุพรรณิกา) / สำนักงาน: 0-2318-8740, 0-2718-0500",
+          "area_rep_hotline": "062-593-2872",
           "sales_email_direct": "d.supannika@becthai.com",
           "line_id": "0625932872 (คุณสุพรรณิกา) / @becthai",
-          "protocol": "ติดต่อ คุณสุพรรณิกา โทร. 062-593-2872 หรืออีเมล d.supannika@becthai.com โดยตรงเพื่อขอสเปกและใบเสนอราคาครุภัณฑ์คณะเภสัชศาสตร์"
+          "protocol": "ดูแลกล้องจุลทรรศน์ Olympus, ตู้บ่ม/ตู้อบ Memmert และอ่างน้ำควบคุมอุณหภูมิ รวม 6 รายการ"
         },
         "matched_items": [
           {
@@ -15087,14 +15090,61 @@
         "contact_reps": [
           {
             "name": "คุณสุพรรณิกา (Supannika)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — Becthai)",
             "phone": "062-593-2872",
             "email": "d.supannika@becthai.com",
-            "pdf_label": "Becthai",
+            "pdf_label": "Becthai (เบคไทย)",
             "pdf_rows": 6,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 5: อ่างน้ำควบคุมอุณหภูมิ (Water Bath)",
+              "ลำดับ 6: อ่างน้ำควบคุมอุณหภูมิแบบเขย่า (Shaking Water Bath)",
+              "ลำดับ 8: ตู้บ่มเพาะเชื้อ (Incubator — Memmert)",
+              "ลำดับ 9: ตู้อบลมร้อน (Hot Air Oven — Memmert)",
+              "ลำดับ 13: กล้องจุลทรรศน์สองตา (Compound Microscope — Olympus)",
+              "ลำดับ 14: กล้องจุลทรรศน์สเตอริโอ (Stereo Microscope — Olympus)"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลกล้องจุลทรรศน์ Olympus, ตู้บ่ม/ตู้อบ Memmert และอ่างน้ำควบคุมอุณหภูมิ รวม 6 รายการ"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 1,
+          "company_th": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
+          "company_en": "เบคไทย (Becthai Bangkok Chemical & Equipment)",
+          "logo_monogram": "BEC",
+          "brand_primary": "#0f2e5a",
+          "brand_accent": "#2563eb",
+          "brand_guideline": "Becthai Corporate Standard — โทนสีน้ำเงินรอยัลบลู-ทอง สื่อถึงผู้นำเข้าอุปกรณ์วิทยาศาสตร์และกล้องจุลทรรศน์คู่สถาบันการศึกษาไทยกว่า 50 ปี",
+          "employee_name": "คุณสุพรรณิกา (Supannika)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — Becthai)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — Becthai)",
+          "phone_direct": "062-593-2872",
+          "phone_office": "0-2318-8740, 0-2718-0500",
+          "email_direct": "d.supannika@becthai.com",
+          "email_office": "sales@becthai.com",
+          "website": "http://www.becthai.com",
+          "line_id": "0625932872 (คุณสุพรรณิกา) / @becthai",
+          "address": "ถ.เพชรบุรีตัดใหม่ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310",
+          "tax_id": "0105522000669",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "Becthai (เบคไทย)",
+          "pdf_rows": 6,
+          "pdf_items": [
+            "ลำดับ 5: อ่างน้ำควบคุมอุณหภูมิ (Water Bath)",
+            "ลำดับ 6: อ่างน้ำควบคุมอุณหภูมิแบบเขย่า (Shaking Water Bath)",
+            "ลำดับ 8: ตู้บ่มเพาะเชื้อ (Incubator — Memmert)",
+            "ลำดับ 9: ตู้อบลมร้อน (Hot Air Oven — Memmert)",
+            "ลำดับ 13: กล้องจุลทรรศน์สองตา (Compound Microscope — Olympus)",
+            "ลำดับ 14: กล้องจุลทรรศน์สเตอริโอ (Stereo Microscope — Olympus)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลกล้องจุลทรรศน์ Olympus, ตู้บ่ม/ตู้อบ Memmert และอ่างน้ำควบคุมอุณหภูมิ รวม 6 รายการ",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (Becthai (เบคไทย) · 6 รายการ)"
+        }
       },
       {
         "id": "sithiphorn",
@@ -15122,12 +15172,12 @@
         "has_quote_history": true,
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma & Analytical Testing Division)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — STP)",
           "rep_name": "คุณฐานิษ (Thanit)",
-          "area_rep_hotline": "คุณฐานิษ (thanit@sithiphorn.com) / โทร. 0-2433-8331 ต่อ 110-118, 081-831-9244",
+          "area_rep_hotline": "– (โทรสำนักงาน 0-2433-8331)",
           "sales_email_direct": "thanit@sithiphorn.com",
           "line_id": "@sithiphorn",
-          "protocol": "ส่งอีเมลหรือติดต่อ คุณฐานิษ (thanit@sithiphorn.com / โทร. 0-2433-8331) โดยตรงเพื่อขอใบเสนอราคาเครื่องมือทดสอบทางเภสัชกรรม (STP)"
+          "protocol": "ดูแลเครื่องมือทดสอบคุณภาพยาและเภสัชอุตสาหการ Erweka 3 รายการหลัก"
         },
         "matched_items": [
           {
@@ -15321,14 +15371,55 @@
         "contact_reps": [
           {
             "name": "คุณฐานิษ (Thanit)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative - STP)",
-            "phone": "0-2433-8331, 081-831-9244",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — STP)",
+            "phone": "– (โทรสำนักงาน 0-2433-8331)",
             "email": "thanit@sithiphorn.com",
-            "pdf_label": "STP",
+            "pdf_label": "STP (สิทธิพรแอสโซซิเอส)",
             "pdf_rows": 3,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 20: เครื่องวิเคราะห์การละลายของยา (Dissolution Tester — Erweka)",
+              "ลำดับ 21–23: ชุดเครื่องทดสอบคุณภาพยาเม็ด (Erweka Disintegration / Hardness / Friability)",
+              "ลำดับ 24: เครื่องผสมและอัดเม็ดยา / ครุภัณฑ์เภสัชอุตสาหการ (Erweka)"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลเครื่องมือทดสอบคุณภาพยาและเภสัชอุตสาหการ Erweka 3 รายการหลัก"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 2,
+          "company_th": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
+          "company_en": "สิทธิพรแอสโซซิเอส (Sithiphorn Associates)",
+          "logo_monogram": "STP",
+          "brand_primary": "#0b3b2e",
+          "brand_accent": "#059669",
+          "brand_guideline": "Sithiphorn Associates (STP) Brand — โทนสีเขียวมรกต-กรมท่า สื่อถึงความแม่นยำด้านเครื่องมือวิเคราะห์และเทคโนโลยีการผลิตยาตามมาตรฐานเภสัชตำรับ (USP/BP)",
+          "employee_name": "คุณฐานิษ (Thanit)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — STP)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — STP)",
+          "phone_direct": "– (โทรสำนักงาน 0-2433-8331)",
+          "phone_office": "0-2433-8331, 0-2434-9191",
+          "email_direct": "thanit@sithiphorn.com",
+          "email_office": "center@sithiphorn.com",
+          "website": "https://www.sithiphorn.com",
+          "line_id": "@sithiphorn",
+          "address": "451 ถ.สิรินธร แขวงบางพลัด เขตบางพลัด กรุงเทพฯ 10700",
+          "tax_id": "0105519011337",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "STP (สิทธิพรแอสโซซิเอส)",
+          "pdf_rows": 3,
+          "pdf_items": [
+            "ลำดับ 20: เครื่องวิเคราะห์การละลายของยา (Dissolution Tester — Erweka)",
+            "ลำดับ 21–23: ชุดเครื่องทดสอบคุณภาพยาเม็ด (Erweka Disintegration / Hardness / Friability)",
+            "ลำดับ 24: เครื่องผสมและอัดเม็ดยา / ครุภัณฑ์เภสัชอุตสาหการ (Erweka)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลเครื่องมือทดสอบคุณภาพยาและเภสัชอุตสาหการ Erweka 3 รายการหลัก",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (STP (สิทธิพรแอสโซซิเอส) · 3 รายการ)"
+        }
       },
       {
         "id": "dksh",
@@ -15355,12 +15446,12 @@
         "has_quote_history": false,
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "แผนกเครื่องมือวิทยาศาสตร์ DKSH Technology (Scientific Instrumentation)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — DKSH Technology)",
           "rep_name": "คุณนวพร (Navaporn)",
-          "area_rep_hotline": "064-003-2685 (มือถือสายตรงคุณนวพร) / สำนักงาน: 0-2790-4000",
+          "area_rep_hotline": "064-003-2685",
           "sales_email_direct": "navaporn.c@dksh.com",
           "line_id": "0640032685 (คุณนวพร) / @dkshthailand",
-          "protocol": "ติดต่อ คุณนวพร โทร. 064-003-2685 หรืออีเมล navaporn.c@dksh.com โดยตรง (ดูแลรายการครุภัณฑ์ DKSH 14 รายการหลักของคณะเภสัชศาสตร์)"
+          "protocol": "ดูแลครุภัณฑ์วิเคราะห์ เครื่องชั่ง เครื่องระเหยสาร และเครื่องทดสอบยา รวม 14 รายการ"
         },
         "matched_items": [
           {
@@ -15521,14 +15612,77 @@
         "contact_reps": [
           {
             "name": "คุณนวพร (Navaporn)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative - DKSH Technology)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — DKSH Technology)",
             "phone": "064-003-2685",
             "email": "navaporn.c@dksh.com",
-            "pdf_label": "DKSH",
+            "pdf_label": "DKSH Technology",
             "pdf_rows": 14,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 1: เครื่องวัดความเป็นกรด-ด่าง (pH meter) — SevenDirect SD20",
+              "ลำดับ 2: เครื่องชั่งไฟฟ้าทศนิยม 4 ตำแหน่ง (Analytical Balance)",
+              "ลำดับ 3: เครื่องชั่งไฟฟ้าทศนิยม 2 ตำแหน่ง (Precision Balance)",
+              "ลำดับ 4: เครื่องวัดความชื้นของสารด้วยรังสีอินฟราเรด (Moisture Analyzer)",
+              "ลำดับ 12: เครื่องปั่นเหวี่ยงตกตะกอนความเร็วสูงควบคุมอุณหภูมิ (Refrigerated Centrifuge)",
+              "ลำดับ 16: เครื่องระเหยสารภายใต้สุญญากาศ (Rotary Evaporator — Buchi)",
+              "ลำดับ 19: เครื่องวัดการดูดกลืนแสงแบบไมโครเพลท (Microplate Reader)",
+              "ลำดับ 20: เครื่องวิเคราะห์การละลายของยา (Dissolution Tester)",
+              "ลำดับ 21: เครื่องทดสอบการแตกตัวของยาเม็ด (Disintegration Tester)",
+              "ลำดับ 22: เครื่องวัดความแข็งของยาเม็ด (Tablet Hardness Tester)",
+              "ลำดับ 23: เครื่องวัดความกร่อนของยาเม็ด (Tablet Friability Tester)",
+              "ลำดับ 25: เครื่องวัดความหนืด (Viscometer — Brookfield)",
+              "ลำดับ 27: เครื่องทำแห้งแบบพ่นฝอย (Spray Dryer — Buchi)",
+              "ลำดับ 28: เครื่องสกัดสารด้วยคลื่นความถี่สูง (Ultrasonic Bath)"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลครุภัณฑ์วิเคราะห์ เครื่องชั่ง เครื่องระเหยสาร และเครื่องทดสอบยา รวม 14 รายการ"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 3,
+          "company_th": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
+          "company_en": "ดีเคเอสเอช เทคโนโลยี (DKSH Technology Thailand)",
+          "logo_monogram": "DKSH",
+          "brand_primary": "#8b1d2c",
+          "brand_accent": "#e11d48",
+          "brand_guideline": "DKSH Swiss Corporate Identity — โทนสีแดงเข้ม-กรมท่า สื่อถึงมาตรฐานผู้เชี่ยวชาญการขยายตลาดและวิศวกรรมเครื่องมือวิทยาศาสตร์ระดับสากล",
+          "employee_name": "คุณนวพร (Navaporn)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — DKSH Technology)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — DKSH Technology)",
+          "phone_direct": "064-003-2685",
+          "phone_office": "0-2790-4000, 0-2790-4444",
+          "email_direct": "navaporn.c@dksh.com",
+          "email_office": "heth.thailand@dksh.com",
+          "website": "https://www.dksh.com/th-th/home/technology",
+          "line_id": "0640032685 (คุณนวพร) / @dkshthailand",
+          "address": "2533 ถ.สุขุมวิท แขวงบางจาก เขตพระโขนง กรุงเทพฯ 10260",
+          "tax_id": "0105523002118",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "DKSH Technology",
+          "pdf_rows": 14,
+          "pdf_items": [
+            "ลำดับ 1: เครื่องวัดความเป็นกรด-ด่าง (pH meter) — SevenDirect SD20",
+            "ลำดับ 2: เครื่องชั่งไฟฟ้าทศนิยม 4 ตำแหน่ง (Analytical Balance)",
+            "ลำดับ 3: เครื่องชั่งไฟฟ้าทศนิยม 2 ตำแหน่ง (Precision Balance)",
+            "ลำดับ 4: เครื่องวัดความชื้นของสารด้วยรังสีอินฟราเรด (Moisture Analyzer)",
+            "ลำดับ 12: เครื่องปั่นเหวี่ยงตกตะกอนความเร็วสูงควบคุมอุณหภูมิ (Refrigerated Centrifuge)",
+            "ลำดับ 16: เครื่องระเหยสารภายใต้สุญญากาศ (Rotary Evaporator — Buchi)",
+            "ลำดับ 19: เครื่องวัดการดูดกลืนแสงแบบไมโครเพลท (Microplate Reader)",
+            "ลำดับ 20: เครื่องวิเคราะห์การละลายของยา (Dissolution Tester)",
+            "ลำดับ 21: เครื่องทดสอบการแตกตัวของยาเม็ด (Disintegration Tester)",
+            "ลำดับ 22: เครื่องวัดความแข็งของยาเม็ด (Tablet Hardness Tester)",
+            "ลำดับ 23: เครื่องวัดความกร่อนของยาเม็ด (Tablet Friability Tester)",
+            "ลำดับ 25: เครื่องวัดความหนืด (Viscometer — Brookfield)",
+            "ลำดับ 27: เครื่องทำแห้งแบบพ่นฝอย (Spray Dryer — Buchi)",
+            "ลำดับ 28: เครื่องสกัดสารด้วยคลื่นความถี่สูง (Ultrasonic Bath)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลครุภัณฑ์วิเคราะห์ เครื่องชั่ง เครื่องระเหยสาร และเครื่องทดสอบยา รวม 14 รายการ",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (DKSH Technology · 14 รายการ)"
+        }
       },
       {
         "id": "thermo-fisher",
@@ -15705,7 +15859,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 4,
+          "company_th": "บริษัท เทอร์โม ฟิชเชอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด",
+          "company_en": "เทอร์โม ฟิชเชอร์ (Thermo Fisher Scientific Thailand)",
+          "logo_monogram": "TFS",
+          "brand_primary": "#7f1d1d",
+          "brand_accent": "#dc2626",
+          "brand_guideline": "Thermo Fisher Scientific Global Brand — โทนสีแดง Thermo Red-Slate สื่อถึงผู้นำระดับโลกด้านวิทยาศาสตร์ชีวภาพและเครื่องมือวิเคราะห์ขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Academic & Medical Research Account (Life Sciences & Analytical Instruments)",
+          "phone_direct": "02-074-3366 (สำนักงานอาคารสิงห์ คอมเพล็กซ์) / 0-2619-0101",
+          "phone_office": "0-2619-0101",
+          "email_direct": "thailand.sales@thermofisher.com",
+          "email_office": "thailand.sales@thermofisher.com",
+          "website": "https://www.thermofisher.com",
+          "line_id": "@thermofisherth",
+          "address": "อาคารพหลโยธินเพลส ชั้น 24 ถ.พหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400",
+          "tax_id": "0105534122772",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "bio-rad",
@@ -15827,7 +16010,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 5,
+          "company_th": "บริษัท ไบโอ-ราด แลบบอราทอรี่ส์ (ประเทศไทย) จำกัด",
+          "company_en": "ไบโอ-ราด (Bio-Rad Laboratories Thailand)",
+          "logo_monogram": "BRD",
+          "brand_primary": "#14532d",
+          "brand_accent": "#16a34a",
+          "brand_guideline": "Bio-Rad Laboratories Identity — โทนสีเขียว Bio-Rad Green-Navy สื่อถึงมาตรฐานระดับโลกด้าน Life Science Research, qPCR, ddPCR และโปรตีน",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Life Science Group (Academic & Research Account)",
+          "phone_direct": "0-2651-8300, 0-2651-8311 (สายตรงฝ่ายขาย Life Science)",
+          "phone_office": "0-2651-8311",
+          "email_direct": "sales_thailand@bio-rad.com",
+          "email_office": "sales_thailand@bio-rad.com",
+          "website": "https://www.bio-rad.com",
+          "line_id": "@bioradthailand",
+          "address": "อาคารเมืองไทย-ภัทร คอมเพล็กซ์ อาคาร 2 ชั้น 24 ถ.รัชดาภิเษก ห้วยขวาง กรุงเทพฯ 10310",
+          "tax_id": "0105543069455",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "gibthai",
@@ -15948,7 +16160,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 6,
+          "company_th": "บริษัท กิ๊บไทย จำกัด",
+          "company_en": "กิ๊บไทย (Gibthai Co., Ltd.)",
+          "logo_monogram": "GCL",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายอุปกรณ์วิทยาศาสตร์ มหาวิทยาลัยและโรงพยาบาล (Academic & Healthcare Division)",
+          "phone_direct": "0-2274-8331, 0-2274-8332 ต่อ 150-155",
+          "phone_office": "0-2246-8800",
+          "email_direct": "sales@gibthai.com",
+          "email_office": "sales@gibthai.com",
+          "website": "https://www.gibthai.com",
+          "line_id": "@gibthai",
+          "address": "44/6 ถ.พญาไท แขวงทุ่งพญาไท เขตราชเทวี กรุงเทพฯ 10400",
+          "tax_id": "0105527011987",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "scispec",
@@ -16056,7 +16297,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 7,
+          "company_th": "บริษัท ไซสเปค จำกัด",
+          "company_en": "ไซสเปค (Scispec Co., Ltd.)",
+          "logo_monogram": "SCL",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายสเปกโทรสโกปีและโครมาโทกราฟี (Spectroscopy & Separation Division)",
+          "phone_direct": "0-2454-9111 ต่อ 201-205 (ฝ่ายขายเครื่องมือวิเคราะห์)",
+          "phone_office": "0-2320-5200",
+          "email_direct": "sales@scispec.co.th",
+          "email_office": "sales@scispec.co.th",
+          "website": "http://www.scispec.co.th",
+          "line_id": "@scispec",
+          "address": "9 ซ.อ่อนนุช 39 แขวงสวนหลวง เขตสวนหลวง กรุงเทพฯ 10250",
+          "tax_id": "0105538090719",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "mettler-toledo",
@@ -16144,7 +16414,36 @@
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 8,
+          "company_th": "บริษัท เมทเล่อร์-โทเลโด (ประเทศไทย) จำกัด",
+          "company_en": "เมทเล่อร์-โทเลโด (Mettler-Toledo Thailand)",
+          "logo_monogram": "MT",
+          "brand_primary": "#0f2942",
+          "brand_accent": "#0056b3",
+          "brand_guideline": "Mettler-Toledo Swiss Precision Brand — โทนสีน้ำเงินเข้ม-ฟ้า สื่อถึงความเที่ยงตรงระดับไมโครกรัมของเครื่องชั่งและเครื่องมือวิเคราะห์ในห้องปฏิบัติการ",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเครื่องมือวิเคราะห์และเครื่องชั่งในห้องปฏิบัติการ (Lab Analytical Balances & Titration)",
+          "phone_direct": "0-2723-0300 ต่อ แผนกเครื่องมือห้องปฏิบัติการ (Laboratory Division)",
+          "phone_office": "0-2723-0300",
+          "email_direct": "th.marketing@mt.com",
+          "email_office": "th.admin@mt.com",
+          "website": "https://www.mt.com",
+          "line_id": "@mettlerthailand",
+          "address": "272 ซ.ศูนย์วิจัย 4 ถ.พระราม 9 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310",
+          "tax_id": "0105539056689",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "eppendorf",
@@ -16231,7 +16530,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 9,
+          "company_th": "บริษัท เอ็พเพนดอร์ฟ (ประเทศไทย) จำกัด",
+          "company_en": "เอ็พเพนดอร์ฟ (Eppendorf Thailand)",
+          "logo_monogram": "ET",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Life Science Academic Account & Liquid Handling Specialists",
+          "phone_direct": "0-2579-2244 ต่อ 12-16 (ฝ่ายขายและการตลาด)",
+          "phone_office": "0-2584-8333",
+          "email_direct": "info-thailand@eppendorf.com",
+          "email_office": "eppendorf-th@eppendorf.com",
+          "website": "https://www.eppendorf.com",
+          "line_id": "@eppendorfth",
+          "address": "อาคารซีดับเบิ้ลยู ทาวเวอร์ อาคารบี ชั้น 29 ถ.รัชดาภิเษก ห้วยขวาง กรุงเทพฯ 10310",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "coax-group",
@@ -16308,7 +16636,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 10,
+          "company_th": "บริษัท โคแอ็กซ์ กรุ๊ป คอร์ปอเรชั่น จำกัด",
+          "company_en": "โคแอ็กซ์ กรุ๊ป (Coax Group Corporation)",
+          "logo_monogram": "COAX",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายเครื่องมือวิจัยชีวฟิสิกส์และสรีรวิทยา (Electrophysiology & Advanced Screening)",
+          "phone_direct": "0-2636-8980-4 ต่อ ฝ่ายขายเครื่องมือวิจัยขั้นสูง",
+          "phone_office": "0-2636-8980-4",
+          "email_direct": "sales@coax.co.th",
+          "email_office": "sales@coax.co.th",
+          "website": "http://www.coax.co.th",
+          "line_id": "@coaxgroup",
+          "address": "90/1 อาคารสาทรธานี 1 ชั้น 9 ถ.สาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+          "tax_id": "0105535105499",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "scienelution",
@@ -16383,7 +16740,36 @@
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 11,
+          "company_th": "บริษัท ซายน์ลูชั่น จำกัด",
+          "company_en": "ซายน์ลูชั่น (Scienelution Co., Ltd.)",
+          "logo_monogram": "SCL",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเครื่องมือห้องปฏิบัติการและการศึกษา (Lab Equipment & Education)",
+          "phone_direct": "0-2361-9252, 0-2361-9253 (ฝ่ายขายสถาบัน)",
+          "phone_office": "0-2447-6888",
+          "email_direct": "sales@scisolution.co.th",
+          "email_office": "sales@scienelution.com",
+          "website": "http://www.scienelution.com",
+          "line_id": "@scisolution",
+          "address": "55/12 ม.1 ถ.ราชพฤกษ์ ต.บางขนุน อ.บางกรวย จ.นนทบุรี 11130",
+          "tax_id": "0105547051917",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "multilab",
@@ -16458,7 +16844,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 12,
+          "company_th": "บริษัท มัลติแล็บ จำกัด",
+          "company_en": "มัลติแล็บ (Multilab Co., Ltd.)",
+          "logo_monogram": "MCL",
+          "brand_primary": "#064e3b",
+          "brand_accent": "#059669",
+          "brand_guideline": "Pharmaceutical Technology & Clinical Brand — โทนสีเขียวมรกต-ทอง สื่อถึงมาตรฐาน GMP เภสัชอุตสาหการ การควบคุมคุณภาพยา และเภสัชบำบัด",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma Testing Instruments)",
+          "phone_direct": "0-2917-7440, 0-2917-7441",
+          "phone_office": "0-2964-8800",
+          "email_direct": "sales@multilab.co.th",
+          "email_office": "info@multilab.co.th",
+          "website": "http://www.multilab.co.th",
+          "line_id": "@multilab",
+          "address": "33/32 ม.3 ถ.แจ้งวัฒนะ ต.บางพูด อ.ปากเกร็ด จ.นนทบุรี 11120",
+          "tax_id": "0105538058262",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "meditop",
@@ -16534,7 +16949,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 13,
+          "company_th": "บริษัท เมดิทอป จำกัด",
+          "company_en": "เมดิทอป (Meditop Co., Ltd.)",
+          "logo_monogram": "MCL",
+          "brand_primary": "#064e3b",
+          "brand_accent": "#059669",
+          "brand_guideline": "Pharmaceutical Technology & Clinical Brand — โทนสีเขียวมรกต-ทอง สื่อถึงมาตรฐาน GMP เภสัชอุตสาหการ การควบคุมคุณภาพยา และเภสัชบำบัด",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายเครื่องมือสรีรวิทยา เครื่องมือแพทย์ และหุ่นฝึกทักษะ (Medical & Skill Training Manikins)",
+          "phone_direct": "0-2933-1133, 0-2933-1144 ต่อ ฝ่ายขายเครื่องมือการศึกษาและการแพทย์",
+          "phone_office": "0-2615-2800",
+          "email_direct": "sales@meditop.co.th",
+          "email_office": "meditop@meditop.com",
+          "website": "http://www.meditop.com",
+          "line_id": "@meditop",
+          "address": "288 ถ.พหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "agilent",
@@ -16600,7 +17044,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 14,
+          "company_th": "บริษัท แอจิเลนต์ เทคโนโลยีส์ (ประเทศไทย) จำกัด",
+          "company_en": "แอจิเลนต์ (Agilent Technologies Thailand)",
+          "logo_monogram": "AGI",
+          "brand_primary": "#0c4a6e",
+          "brand_accent": "#0085d5",
+          "brand_guideline": "Agilent Technologies Corporate Brand — โทนสีฟ้า Agilent Blue-Dark Navy สื่อถึงความเที่ยงตรงสูงสุดด้านโครมาโทกราฟี แมสสเปกโทรเมทรี และ Cell Analysis",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Life Sciences and Applied Chemical Markets (LC, LC/MS, BioTek Microplate)",
+          "phone_direct": "0-2636-1600 (สายตรงฝ่ายขายและเทคนิค)",
+          "phone_office": "0-2636-1600",
+          "email_direct": "inquiry_lspan@agilent.com",
+          "email_office": "inquiry_lspan@agilent.com",
+          "website": "https://www.agilent.com",
+          "line_id": "@agilent_th",
+          "address": "990 อาคารอับดุลราฮิม เพลส ชั้น 28 ถ.พระราม 4 แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "revvity",
@@ -16666,7 +17139,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 15,
+          "company_th": "บริษัท เพอร์กินเอลเมอร์ ไซแอนติฟิค (ประเทศไทย) จำกัด / Revvity",
+          "company_en": "เรฟวิตี้ / เพอร์กินเอลเมอร์ (Revvity / PerkinElmer Thailand)",
+          "logo_monogram": "RPT",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Life Science & Diagnostic Solutions (High-Content Screening, Multimode Readers)",
+          "phone_direct": "0-2381-4200 (สายตรงสำนักงานสุขุมวิท 63)",
+          "phone_office": "0-2381-4200",
+          "email_direct": "thailand.info@revvity.com",
+          "email_office": "thailand.info@revvity.com",
+          "website": "https://www.revvity.com",
+          "line_id": "@revvityth",
+          "address": "29 อาคารบางกอกบิสซิเนสเซ็นเตอร์ ชั้น 22 ซ.สุขุมวิท 63 แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110",
+          "tax_id": "0105565164868",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "bara-scientific",
@@ -16730,7 +17232,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 16,
+          "company_th": "บริษัท บาราไซแอนติฟิค จำกัด",
+          "company_en": "บาราไซแอนติฟิค (Bara Scientific)",
+          "logo_monogram": "BARA",
+          "brand_primary": "#0c4a6e",
+          "brand_accent": "#0284c7",
+          "brand_guideline": "Analytical & Chromatography Brand — โทนสีน้ำเงินโอเชียนบลู-ฟ้า สื่อถึงความแม่นยำด้านเคมีวิเคราะห์ โครมาโทกราฟี และสเปกโทรสโกปี",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายเคมีวิเคราะห์และเครื่องมือทดสอบสมบัติทางกายภาพ",
+          "phone_direct": "0-2285-4500, 0-2285-4501",
+          "phone_office": "0-2632-4300",
+          "email_direct": "sales@barascientific.com",
+          "email_office": "bsc@barascientific.com",
+          "website": "http://www.barascientific.com",
+          "line_id": "@barascientific",
+          "address": "968 อาคารอื้อจือเหลียง ชั้น 7 ถ.พระราม 4 แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+          "tax_id": "0105546074786",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "innovatech",
@@ -16795,7 +17326,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 17,
+          "company_th": "บริษัท อินโนวาเทค ไซแอนทิฟิก จำกัด",
+          "company_en": "อินโนวาเทค (Innovatech Scientific)",
+          "logo_monogram": "IS",
+          "brand_primary": "#064e3b",
+          "brand_accent": "#059669",
+          "brand_guideline": "Pharmaceutical Technology & Clinical Brand — โทนสีเขียวมรกต-ทอง สื่อถึงมาตรฐาน GMP เภสัชอุตสาหการ การควบคุมคุณภาพยา และเภสัชบำบัด",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma QC & Formulations)",
+          "phone_direct": "0-2503-3450, 0-2503-3451 (ฝ่ายขายสถาบัน)",
+          "phone_office": "0-2920-5650, 0-2920-5651",
+          "email_direct": "sales@innovatech.co.th",
+          "email_office": "info@innovatech.co.th",
+          "website": "http://www.innovatech.co.th",
+          "line_id": "@innovatech",
+          "address": "122/19 หมู่ 6 ต.บางรักพัฒนา อ.บางบัวทอง จ.นนทบุรี 11110",
+          "tax_id": "0105549040335",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "snp-scientific",
@@ -16860,7 +17420,36 @@
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 18,
+          "company_th": "บริษัท เอสเอ็นพี ไซแอนติฟิค จำกัด",
+          "company_en": "เอสเอ็นพี ไซแอนติฟิค (SNP Scientific)",
+          "logo_monogram": "SNP",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายเครื่องมือวิทยาศาสตร์ทั่วไปและเครื่องแก้วห้องปฏิบัติการ",
+          "phone_direct": "0-2736-2210, 0-2736-2211",
+          "phone_office": "0-2729-4500",
+          "email_direct": "sales@snpscientific.com",
+          "email_office": "sales@snpscientific.com",
+          "website": "http://www.snpscientific.com",
+          "line_id": "@snpscientific",
+          "address": "48/1 ถ.รามคำแหง แขวงสะพานสูง เขตสะพานสูง กรุงเทพฯ 10240",
+          "tax_id": "0105546059922",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "waters",
@@ -16916,7 +17505,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 19,
+          "company_th": "บริษัท วอเตอร์ส (ประเทศไทย) จำกัด",
+          "company_en": "วอเตอร์ส ประเทศไทย (Waters Thailand)",
+          "logo_monogram": "WAT",
+          "brand_primary": "#111827",
+          "brand_accent": "#0284c7",
+          "brand_guideline": "Waters Corporation Identity — โทนสีดำ-น้ำเงินสว่าง สื่อถึงผู้นำระดับโลกด้านเทคโนโลยี UHPLC, UPLC และ Q-TOF Mass Spectrometry",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Pharmaceutical & Academic Solutions (UPLC, HPLC, Tandem Quadrupole MS)",
+          "phone_direct": "0-2318-8740, 0-2718-0500 ต่อ ฝ่ายขาย Waters",
+          "phone_office": "0-2653-2980",
+          "email_direct": "waters_thailand@waters.com",
+          "email_office": "waters_thailand@waters.com",
+          "website": "https://www.waters.com",
+          "line_id": "@watersthailand",
+          "address": "อาคารทูแปซิฟิคเพลส ชั้น 14 ถ.สุขุมวิท คลองเตย กรุงเทพฯ 10110",
+          "tax_id": "0105523002118",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "carl-zeiss",
@@ -16970,7 +17588,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 20,
+          "company_th": "บริษัท คาร์ล ไซส์ส (ประเทศไทย) จำกัด",
+          "company_en": "คาร์ล ไซส์ส (Carl Zeiss Thailand)",
+          "logo_monogram": "ZEISS",
+          "brand_primary": "#1e3a8a",
+          "brand_accent": "#2563eb",
+          "brand_guideline": "ZEISS Optical Excellence Identity — โทนสีน้ำเงิน ZEISS Cobalt Blue สื่อถึงความเป็นเลิศด้านทัศนศาสตร์และกล้องจุลทรรศน์ Confocal ระดับโลก",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Carl Zeiss Microscopy Division (Research & Healthcare Imaging)",
+          "phone_direct": "0-2248-8787 ต่อ แผนก Microscopy (Research Accounts)",
+          "phone_office": "0-2248-8787",
+          "email_direct": "microscopy.th@zeiss.com",
+          "email_office": "microscopy.th@zeiss.com",
+          "website": "https://www.zeiss.co.th",
+          "line_id": "@zeissthailand",
+          "address": "193/113-117 อาคารเลครัชดาออฟฟิสคอมเพล็กซ์ ชั้น 27 ถ.รัชดาภิเษก คลองเตย กรุงเทพฯ 10110",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "hollywood-intl",
@@ -16993,12 +17640,13 @@
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
         "cra_territory": {
-          "territory_name": "เขตสถาบันการศึกษาและห้องปฏิบัติการชีวภาพ (ราชวิทยาลัยจุฬาภรณ์)",
-          "sales_division": "แผนกกล้องจุลทรรศน์และเครื่องมือทางชีววิทยา (Microscopes & Optical Imaging)",
-          "area_rep_hotline": "0-2653-8255, 0-2653-8555 ต่อ 410-415 (ฝ่ายขายกล้องจุลทรรศน์)",
-          "sales_email_direct": "inds@hollywood.co.th",
-          "line_id": "@hollywoodinter",
-          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับกล้องจุลทรรศน์สเตอริโอ, กล้องหัวกลับเซลล์, และระบบถ่ายภาพชีวภาพ'"
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ผู้แทนขายฝ่ายเครื่องมือวิทยาศาสตร์ (Scientific Instrument Division — SID)",
+          "area_rep_hotline": "081-611-3415",
+          "sales_email_direct": "bvorranut.sid@gmail.com",
+          "line_id": "0816113415",
+          "protocol": "Line 0816113415 · โทรสำนักงาน 02-653-8255 ต่อ 791 · sid@hollywood.co.th",
+          "rep_name": "คุณวรนุช กีรตินันท์ (บี)"
         },
         "matched_items": [
           {
@@ -17027,12 +17675,51 @@
         "contact_reps": [
           {
             "name": "คุณวรนุช กีรตินันท์ (บี)",
+            "role": "ผู้แทนขายฝ่ายเครื่องมือวิทยาศาสตร์ (Scientific Instrument Division — SID)",
             "phone": "081-611-3415",
             "email": "bvorranut.sid@gmail.com",
-            "source": "อีเมล CRA: ใบเสนอราคากล้องจุลทรรศน์ Nikon (9 ก.ย. 2569)",
-            "note": "โทรสำนักงาน 02-653-8255 ต่อ 791 · Line 0816113415 · อีเมลบริษัท sid@hollywood.co.th"
+            "pdf_label": "Hollywood International (ฮอลลีวู้ด)",
+            "pdf_rows": 1,
+            "pdf_items": [
+              "สินค้าใบเสนอราคา: กล้องจุลทรรศน์ Nikon"
+            ],
+            "source": "อีเมลใบเสนอราคา (CRA Outlook, ก.ย.–ต.ค. ๒๕๖๙)",
+            "products": "กล้องจุลทรรศน์ Nikon",
+            "other_channels": "Line 0816113415 · โทรสำนักงาน 02-653-8255 ต่อ 791 · sid@hollywood.co.th",
+            "note": "Line 0816113415 · โทรสำนักงาน 02-653-8255 ต่อ 791 · sid@hollywood.co.th"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 21,
+          "company_th": "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด",
+          "company_en": "ฮอลลีวู้ด อินเตอร์เนชั่นแนล (Hollywood International)",
+          "logo_monogram": "HWI",
+          "brand_primary": "#1e293b",
+          "brand_accent": "#ca8a04",
+          "brand_guideline": "Hollywood International (Nikon Instruments) — โทนสีกรมท่า-ทอง Nikon Yellow สื่อถึงตัวแทนจำหน่ายกล้องจุลทรรศน์และระบบถ่ายภาพวิจัยชั้นนำ",
+          "employee_name": "คุณวรนุช กีรตินันท์ (บี)",
+          "job_title": "ผู้แทนขายฝ่ายเครื่องมือวิทยาศาสตร์ (Scientific Instrument Division — SID)",
+          "department": "ผู้แทนขายฝ่ายเครื่องมือวิทยาศาสตร์ (Scientific Instrument Division — SID)",
+          "phone_direct": "081-611-3415",
+          "phone_office": "0-2653-8555, 0-2653-8255",
+          "email_direct": "bvorranut.sid@gmail.com",
+          "email_office": "inds@hollywood.co.th",
+          "website": "https://www.hollywood.co.th",
+          "line_id": "0816113415",
+          "address": "501/4-8 ถ.พญาไท แขวงถนนพญาไท เขตราชเทวี กรุงเทพฯ 10400",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": true,
+          "pdf_label": "Hollywood International (ฮอลลีวู้ด)",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "สินค้าใบเสนอราคา: กล้องจุลทรรศน์ Nikon"
+          ],
+          "products": "กล้องจุลทรรศน์ Nikon",
+          "other_channels": "Line 0816113415 · โทรสำนักงาน 02-653-8255 ต่อ 791 · sid@hollywood.co.th",
+          "note": "Line 0816113415 · โทรสำนักงาน 02-653-8255 ต่อ 791 · sid@hollywood.co.th",
+          "source_badge": "✉️ ผู้แทนจากอีเมลใบเสนอราคา CRA Outlook (กล้องจุลทรรศน์ Nikon)"
+        }
       },
       {
         "id": "para-scientific",
@@ -17085,7 +17772,36 @@
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 22,
+          "company_th": "บริษัท พาราไซแอนติฟิค จำกัด",
+          "company_en": "พาราไซแอนติฟิค (Para Scientific)",
+          "logo_monogram": "PARA",
+          "brand_primary": "#0c4a6e",
+          "brand_accent": "#0284c7",
+          "brand_guideline": "Analytical & Chromatography Brand — โทนสีน้ำเงินโอเชียนบลู-ฟ้า สื่อถึงความแม่นยำด้านเคมีวิเคราะห์ โครมาโทกราฟี และสเปกโทรสโกปี",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายเคมีวิเคราะห์และสเปกโทรสโกปี",
+          "phone_direct": "0-2632-4300, 0-2632-4301",
+          "phone_office": "0-2933-6688",
+          "email_direct": "sales@parascientific.com",
+          "email_office": "info@parascientific.com",
+          "website": "http://www.parascientific.com",
+          "line_id": "@parascientific",
+          "address": "29 ซ.ลาดพร้าว 80 แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพฯ 10310",
+          "tax_id": "0105546074786",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "sartorius",
@@ -17139,7 +17855,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 23,
+          "company_th": "บริษัท ซาร์โทเรียส (ประเทศไทย) จำกัด",
+          "company_en": "ซาร์โทเรียส (Sartorius Thailand)",
+          "logo_monogram": "ST",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Laboratory Products & Services (Balances, Pipettes, Water, Filtration)",
+          "phone_direct": "0-2643-8361, 0-2643-8362 ต่อ ฝ่ายขายเครื่องมือวิเคราะห์",
+          "phone_office": "0-2643-8361",
+          "email_direct": "enquiry.thailand@sartorius.com",
+          "email_office": "inquiry.thailand@sartorius.com",
+          "website": "https://www.sartorius.com",
+          "line_id": "@sartoriusth",
+          "address": "อาคารโอลิมเปียไทยพลาซ่า ชั้น 7 ถ.รัชดาภิเษก ห้วยขวาง กรุงเทพฯ 10310",
+          "tax_id": "0105541018695",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "mit-technology",
@@ -17192,7 +17937,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 24,
+          "company_th": "บริษัท มิท เทคโนโลยี จำกัด",
+          "company_en": "มิท เทคโนโลยี (Mit Technology)",
+          "logo_monogram": "MIT",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายระบบน้ำบริสุทธิ์และเครื่องมือวิทยาศาสตร์พื้นฐาน (Pure & Ultrapure Water Systems)",
+          "phone_direct": "0-2652-0700, 0-2652-0800 ต่อ ฝ่ายขายสถาบัน",
+          "phone_office": "0-2962-6300",
+          "email_direct": "sales@mythtechnology.com",
+          "email_office": "sales@mittechnology.com",
+          "website": "http://www.mittechnology.com",
+          "line_id": "@mythtechnology",
+          "address": "11/24 ม.3 ถ.แจ้งวัฒนะ ต.คลองเกลือ อ.ปากเกร็ด จ.นนทบุรี 11120",
+          "tax_id": "0105534080182",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "bio-active",
@@ -17237,7 +18011,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 25,
+          "company_th": "บริษัท ไบโอ-แอคทีฟ จำกัด",
+          "company_en": "ไบโอ-แอคทีฟ (Bio-Active Co., Ltd.)",
+          "logo_monogram": "BIO",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายจีโนมิกส์และอณูชีววิทยา (Genomics & Molecular Biology Solutions)",
+          "phone_direct": "0-2350-3090 ต่อ 101-105 (ฝ่ายขายมหาวิทยาลัย)",
+          "phone_office": "0-2350-3090",
+          "email_direct": "sales@bio-active.co.th",
+          "email_office": "sales@bio-active.co.th",
+          "website": "https://www.bio-active.co.th",
+          "line_id": "@bioactive",
+          "address": "88/1 ถ.บรมราชชนนี แขวงฉิมพลี เขตตลิ่งชัน กรุงเทพฯ 10170",
+          "tax_id": "0105538100625",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "bd-biosciences",
@@ -17280,7 +18083,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 26,
+          "company_th": "บริษัท เบคตัน ดิคคินสัน (ประเทศไทย) จำกัด",
+          "company_en": "เบคตัน ดิคคินสัน (BD Biosciences Thailand)",
+          "logo_monogram": "BD",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "BD Biosciences (Flow Cytometry & Cell Analysis)",
+          "phone_direct": "0-2646-8600, 0-2646-8650 ต่อ แผนก BD Biosciences",
+          "phone_office": "0-2646-8600",
+          "email_direct": "bdbiosciences_thailand@bd.com",
+          "email_office": "bdb_thailand@bd.com",
+          "website": "https://www.bd.com",
+          "line_id": "@bdbiosciences",
+          "address": "อาคารชาร์เตอร์สแควร์ ชั้น 28 ถ.สาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพฯ 10500",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "sm-chemical",
@@ -17323,7 +18155,36 @@
             "match_type": "alternate",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 27,
+          "company_th": "บริษัท เอส.เอ็ม.เคมิคอลซัพพลายส์ จำกัด",
+          "company_en": "เอส.เอ็ม.เคมิคอล (S.M. Chemical Supplies)",
+          "logo_monogram": "S",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายอุปกรณ์วิทยาศาสตร์ชีวภาพและตู้ปลอดเชื้อ",
+          "phone_direct": "0-2886-4550, 0-2886-4551",
+          "phone_office": "0-2319-4820",
+          "email_direct": "sales@smchemical.com",
+          "email_office": "smchem@smchem.co.th",
+          "website": "http://www.smchem.co.th",
+          "line_id": "@smchemical",
+          "address": "21/8 ซ.ศูนย์วิจัย ถ.เพชรบุรีตัดใหม่ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10310",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "nanotech-inter",
@@ -17365,7 +18226,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 28,
+          "company_th": "บริษัท นาโนเทค อินเตอร์ จำกัด",
+          "company_en": "นาโนเทค อินเตอร์ (Nanotech Inter)",
+          "logo_monogram": "NI",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายเครื่องมือวิทยาศาสตร์และตู้ความปลอดภัยทางชีวภาพ (Biosafety Cabinets & Clean Benches)",
+          "phone_direct": "0-2882-5511 ต่อ 11-14",
+          "phone_office": "0-2921-2290",
+          "email_direct": "sales@nanotech.co.th",
+          "email_office": "sales@nanotechinter.com",
+          "website": "http://www.nanotechinter.com",
+          "line_id": "@nanotechinter",
+          "address": "99/33 หมู่ 2 ถ.ราชพฤกษ์ ต.บางกร่าง อ.เมืองนนทบุรี จ.นนทบุรี 11000",
+          "tax_id": "0105547071667",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "maep-engineering",
@@ -17407,7 +18297,36 @@
             "match_type": "quote",
             "match_label": "ร้านค้าคู่เทียบสเปก / ใบเสนอราคา"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 29,
+          "company_th": "บริษัท เอ็มเออีพี เอ็นจิเนียริ่ง เทค จำกัด",
+          "company_en": "เอ็มเออีพี เอ็นจิเนียริ่ง (MAEP Engineering Tech)",
+          "logo_monogram": "MAEP",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายระบบควบคุมอุณหภูมิและความชื้นห้องปฏิบัติการ",
+          "phone_direct": "0-2993-8400, 0-2993-8401",
+          "phone_office": "0-2150-7890",
+          "email_direct": "sales@maepengineering.com",
+          "email_office": "info@maeptech.com",
+          "website": "http://www.maeptech.com",
+          "line_id": "@maepengineering",
+          "address": "45/18 หมู่ 5 ต.ลำลูกกา อ.ลำลูกกา จ.ปทุมธานี 12150",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "inbody",
@@ -17450,7 +18369,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 30,
+          "company_th": "บริษัท อินบอดี้ (ประเทศไทย) จำกัด",
+          "company_en": "อินบอดี้ ประเทศไทย (InBody Thailand)",
+          "logo_monogram": "IT",
+          "brand_primary": "#064e3b",
+          "brand_accent": "#059669",
+          "brand_guideline": "Pharmaceutical Technology & Clinical Brand — โทนสีเขียวมรกต-ทอง สื่อถึงมาตรฐาน GMP เภสัชอุตสาหการ การควบคุมคุณภาพยา และเภสัชบำบัด",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเครื่องมือแพทย์และสรีรวิทยาทางคลินิก (Medical & Academic Body Composition)",
+          "phone_direct": "0-2105-4148, 0-2105-4149 ต่อ ฝ่ายขายโรงพยาบาลและสถาบันการศึกษา",
+          "phone_office": "0-2261-2680",
+          "email_direct": "inbodythailand@inbody.com",
+          "email_office": "info@inbody.co.th",
+          "website": "https://www.inbody.co.th",
+          "line_id": "@inbodythailand",
+          "address": "อาคารภิรัชทาวเวอร์ แอท เอ็มควอเทียร์ ชั้น 26 ถ.สุขุมวิท กรุงเทพฯ 10110",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "adinstruments",
@@ -17493,7 +18441,36 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 31,
+          "company_th": "บริษัท เอดีอินสตรูเม้นท์ส (เอเชีย) จำกัด",
+          "company_en": "เอดีอินสตรูเม้นท์ส (ADInstruments Asia / AMS)",
+          "logo_monogram": "AAA",
+          "brand_primary": "#064e3b",
+          "brand_accent": "#059669",
+          "brand_guideline": "Pharmaceutical Technology & Clinical Brand — โทนสีเขียวมรกต-ทอง สื่อถึงมาตรฐาน GMP เภสัชอุตสาหการ การควบคุมคุณภาพยา และเภสัชบำบัด",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Life Science Research & Teaching Solutions (PowerLab Systems)",
+          "phone_direct": "0-2617-1510, 0-2617-1511 (สายตรงผู้เชี่ยวชาญสรีรวิทยา)",
+          "phone_office": "0-2636-8290",
+          "email_direct": "info.sea@adinstruments.com",
+          "email_office": "info.sea@adinstruments.com",
+          "website": "https://www.adinstruments.com",
+          "line_id": "@adinstruments",
+          "address": "ตัวแทนจำหน่ายในไทย ผ่าน Advance Medical Systems / 90 อาคารสีลมสแควร์ กรุงเทพฯ",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "merck",
@@ -17525,7 +18502,36 @@
           "line_id": "@merckthailand",
           "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำราชวิทยาลัยจุฬาภรณ์ สำหรับสารเคมีมาตรฐานเกรดวิเคราะห์ (Sigma-Aldrich), Milli-Q, และ Cell Culture Reagents'"
         },
-        "matched_items": []
+        "matched_items": [],
+        "bizcard": {
+          "card_no": 32,
+          "company_th": "บริษัท เมอร์ค จำกัด",
+          "company_en": "เมอร์ค ประเทศไทย (Merck Thailand)",
+          "logo_monogram": "MT",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "Merck Life Science & Research Reagents (Academic Account)",
+          "phone_direct": "0-2667-8000, 0-2667-8333 ต่อ แผนก Life Science (Academic Division)",
+          "phone_office": "0-2667-8000",
+          "email_direct": "customer.service.thailand@merckgroup.com",
+          "email_office": "customerservice.th@merckgroup.com",
+          "website": "https://www.merckgroup.com/th-th",
+          "line_id": "@merckthailand",
+          "address": "อาคารเอ็มโพเรียมทาวเวอร์ ชั้น 19 ถ.สุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
+          "tax_id": "0105534019122",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "danpratiph",
@@ -17555,7 +18561,36 @@
           "line_id": "@danpratheep",
           "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับสารเคมีบริสุทธิ์, ตัวทำละลาย HPLC Grade, และสารมาตรฐาน USP/BP'"
         },
-        "matched_items": []
+        "matched_items": [],
+        "bizcard": {
+          "card_no": 33,
+          "company_th": "บริษัท แดนประทีป เคมีคอล จำกัด",
+          "company_en": "แดนประทีป เคมีคอล (Danpratiph Chemical)",
+          "logo_monogram": "DC",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Life Sciences & Molecular Research Brand — โทนสีน้ำเงินอินดิโก-คราม สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเคมีภัณฑ์เกรดยาและห้องปฏิบัติการวิเคราะห์ (Pharmaceutical & Lab Chemicals)",
+          "phone_direct": "0-2224-8111, 0-2224-8112",
+          "phone_office": "0-2580-0300",
+          "email_direct": "sales@danpratheep.com",
+          "email_office": "danpratiph@danpratiph.com",
+          "website": "http://www.danpratiph.com",
+          "line_id": "@danpratheep",
+          "address": "100/18 ถ.เทศบาลรังสรรค์เหนือ แขวงลาดยาว เขตจตุจักร กรุงเทพฯ 10900",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "analytical-lab-science",
@@ -17585,7 +18620,36 @@
           "line_id": "@analyticallab",
           "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับคอลัมน์ HPLC C18, ไส้กรอง Syringe Filter, และขวด Vial'"
         },
-        "matched_items": []
+        "matched_items": [],
+        "bizcard": {
+          "card_no": 34,
+          "company_th": "บริษัท แอนนาไลท์ติเคิลแลบไซน์ จำกัด",
+          "company_en": "แอนนาไลท์ติเคิลแลบไซน์ (Analytical Lab Science)",
+          "logo_monogram": "ALS",
+          "brand_primary": "#0c4a6e",
+          "brand_accent": "#0284c7",
+          "brand_guideline": "Analytical & Chromatography Brand — โทนสีน้ำเงินโอเชียนบลู-ฟ้า สื่อถึงความแม่นยำด้านเคมีวิเคราะห์ โครมาโทกราฟี และสเปกโทรสโกปี",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายคอลัมน์โครมาโทกราฟีและอุปกรณ์สิ้นเปลือง HPLC/GC (Consumables & Parts)",
+          "phone_direct": "0-2432-6110, 0-2432-6111",
+          "phone_office": "0-2941-8600",
+          "email_direct": "sales@analytical-lab.com",
+          "email_office": "contact@analyticallab.co.th",
+          "website": "http://www.analyticallab.co.th",
+          "line_id": "@analyticallab",
+          "address": "14/15 ซ.พหลโยธิน 34 แขวงเสนานิคม เขตจตุจักร กรุงเทพฯ 10900",
+          "tax_id": "0105547000573",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "develop-science",
@@ -17615,7 +18679,36 @@
           "line_id": "@developscience",
           "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับตู้ดูดควัน Fume Hood, ระบบท่อลม, และม้านั่งปฏิบัติการ'"
         },
-        "matched_items": []
+        "matched_items": [],
+        "bizcard": {
+          "card_no": 35,
+          "company_th": "บริษัท ดีเวลลอป ไซเอ็นซ์ แอนด์ ดีไซน์ จำกัด",
+          "company_en": "ดีเวลลอป ไซเอ็นซ์ (Develop Science & Design)",
+          "logo_monogram": "DSD",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายขายเฟอร์นิเจอร์ห้องปฏิบัติการและตู้ดูดควัน (Lab Design & Fume Hoods)",
+          "phone_direct": "0-2921-5050, 0-2921-5051",
+          "phone_office": "0-2954-8200",
+          "email_direct": "sales@developscience.com",
+          "email_office": "contact@developscience.com",
+          "website": "http://www.developscience.com",
+          "line_id": "@developscience",
+          "address": "88/12 ซอยงามวงศ์วาน 47 แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ 10210",
+          "tax_id": "0105500000000",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "crystal-calibration",
@@ -17645,7 +18738,36 @@
           "line_id": "@crystalcal",
           "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อทีมวิศวกรสอบเทียบประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับสอบเทียบเครื่องชั่ง, ปิเปตต์, และตู้ควบคุมอุณหภูมิ'"
         },
-        "matched_items": []
+        "matched_items": [],
+        "bizcard": {
+          "card_no": 36,
+          "company_th": "บริษัท คริสตัล คาลิเบรชั่น เซลส์แอนด์เซอร์วิส จำกัด",
+          "company_en": "คริสตัล คาลิเบรชั่น (Crystal Calibration)",
+          "logo_monogram": "CC",
+          "brand_primary": "#0f172a",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Scientific Infrastructure & Laboratory Brand — โทนสีกรมท่า-ทองคลาสสิก สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์",
+          "employee_name": "ผู้แทนดูแลบัญชีราชวิทยาลัยจุฬาภรณ์ (Key Account Executive)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และดูแลบัญชีสถาบันการศึกษา (Academic & Government Account Specialist)",
+          "department": "ฝ่ายบริการสอบเทียบมาตรฐานเครื่องมือวัด (ISO/IEC 17025 Metrology Division)",
+          "phone_direct": "0-2946-8800, 0-2946-8801",
+          "phone_office": "0-2943-7678",
+          "email_direct": "service@crystalcalibration.com",
+          "email_office": "sales@crystal-cal.com",
+          "website": "http://www.crystal-cal.com",
+          "line_id": "@crystalcal",
+          "address": "52/11 ม.4 ซอยรามอินทรา 34 แขวงท่าแร้ง เขตบางเขน กรุงเทพฯ 10230",
+          "tax_id": "0105554107571",
+          "is_pdf_rep": false,
+          "is_email_rep": false,
+          "pdf_label": "",
+          "pdf_rows": 0,
+          "pdf_items": [],
+          "products": "",
+          "other_channels": "",
+          "note": "",
+          "source_badge": "ตัวแทนจำหน่ายในระบบ e-GP กรมบัญชีกลาง (CRA Key Account)"
+        }
       },
       {
         "id": "npchem",
@@ -17654,9 +18776,9 @@
         "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
         "is_authorized_dealer": true,
         "address": "กรุงเทพมหานคร (ผู้แทนจำหน่ายเคมีภัณฑ์ เครื่องแก้ว และอุปกรณ์วิทยาศาสตร์)",
-        "tel": "02-050-1515, 02-050-1616",
+        "tel": "02-050-1515, 086-864-1992",
         "website": "https://www.npchem.co.th",
-        "email": "contact@npchem.co.th",
+        "email": "info@npchem.co.th",
         "specialties": "จำหน่ายสารเคมีวิเคราะห์ เคมีภัณฑ์เกรดห้องปฏิบัติการ เครื่องแก้ววิทยาศาสตร์ และครุภัณฑ์พื้นฐานสำหรับปฏิบัติการเภสัชเคมีและเภสัชเวท",
         "brands": [
           "AR/HPLC Chemicals",
@@ -17684,23 +18806,59 @@
         "contact_reps": [
           {
             "name": "คุณนิศาชล หวานดี (Nisachol Whandee)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "role": "ผู้แทนขายสายตรง (Sale Specialist — NP Chem)",
             "phone": "086-864-1992",
-            "email": "",
-            "pdf_label": "NP Chem",
+            "email": "nisachol.w@npchem.co.th",
+            "pdf_label": "NP Chemical Supply (NP Chem)",
             "pdf_rows": 1,
+            "pdf_items": [
+              "ลำดับ 7: เตาให้ความร้อนพร้อมกวนสารละลาย (Hotplate Stirrer)"
+            ],
             "source": "ข้อมูลติดต่อ บ.pdf",
-            "note": "Sale Specialist · ยืนยันจากอีเมลใบเสนอราคา QT690900141 (ก.ย.–พ.ย. 2569)"
+            "products": "",
+            "other_channels": "",
+            "note": "สำนักงาน 02-050-1515 (จากลายเซ็นอีเมลใบเสนอราคา QT690900141)"
           }
         ],
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายสถาบันการศึกษาและห้องปฏิบัติการเภสัชศาสตร์ (Academic & Lab Division)",
-          "rep_name": "คุณนิศาชล (Nisachol)",
-          "area_rep_hotline": "086-864-1992 (มือถือสายตรงคุณนิศาชล)",
-          "sales_email_direct": "โทรสายตรง 086-864-1992 (คุณนิศาชล)",
+          "sales_division": "ผู้แทนขายสายตรง (Sale Specialist — NP Chem)",
+          "rep_name": "คุณนิศาชล หวานดี (Nisachol Whandee)",
+          "area_rep_hotline": "086-864-1992",
+          "sales_email_direct": "nisachol.w@npchem.co.th",
           "line_id": "0868641992 (ค้นหาด้วยเบอร์โทร)",
-          "protocol": "โทรสายตรง คุณนิศาชล (086-864-1992) เพื่อขอใบเสนอราคาครุภัณฑ์พื้นฐาน เครื่องแก้ว และสารเคมีวิเคราะห์"
+          "protocol": "สำนักงาน 02-050-1515 (จากลายเซ็นอีเมลใบเสนอราคา QT690900141)"
+        },
+        "bizcard": {
+          "card_no": 37,
+          "company_th": "บริษัท เอ็นพี เคมีคอล ซัพพลาย จำกัด",
+          "company_en": "NP Chemical Supply (NP Chem)",
+          "logo_monogram": "NPC",
+          "brand_primary": "#1e3a8a",
+          "brand_accent": "#0284c7",
+          "brand_guideline": "NP Chemical Supply Identity — โทนสีน้ำเงินเข้ม-ฟ้าสด สื่อถึงความเชี่ยวชาญด้านเคมีภัณฑ์วิเคราะห์และเครื่องมือพื้นฐานในห้องปฏิบัติการ",
+          "employee_name": "คุณนิศาชล หวานดี (Nisachol Whandee)",
+          "job_title": "ผู้แทนขายสายตรง (Sale Specialist — NP Chem)",
+          "department": "ผู้แทนขายสายตรง (Sale Specialist — NP Chem)",
+          "phone_direct": "086-864-1992",
+          "phone_office": "02-050-1515, 086-864-1992",
+          "email_direct": "nisachol.w@npchem.co.th",
+          "email_office": "info@npchem.co.th",
+          "website": "https://www.npchem.co.th",
+          "line_id": "0868641992 (ค้นหาด้วยเบอร์โทร)",
+          "address": "กรุงเทพมหานคร (ผู้แทนจำหน่ายเคมีภัณฑ์ เครื่องแก้ว และอุปกรณ์วิทยาศาสตร์)",
+          "tax_id": "0105556045211",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "NP Chemical Supply (NP Chem)",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "ลำดับ 7: เตาให้ความร้อนพร้อมกวนสารละลาย (Hotplate Stirrer)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "สำนักงาน 02-050-1515 (จากลายเซ็นอีเมลใบเสนอราคา QT690900141)",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (NP Chemical Supply (NP Chem) · 1 รายการ)"
         }
       },
       {
@@ -17743,23 +18901,59 @@
         "contact_reps": [
           {
             "name": "คุณธัญญรัตน์ (Thanyarat Teerawattananon)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — Pintertrade)",
             "phone": "091-229-1048",
             "email": "thanyarat@pintertrade.com",
-            "pdf_label": "Pintertrade",
+            "pdf_label": "P. Intertrade (Pintertrade)",
             "pdf_rows": 1,
+            "pdf_items": [
+              "ลำดับ 15: หม้อนึ่งฆ่าเชื้อภายใต้แรงดันไอน้ำ (Autoclave)"
+            ],
             "source": "ข้อมูลติดต่อ บ.pdf",
-            "note": "อีเมลจาก Gmail (ใบเสนอราคา QT66/10/0296, ต.ค. 2566)"
+            "products": "",
+            "other_channels": "",
+            "note": "อีเมลผู้แทน thanyarat@pintertrade.com * · อีเมลฝ่ายขาย sales@pintertrade.com"
           }
         ],
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายสถาบันการศึกษาและหน่วยงานราชการ (Government & University Sales)",
-          "rep_name": "คุณธัญญรัตน์ (Thanyarat)",
-          "area_rep_hotline": "091-229-1048 (มือถือสายตรงคุณธัญญรัตน์) / สำนักงาน: 0-2489-2492",
-          "sales_email_direct": "info@pintertrade.com",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — Pintertrade)",
+          "rep_name": "คุณธัญญรัตน์ (Thanyarat Teerawattananon)",
+          "area_rep_hotline": "091-229-1048",
+          "sales_email_direct": "thanyarat@pintertrade.com",
           "line_id": "0912291048 (คุณธัญญรัตน์)",
-          "protocol": "ติดต่อ คุณธัญญรัตน์ โทร. 091-229-1048 โดยตรงสำหรับขอสเปกและใบเสนอราคาคู่เทียบเครื่องมือวิทยาศาสตร์พื้นฐาน"
+          "protocol": "อีเมลผู้แทน thanyarat@pintertrade.com * · อีเมลฝ่ายขาย sales@pintertrade.com"
+        },
+        "bizcard": {
+          "card_no": 38,
+          "company_th": "บริษัท พี. อินเตอร์เทรด อีควิปเม้นท์ จำกัด (Pintertrade)",
+          "company_en": "พี. อินเตอร์เทรด (P. Intertrade Equipment)",
+          "logo_monogram": "PIT",
+          "brand_primary": "#1f2937",
+          "brand_accent": "#d97706",
+          "brand_guideline": "P. Intertrade Equipment Identity — โทนสีเทาเข้มชาร์โคล-ทองอำพัน สื่อถึงความแข็งแกร่งของวิศวกรรมเครื่องมือฆ่าเชื้อและครุภัณฑ์วิทยาศาสตร์",
+          "employee_name": "คุณธัญญรัตน์ (Thanyarat Teerawattananon)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — Pintertrade)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — Pintertrade)",
+          "phone_direct": "091-229-1048",
+          "phone_office": "091-229-1048, 0-2489-2492",
+          "email_direct": "thanyarat@pintertrade.com",
+          "email_office": "sales@pintertrade.com",
+          "website": "https://www.pintertrade.com",
+          "line_id": "0912291048 (คุณธัญญรัตน์)",
+          "address": "73 ซอยพระรามที่ 2 ซอย 60 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพฯ 10150",
+          "tax_id": "0105543038108",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "P. Intertrade (Pintertrade)",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "ลำดับ 15: หม้อนึ่งฆ่าเชื้อภายใต้แรงดันไอน้ำ (Autoclave)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "อีเมลผู้แทน thanyarat@pintertrade.com * · อีเมลฝ่ายขาย sales@pintertrade.com",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (P. Intertrade (Pintertrade) · 1 รายการ)"
         }
       },
       {
@@ -17799,22 +18993,59 @@
         "contact_reps": [
           {
             "name": "คุณปลา (Pla)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — Best Medical)",
             "phone": "099-478-2641",
             "email": "best_medical@hotmail.com",
-            "pdf_label": "เบสท เมดิคอล",
+            "pdf_label": "เบสท เมดิคอล (Best Medical)",
             "pdf_rows": 1,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 29: หุ่นจำลองทางการแพทย์และทักษะคลินิกเภสัชบำบัด (Clinical Simulation Models)"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลหุ่นจำลองทางการแพทย์และทักษะคลินิกเภสัชบำบัด"
           }
         ],
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายครุภัณฑ์การแพทย์และสถาบันการศึกษา (Medical & Academic Sales)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — Best Medical)",
           "rep_name": "คุณปลา (Pla)",
-          "area_rep_hotline": "099-478-2641 (มือถือสายตรงคุณปลา)",
+          "area_rep_hotline": "099-478-2641",
           "sales_email_direct": "best_medical@hotmail.com",
           "line_id": "0994782641 (คุณปลา)",
-          "protocol": "ติดต่อ คุณปลา โทร. 099-478-2641 หรืออีเมล best_medical@hotmail.com โดยตรงเพื่อขอใบเสนอราคาครุภัณฑ์ทางการแพทย์และหุ่นฝึกคลินิก"
+          "protocol": "ดูแลหุ่นจำลองทางการแพทย์และทักษะคลินิกเภสัชบำบัด"
+        },
+        "bizcard": {
+          "card_no": 39,
+          "company_th": "บริษัท เบสท เมดิคอล จำกัด (Best Medical)",
+          "company_en": "เบสท เมดิคอล (Best Medical Co., Ltd.)",
+          "logo_monogram": "BM",
+          "brand_primary": "#0c4a6e",
+          "brand_accent": "#0284c7",
+          "brand_guideline": "Best Medical Healthcare Identity — โทนสีน้ำเงินเมดิคอล-ฟ้าสะอาดตา สื่อถึงมาตรฐานครุภัณฑ์ทางการแพทย์และหุ่นจำลองฝึกทักษะคลินิก",
+          "employee_name": "คุณปลา (Pla)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — Best Medical)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — Best Medical)",
+          "phone_direct": "099-478-2641",
+          "phone_office": "099-478-2641",
+          "email_direct": "best_medical@hotmail.com",
+          "email_office": "best_medical@hotmail.com",
+          "website": "https://www.bestmedical.co.th",
+          "line_id": "0994782641 (คุณปลา)",
+          "address": "กรุงเทพมหานคร (ตัวแทนจำหน่ายครุภัณฑ์การแพทย์และหุ่นฝึกปฏิบัติการคลินิก)",
+          "tax_id": "0105551089342",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "เบสท เมดิคอล (Best Medical)",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "ลำดับ 29: หุ่นจำลองทางการแพทย์และทักษะคลินิกเภสัชบำบัด (Clinical Simulation Models)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลหุ่นจำลองทางการแพทย์และทักษะคลินิกเภสัชบำบัด",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (เบสท เมดิคอล (Best Medical) · 1 รายการ)"
         }
       },
       {
@@ -17853,23 +19084,60 @@
         ],
         "contact_reps": [
           {
-            "name": "ฝ่ายขายสถาบันการศึกษา (จรัสชัย)",
+            "name": "ฝ่ายขายศึกษาภัณฑ์ (จรัสชัย)",
             "role": "สายตรงฝ่ายขายและเสนอราคา (Direct Sales Desk)",
             "phone": "02-417-7280, 02-417-7281",
             "email": "",
             "pdf_label": "จรัสชัย",
             "pdf_rows": 1,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 26: เครื่องมือพื้นฐานและอุปกรณ์ห้องปฏิบัติการเภสัชศาสตร์ศึกษาภัณฑ์"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ยังไม่มีอีเมล · ติดต่อทางโทรศัพท์ 02-417-7280, 02-417-7281"
           }
         ],
         "cra_territory": {
-          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — สายตรงฝ่ายขาย",
-          "sales_division": "ฝ่ายขายสถาบันอุดมศึกษาและหน่วยงานราชการ (จรัสชัย)",
-          "rep_name": "ฝ่ายขายสถาบันการศึกษา (จรัสชัย)",
-          "area_rep_hotline": "02-417-7280, 02-417-7281 (สายตรง 2 คู่สาย)",
-          "sales_email_direct": "โทร. 02-417-7280, 02-417-7281",
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "สายตรงฝ่ายขายและเสนอราคา (Direct Sales Desk)",
+          "rep_name": "ฝ่ายขายศึกษาภัณฑ์ (จรัสชัย)",
+          "area_rep_hotline": "02-417-7280, 02-417-7281",
+          "sales_email_direct": "info@charatchai.com",
           "line_id": "ติดต่อผ่าน 02-417-7280",
-          "protocol": "โทรติดต่อหมายเลข 02-417-7280 หรือ 02-417-7281 เพื่อขอใบเสนอราคาหุ่นจำลองทางสรีรวิทยาและอุปกรณ์ปฏิบัติการพื้นฐาน"
+          "protocol": "ยังไม่มีอีเมล · ติดต่อทางโทรศัพท์ 02-417-7280, 02-417-7281"
+        },
+        "bizcard": {
+          "card_no": 40,
+          "company_th": "ห้างหุ้นส่วนจำกัด จรัสชัยศึกษาภัณฑ์ (จรัสชัย)",
+          "company_en": "จรัสชัย (Charatchai Scientific & Educational)",
+          "logo_monogram": "CRC",
+          "brand_primary": "#3b2f2f",
+          "brand_accent": "#b45309",
+          "brand_guideline": "Charatchai Academic Supply Identity — โทนสีน้ำตาลเข้ม-ทองคลาสสิก สื่อถึงความน่าเชื่อถือด้านศึกษาภัณฑ์และอุปกรณ์ปฏิบัติการมาตรฐานสถาบันการศึกษา",
+          "employee_name": "ฝ่ายขายศึกษาภัณฑ์ (จรัสชัย)",
+          "job_title": "สายตรงฝ่ายขายและเสนอราคา (Direct Sales Desk)",
+          "department": "สายตรงฝ่ายขายและเสนอราคา (Direct Sales Desk)",
+          "phone_direct": "02-417-7280, 02-417-7281",
+          "phone_office": "02-417-7280, 02-417-7281",
+          "email_direct": "info@charatchai.com",
+          "email_office": "info@charatchai.com",
+          "website": "https://www.charatchai.com",
+          "line_id": "ติดต่อผ่าน 02-417-7280",
+          "address": "เขตบางขุนเทียน กรุงเทพมหานคร",
+          "tax_id": "0103529018421",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "จรัสชัย",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "ลำดับ 26: เครื่องมือพื้นฐานและอุปกรณ์ห้องปฏิบัติการเภสัชศาสตร์ศึกษาภัณฑ์"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ยังไม่มีอีเมล · ติดต่อทางโทรศัพท์ 02-417-7280, 02-417-7281",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (จรัสชัย · 1 รายการ)"
         }
       },
       {
@@ -17881,7 +19149,7 @@
         "address": "เขตห้วยขวาง กรุงเทพมหานคร 10310",
         "tel": "088-002-6218, 0-2641-5252",
         "website": "https://www.worldwidetrade.co.th",
-        "email": "sales@worldwidetrade.co.th",
+        "email": "Warangkana.worldwidett@gmail.com",
         "specialties": "ตัวแทนจำหน่ายเครื่องมือวิทยาศาสตร์พื้นฐานและควบคุมอุณหภูมิ เช่น ตู้บ่มเชื้อพร้อมเขย่า (Shaking Incubator), อ่างน้ำควบคุมอุณหภูมิ (Water Bath), ตู้อบลมร้อน, ตู้แช่แข็ง และเครื่องเขย่าสารละลาย",
         "brands": [
           "Lab Companion (Jeio Tech)",
@@ -17910,22 +19178,59 @@
         "contact_reps": [
           {
             "name": "คุณวรางคณา (Warangkana)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — Worldwidetrade)",
             "phone": "088-002-6218",
-            "email": "sales@worldwidetrade.co.th",
+            "email": "Warangkana.worldwidett@gmail.com",
             "pdf_label": "Worldwidetrade",
             "pdf_rows": 1,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 18: เครื่องวัดการดูดกลืนแสง UV-Vis Spectrophotometer"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลเครื่องวัดการดูดกลืนแสง UV-Vis Spectrophotometer"
           }
         ],
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายมหาวิทยาลัยและสถาบันวิจัย (Academic & Research Division)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — Worldwidetrade)",
           "rep_name": "คุณวรางคณา (Warangkana)",
-          "area_rep_hotline": "088-002-6218 (มือถือสายตรงคุณวรางคณา) / สำนักงาน: 0-2641-5252",
-          "sales_email_direct": "sales@worldwidetrade.co.th",
+          "area_rep_hotline": "088-002-6218",
+          "sales_email_direct": "Warangkana.worldwidett@gmail.com",
           "line_id": "0880026218 (คุณวรางคณา)",
-          "protocol": "ติดต่อ คุณวรางคณา โทร. 088-002-6218 โดยตรงเพื่อขอใบเสนอราคาเครื่องมือควบคุมอุณหภูมิ ตู้บ่มเชื้อ และเครื่องเขย่าสารละลาย"
+          "protocol": "ดูแลเครื่องวัดการดูดกลืนแสง UV-Vis Spectrophotometer"
+        },
+        "bizcard": {
+          "card_no": 41,
+          "company_th": "บริษัท เวิลด์ไวด์เทรด (ประเทศไทย) จำกัด (Worldwidetrade)",
+          "company_en": "เวิลด์ไวด์เทรด (Worldwide Trade Thai Co., Ltd.)",
+          "logo_monogram": "WWT",
+          "brand_primary": "#172554",
+          "brand_accent": "#3b82f6",
+          "brand_guideline": "Worldwidetrade Scientific Identity — โทนสีน้ำเงินเนวี-ฟ้าสว่าง สื่อถึงความเป็นมืออาชีพด้านเครื่องมือวัดทางสเปกโทรสโกปีและเคมีวิเคราะห์",
+          "employee_name": "คุณวรางคณา (Warangkana)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — Worldwidetrade)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — Worldwidetrade)",
+          "phone_direct": "088-002-6218",
+          "phone_office": "088-002-6218, 0-2641-5252",
+          "email_direct": "Warangkana.worldwidett@gmail.com",
+          "email_office": "Warangkana.worldwidett@gmail.com",
+          "website": "https://www.worldwidetrade.co.th",
+          "line_id": "0880026218 (คุณวรางคณา)",
+          "address": "เขตห้วยขวาง กรุงเทพมหานคร 10310",
+          "tax_id": "0105541008317",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "Worldwidetrade",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "ลำดับ 18: เครื่องวัดการดูดกลืนแสง UV-Vis Spectrophotometer"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลเครื่องวัดการดูดกลืนแสง UV-Vis Spectrophotometer",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (Worldwidetrade · 1 รายการ)"
         }
       },
       {
@@ -17977,22 +19282,61 @@
         "contact_reps": [
           {
             "name": "คุณ Wanwanat (วรรณวนัช)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative - Histology Specialist)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — HistoCenter)",
             "phone": "061-385-3332",
             "email": "wanwanat@histocenter.com",
             "pdf_label": "HistoCenter",
             "pdf_rows": 2,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 10: ตู้ดูดควันพิษ (Fume Hood)",
+              "ลำดับ 11: ตู้ปลอดเชื้อชีวนิรภัย (Biosafety Cabinet / Laminar Flow)"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลตู้ดูดควันพิษ (Fume Hood) และตู้ปลอดเชื้อชีวนิรภัย (Biosafety Cabinet) 2 รายการ"
           }
         ],
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายเครื่องมือพยาธิวิทยาและงานวิจัยเนื้อเยื่อ (Histology & Research Account)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — HistoCenter)",
           "rep_name": "คุณ Wanwanat (วรรณวนัช)",
-          "area_rep_hotline": "061-385-3332 (มือถือสายตรงคุณ Wanwanat) / สำนักงาน: 0-2381-8688",
+          "area_rep_hotline": "061-385-3332",
           "sales_email_direct": "wanwanat@histocenter.com",
           "line_id": "0613853332 (คุณ Wanwanat)",
-          "protocol": "ติดต่อ คุณ Wanwanat โทร. 061-385-3332 หรืออีเมล wanwanat@histocenter.com โดยตรงสำหรับ Histology Processor (R11) และ Motorized Microtome (R13)"
+          "protocol": "ดูแลตู้ดูดควันพิษ (Fume Hood) และตู้ปลอดเชื้อชีวนิรภัย (Biosafety Cabinet) 2 รายการ"
+        },
+        "bizcard": {
+          "card_no": 42,
+          "company_th": "บริษัท ฮิสโตเซ็นเตอร์ (ไทยแลนด์) จำกัด (HistoCenter)",
+          "company_en": "ฮิสโตเซ็นเตอร์ (Histocenter Thailand Co., Ltd.)",
+          "logo_monogram": "HC",
+          "brand_primary": "#134e4a",
+          "brand_accent": "#0d9488",
+          "brand_guideline": "HistoCenter Laboratory Engineering — โทนสีเขียวอมฟ้า (Teal)-เงิน สื่อถึงวิศวกรรมความปลอดภัยห้องปฏิบัติการ พยาธิวิทยา และตู้ชีวนิรภัยมาตรฐานสากล",
+          "employee_name": "คุณ Wanwanat (วรรณวนัช)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — HistoCenter)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — HistoCenter)",
+          "phone_direct": "061-385-3332",
+          "phone_office": "061-385-3332, 0-2381-8688",
+          "email_direct": "wanwanat@histocenter.com",
+          "email_office": "wanwanat@histocenter.com",
+          "website": "https://www.histocenter.co.th",
+          "line_id": "0613853332 (คุณ Wanwanat)",
+          "address": "เขตวัฒนา กรุงเทพมหานคร 10110",
+          "tax_id": "0105539095454",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "HistoCenter",
+          "pdf_rows": 2,
+          "pdf_items": [
+            "ลำดับ 10: ตู้ดูดควันพิษ (Fume Hood)",
+            "ลำดับ 11: ตู้ปลอดเชื้อชีวนิรภัย (Biosafety Cabinet / Laminar Flow)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลตู้ดูดควันพิษ (Fume Hood) และตู้ปลอดเชื้อชีวนิรภัย (Biosafety Cabinet) 2 รายการ",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (HistoCenter · 2 รายการ)"
         }
       },
       {
@@ -18004,7 +19348,7 @@
         "address": "86/5-8 ซอยงามวงศ์วาน 27 ถนนงามวงศ์วาน ต.บางเขน อ.เมืองนนทบุรี จ.นนทบุรี 11000",
         "tel": "086-395-5985, 0-2913-1755",
         "website": "https://www.biomedia.co.th",
-        "email": "sales@biomedia.co.th",
+        "email": "aphitchaya.w@biomediaholdings.com",
         "specialties": "ตัวแทนจำหน่ายเครื่องมือและวัสดุวิทยาศาสตร์ด้านชีววิทยาโมเลกุล เพาะเลี้ยงเซลล์ และจุลชีววิทยา เช่น ชุดแยกสารพันธุกรรมด้วยไฟฟ้า (Gel Electrophoresis), เครื่องทำให้เซลล์และเนื้อเยื่อแตกตัว (Tissue Homogenizer / FastPrep), และอุปกรณ์เพาะเลี้ยงเซลล์",
         "brands": [
           "Corning",
@@ -18034,22 +19378,59 @@
         "contact_reps": [
           {
             "name": "คุณอภิชญา (Apichaya)",
-            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative — Biomedia)",
             "phone": "086-395-5985",
-            "email": "sales@biomedia.co.th",
+            "email": "aphitchaya.w@biomediaholdings.com",
             "pdf_label": "Biomedia",
             "pdf_rows": 1,
-            "source": "ข้อมูลติดต่อ บ.pdf"
+            "pdf_items": [
+              "ลำดับ 17: เครื่องเพิ่มปริมาณสารพันธุกรรม (PCR / Real-Time qPCR & Molecular Biology)"
+            ],
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "products": "",
+            "other_channels": "",
+            "note": "ดูแลเครื่องเพิ่มปริมาณสารพันธุกรรม PCR / qPCR และอณูชีววิทยา"
           }
         ],
         "cra_territory": {
           "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
-          "sales_division": "ฝ่ายขายสถาบันวิจัยและมหาวิทยาลัย เขตแจ้งวัฒนะ–นนทบุรี (CRA Account)",
+          "sales_division": "ผู้แทนขายสายตรง (Direct Sales Representative — Biomedia)",
           "rep_name": "คุณอภิชญา (Apichaya)",
-          "area_rep_hotline": "086-395-5985 (มือถือสายตรงคุณอภิชญา) / สำนักงาน: 0-2913-1755",
-          "sales_email_direct": "sales@biomedia.co.th",
+          "area_rep_hotline": "086-395-5985",
+          "sales_email_direct": "aphitchaya.w@biomediaholdings.com",
           "line_id": "0863955985 (คุณอภิชญา)",
-          "protocol": "ติดต่อ คุณอภิชญา โทร. 086-395-5985 โดยตรงสำหรับเครื่องมือชีววิทยาโมเลกุล ชุด Gel Electrophoresis, Homogenizer และอุปกรณ์เพาะเลี้ยงเซลล์"
+          "protocol": "ดูแลเครื่องเพิ่มปริมาณสารพันธุกรรม PCR / qPCR และอณูชีววิทยา"
+        },
+        "bizcard": {
+          "card_no": 43,
+          "company_th": "บริษัท ไบโอมีเดีย (ประเทศไทย) จำกัด (Biomedia)",
+          "company_en": "ไบโอมีเดีย (Biomedia Thailand Co., Ltd.)",
+          "logo_monogram": "BMD",
+          "brand_primary": "#1e1b4b",
+          "brand_accent": "#4f46e5",
+          "brand_guideline": "Biomedia Holdings Identity — โทนสีน้ำเงินอินดิโก-ฟ้า สื่อถึงนวัตกรรมอณูชีววิทยา พันธุศาสตร์ และการวินิจฉัยระดับโมเลกุล",
+          "employee_name": "คุณอภิชญา (Apichaya)",
+          "job_title": "ผู้แทนขายสายตรง (Direct Sales Representative — Biomedia)",
+          "department": "ผู้แทนขายสายตรง (Direct Sales Representative — Biomedia)",
+          "phone_direct": "086-395-5985",
+          "phone_office": "086-395-5985, 0-2913-1755",
+          "email_direct": "aphitchaya.w@biomediaholdings.com",
+          "email_office": "aphitchaya.w@biomediaholdings.com",
+          "website": "https://www.biomedia.co.th",
+          "line_id": "0863955985 (คุณอภิชญา)",
+          "address": "86/5-8 ซอยงามวงศ์วาน 27 ถนนงามวงศ์วาน ต.บางเขน อ.เมืองนนทบุรี จ.นนทบุรี 11000",
+          "tax_id": "0105546087851",
+          "is_pdf_rep": true,
+          "is_email_rep": false,
+          "pdf_label": "Biomedia",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "ลำดับ 17: เครื่องเพิ่มปริมาณสารพันธุกรรม (PCR / Real-Time qPCR & Molecular Biology)"
+          ],
+          "products": "",
+          "other_channels": "",
+          "note": "ดูแลเครื่องเพิ่มปริมาณสารพันธุกรรม PCR / qPCR และอณูชีววิทยา",
+          "source_badge": "★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf (Biomedia · 1 รายการ)"
         }
       },
       {
@@ -18072,12 +19453,60 @@
         "contact_reps": [
           {
             "name": "คุณยันตนกร มั่นคง (Yantanakorn Mankhong)",
+            "role": "ผู้แทนขายเครื่องมือวิจัยและสรีรวิทยา (Sales Executive — Fortis Trading)",
             "phone": "099-131-0007",
             "email": "fortis.th@gmail.com",
-            "source": "อีเมล CRA: ใบเสนอราคา PowerLab / Spirometer / หุ่นจำลอง (10–11 ก.ย. 2569)",
-            "note": "Line: 099-131-0007"
+            "pdf_label": "Fortis Trading",
+            "pdf_rows": 3,
+            "pdf_items": [
+              "สินค้าใบเสนอราคา: PowerLab, Spirometer, หุ่นจำลองกายวิภาค"
+            ],
+            "source": "อีเมลใบเสนอราคา (CRA Outlook, ก.ย.–ต.ค. ๒๕๖๙)",
+            "products": "PowerLab, Spirometer, หุ่นจำลองกายวิภาค",
+            "other_channels": "sales@fortistrading.co.th · Line 099-131-0007",
+            "note": "sales@fortistrading.co.th · Line 099-131-0007"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 44,
+          "company_th": "บริษัท ฟอร์ทิส เทรดดิ้ง จำกัด",
+          "company_en": "Fortis Trading",
+          "logo_monogram": "FTS",
+          "brand_primary": "#064e3b",
+          "brand_accent": "#10b981",
+          "brand_guideline": "Fortis Trading Medical & Physiology Identity — โทนสีเขียวมรกต-กรมท่า สื่อถึงผู้เชี่ยวชาญระบบสรีรวิทยา PowerLab, Spirometer และหุ่นจำลองทางการแพทย์",
+          "employee_name": "คุณยันตนกร มั่นคง (Yantanakorn Mankhong)",
+          "job_title": "ผู้แทนขายเครื่องมือวิจัยและสรีรวิทยา (Sales Executive — Fortis Trading)",
+          "department": "ผู้แทนขายเครื่องมือวิจัยและสรีรวิทยา (Sales Executive — Fortis Trading)",
+          "phone_direct": "099-131-0007",
+          "phone_office": "02-869-6803",
+          "email_direct": "fortis.th@gmail.com",
+          "email_office": "sales@fortistrading.co.th",
+          "website": "http://fortistrading.co.th",
+          "line_id": "099-131-0007",
+          "address": "9, 11 ซ.เพชรเกษม 48 แยก 4-7 แขวงบางด้วน เขตภาษีเจริญ กรุงเทพฯ 10160",
+          "tax_id": "-",
+          "is_pdf_rep": false,
+          "is_email_rep": true,
+          "pdf_label": "Fortis Trading",
+          "pdf_rows": 3,
+          "pdf_items": [
+            "สินค้าใบเสนอราคา: PowerLab, Spirometer, หุ่นจำลองกายวิภาค"
+          ],
+          "products": "PowerLab, Spirometer, หุ่นจำลองกายวิภาค",
+          "other_channels": "sales@fortistrading.co.th · Line 099-131-0007",
+          "note": "sales@fortistrading.co.th · Line 099-131-0007",
+          "source_badge": "✉️ ผู้แทนจากอีเมลใบเสนอราคา CRA Outlook (PowerLab, Spirometer, หุ่นจำลองกายวิภาค)"
+        },
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ผู้แทนขายเครื่องมือวิจัยและสรีรวิทยา (Sales Executive — Fortis Trading)",
+          "rep_name": "คุณยันตนกร มั่นคง (Yantanakorn Mankhong)",
+          "area_rep_hotline": "099-131-0007",
+          "sales_email_direct": "fortis.th@gmail.com",
+          "line_id": "099-131-0007",
+          "protocol": "sales@fortistrading.co.th · Line 099-131-0007"
+        }
       },
       {
         "id": "prima-sci",
@@ -18099,12 +19528,60 @@
         "contact_reps": [
           {
             "name": "คุณพิชญพงศ์ คีรีเดช (ทิว)",
+            "role": "ผู้เชี่ยวชาญผลิตภัณฑ์และฝ่ายขาย (Sales & Product Specialist — Prima Scientific)",
             "phone": "097-959-8255",
             "email": "pitchayaphong@primasci.com",
-            "source": "อีเมล CRA: ใบเสนอราคา Millicell ERS 3.0 (8 ต.ค. 2569)",
-            "note": "Sales and Product Specialist · Tel/Line 097-959-8255"
+            "pdf_label": "Prima Scientific",
+            "pdf_rows": 1,
+            "pdf_items": [
+              "สินค้าใบเสนอราคา: Millicell ERS 3.0 (TEER)"
+            ],
+            "source": "อีเมลใบเสนอราคา (CRA Outlook, ก.ย.–ต.ค. ๒๕๖๙)",
+            "products": "Millicell ERS 3.0 (TEER)",
+            "other_channels": "Tel/Line 097-959-8255",
+            "note": "Tel/Line 097-959-8255"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 45,
+          "company_th": "บริษัท พรีม่า ไซแอนติฟิค จำกัด",
+          "company_en": "Prima Scientific",
+          "logo_monogram": "PRM",
+          "brand_primary": "#1e3a8a",
+          "brand_accent": "#3b82f6",
+          "brand_guideline": "Prima Scientific Life Science Identity — โทนสีน้ำเงินรอยัล-ฟ้าสว่าง สื่อถึงความเชี่ยวชาญด้านเพาะเลี้ยงเซลล์และระบบวัดความต้านทานเยื่อบุเซลล์ (TEER)",
+          "employee_name": "คุณพิชญพงศ์ คีรีเดช (ทิว)",
+          "job_title": "ผู้เชี่ยวชาญผลิตภัณฑ์และฝ่ายขาย (Sales & Product Specialist — Prima Scientific)",
+          "department": "ผู้เชี่ยวชาญผลิตภัณฑ์และฝ่ายขาย (Sales & Product Specialist — Prima Scientific)",
+          "phone_direct": "097-959-8255",
+          "phone_office": "-",
+          "email_direct": "pitchayaphong@primasci.com",
+          "email_office": "pitchayaphong@primasci.com",
+          "website": "-",
+          "line_id": "097-959-8255",
+          "address": "กรุงเทพมหานคร และปริมณฑล (ให้บริการพื้นที่ราชวิทยาลัยจุฬาภรณ์ เขตหลักสี่)",
+          "tax_id": "-",
+          "is_pdf_rep": false,
+          "is_email_rep": true,
+          "pdf_label": "Prima Scientific",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "สินค้าใบเสนอราคา: Millicell ERS 3.0 (TEER)"
+          ],
+          "products": "Millicell ERS 3.0 (TEER)",
+          "other_channels": "Tel/Line 097-959-8255",
+          "note": "Tel/Line 097-959-8255",
+          "source_badge": "✉️ ผู้แทนจากอีเมลใบเสนอราคา CRA Outlook (Millicell ERS 3.0 (TEER))"
+        },
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ผู้เชี่ยวชาญผลิตภัณฑ์และฝ่ายขาย (Sales & Product Specialist — Prima Scientific)",
+          "rep_name": "คุณพิชญพงศ์ คีรีเดช (ทิว)",
+          "area_rep_hotline": "097-959-8255",
+          "sales_email_direct": "pitchayaphong@primasci.com",
+          "line_id": "097-959-8255",
+          "protocol": "Tel/Line 097-959-8255"
+        }
       },
       {
         "id": "better-syndicate",
@@ -18126,12 +19603,60 @@
         "contact_reps": [
           {
             "name": "คุณฐิติมา ปดิงอินทร์",
+            "role": "ผู้แทนขายเครื่องมือวิทยาศาสตร์ (Sales Representative — Better Syndicate)",
             "phone": "099-393-2788",
             "email": "bscthai_sale@yahoo.com",
-            "source": "อีเมล CRA: ใบเสนอราคากล้องจุลทรรศน์ OPTIKA (14–22 ก.ย. 2569)",
-            "note": "Sales Representative · Line @bettersyndicate"
+            "pdf_label": "Better Syndicate",
+            "pdf_rows": 1,
+            "pdf_items": [
+              "สินค้าใบเสนอราคา: กล้องจุลทรรศน์ OPTIKA"
+            ],
+            "source": "อีเมลใบเสนอราคา (CRA Outlook, ก.ย.–ต.ค. ๒๕๖๙)",
+            "products": "กล้องจุลทรรศน์ OPTIKA",
+            "other_channels": "Line @bettersyndicate",
+            "note": "Line @bettersyndicate"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 46,
+          "company_th": "บริษัท เบทเทอร์ ซินดิเคท จำกัด",
+          "company_en": "Better Syndicate (OPTIKA)",
+          "logo_monogram": "BSC",
+          "brand_primary": "#312e81",
+          "brand_accent": "#6366f1",
+          "brand_guideline": "Better Syndicate Scientific Identity — โทนสีน้ำเงินไวโอเล็ต-เงิน สื่อถึงมาตรฐานผู้แทนจำหน่ายกล้องจุลทรรศน์ OPTIKA และครุภัณฑ์วิทยาศาสตร์",
+          "employee_name": "คุณฐิติมา ปดิงอินทร์",
+          "job_title": "ผู้แทนขายเครื่องมือวิทยาศาสตร์ (Sales Representative — Better Syndicate)",
+          "department": "ผู้แทนขายเครื่องมือวิทยาศาสตร์ (Sales Representative — Better Syndicate)",
+          "phone_direct": "099-393-2788",
+          "phone_office": "02-416-6686, 02-416-6687",
+          "email_direct": "bscthai_sale@yahoo.com",
+          "email_office": "bscthai_sale@yahoo.com",
+          "website": "http://www.bettersyndicate.co.th",
+          "line_id": "@bettersyndicate",
+          "address": "248-256 ซ.เอกชัย 64/5 ถ.เอกชัย แขวงคลองบางพราน เขตบางบอน กรุงเทพฯ 10150",
+          "tax_id": "-",
+          "is_pdf_rep": false,
+          "is_email_rep": true,
+          "pdf_label": "Better Syndicate",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "สินค้าใบเสนอราคา: กล้องจุลทรรศน์ OPTIKA"
+          ],
+          "products": "กล้องจุลทรรศน์ OPTIKA",
+          "other_channels": "Line @bettersyndicate",
+          "note": "Line @bettersyndicate",
+          "source_badge": "✉️ ผู้แทนจากอีเมลใบเสนอราคา CRA Outlook (กล้องจุลทรรศน์ OPTIKA)"
+        },
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ผู้แทนขายเครื่องมือวิทยาศาสตร์ (Sales Representative — Better Syndicate)",
+          "rep_name": "คุณฐิติมา ปดิงอินทร์",
+          "area_rep_hotline": "099-393-2788",
+          "sales_email_direct": "bscthai_sale@yahoo.com",
+          "line_id": "@bettersyndicate",
+          "protocol": "Line @bettersyndicate"
+        }
       },
       {
         "id": "prapatsorn",
@@ -18140,7 +19665,7 @@
         "category_name": "เภสัชวิทยา & ทดสอบยา",
         "is_authorized_dealer": false,
         "address": "25 ซ.พระราม 6 ซอย 4 แขวงรองเมือง เขตปทุมวัน กรุงเทพฯ 10330",
-        "tel": "02-611-6500",
+        "tel": "02-611-6500, 087-544-9499",
         "website": "http://www.prapatsorn.co.th",
         "email": "natthawan@prapatsorn.co.th",
         "specialties": "Lung function testing / Spirometry / Cardiopulmonary (ตามลายเซ็นอีเมล)",
@@ -18153,12 +19678,59 @@
         "contact_reps": [
           {
             "name": "คุณณัฐวรรณ ปณิธิพร (Natthawan Panithiporn)",
+            "role": "ผู้บริหารงานขาย (Sales Executive — Prapatsorn Engineering Supply)",
             "phone": "087-544-9499",
             "email": "natthawan@prapatsorn.co.th",
-            "source": "อีเมล CRA: ใบเสนอราคาเครื่องวัดอากาศหายใจ (9 ก.ย. 2569)",
-            "note": "Sales executive · Direct 089-499-1005"
+            "pdf_label": "Prapatsorn Engineering Supply",
+            "pdf_rows": 1,
+            "pdf_items": [
+              "สินค้าใบเสนอราคา: เครื่องวัดอากาศหายใจ (Spirometry)"
+            ],
+            "source": "อีเมลใบเสนอราคา (CRA Outlook, ก.ย.–ต.ค. ๒๕๖๙)",
+            "products": "เครื่องวัดอากาศหายใจ (Spirometry)",
+            "other_channels": "สำนักงาน 02-611-6500 · สายตรง 089-499-1005",
+            "note": "สำนักงาน 02-611-6500 · สายตรง 089-499-1005"
           }
-        ]
+        ],
+        "bizcard": {
+          "card_no": 47,
+          "company_th": "บริษัท ประภัสสร เอ็นจิเนียริ่ง ซัพพลาย จำกัด",
+          "company_en": "Prapatsorn Engineering Supply",
+          "logo_monogram": "PPS",
+          "brand_primary": "#134e4a",
+          "brand_accent": "#14b8a6",
+          "brand_guideline": "Prapatsorn Engineering Supply Identity — โทนสีเขียวเทอร์ควอยซ์-เทาเข้ม สื่อถึงวิศวกรรมเครื่องมือแพทย์และระบบตรวจสมรรถภาพปอด (Spirometry)",
+          "employee_name": "คุณณัฐวรรณ ปณิธิพร (Natthawan Panithiporn)",
+          "job_title": "ผู้บริหารงานขาย (Sales Executive — Prapatsorn Engineering Supply)",
+          "department": "ผู้บริหารงานขาย (Sales Executive — Prapatsorn Engineering Supply)",
+          "phone_direct": "087-544-9499",
+          "phone_office": "02-611-6500, 087-544-9499",
+          "email_direct": "natthawan@prapatsorn.co.th",
+          "email_office": "natthawan@prapatsorn.co.th",
+          "website": "http://www.prapatsorn.co.th",
+          "line_id": "-",
+          "address": "25 ซ.พระราม 6 ซอย 4 แขวงรองเมือง เขตปทุมวัน กรุงเทพฯ 10330",
+          "tax_id": "-",
+          "is_pdf_rep": false,
+          "is_email_rep": true,
+          "pdf_label": "Prapatsorn Engineering Supply",
+          "pdf_rows": 1,
+          "pdf_items": [
+            "สินค้าใบเสนอราคา: เครื่องวัดอากาศหายใจ (Spirometry)"
+          ],
+          "products": "เครื่องวัดอากาศหายใจ (Spirometry)",
+          "other_channels": "สำนักงาน 02-611-6500 · สายตรง 089-499-1005",
+          "note": "สำนักงาน 02-611-6500 · สายตรง 089-499-1005",
+          "source_badge": "✉️ ผู้แทนจากอีเมลใบเสนอราคา CRA Outlook (เครื่องวัดอากาศหายใจ (Spirometry))"
+        },
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ผู้บริหารงานขาย (Sales Executive — Prapatsorn Engineering Supply)",
+          "rep_name": "คุณณัฐวรรณ ปณิธิพร (Natthawan Panithiporn)",
+          "area_rep_hotline": "087-544-9499",
+          "sales_email_direct": "natthawan@prapatsorn.co.th",
+          "protocol": "สำนักงาน 02-611-6500 · สายตรง 089-499-1005"
+        }
       }
     ],
     "items_55": [
@@ -18998,7 +20570,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
+        "primary_contact": "ผู้แทน: คุณฐานิษ (Thanit) · โทร. – (โทรสำนักงาน 0-2433-8331) · อีเมล: thanit@sithiphorn.com",
         "tax_id": "0105519011337",
         "unspsc": "41113000",
         "unspsc_name": "Physical property testing equipment",
@@ -19106,7 +20678,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
+        "primary_contact": "ผู้แทน: คุณฐานิษ (Thanit) · โทร. – (โทรสำนักงาน 0-2433-8331) · อีเมล: thanit@sithiphorn.com",
         "tax_id": "0105519011337",
         "unspsc": "41113012",
         "unspsc_name": "Density measuring equipment",
@@ -19543,7 +21115,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
+        "primary_contact": "ผู้แทน: คุณฐานิษ (Thanit) · โทร. – (โทรสำนักงาน 0-2433-8331) · อีเมล: thanit@sithiphorn.com",
         "tax_id": "0105519011337",
         "unspsc": "41122802",
         "unspsc_name": "Laboratory water baths",
@@ -19579,7 +21151,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
+        "primary_contact": "ผู้แทน: คุณสุพรรณิกา (Supannika) · โทร. 062-593-2872 · อีเมล: d.supannika@becthai.com",
         "tax_id": "0105522000669",
         "unspsc": "41121805",
         "unspsc_name": "Laboratory flake ice machines",
@@ -19610,7 +21182,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด",
-        "primary_contact": "โทร: 0-2653-8555 | email: inds@hollywood.co.th | www.hollywood.co.th",
+        "primary_contact": "ผู้แทน: คุณวรนุช กีรตินันท์ (บี) · โทร. 081-611-3415 · อีเมล: bvorranut.sid@gmail.com",
         "tax_id": "-",
         "unspsc": "41111707",
         "unspsc_name": "Inverted cell culture microscopes",
@@ -19682,7 +21254,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
+        "primary_contact": "ผู้แทน: คุณฐานิษ (Thanit) · โทร. – (โทรสำนักงาน 0-2433-8331) · อีเมล: thanit@sithiphorn.com",
         "tax_id": "0105519011337",
         "unspsc": "41122806",
         "unspsc_name": "Ultrasonic cleaning baths",
@@ -19816,7 +21388,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
+        "primary_contact": "ผู้แทน: คุณสุพรรณิกา (Supannika) · โทร. 062-593-2872 · อีเมล: d.supannika@becthai.com",
         "tax_id": "0105522000669",
         "unspsc": "41122701",
         "unspsc_name": "Laboratory vacuum pumps",
@@ -19847,7 +21419,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ฮอลลีวู้ด อินเตอร์เนชั่นแนล จำกัด",
-        "primary_contact": "โทร: 0-2653-8555 | email: inds@hollywood.co.th | www.hollywood.co.th",
+        "primary_contact": "ผู้แทน: คุณวรนุช กีรตินันท์ (บี) · โทร. 081-611-3415 · อีเมล: bvorranut.sid@gmail.com",
         "tax_id": "-",
         "unspsc": "41115312",
         "unspsc_name": "Benchtop pH meters",
@@ -20063,7 +21635,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
+        "primary_contact": "ผู้แทน: คุณสุพรรณิกา (Supannika) · โทร. 062-593-2872 · อีเมล: d.supannika@becthai.com",
         "tax_id": "0105522000669",
         "unspsc": "41115408",
         "unspsc_name": "Microplate absorbance readers",
@@ -20197,7 +21769,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
+        "primary_contact": "ผู้แทน: คุณนวพร (Navaporn) · โทร. 064-003-2685 · อีเมล: navaporn.c@dksh.com",
         "tax_id": "0105523002118",
         "unspsc": "41122808",
         "unspsc_name": "Rotary vacuum evaporators",
@@ -20403,7 +21975,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
+        "primary_contact": "ผู้แทน: คุณสุพรรณิกา (Supannika) · โทร. 062-593-2872 · อีเมล: d.supannika@becthai.com",
         "tax_id": "0105522000669",
         "unspsc": "41122410",
         "unspsc_name": "Laboratory orbital shakers",
@@ -20439,7 +22011,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
+        "primary_contact": "ผู้แทน: คุณนวพร (Navaporn) · โทร. 064-003-2685 · อีเมล: navaporn.c@dksh.com",
         "tax_id": "0105523002118",
         "unspsc": "41113025",
         "unspsc_name": "Particle size & zeta potential analyzers (DLS)",
@@ -20501,7 +22073,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
+        "primary_contact": "ผู้แทน: คุณนวพร (Navaporn) · โทร. 064-003-2685 · อีเมล: navaporn.c@dksh.com",
         "tax_id": "0105523002118",
         "unspsc": "41122415",
         "unspsc_name": "Vacuum homogenizers / mixers",
@@ -20532,7 +22104,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
+        "primary_contact": "ผู้แทน: คุณฐานิษ (Thanit) · โทร. – (โทรสำนักงาน 0-2433-8331) · อีเมล: thanit@sithiphorn.com",
         "tax_id": "0105519011337",
         "unspsc": "41122418",
         "unspsc_name": "Semi-automatic tube filling machines",
@@ -20718,7 +22290,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
+        "primary_contact": "ผู้แทน: คุณฐานิษ (Thanit) · โทร. – (โทรสำนักงาน 0-2433-8331) · อีเมล: thanit@sithiphorn.com",
         "tax_id": "0105519011337",
         "unspsc": "41122110",
         "unspsc_name": "UV viewing chromatography cabinets",
@@ -20857,7 +22429,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
+        "primary_contact": "ผู้แทน: คุณนวพร (Navaporn) · โทร. 064-003-2685 · อีเมล: navaporn.c@dksh.com",
         "tax_id": "0105523002118",
         "unspsc": "41122420",
         "unspsc_name": "Aseptic peristaltic liquid filling systems",
@@ -20888,7 +22460,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
+        "primary_contact": "ผู้แทน: คุณนวพร (Navaporn) · โทร. 064-003-2685 · อีเมล: navaporn.c@dksh.com",
         "tax_id": "0105523002118",
         "unspsc": "41122402",
         "unspsc_name": "Motorized pipette controllers (Pipetboy)",
