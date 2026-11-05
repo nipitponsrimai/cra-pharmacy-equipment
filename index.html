@@ -962,6 +962,106 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
   justify-content: space-between;
 }
 
+/* Vendor Business Card Add / Edit Modal (#dlgVendorForm) */
+dialog#dlgVendorForm {
+  width: min(980px, calc(100vw - 24px));
+  max-height: calc(100vh - 32px);
+  border: 1px solid var(--border-strong);
+  border-radius: 16px;
+  padding: 0;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 24px 60px rgba(11, 31, 61, 0.32);
+}
+dialog#dlgVendorForm::backdrop {
+  background: rgba(11, 31, 61, 0.55);
+  backdrop-filter: blur(3px);
+}
+.vform-section {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+.vform-sec-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--primary-navy, var(--text));
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.vform-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 14px;
+}
+@media (max-width: 680px) {
+  .vform-grid { grid-template-columns: 1fr; }
+}
+.vform-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.vform-field.span-2 {
+  grid-column: 1 / -1;
+}
+.vform-field label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-2);
+}
+.vform-field input,
+.vform-field select,
+.vform-field textarea {
+  font: inherit;
+  font-size: 13px;
+  padding: 7px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  width: 100%;
+}
+.vform-field input:focus,
+.vform-field select:focus,
+.vform-field textarea:focus {
+  outline: 2px solid var(--accent);
+  border-color: var(--accent);
+}
+.vform-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+.vform-swatch {
+  appearance: none;
+  border: 1.5px solid var(--border-strong);
+  border-radius: 99px;
+  padding: 4px 10px;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--surface);
+  color: var(--text);
+}
+.vform-swatch:hover {
+  border-color: var(--accent);
+}
+.vform-swatch-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /* Optimized Desktop Front Viewing for Equipment & Vendor Matrix */
 #distMatrixWrap {
   border: 1px solid var(--border);
@@ -1568,7 +1668,10 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
             <i class="fa-solid fa-id-card"></i> นามบัตรพัสดุ (.docx)
           </a>
           <button class="btn" onclick="show('bizcards')" style="border-color:var(--accent); color:var(--accent-text); font-weight:700;">
-            <i class="fa-solid fa-id-card"></i> เปิดแท็บนามบัตร Vendor (๔๗ บ.)
+            <i class="fa-solid fa-id-card"></i> เปิดแท็บนามบัตร Vendor
+          </button>
+          <button class="btn btn-primary" onclick="window.openVendorFormModal && window.openVendorFormModal()" style="background:#16a34a; border-color:#16a34a; font-weight:700;">
+            <i class="fa-solid fa-plus-circle"></i> เพิ่มนามบัตร บ. ใหม่
           </button>
         </div>
       </div>
@@ -1649,17 +1752,24 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
             </div>
           </div>
         </div>
-        <div style="display:flex; gap:8px; flex-wrap:wrap;">
-          <a href="ข้อมูลติดต่อผู้แทนจำหน่าย_ครุภัณฑ์ปี71.docx" download class="btn btn-primary" style="text-decoration:none; background:#15803d; border-color:#15803d; display:inline-flex; align-items:center; gap:6px;">
-            <i class="fa-solid fa-file-word"></i> ข้อมูลติดต่อผู้แทน ๑๕ บ. (.docx)
+        <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+          <button class="btn btn-primary" onclick="window.openVendorFormModal && window.openVendorFormModal()" style="background:#16a34a; border-color:#16a34a; font-weight:700; display:inline-flex; align-items:center; gap:6px; box-shadow:0 3px 10px rgba(22,163,74,0.28);">
+            <i class="fa-solid fa-plus-circle"></i> เพิ่มนามบัตรบริษัทใหม่
+          </button>
+          <button class="btn" onclick="window.exportCustomVendorsJson && window.exportCustomVendorsJson()" title="ส่งออกข้อมูลนามบัตรทั้งหมดหรือที่เพิ่มใหม่เป็นไฟล์ .json เพื่อสำรองข้อมูลหรือแชร์ให้ทีม">
+            <i class="fa-solid fa-file-export"></i> ส่งออก (.json)
+          </button>
+          <label class="btn" style="cursor:pointer; margin:0; display:inline-flex; align-items:center; gap:6px;" title="นำเข้าไฟล์นามบัตร .json ที่บันทึกไว้">
+            <i class="fa-solid fa-file-import"></i> นำเข้า (.json)
+            <input type="file" id="importVendorsFile" accept=".json,application/json" style="display:none;">
+          </label>
+          <a href="ข้อมูลติดต่อผู้แทนจำหน่าย_ครุภัณฑ์ปี71.docx" download class="btn" style="text-decoration:none; background:#0b1f3d; color:#fff; border-color:#0b1f3d; display:inline-flex; align-items:center; gap:6px;">
+            <i class="fa-solid fa-file-word"></i> ข้อมูลผู้แทน ๑๕ บ. (.docx)
           </a>
-          <a href="ทำเนียบนามบัตร_Vendor_ครุภัณฑ์ปี71_สำหรับงานพัสดุ.docx" download class="btn" style="text-decoration:none; background:#0b1f3d; color:#fff; border-color:#0b1f3d; display:inline-flex; align-items:center; gap:6px;">
-            <i class="fa-solid fa-file-word"></i> นามบัตรพัสดุ (.docx)
+          <a href="ทำเนียบนามบัตร_Vendor_ครุภัณฑ์ปี71_สำหรับงานพัสดุ.docx" download class="btn" style="text-decoration:none; background:#b45309; color:#fff; border-color:#b45309; display:inline-flex; align-items:center; gap:6px;">
+            <i class="fa-solid fa-id-card"></i> นามบัตรพัสดุ (.docx)
           </a>
-          <a href="นามบัตร_Vendor_ทุกบริษัท_ครุภัณฑ์ปี71.docx" download class="btn" style="text-decoration:none; background:#b45309; color:#fff; border-color:#b45309; display:inline-flex; align-items:center; gap:6px;">
-            <i class="fa-solid fa-address-card"></i> นามบัตรทุกบริษัท (.docx)
-          </a>
-          <button class="btn" onclick="window.print()"><i class="fa-solid fa-print"></i> พิมพ์นามบัตร / PDF</button>
+          <button class="btn" onclick="window.print()"><i class="fa-solid fa-print"></i> พิมพ์</button>
         </div>
       </div>
     </div>
@@ -1742,6 +1852,171 @@ footer { border-top: 1px solid var(--border); padding: 20px 0 40px; color: var(-
   <div class="dlg-body" id="dlgBody"></div>
 </dialog>
 <dialog class="zoom" id="zoom" aria-label="Infographic ขนาดเต็ม"><img id="zoomImg" alt=""><div class="dlg-head" style="border:0;border-top:1px solid var(--border)"><span id="zoomName"></span><button class="btn" onclick="document.getElementById('zoom').close()">ปิด</button></div></dialog>
+
+<!-- Modal: Add / Edit Vendor Business Card -->
+<dialog id="dlgVendorForm" aria-labelledby="dlgVendorFormTitle">
+  <div class="dlg-head" style="background:linear-gradient(135deg, #0b1f3d 0%, #1e3a8a 100%); color:#fff; border-bottom:3px solid #c59b27;">
+    <div>
+      <div class="eyebrow" id="dlgVendorFormEyebrow" style="color:#ffbe3b;"><i class="fa-solid fa-id-card-clip"></i> VENDOR BUSINESS CARD STUDIO · ระบบจัดการนามบัตรผู้แทนจำหน่าย</div>
+      <h2 id="dlgVendorFormTitle" style="color:#fff; font-size:18px; margin-top:2px;">เพิ่มนามบัตรบริษัทใหม่ / แก้ไขข้อมูลผู้แทนจำหน่าย</h2>
+    </div>
+    <button class="btn btn-sm" onclick="document.getElementById('dlgVendorForm').close()" style="background:rgba(255,255,255,0.15); color:#fff; border-color:rgba(255,255,255,0.3);">✕ ปิดหน้าต่าง</button>
+  </div>
+  <div class="dlg-body" style="padding:18px 22px; max-height:calc(100vh - 140px); overflow-y:auto;">
+    <!-- Smart Quick Paste Box -->
+    <div class="vform-section" style="background:linear-gradient(135deg, rgba(22,163,74,0.06) 0%, rgba(2,132,199,0.06) 100%); border-color:rgba(22,163,74,0.35);">
+      <div class="vform-sec-title" style="color:#15803d; justify-content:space-between; flex-wrap:wrap;">
+        <span><i class="fa-solid fa-wand-magic-sparkles"></i> ดึงข้อมูลอัตโนมัติจากลายเซ็นอีเมล / ข้อความ Line / นามบัตร (Smart Auto-Fill)</span>
+        <button type="button" class="btn btn-sm" id="btnParseVendorText" style="background:#16a34a; color:#fff; border-color:#16a34a; font-weight:700;"><i class="fa-solid fa-bolt"></i> แยกข้อมูลลงฟอร์มอัตโนมัติ</button>
+      </div>
+      <textarea id="vfRawPaste" rows="2" placeholder="วางข้อความจากอีเมล หรือ Line ที่ผู้แทนส่งมา (เช่น ชื่อบริษัท, ชื่อเซลล์, เบอร์มือถือ 08x-xxx-xxxx, อีเมล, เลขผู้เสียภาษี 13 หลัก, ที่อยู่) แล้วกดปุ่ม 'แยกข้อมูลลงฟอร์มอัตโนมัติ'..." style="width:100%; font:inherit; font-size:12.5px; padding:8px 10px; border-radius:7px; border:1px dashed rgba(22,163,74,0.5); background:var(--surface); color:var(--text);"></textarea>
+    </div>
+
+    <!-- Live Horizontal Card Preview -->
+    <div style="margin-bottom:16px;">
+      <div style="font-size:12px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">
+        <i class="fa-solid fa-eye" style="color:var(--accent);"></i> ตัวอย่างนามบัตรองค์กรแนวนอนแบบเรียลไทม์ (Live Horizontal Preview):
+      </div>
+      <div id="vfLivePreview"></div>
+    </div>
+
+    <form id="vendorBizCardForm" onsubmit="return false;">
+      <input type="hidden" id="vfId" value="">
+
+      <!-- Section 1: Company & Brand Identity -->
+      <div class="vform-section">
+        <div class="vform-sec-title"><i class="fa-solid fa-building" style="color:var(--accent);"></i> ๑. ข้อมูลบริษัทและอัตลักษณ์แบรนด์ ([ชื่อบริษัท] · [โลโก้บริษัท] · [แนวทางการสร้างแบรนด์])</div>
+        <div class="vform-grid">
+          <div class="vform-field">
+            <label for="vfCompTh">ชื่อบริษัท (ภาษาไทย) <span style="color:#dc2626;">*</span></label>
+            <input type="text" id="vfCompTh" required placeholder="เช่น บริษัท เอบีซี ไซแอนติฟิค (ประเทศไทย) จำกัด">
+          </div>
+          <div class="vform-field">
+            <label for="vfCompEn">ชื่อบริษัทภาษาอังกฤษ / ชื่อย่อแบรนด์ <span style="color:#dc2626;">*</span></label>
+            <input type="text" id="vfCompEn" required placeholder="เช่น ABC Scientific (Thailand) Co., Ltd.">
+          </div>
+          <div class="vform-field">
+            <label for="vfMonogram">ตัวอักษรโลโก้บริษัท (Logo Monogram 2–5 ตัวอักษร)</label>
+            <input type="text" id="vfMonogram" maxlength="6" placeholder="เช่น ABC (ระบบสร้างให้อัตโนมัติได้)">
+          </div>
+          <div class="vform-field">
+            <label for="vfCategory">หมวดหมู่ความเชี่ยวชาญหลัก</label>
+            <select id="vfCategory">
+              <option value="molecular">🔬 ชีววิทยาโมเลกุล, เซลล์วิทยา และกล้องจุลทรรศน์ขั้นสูง</option>
+              <option value="analytical">🧪 โครมาโทกราฟี, สเปกโทรสโกปี และเคมีวิเคราะห์ (HPLC / MS / NMR)</option>
+              <option value="pharma">💊 เทคโนโลยีเภสัชกรรม, ทดสอบคุณภาพยา และเภสัชวิทยาคลินิก</option>
+              <option value="general">🏢 เครื่องมือวิทยาศาสตร์พื้นฐาน และครุภัณฑ์ตามเกณฑ์สภาเภสัชกรรม</option>
+            </select>
+          </div>
+          <div class="vform-field span-2">
+            <label>เลือกโทนสีแบรนด์ของนามบัตร (Brand Color Theme — โทนทางการและน่าเชื่อถือ)</label>
+            <div class="vform-swatches" id="vfThemeSwatches">
+              <button type="button" class="vform-swatch" data-p="#0f2e5a" data-a="#2563eb"><span class="vform-swatch-dot" style="background:#2563eb;"></span>Royal Navy & Blue</button>
+              <button type="button" class="vform-swatch" data-p="#8b1d2c" data-a="#e11d48"><span class="vform-swatch-dot" style="background:#e11d48;"></span>Swiss Crimson & Slate</button>
+              <button type="button" class="vform-swatch" data-p="#0b3b2e" data-a="#059669"><span class="vform-swatch-dot" style="background:#059669;"></span>Emerald Pharma</button>
+              <button type="button" class="vform-swatch" data-p="#134e4a" data-a="#0d9488"><span class="vform-swatch-dot" style="background:#0d9488;"></span>Teal Engineering</button>
+              <button type="button" class="vform-swatch" data-p="#1e1b4b" data-a="#4f46e5"><span class="vform-swatch-dot" style="background:#4f46e5;"></span>Indigo Life Science</button>
+              <button type="button" class="vform-swatch" data-p="#1f2937" data-a="#d97706"><span class="vform-swatch-dot" style="background:#d97706;"></span>Charcoal & Amber Gold</button>
+              <span style="display:inline-flex; align-items:center; gap:6px; font-size:11.5px; margin-left:6px;">
+                สีหลัก: <input type="color" id="vfColorPrimary" value="#0f2e5a" style="width:32px; height:26px; padding:0; border:0; background:none; cursor:pointer;">
+                สีเน้น: <input type="color" id="vfColorAccent" value="#2563eb" style="width:32px; height:26px; padding:0; border:0; background:none; cursor:pointer;">
+              </span>
+            </div>
+          </div>
+          <div class="vform-field span-2">
+            <label for="vfGuideline">แนวทางการสร้างแบรนด์ / สโลแกนความเชี่ยวชาญ ([แนวทางการสร้างแบรนด์])</label>
+            <input type="text" id="vfGuideline" placeholder="เช่น โทนสีน้ำเงินรอยัล-ทอง สื่อถึงมาตรฐานตัวแทนจำหน่ายเครื่องมือวิทยาศาสตร์และเทคโนโลยีเภสัชกรรม">
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Employee / Sales Representative Details -->
+      <div class="vform-section">
+        <div class="vform-sec-title"><i class="fa-solid fa-user-tie" style="color:#16a34a;"></i> ๒. ข้อมูลพนักงาน / ผู้แทนขายที่ติดต่อกับคณะ ([ชื่อพนักงาน] · [ตำแหน่งงาน] · [แผนก])</div>
+        <div class="vform-grid">
+          <div class="vform-field">
+            <label for="vfEmpName">ชื่อพนักงาน / ผู้แทนขายสายตรง <span style="color:#dc2626;">*</span></label>
+            <input type="text" id="vfEmpName" required placeholder="เช่น คุณสมชาย ใจดี (Somchai)">
+          </div>
+          <div class="vform-field">
+            <label for="vfJobTitle">ตำแหน่งงาน (Job Title)</label>
+            <input type="text" id="vfJobTitle" placeholder="เช่น ผู้แทนขายสายตรง (Senior Sales Representative)">
+          </div>
+          <div class="vform-field">
+            <label for="vfDept">แผนก / ฝ่าย (Department)</label>
+            <input type="text" id="vfDept" placeholder="เช่น ฝ่ายขายสถาบันการศึกษาและหน่วยงานภาครัฐ (Academic & Government Account)">
+          </div>
+          <div class="vform-field">
+            <label for="vfSourceType">แหล่งที่มาของการติดต่อ</label>
+            <select id="vfSourceType">
+              <option value="custom">✨ บริษัทใหม่ที่เข้ามาติดต่อคณะเภสัชศาสตร์โดยตรง</option>
+              <option value="email">✉️ ผู้แทนจากใบเสนอราคา / อีเมลติดต่อคณะ (CRA Quotation)</option>
+              <option value="pdf">📄 ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf</option>
+            </select>
+          </div>
+          <div class="vform-field">
+            <label for="vfPhoneDirect">เบอร์โทรศัพท์มือถือสายตรงผู้แทน <span style="color:#dc2626;">*</span></label>
+            <input type="text" id="vfPhoneDirect" required placeholder="เช่น 081-234-5678">
+          </div>
+          <div class="vform-field">
+            <label for="vfEmailDirect">อีเมลผู้แทนสายตรง (Email)</label>
+            <input type="text" id="vfEmailDirect" placeholder="เช่น somchai@company.co.th">
+          </div>
+          <div class="vform-field">
+            <label for="vfLineId">Line ID / ช่องทางติดต่อด่วน</label>
+            <input type="text" id="vfLineId" placeholder="เช่น @company หรือเบอร์โทรสำหรับแอดไลน์">
+          </div>
+          <div class="vform-field">
+            <label for="vfNote">หมายเหตุการติดต่อ / เลขที่ใบเสนอราคา</label>
+            <input type="text" id="vfNote" placeholder="เช่น เข้ามาแนะนำสินค้าเมื่อ พ.ย. 2569 / ใบเสนอราคา QT...">
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Office Address, e-GP Tax ID & Matched Equipment -->
+      <div class="vform-section" style="margin-bottom:0;">
+        <div class="vform-sec-title"><i class="fa-solid fa-location-dot" style="color:var(--gold);"></i> ๓. ข้อมูลสำนักงาน ทะเบียนพัสดุ e-GP และครุภัณฑ์ที่เสนอขาย ([ที่อยู่สำนักงาน] · [แบรนด์และครุภัณฑ์])</div>
+        <div class="vform-grid">
+          <div class="vform-field">
+            <label for="vfPhoneOffice">เบอร์โทรศัพท์สำนักงาน</label>
+            <input type="text" id="vfPhoneOffice" placeholder="เช่น 02-123-4567 ต่อ 101">
+          </div>
+          <div class="vform-field">
+            <label for="vfTaxId">เลขประจำตัวผู้เสียภาษี ๑๓ หลัก (e-GP Tax ID)</label>
+            <input type="text" id="vfTaxId" placeholder="เช่น 01055XXXXXXXX">
+          </div>
+          <div class="vform-field">
+            <label for="vfWebsite">เว็บไซต์บริษัท (Website)</label>
+            <input type="text" id="vfWebsite" placeholder="เช่น https://www.company.co.th">
+          </div>
+          <div class="vform-field">
+            <label for="vfBrands">แบรนด์สินค้าที่เป็นตัวแทนจำหน่าย (คั่นด้วยจุลภาค ,)</label>
+            <input type="text" id="vfBrands" placeholder="เช่น Shimadzu, Buchi, Sartorius, Memmert">
+          </div>
+          <div class="vform-field span-2">
+            <label for="vfAddress">ที่อยู่สำนักงาน (Office Address)</label>
+            <input type="text" id="vfAddress" placeholder="เช่น 123 อาคาร... ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ 10210">
+          </div>
+          <div class="vform-field span-2">
+            <label for="vfProducts">รายการครุภัณฑ์ / สินค้าที่บริษัทนำเสนอขายต่อคณะ (บรรทัดละ 1 รายการ หรือคั่นด้วยจุลภาค)</label>
+            <textarea id="vfProducts" rows="2" placeholder="เช่น เครื่องสกัดสารสมุนไพรด้วยคลื่นความถี่สูง (Ultrasonic Extractor)&#10;เครื่องวัดความหนืด (Viscometer)"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer Actions -->
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-top:16px; padding-top:12px; border-top:1px solid var(--border);">
+        <div id="vfDeleteZone"></div>
+        <div style="display:flex; gap:8px; margin-left:auto;">
+          <button type="button" class="btn" onclick="document.getElementById('dlgVendorForm').close()">ยกเลิก</button>
+          <button type="submit" class="btn btn-primary" id="btnSaveVendorCard" style="background:#16a34a; border-color:#16a34a; font-weight:700; padding:8px 18px;">
+            <i class="fa-solid fa-floppy-disk"></i> บันทึกนามบัตรเข้าสู่ระบบ
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</dialog>
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script>
@@ -2857,6 +3132,61 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
     renderWorkload();
   }
 
+  // ---------- CUSTOM VENDOR STORAGE & MERGE ENGINE ----------
+  const CUSTOM_VENDORS_KEY = 'eq71_custom_vendors_v1';
+  const BASE_COMPANIES_SNAPSHOT = (D.distributors_data && D.distributors_data.companies)
+    ? JSON.parse(JSON.stringify(D.distributors_data.companies))
+    : [];
+
+  function getSavedCustomVendors() {
+    try {
+      const raw = store.get(CUSTOM_VENDORS_KEY);
+      if (!raw) return [];
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveCustomVendorsList(list) {
+    store.set(CUSTOM_VENDORS_KEY, JSON.stringify(list || []));
+  }
+
+  function syncCustomVendorsIntoData() {
+    if (!D.distributors_data) return;
+    const saved = getSavedCustomVendors();
+    const baseCopy = JSON.parse(JSON.stringify(BASE_COMPANIES_SNAPSHOT));
+    const byId = Object.fromEntries(baseCopy.map(c => [c.id, c]));
+    const addedList = [];
+
+    saved.forEach(customComp => {
+      if (!customComp || !customComp.id) return;
+      if (byId[customComp.id]) {
+        // Override existing company with edited fields
+        Object.assign(byId[customComp.id], customComp, { is_custom_edited: true, is_custom_added: false });
+      } else {
+        customComp.is_custom_added = true;
+        addedList.push(customComp);
+      }
+    });
+
+    // Put newly added companies at the top of the companies array so they are immediately visible
+    D.distributors_data.companies = [...addedList, ...baseCopy];
+    D.distributors_data.companies.forEach((c, idx) => {
+      if (c.bizcard) c.bizcard.card_no = idx + 1;
+    });
+    if (D.distributors_data.summary) {
+      D.distributors_data.summary.total_companies = D.distributors_data.companies.length;
+    }
+    const tabBtn = $('t-bizcards');
+    if (tabBtn) {
+      const badge = tabBtn.querySelector('.n');
+      if (badge) badge.textContent = String(D.distributors_data.companies.length);
+    }
+  }
+  syncCustomVendorsIntoData();
+
   // ---------- DISTRIBUTORS & VENDORS DIRECTORY ----------
   function initDistributors() {
     if (!D.distributors_data) return;
@@ -2916,18 +3246,20 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
       $('directRepQuickGrid').innerHTML = repComps.map(c => {
         const r = c.contact_reps[0];
         const isPdf = r.source === 'ข้อมูลติดต่อ บ.pdf';
-        const badgeColor = isPdf ? '#16a34a' : '#0284c7';
-        const badgeBg = isPdf ? '#dcfce7' : '#e0f2fe';
-        const badgeText = isPdf ? '#15803d' : '#0369a1';
+        const isCustom = !!(c.is_custom_added || c.is_custom_edited);
+        const badgeColor = isCustom ? '#7c3aed' : (isPdf ? '#16a34a' : '#0284c7');
+        const badgeBg = isCustom ? '#f3e8ff' : (isPdf ? '#dcfce7' : '#e0f2fe');
+        const badgeText = isCustom ? '#6d28d9' : (isPdf ? '#15803d' : '#0369a1');
         const rawPhone = (r.phone && !r.phone.startsWith('–')) ? r.phone : (c.tel || '');
         const firstPhone = rawPhone.split(',')[0].replace(/[^\d+]/g, '').trim();
         const displayPhone = r.phone || c.tel || '-';
         const directEmail = (r.email || '').replace(/\s*\*\s*$/, '').trim() || (c.cra_territory && c.cra_territory.sales_email_direct) || c.email || '';
+        const pillText = isCustom ? '✨ บ. เพิ่มใหม่/แก้ไข' : (isPdf ? `PDF · ${r.pdf_rows || 1} รายการ` : 'ใบเสนอราคา CRA');
         return `
-          <div style="background:var(--surface); border:1px solid ${isPdf ? 'rgba(22,163,74,0.35)' : 'rgba(2,132,199,0.35)'}; border-top:3px solid ${badgeColor}; border-radius:10px; padding:11px 13px; display:flex; flex-direction:column; gap:5px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+          <div style="background:var(--surface); border:1px solid ${isCustom ? 'rgba(124,58,237,0.35)' : (isPdf ? 'rgba(22,163,74,0.35)' : 'rgba(2,132,199,0.35)')}; border-top:3px solid ${badgeColor}; border-radius:10px; padding:11px 13px; display:flex; flex-direction:column; gap:5px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
             <div style="display:flex; justify-content:space-between; align-items:center; gap:6px;">
               <span style="font-weight:800; font-size:13px; color:var(--primary-navy);"><i class="fa-solid fa-building" style="color:${badgeColor};"></i> ${esc(r.pdf_label || c.short_name)}</span>
-              <span class="pill" style="background:${badgeBg}; color:${badgeText}; font-size:10px; font-weight:700;">${isPdf ? `PDF · ${r.pdf_rows || 1} รายการ` : 'ใบเสนอราคา CRA'}</span>
+              <span class="pill" style="background:${badgeBg}; color:${badgeText}; font-size:10px; font-weight:700;">${pillText}</span>
             </div>
             <div style="font-size:11.5px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${esc(c.name)}">${esc(c.name)}</div>
             <div style="background:${isPdf ? 'rgba(22,163,74,0.07)' : 'rgba(2,132,199,0.07)'}; border-radius:6px; padding:6px 9px; margin:2px 0;">
@@ -2973,10 +3305,10 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
     });
 
     if ($('distSearch')) {
-      $('distSearch').addEventListener('input', (e) => {
+      $('distSearch').oninput = (e) => {
         distQuery = e.target.value.trim().toLowerCase();
         drawDistributors();
-      });
+      };
     }
 
     function setDistView(v) {
@@ -3428,11 +3760,13 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
     let bizMode = 'grid'; // 'grid' | 'single'
     let selectedCompId = 'all'; // 'all' or specific company id
 
+    const customCompsCount = comps.filter(c => c.is_custom_added || c.is_custom_edited).length;
     const filterOpts = [
       ['all', `ทั้งหมด (${comps.length} บริษัท)`],
       ['reps', `★ มีชื่อผู้แทนติดต่อตรง (${directComps.length})`],
       ['pdf', `📄 ๑. จากไฟล์ ข้อมูลติดต่อ บ.pdf (${pdfComps.length})`],
       ['email', `✉️ ๒. จากอีเมลใบเสนอราคา CRA (${emailComps.length})`],
+      ...(customCompsCount ? [['custom', `✨ บ. ที่เพิ่มใหม่ / แก้ไข (${customCompsCount})`]] : [['custom', `✨ บ. ที่เพิ่มใหม่ / แก้ไข`]]),
       ['molecular', '🔬 ชีววิทยาโมเลกุล & Imaging'],
       ['analytical', '🧪 โครมาโทกราฟี & HPLC/MS'],
       ['pharma', '💊 เภสัชวิทยา & ทดสอบยา'],
@@ -3448,11 +3782,11 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
     });
 
     if ($('bizSearch')) {
-      $('bizSearch').addEventListener('input', (e) => {
+      $('bizSearch').oninput = (e) => {
         bizQuery = e.target.value.trim().toLowerCase();
         selectedCompId = 'all';
         renderBizCards();
-      });
+      };
     }
 
     function updateModeButtons() {
@@ -3500,21 +3834,22 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
       }, 100);
     };
 
-    // Sort companies so the 10 PDF reps come first, then 5 CRA email reps, then by matched items count
+    // Sort companies so newly added custom companies come first, then 10 PDF reps, then 5 CRA email reps
     function getSortedFilteredCompanies() {
       return comps.filter(c => {
         const bc = c.bizcard || {};
         if (bizFilter === 'reps' && !(c.contact_reps && c.contact_reps.length)) return false;
         if (bizFilter === 'pdf' && !bc.is_pdf_rep) return false;
         if (bizFilter === 'email' && !bc.is_email_rep) return false;
-        if (!['all', 'reps', 'pdf', 'email'].includes(bizFilter) && c.category_id !== bizFilter) return false;
+        if (bizFilter === 'custom' && !(c.is_custom_added || c.is_custom_edited)) return false;
+        if (!['all', 'reps', 'pdf', 'email', 'custom'].includes(bizFilter) && c.category_id !== bizFilter) return false;
         if (!bizQuery) return true;
         const blob = `${c.name} ${c.short_name} ${bc.employee_name || ''} ${bc.job_title || ''} ${bc.department || ''} ${bc.phone_direct || ''} ${bc.phone_office || ''} ${bc.email_direct || ''} ${bc.email_office || ''} ${bc.address || ''} ${c.tax_id || ''} ${(c.brands || []).join(' ')} ${(bc.pdf_items || []).join(' ')} ${bc.products || ''}`.toLowerCase();
         return blob.includes(bizQuery);
       }).sort((a, b) => {
         const ba = a.bizcard || {}, bb = b.bizcard || {};
-        const rankA = ba.is_pdf_rep ? 2 : (ba.is_email_rep ? 1 : 0);
-        const rankB = bb.is_pdf_rep ? 2 : (bb.is_email_rep ? 1 : 0);
+        const rankA = a.is_custom_added ? 3 : (ba.is_pdf_rep ? 2 : (ba.is_email_rep ? 1 : 0));
+        const rankB = b.is_custom_added ? 3 : (bb.is_pdf_rep ? 2 : (bb.is_email_rep ? 1 : 0));
         if (rankA !== rankB) return rankB - rankA;
         if (ba.is_pdf_rep && bb.is_pdf_rep) return (bb.pdf_rows || 0) - (ba.pdf_rows || 0);
         return (b.matched_items ? b.matched_items.length : 0) - (a.matched_items ? a.matched_items.length : 0);
@@ -3522,7 +3857,7 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
     }
 
     // Render Horizontal Corporate Business Card HTML
-    function renderHorizontalCard(c, isSingleFocus) {
+    window.renderHorizontalVendorCard = function(c, isSingleFocus, isPreviewOnly) {
       const bc = c.bizcard || {};
       const primary = bc.brand_primary || '#0b1f3d';
       const accent = bc.brand_accent || '#1d4ed8';
@@ -3530,6 +3865,15 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
       const dialPhone = rawPhone.split(',')[0].replace(/[^\d+]/g, '').trim();
       const cleanEmail = (bc.email_direct || '').replace(/\s*\*\s*$/, '').trim();
       const hasValidEmail = cleanEmail && cleanEmail.includes('@');
+
+      let badgeBg = 'var(--surface-2)', badgeCol = 'var(--text-2)', badgeLabel = 'ระบบ e-GP';
+      if (c.is_custom_added) {
+        badgeBg = '#fef3c7'; badgeCol = '#b45309'; badgeLabel = '✨ บริษัทติดต่อใหม่';
+      } else if (bc.is_pdf_rep) {
+        badgeBg = '#dcfce7'; badgeCol = '#15803d'; badgeLabel = `★ ข้อมูลติดต่อ บ.pdf (${bc.pdf_rows || 1} แถว)`;
+      } else if (bc.is_email_rep) {
+        badgeBg = '#e0f2fe'; badgeCol = '#0369a1'; badgeLabel = '✉️ ใบเสนอราคา CRA';
+      }
 
       return `
         <article class="h-bizcard" style="--bc-primary:${esc(primary)}; --bc-accent:${esc(accent)}; ${isSingleFocus ? 'max-width:860px; margin:0 auto;' : ''}">
@@ -3545,8 +3889,8 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
                   #${bc.card_no || 1}
                 </span>
               </div>
-              <div class="h-bizcard-comp-th">${esc(bc.company_th || c.name)}</div>
-              <div class="h-bizcard-comp-en">${esc(bc.company_en || c.short_name)}</div>
+              <div class="h-bizcard-comp-th">${esc(bc.company_th || c.name || 'ชื่อบริษัท (ภาษาไทย)')}</div>
+              <div class="h-bizcard-comp-en">${esc(bc.company_en || c.short_name || 'Company Name (EN)')}</div>
               ${c.brands && c.brands.length ? `
                 <div class="h-bizcard-brand-tags">
                   ${c.brands.slice(0, 5).map(b => `<span class="h-bizcard-brand-tag">${esc(b)}</span>`).join('')}
@@ -3556,7 +3900,7 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
             <div class="h-bizcard-tax">
               <div><i class="fa-solid fa-building-shield"></i> e-GP Tax ID: <b>${esc(bc.tax_id || c.tax_id || '-')}</b></div>
               <div style="font-size:10px; color:rgba(255,255,255,0.75); margin-top:2px; font-family:var(--sans);">
-                ตรงกับแผนครุภัณฑ์ <b>${c.matched_items ? c.matched_items.length : 0}</b> รายการ
+                รายการครุภัณฑ์ที่เกี่ยวข้อง <b>${c.matched_items ? c.matched_items.length : 0}</b> รายการ
               </div>
             </div>
           </div>
@@ -3567,13 +3911,13 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
               <div class="h-bizcard-top-row">
                 <div>
                   <div class="h-bizcard-emp-name">
-                    <i class="fa-solid fa-user-tie" style="color:var(--bc-accent); font-size:16px; margin-right:4px;"></i>${esc(bc.employee_name)}
+                    <i class="fa-solid fa-user-tie" style="color:var(--bc-accent); font-size:16px; margin-right:4px;"></i>${esc(bc.employee_name || 'ชื่อพนักงาน / ผู้แทนขาย')}
                   </div>
-                  <div class="h-bizcard-emp-title">${esc(bc.job_title)}</div>
-                  <div class="h-bizcard-emp-dept"><i class="fa-solid fa-sitemap" style="font-size:10.5px; color:var(--muted);"></i> แผนก: ${esc(bc.department)}</div>
+                  <div class="h-bizcard-emp-title">${esc(bc.job_title || 'ผู้แทนขายสายตรง (Sales Representative)')}</div>
+                  <div class="h-bizcard-emp-dept"><i class="fa-solid fa-sitemap" style="font-size:10.5px; color:var(--muted);"></i> แผนก: ${esc(bc.department || '-')}</div>
                 </div>
-                <span class="pill" style="background:${bc.is_pdf_rep ? '#dcfce7' : (bc.is_email_rep ? '#e0f2fe' : 'var(--surface-2)')}; color:${bc.is_pdf_rep ? '#15803d' : (bc.is_email_rep ? '#0369a1' : 'var(--text-2)')}; font-size:10.5px; font-weight:700; flex-shrink:0;">
-                  ${bc.is_pdf_rep ? `★ ข้อมูลติดต่อ บ.pdf (${bc.pdf_rows} แถว)` : (bc.is_email_rep ? '✉️ ใบเสนอราคา CRA' : 'ระบบ e-GP')}
+                <span class="pill" style="background:${badgeBg}; color:${badgeCol}; font-size:10.5px; font-weight:700; flex-shrink:0;">
+                  ${badgeLabel}
                 </span>
               </div>
 
@@ -3585,7 +3929,7 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
                   <i class="fa-solid fa-mobile-screen-button"></i>
                   <div>
                     <b>โทรศัพท์สายตรง:</b><br>
-                    ${dialPhone ? `<a href="tel:${esc(dialPhone)}" style="color:var(--text); font-weight:800; text-decoration:none;">${esc(bc.phone_direct)}</a>` : esc(bc.phone_direct)}
+                    ${dialPhone ? `<a href="tel:${esc(dialPhone)}" style="color:var(--text); font-weight:800; text-decoration:none;">${esc(bc.phone_direct)}</a>` : esc(bc.phone_direct || '-')}
                   </div>
                 </div>
                 <div class="h-bizcard-citem">
@@ -3613,39 +3957,44 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
                 <div class="h-bizcard-citem full-row">
                   <i class="fa-solid fa-location-dot"></i>
                   <div>
-                    <b>ที่อยู่สำนักงาน:</b> ${esc(bc.address)}
+                    <b>ที่อยู่สำนักงาน:</b> ${esc(bc.address || '-')}
                   </div>
                 </div>
               </div>
 
               <div class="h-bizcard-guideline">
-                <i class="fa-solid fa-palette" style="color:var(--bc-accent);"></i> <b>แนวทางการสร้างแบรนด์:</b> ${esc(bc.brand_guideline)}
+                <i class="fa-solid fa-palette" style="color:var(--bc-accent);"></i> <b>แนวทางการสร้างแบรนด์:</b> ${esc(bc.brand_guideline || '-')}
                 ${bc.note ? `<div style="margin-top:2px; color:var(--text-2);"><i class="fa-solid fa-circle-info" style="color:#16a34a;"></i> <b>หมายเหตุติดต่อ:</b> ${esc(bc.note)}</div>` : ''}
               </div>
             </div>
 
-            <!-- Action Bar -->
-            <div class="h-bizcard-actions">
-              <div style="display:flex; gap:5px; flex-wrap:wrap;">
-                ${dialPhone ? `<a href="tel:${esc(dialPhone)}" class="btn btn-sm" style="background:#16a34a; color:#fff; border-color:#16a34a; text-decoration:none; padding:3px 9px; font-size:11.5px;"><i class="fa-solid fa-phone"></i> โทรออก</a>` : ''}
-                ${dialPhone ? `<button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px;" onclick="navigator.clipboard.writeText('${esc(dialPhone)}'); alert('คัดลอกเบอร์โทร ${esc(dialPhone)} เรียบร้อย');"><i class="fa-solid fa-copy"></i> คัดลอกเบอร์</button>` : ''}
-                ${hasValidEmail ? `<a href="mailto:${esc(cleanEmail)}" class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; text-decoration:none;"><i class="fa-solid fa-paper-plane"></i> ส่งอีเมล</a>` : ''}
-                <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; font-weight:700; color:var(--accent-text);" onclick="copyVendorBizCard('${esc(c.id)}')"><i class="fa-solid fa-id-card"></i> คัดลอกนามบัตร</button>
+            ${!isPreviewOnly ? `
+              <!-- Action Bar -->
+              <div class="h-bizcard-actions">
+                <div style="display:flex; gap:5px; flex-wrap:wrap;">
+                  ${dialPhone ? `<a href="tel:${esc(dialPhone)}" class="btn btn-sm" style="background:#16a34a; color:#fff; border-color:#16a34a; text-decoration:none; padding:3px 9px; font-size:11.5px;"><i class="fa-solid fa-phone"></i> โทรออก</a>` : ''}
+                  ${dialPhone ? `<button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px;" onclick="navigator.clipboard.writeText('${esc(dialPhone)}'); alert('คัดลอกเบอร์โทร ${esc(dialPhone)} เรียบร้อย');"><i class="fa-solid fa-copy"></i> เบอร์</button>` : ''}
+                  ${hasValidEmail ? `<a href="mailto:${esc(cleanEmail)}" class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; text-decoration:none;"><i class="fa-solid fa-paper-plane"></i> อีเมล</a>` : ''}
+                  <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; font-weight:700; color:var(--accent-text);" onclick="copyVendorBizCard('${esc(c.id)}')"><i class="fa-solid fa-id-card"></i> คัดลอก</button>
+                  <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px;" onclick="window.openVendorFormModal && window.openVendorFormModal('${esc(c.id)}')" title="แก้ไขข้อมูลนามบัตรบริษัทนี้"><i class="fa-solid fa-pen-to-square"></i> แก้ไข</button>
+                  ${c.is_custom_added ? `<button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; color:#dc2626; border-color:rgba(220,38,38,0.35);" onclick="window.deleteCustomVendor && window.deleteCustomVendor('${esc(c.id)}')" title="ลบนามบัตรที่เพิ่มใหม่"><i class="fa-solid fa-trash"></i> ลบ</button>` : ''}
+                </div>
+                ${!isSingleFocus ? `
+                  <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; background:var(--surface-2); font-weight:700;" onclick="window.openVendorBizCardTab('${esc(c.id)}')">
+                    <i class="fa-solid fa-expand"></i> เปิดแท็บบริษัทนี้ (${c.matched_items ? c.matched_items.length : 0})
+                  </button>
+                ` : `
+                  <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px;" onclick="document.getElementById('btnBizModeGrid').click()">
+                    <i class="fa-solid fa-grip"></i> ดูนามบัตรทุกบริษัท
+                  </button>
+                `}
               </div>
-              ${!isSingleFocus ? `
-                <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px; background:var(--surface-2); font-weight:700;" onclick="window.openVendorBizCardTab('${esc(c.id)}')">
-                  <i class="fa-solid fa-expand"></i> เปิดแท็บบริษัทนี้ (${c.matched_items ? c.matched_items.length : 0} ครุภัณฑ์)
-                </button>
-              ` : `
-                <button class="btn btn-sm" style="padding:3px 9px; font-size:11.5px;" onclick="document.getElementById('btnBizModeGrid').click()">
-                  <i class="fa-solid fa-grip"></i> กลับไปดูนามบัตรทุกบริษัท
-                </button>
-              `}
-            </div>
+            ` : ''}
           </div>
         </article>
       `;
-    }
+    };
+    const renderHorizontalCard = (c, isSingleFocus) => window.renderHorizontalVendorCard(c, isSingleFocus, false);
 
     function renderBizCards() {
       const list = getSortedFilteredCompanies();
@@ -3784,6 +4133,420 @@ const D = {"generated_at":"สร้างไฟล์เมื่อ 4 พ.ย.
     renderBizCards();
   }
   initBizCardsTab();
+
+  // ---------- VENDOR BUSINESS CARD STUDIO (ADD / EDIT / SMART PARSE / IMPORT / EXPORT) ----------
+  function initVendorFormStudio() {
+    const dlg = $('dlgVendorForm');
+    const form = $('vendorBizCardForm');
+    if (!dlg || !form) return;
+
+    const CAT_NAMES = {
+      molecular: 'ชีววิทยาโมเลกุล, เซลล์วิทยา และกล้องจุลทรรศน์ขั้นสูง',
+      analytical: 'โครมาโทกราฟี, สเปกโทรสโกปี และเคมีวิเคราะห์ (HPLC / MS / NMR)',
+      pharma: 'เทคโนโลยีเภสัชกรรม, ทดสอบคุณภาพยา และเภสัชวิทยาคลินิก',
+      general: 'เครื่องมือวิทยาศาสตร์พื้นฐาน และครุภัณฑ์ตามเกณฑ์สภาเภสัชกรรม'
+    };
+
+    const CAT_GUIDELINES = {
+      molecular: 'Life Sciences & Molecular Research Brand — โทนสีทางการ สื่อถึงความล้ำสมัยด้านอณูชีววิทยา เซลล์วิทยา และเครื่องมือวิจัยขั้นสูง',
+      analytical: 'Analytical & Chromatography Brand — โทนสีทางการ สื่อถึงความแม่นยำด้านเคมีวิเคราะห์ โครมาโทกราฟี และสเปกโทรสโกปี',
+      pharma: 'Pharmaceutical Technology & Clinical Brand — โทนสีทางการ สื่อถึงมาตรฐาน GMP เภสัชอุตสาหการ การควบคุมคุณภาพยา และเภสัชบำบัด',
+      general: 'Scientific Infrastructure & Laboratory Brand — โทนสีทางการ สื่อถึงความน่าเชื่อถือและมาตรฐานครุภัณฑ์ห้องปฏิบัติการเภสัชศาสตร์'
+    };
+
+    function autoMonogram(en, th) {
+      const m = String(en || '').match(/[A-Za-z0-9]+/g);
+      if (m && m.length) {
+        const first = m[0].toUpperCase();
+        if (first.length <= 4) return first;
+        if (m.length >= 2) return m.slice(0, 3).map(w => w[0].toUpperCase()).join('');
+        return first.slice(0, 3);
+      }
+      const cleanTh = String(th || '').replace(/^(บริษัท|ห้างหุ้นส่วนจำกัด|หจก\.)\s*/, '').trim();
+      return cleanTh ? cleanTh.slice(0, 3).toUpperCase() : 'NEW';
+    }
+
+    function buildDraftCompanyFromForm() {
+      const cid = ($('vfId').value || '').trim() || ('vendor-' + Date.now());
+      const rawCompTh = ($('vfCompTh').value || '').trim();
+      const rawCompEn = ($('vfCompEn').value || '').trim();
+      const compTh = rawCompTh || 'บริษัท ตัวอย่าง ไซแอนติฟิค จำกัด';
+      const compEn = rawCompEn || (rawCompTh ? rawCompTh.replace(/^(บริษัท|ห้างหุ้นส่วนจำกัด|หจก\.)\s*/, '').replace(/\s*จำกัด(\s*\(มหาชน\))?$/, '').trim() : 'Sample Scientific Co., Ltd.');
+      const catId = $('vfCategory').value || 'general';
+      const monogram = ($('vfMonogram').value || '').trim().toUpperCase() || autoMonogram(compEn, compTh);
+      const primary = $('vfColorPrimary').value || '#0f2e5a';
+      const accent = $('vfColorAccent').value || '#2563eb';
+      const guideline = ($('vfGuideline').value || '').trim() || CAT_GUIDELINES[catId] || CAT_GUIDELINES.general;
+      const empName = ($('vfEmpName').value || '').trim() || 'คุณชื่อผู้แทน (Sales Representative)';
+      const jobTitle = ($('vfJobTitle').value || '').trim() || 'ผู้แทนขายสายตรง (Direct Sales Representative)';
+      const dept = ($('vfDept').value || '').trim() || 'ฝ่ายขายสถาบันการศึกษาและหน่วยงานภาครัฐ (Academic & Government Account)';
+      const srcType = $('vfSourceType').value || 'custom';
+      const phoneDirect = ($('vfPhoneDirect').value || '').trim() || '-';
+      const phoneOffice = ($('vfPhoneOffice').value || '').trim() || phoneDirect;
+      const emailDirect = ($('vfEmailDirect').value || '').trim() || 'ยังไม่มีอีเมล';
+      const lineId = ($('vfLineId').value || '').trim() || '-';
+      const note = ($('vfNote').value || '').trim();
+      const taxId = ($('vfTaxId').value || '').trim() || '-';
+      const website = ($('vfWebsite').value || '').trim() || '-';
+      const address = ($('vfAddress').value || '').trim() || 'กรุงเทพมหานคร และปริมณฑล (ให้บริการพื้นที่ราชวิทยาลัยจุฬาภรณ์ เขตหลักสี่)';
+      const brands = ($('vfBrands').value || '').split(',').map(s => s.trim()).filter(Boolean);
+      const prodLines = ($('vfProducts').value || '').split(/\n|,/).map(s => s.trim()).filter(Boolean);
+
+      const existing = (D.distributors_data.companies || []).find(x => x.id === cid);
+      const existingMatched = existing && existing.matched_items ? existing.matched_items : [];
+      const customMatched = prodLines.map((p, idx) => ({
+        item_th: p,
+        item_en: '',
+        category: 'รายการที่บริษัทติดต่อเสนอขาย',
+        folder: '-',
+        brand_model: brands[0] || compEn,
+        budget: note || 'ติดต่อขอใบเสนอราคา',
+        requester: 'คณะเภสัชศาสตร์',
+        match_type: 'quote',
+        match_label: '✓ สินค้าที่บริษัทนำเสนอ'
+      }));
+
+      const matchedItems = customMatched.length ? customMatched : existingMatched;
+
+      return {
+        id: cid,
+        name: compTh,
+        short_name: compEn,
+        category_id: catId,
+        category_name: CAT_NAMES[catId] || CAT_NAMES.general,
+        is_authorized_dealer: true,
+        has_quote_history: true,
+        tax_id: taxId,
+        egp_status: taxId && taxId !== '-' ? 'ลงทะเบียนผู้ค้ากับภาครัฐ (e-GP กรมบัญชีกลาง)' : 'ผู้ประกอบการติดต่อใหม่',
+        address: address,
+        tel: phoneOffice,
+        email: emailDirect,
+        website: website,
+        brands: brands,
+        specialties: prodLines.length ? prodLines.join(', ') : (existing ? existing.specialties : `ผู้แทนจำหน่ายครุภัณฑ์และอุปกรณ์ในหมวด ${CAT_NAMES[catId]}`),
+        matched_items: matchedItems,
+        is_custom_added: !BASE_COMPANIES_SNAPSHOT.some(b => b.id === cid),
+        is_custom_edited: BASE_COMPANIES_SNAPSHOT.some(b => b.id === cid),
+        contact_reps: [{
+          name: empName,
+          role: jobTitle,
+          phone: phoneDirect,
+          email: emailDirect === 'ยังไม่มีอีเมล' ? '' : emailDirect,
+          pdf_label: compEn.split('(')[0].trim(),
+          pdf_rows: prodLines.length || 1,
+          pdf_items: prodLines,
+          source: srcType === 'pdf' ? 'ข้อมูลติดต่อ บ.pdf' : (srcType === 'email' ? 'อีเมลใบเสนอราคา (CRA Outlook)' : 'บริษัทที่ติดต่อเข้ามาใหม่'),
+          products: prodLines.join(', '),
+          other_channels: lineId !== '-' ? `Line: ${lineId}` : '',
+          note: note
+        }],
+        cra_territory: {
+          territory_name: 'เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง',
+          sales_division: dept,
+          rep_name: empName,
+          area_rep_hotline: phoneDirect,
+          sales_email_direct: emailDirect,
+          line_id: lineId,
+          protocol: note || `ติดต่อตรง ${empName} (${phoneDirect})`
+        },
+        bizcard: {
+          card_no: existing && existing.bizcard ? existing.bizcard.card_no : 1,
+          company_th: compTh,
+          company_en: compEn,
+          logo_monogram: monogram,
+          brand_primary: primary,
+          brand_accent: accent,
+          brand_guideline: guideline,
+          employee_name: empName,
+          job_title: jobTitle,
+          department: dept,
+          phone_direct: phoneDirect,
+          phone_office: phoneOffice,
+          email_direct: emailDirect,
+          email_office: emailDirect,
+          website: website,
+          line_id: lineId,
+          address: address,
+          tax_id: taxId,
+          is_pdf_rep: srcType === 'pdf',
+          is_email_rep: srcType === 'email',
+          pdf_label: compEn.split('(')[0].trim(),
+          pdf_rows: prodLines.length || 1,
+          pdf_items: prodLines,
+          products: prodLines.join(', '),
+          other_channels: lineId !== '-' ? `Line: ${lineId}` : '',
+          note: note,
+          source_badge: srcType === 'pdf' ? '★ ข้อมูลผู้แทนจากไฟล์ ข้อมูลติดต่อ บ.pdf' : (srcType === 'email' ? '✉️ ผู้แทนจากใบเสนอราคา CRA' : '✨ บริษัทใหม่ที่ติดต่อคณะเภสัชศาสตร์')
+        }
+      };
+    }
+
+    function updateLivePreview() {
+      if (!$('vfLivePreview') || !window.renderHorizontalVendorCard) return;
+      const draft = buildDraftCompanyFromForm();
+      $('vfLivePreview').innerHTML = window.renderHorizontalVendorCard(draft, true, true);
+    }
+
+    // Bind live preview updates to all form inputs
+    ['vfCompTh', 'vfCompEn', 'vfMonogram', 'vfCategory', 'vfColorPrimary', 'vfColorAccent', 'vfGuideline',
+     'vfEmpName', 'vfJobTitle', 'vfDept', 'vfSourceType', 'vfPhoneDirect', 'vfEmailDirect', 'vfLineId',
+     'vfNote', 'vfPhoneOffice', 'vfTaxId', 'vfWebsite', 'vfBrands', 'vfAddress', 'vfProducts'].forEach(id => {
+      const el = $(id);
+      if (el) {
+        el.addEventListener('input', updateLivePreview);
+        el.addEventListener('change', updateLivePreview);
+      }
+    });
+
+    // Color theme swatches
+    if ($('vfThemeSwatches')) {
+      $('vfThemeSwatches').querySelectorAll('.vform-swatch').forEach(btn => {
+        btn.onclick = () => {
+          $('vfColorPrimary').value = btn.dataset.p;
+          $('vfColorAccent').value = btn.dataset.a;
+          updateLivePreview();
+        };
+      });
+    }
+
+    // Smart Auto-Fill from raw pasted signature/Line text
+    if ($('btnParseVendorText')) {
+      $('btnParseVendorText').onclick = () => {
+        const raw = ($('vfRawPaste').value || '').trim();
+        if (!raw) {
+          alert('กรุณาวางข้อความจากอีเมล ลายเซ็น หรือ Line ลงในช่องข้อความก่อนครับ');
+          return;
+        }
+        // 1. Email
+        const emailMatch = raw.match(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/);
+        if (emailMatch) $('vfEmailDirect').value = emailMatch[0];
+
+        // 2. Mobile Phone (06x, 08x, 09x)
+        const mobMatch = raw.match(/0[689]\d[-.\s]?\d{3}[-.\s]?\d{4}/);
+        if (mobMatch) {
+          const digits = mobMatch[0].replace(/\D/g, '');
+          $('vfPhoneDirect').value = `${digits.slice(0,3)}-${digits.slice(3,6)}-${digits.slice(6,10)}`;
+        }
+
+        // 3. Office Phone (02, 03x, 04x, 05x, 07x)
+        const offMatch = raw.match(/0[23457][-.\s]?\d{3}[-.\s]?\d{4}/);
+        if (offMatch) {
+          $('vfPhoneOffice').value = offMatch[0].trim();
+        }
+
+        // 4. 13-digit Tax ID
+        const taxMatch = raw.match(/\b\d{13}\b/);
+        if (taxMatch) $('vfTaxId').value = taxMatch[0];
+
+        // 5. Website
+        const webMatch = raw.match(/(?:https?:\/\/|www\.)[^\s,;|]+/i);
+        if (webMatch) {
+          let w = webMatch[0];
+          if (!/^https?:\/\//i.test(w)) w = 'https://' + w;
+          $('vfWebsite').value = w;
+        }
+
+        // 6. Line ID
+        const lineMatch = raw.match(/line\s*(?:id)?\s*[:：]?\s*([@\w.-]+)/i);
+        if (lineMatch) $('vfLineId').value = lineMatch[1];
+
+        // 7. Thai Company Name
+        const compThMatch = raw.match(/(?:บริษัท|ห้างหุ้นส่วนจำกัด|หจก\.)[^\n|]+/);
+        if (compThMatch) {
+          let thStr = compThMatch[0].trim();
+          const parenEn = thStr.match(/\(([A-Za-z][A-Za-z0-9\s&.,-]{1,40})\)/);
+          if (parenEn && !$('vfCompEn').value.trim()) {
+            $('vfCompEn').value = parenEn[1].trim();
+          }
+          $('vfCompTh').value = thStr;
+        }
+
+        // 8. English Company Name
+        const compEnMatch = raw.match(/[A-Z][A-Za-z0-9\s&.,()-]+(?:Co\.,\s*Ltd\.|Ltd\.|Inc\.|Corporation|Scientific|Technology|Medical|Trading)/i);
+        if (compEnMatch) $('vfCompEn').value = compEnMatch[0].trim();
+
+        // 9. Person / Rep Name & Job Title
+        const empMatch = raw.match(/(?:คุณ|นาย|นางสาว|น\.ส\.|นาง|ภก\.|ภญ\.|ดร\.)\s*[^\n|]{2,70}/);
+        if (empMatch) {
+          let empStr = empMatch[0].trim();
+          const roleParen = empStr.match(/\(([^)]*(?:ผู้จัดการ|ผู้แทน|ฝ่ายขาย|วิศวกร|ผู้อำนวยการ|Sales|Manager|Engineer|Specialist|Director|Executive)[^)]*)\)/i);
+          if (roleParen) {
+            $('vfJobTitle').value = roleParen[1].trim();
+            empStr = empStr.replace(roleParen[0], '').trim();
+          }
+          $('vfEmpName').value = empStr;
+        }
+
+        // 10. Department
+        const deptMatch = raw.match(/(?:แผนก|ฝ่าย)[^\n|,]{2,60}/);
+        if (deptMatch && !/ฝ่ายขายเครื่องมือ/.test($('vfJobTitle').value)) {
+          $('vfDept').value = deptMatch[0].trim();
+        }
+
+        // 11. Brands
+        const brandMatch = raw.match(/(?:แบรนด์|ยี่ห้อ|Brands?)\s*[:：]?\s*([^\n]+)/i);
+        if (brandMatch) {
+          $('vfBrands').value = brandMatch[1].trim();
+        }
+
+        updateLivePreview();
+      };
+    }
+
+    // Open Modal Function (New or Edit)
+    window.openVendorFormModal = function(editId) {
+      const comps = D.distributors_data.companies || [];
+      const existing = editId ? comps.find(c => c.id === editId) : null;
+      $('vfRawPaste').value = '';
+
+      if (existing) {
+        const bc = existing.bizcard || {};
+        $('dlgVendorFormTitle').textContent = `แก้ไขนามบัตร: ${existing.name}`;
+        $('vfId').value = existing.id;
+        $('vfCompTh').value = bc.company_th || existing.name || '';
+        $('vfCompEn').value = bc.company_en || existing.short_name || '';
+        $('vfMonogram').value = bc.logo_monogram || '';
+        $('vfCategory').value = existing.category_id || 'general';
+        $('vfColorPrimary').value = bc.brand_primary || '#0f2e5a';
+        $('vfColorAccent').value = bc.brand_accent || '#2563eb';
+        $('vfGuideline').value = bc.brand_guideline || '';
+        $('vfEmpName').value = bc.employee_name || '';
+        $('vfJobTitle').value = bc.job_title || '';
+        $('vfDept').value = bc.department || '';
+        $('vfSourceType').value = bc.is_pdf_rep ? 'pdf' : (bc.is_email_rep ? 'email' : 'custom');
+        $('vfPhoneDirect').value = bc.phone_direct && bc.phone_direct !== '-' ? bc.phone_direct : '';
+        $('vfEmailDirect').value = bc.email_direct && bc.email_direct !== 'ยังไม่มีอีเมล' ? bc.email_direct : '';
+        $('vfLineId').value = bc.line_id && bc.line_id !== '-' ? bc.line_id : '';
+        $('vfNote').value = bc.note || '';
+        $('vfPhoneOffice').value = bc.phone_office && bc.phone_office !== '-' ? bc.phone_office : (existing.tel || '');
+        $('vfTaxId').value = bc.tax_id && bc.tax_id !== '-' ? bc.tax_id : (existing.tax_id || '');
+        $('vfWebsite').value = bc.website && bc.website !== '-' ? bc.website : (existing.website || '');
+        $('vfBrands').value = (existing.brands || []).join(', ');
+        $('vfAddress').value = bc.address || existing.address || '';
+        $('vfProducts').value = (bc.pdf_items && bc.pdf_items.length) ? bc.pdf_items.join('\n') : (bc.products || '');
+
+        if ($('vfDeleteZone')) {
+          if (existing.is_custom_added) {
+            $('vfDeleteZone').innerHTML = `<button type="button" class="btn" style="color:#dc2626; border-color:rgba(220,38,38,0.4);" onclick="window.deleteCustomVendor('${esc(existing.id)}'); document.getElementById('dlgVendorForm').close();"><i class="fa-solid fa-trash"></i> ลบนามบัตรบริษัทนี้</button>`;
+          } else if (existing.is_custom_edited) {
+            $('vfDeleteZone').innerHTML = `<button type="button" class="btn" onclick="window.deleteCustomVendor('${esc(existing.id)}'); document.getElementById('dlgVendorForm').close();"><i class="fa-solid fa-rotate-left"></i> คืนค่าข้อมูลเริ่มต้น</button>`;
+          } else {
+            $('vfDeleteZone').innerHTML = '';
+          }
+        }
+      } else {
+        $('dlgVendorFormTitle').textContent = 'เพิ่มนามบัตรบริษัทใหม่ (Add New Vendor Business Card)';
+        $('vfId').value = '';
+        $('vfCompTh').value = '';
+        $('vfCompEn').value = '';
+        $('vfMonogram').value = '';
+        $('vfCategory').value = 'general';
+        $('vfColorPrimary').value = '#0f2e5a';
+        $('vfColorAccent').value = '#2563eb';
+        $('vfGuideline').value = '';
+        $('vfEmpName').value = '';
+        $('vfJobTitle').value = 'ผู้แทนขายสายตรง (Direct Sales Representative)';
+        $('vfDept').value = 'ฝ่ายขายสถาบันการศึกษาและหน่วยงานภาครัฐ (Academic & Government Account)';
+        $('vfSourceType').value = 'custom';
+        $('vfPhoneDirect').value = '';
+        $('vfEmailDirect').value = '';
+        $('vfLineId').value = '';
+        $('vfNote').value = '';
+        $('vfPhoneOffice').value = '';
+        $('vfTaxId').value = '';
+        $('vfWebsite').value = '';
+        $('vfBrands').value = '';
+        $('vfAddress').value = '';
+        $('vfProducts').value = '';
+        if ($('vfDeleteZone')) $('vfDeleteZone').innerHTML = '';
+      }
+
+      updateLivePreview();
+      dlg.showModal();
+    };
+
+    // Save Handler
+    form.onsubmit = (e) => {
+      if (e && e.preventDefault) e.preventDefault();
+      if (!$('vfCompTh').value.trim() || !$('vfEmpName').value.trim()) {
+        alert('กรุณากรอก ชื่อบริษัท และ ชื่อพนักงาน/ผู้แทนขาย อย่างน้อย 2 ช่องนี้ครับ');
+        return false;
+      }
+      const newComp = buildDraftCompanyFromForm();
+      const saved = getSavedCustomVendors();
+      const idx = saved.findIndex(x => x.id === newComp.id);
+      if (idx >= 0) {
+        saved[idx] = newComp;
+      } else {
+        saved.unshift(newComp);
+      }
+      saveCustomVendorsList(saved);
+      syncCustomVendorsIntoData();
+      initDistributors();
+      initBizCardsTab();
+      dlg.close();
+      window.openVendorBizCardTab(newComp.id);
+      return false;
+    };
+
+    // Delete / Restore Handler
+    window.deleteCustomVendor = function(cid) {
+      const saved = getSavedCustomVendors().filter(x => x.id !== cid);
+      saveCustomVendorsList(saved);
+      syncCustomVendorsIntoData();
+      initDistributors();
+      initBizCardsTab();
+    };
+
+    // Export Custom/All Vendors to JSON
+    window.exportCustomVendorsJson = function() {
+      const payload = {
+        exported_at: new Date().toISOString(),
+        custom_vendors: getSavedCustomVendors(),
+        total_companies_in_dashboard: D.distributors_data.companies.length,
+        all_companies: D.distributors_data.companies
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'นามบัตร_Vendor_คณะเภสัชศาสตร์_Backup.json';
+      a.click();
+    };
+
+    // Import Vendors from JSON
+    const impInput = $('importVendorsFile');
+    if (impInput) {
+      impInput.onchange = (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          try {
+            const data = JSON.parse(ev.target.result);
+            const list = Array.isArray(data) ? data : (Array.isArray(data.custom_vendors) ? data.custom_vendors : []);
+            if (!list.length) {
+              alert('ไม่พบรายการนามบัตรที่เพิ่มใหม่ในไฟล์ .json นี้');
+              return;
+            }
+            const current = getSavedCustomVendors();
+            const byId = Object.fromEntries(current.map(c => [c.id, c]));
+            list.forEach(item => {
+              if (item && item.id) byId[item.id] = item;
+            });
+            saveCustomVendorsList(Object.values(byId));
+            syncCustomVendorsIntoData();
+            initDistributors();
+            initBizCardsTab();
+            alert(`นำเข้าข้อมูลนามบัตรสำเร็จ (${list.length} บริษัท)`);
+          } catch (err) {
+            alert('ไฟล์ JSON ไม่ถูกต้อง กรุณาตรวจสอบไฟล์อีกครั้ง');
+          }
+        };
+        reader.readAsText(file);
+      };
+    }
+  }
+  initVendorFormStudio();
 
   // Infographic (Canva slides embedded as JPEG; links to the full PNG/PPTX work when the dashboard folder travels with the file)
 
