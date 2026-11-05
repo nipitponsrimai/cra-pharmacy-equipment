@@ -389,7 +389,9 @@
           "slide_no": 10
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "High-speed kinetic fluorescence/luminescence screening across 96/384-well plates with automated liquid handling (FLIPR Penta)",
+      "application": "High-throughput intracellular Ca²⁺ flux, membrane potential, and GPCR/ion-channel drug discovery assays"
     },
     {
       "id": "R03",
@@ -424,7 +426,9 @@
           "slide_no": 4
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Ultra-low-noise voltage/current clamp recording with micromanipulator and inverted microscope integration",
+      "application": "Direct single-cell and whole-cell ion channel electrophysiology (CFTR, TMEM16A, and membrane transporters)"
     },
     {
       "id": "R04",
@@ -459,7 +463,9 @@
           "slide_no": 4
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Multi-channel planar patch-clamp array with automated cell capture and microfluidic compound perfusion (Nanion Patchliner)",
+      "application": "Medium-throughput pharmacological profiling and IC50/EC50 determination of ion channel modulators"
     },
     {
       "id": "R05",
@@ -502,7 +508,9 @@
           "year": "Y3",
           "role": "Bone cell metabolism"
         }
-      ]
+      ],
+      "capability": "Real-time simultaneous measurement of oxygen consumption rate (OCR) and extracellular acidification rate (ECAR) in live cells (Agilent Seahorse XF Pro)",
+      "application": "Mitochondrial respiration, glycolysis, and cellular bioenergetics in epithelial and bone cells (osteoblasts/osteoclasts)"
     },
     {
       "id": "R06",
@@ -538,7 +546,9 @@
           "slide_no": 6
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Laser scanning confocal microscopy with optical sectioning, spectral detection, and 3D Z-stack reconstruction (ZEISS LSM 900)",
+      "application": "Subcellular protein localization, tight junction architecture, and 3D tissue/spheroid imaging"
     },
     {
       "id": "R07",
@@ -573,7 +583,9 @@
           "slide_no": 6
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Multi-laser fluorescence-activated cell sorting (FACS) with high-purity single-cell and multi-way sorting (BD FACSMelody)",
+      "application": "Isolation of specific cell subpopulations, CRISPR-edited clones, and primary stem/progenitor cells"
     },
     {
       "id": "R08",
@@ -608,7 +620,9 @@
           "slide_no": 3
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Multi-channel epithelial transport chamber with short-circuit current (Isc) and voltage clamp amplifier (EasyMount P2300 EM8-C)",
+      "application": "Vectorial ion transport, drug permeability, and barrier function across polarized epithelial monolayers and intestinal tissues"
     },
     {
       "id": "R09",
@@ -643,7 +657,9 @@
           "slide_no": 9
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Nanoliter droplet partitioning (~20,000 droplets/sample) for absolute nucleic acid quantification without standard curves (Bio-Rad QX200 ddPCR)",
+      "application": "Ultra-sensitive detection of rare mutations, copy number variation (CNV), and low-abundance transcripts"
     },
     {
       "id": "R10",
@@ -686,7 +702,9 @@
           "year": "Y3",
           "role": "Differentiation/dynamics"
         }
-      ]
+      ],
+      "capability": "Incubator-compatible automated time-lapse fluorescence and brightfield live-cell imaging system (Curiosis Celloger Mini Plus)",
+      "application": "Continuous real-time monitoring of cell proliferation, wound healing, migration, and osteogenic differentiation dynamics"
     },
     {
       "id": "R11",
@@ -720,7 +738,9 @@
           "year": "Y2",
           "role": "Bone/tissue histology"
         }
-      ]
+      ],
+      "capability": "Automated enclosed tissue fixation, dehydration, clearing, and paraffin infiltration system",
+      "application": "Standardized histological processing of bone, cartilage, and soft tissue specimens for pathology and morphometry"
     },
     {
       "id": "R12",
@@ -755,7 +775,9 @@
           "slide_no": 3
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "High-efficiency beta-particle liquid scintillation counting with luminescence correction",
+      "application": "Radiolabeled solute transport, receptor-ligand binding assays, and metabolic tracer studies"
     },
     {
       "id": "R13",
@@ -789,7 +811,9 @@
           "year": "Y2",
           "role": "Bone/tissue histology"
         }
-      ]
+      ],
+      "capability": "Motorized precision rotary microtome with heavy-duty tungsten carbide blade assembly",
+      "application": "Thin sectioning of calcified/decalcified bone and paraffin-embedded tissues for histomorphometry and IHC"
     },
     {
       "id": "R14",
@@ -824,7 +848,9 @@
           "slide_no": 3
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Digital chopstick/EndOhm voltohmmeter for non-destructive transepithelial electrical resistance (TEER) measurement (Millicell ERS 3.0)",
+      "application": "Quality control of epithelial monolayer integrity and blood-brain/intestinal barrier permeability models"
     },
     {
       "id": "R15",
@@ -859,7 +885,9 @@
           "slide_no": 7
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Rapid high-efficiency semi-dry electroblotting system (7–10 min transfer) with integrated power supply (Bio-Rad Trans-Blot Turbo)",
+      "application": "Fast, reproducible protein transfer from SDS-PAGE gels to PVDF/nitrocellulose membranes for Western blotting"
     },
     {
       "id": "R16",
@@ -886,7 +914,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Precision etched glass counting chamber (Neubauer improved grid) for manual microscopic cell enumeration",
+      "application": "Routine cell density and trypan blue viability verification in cell culture workflows"
     },
     {
       "id": "R17",
@@ -913,7 +943,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Rechargeable motorized serological pipette controller with adjustable aspiration/dispense speed and hydrophobic filter",
+      "application": "Ergonomic, accurate liquid handling of media and reagents (1–100 mL) in biosafety cabinets"
     },
     {
       "id": "R18",
@@ -940,7 +972,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Label-free real-time biomolecular interaction analysis via Surface Plasmon Resonance (SPR) or Bio-Layer Interferometry (BLI)",
+      "application": "Kinetic characterization (kon, koff, KD) of antibody-antigen, protein-protein, and small-molecule target binding"
     },
     {
       "id": "R19",
@@ -975,7 +1009,9 @@
           "slide_no": 8
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Water-jacketed tri-gas incubator with independent O₂ (1–21%) and CO₂ control and HEPA filtration (Heracell VIOS 160i Tri-Gas)",
+      "application": "Physiological hypoxia/normoxia modeling, stem cell niche maintenance, and ischemia-reperfusion studies"
     },
     {
       "id": "R20",
@@ -1010,7 +1046,9 @@
           "year": "Y1",
           "role": "Molecular work"
         }
-      ]
+      ],
+      "capability": "High-speed refrigerated microcentrifuge (≥15,000 rpm / >21,000 ×g) with rapid precooling to 4°C",
+      "application": "Pelleting of nucleic acids (DNA/RNA), protein precipitates, and temperature-sensitive subcellular fractions"
     },
     {
       "id": "R21",
@@ -1037,7 +1075,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Biocompatible fast protein liquid chromatography (FPLC) with UV/conductivity monitoring and fraction collector (SEC, IEX, Affinity)",
+      "application": "Purification of recombinant proteins, therapeutic antibodies, and native enzyme complexes"
     },
     {
       "id": "R22",
@@ -1162,7 +1202,9 @@
           "year": "Y2",
           "role": "IF/osteogenic markers"
         }
-      ]
+      ],
+      "capability": "Inverted epifluorescence and phase-contrast microscope with high-sensitivity digital CMOS camera (Nikon Eclipse Ts2-FL)",
+      "application": "Live-cell fluorescence imaging, immunofluorescence (IF) of osteogenic/cellular markers, and reporter gene expression"
     },
     {
       "id": "R25",
@@ -1199,7 +1241,9 @@
           "slide_no": 6
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Pipette-tip chamber electroporation system with customizable pulse voltage, width, and number (Invitrogen Neon NxT)",
+      "application": "High-efficiency delivery of CRISPR-Cas9 ribonucleoproteins (RNPs), siRNA, and plasmid DNA into hard-to-transfect cells"
     },
     {
       "id": "R26",
@@ -1245,7 +1289,9 @@
           "year": "Y1",
           "role": "Molecular biology"
         }
-      ]
+      ],
+      "capability": "Peltier-driven end-point PCR thermal cycler with thermal gradient capability for primer annealing optimization (Bio-Rad T100)",
+      "application": "Routine DNA amplification, cloning, genotyping, and molecular biology assay development"
     },
     {
       "id": "R27",
@@ -1291,7 +1337,9 @@
           "year": "Y1",
           "role": "Protein signaling"
         }
-      ]
+      ],
+      "capability": "Vertical mini-gel SDS-PAGE electrophoresis tank and wet tank transfer assembly with power supply (Bio-Rad Mini-PROTEAN)",
+      "application": "Size-based protein separation and Western blot analysis of intracellular signaling pathways"
     },
     {
       "id": "R28",
@@ -1328,7 +1376,9 @@
           "year": "Y1",
           "role": "Cell culture"
         }
-      ]
+      ],
+      "capability": "Integrated vacuum pump, collection bottle with hydrophobic overflow filter, and multi-channel aspiration handpiece",
+      "application": "Safe, aseptic removal of spent cell culture supernatants and wash buffers inside biosafety cabinets"
     },
     {
       "id": "R29",
@@ -1389,7 +1439,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Adjustable-speed and tilt-angle platform rocking shaker for gentle uniform wave mixing",
+      "application": "Gel staining/destaining, Western blot membrane antibody incubation, and hybridizations"
     },
     {
       "id": "R31",
@@ -1416,7 +1468,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Ultrapure Type I water purification system (18.2 MΩ·cm resistivity, <5 ppb TOC, RNase/DNase/endotoxin-free)",
+      "application": "Preparation of molecular biology, HPLC/LC-MS, cell culture, and analytical grade buffers"
     },
     {
       "id": "R32",
@@ -1451,7 +1505,9 @@
           "year": "Y1",
           "role": "Reagents storage"
         }
-      ]
+      ],
+      "capability": "Laboratory −20°C freezer with stable temperature regulation for enzyme and reagent storage",
+      "application": "Storage of restriction enzymes, PCR master mixes, antibodies, and chemical standards"
     },
     {
       "id": "R33",
@@ -1478,7 +1534,9 @@
       "in_y71": true,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Variable-speed touch/continuous orbital vortex mixer for rapid tube resuspension",
+      "application": "Homogeneous mixing of microcentrifuge tubes, assay reagents, and cell pellets"
     },
     {
       "id": "R34",
@@ -1505,7 +1563,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Analytical balance with 0.1 mg (4-decimal) readability, internal calibration, and draft shield",
+      "application": "Accurate weighing of reference standards, buffers, and active pharmaceutical ingredients"
     },
     {
       "id": "R35",
@@ -1532,7 +1592,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Automated high-pressure steam sterilizer (Autoclave) with programmable sterilization and drying cycles",
+      "application": "Sterilization of culture media, buffers, glassware, and biohazardous waste decontamination"
     },
     {
       "id": "R36",
@@ -1559,7 +1621,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Ceramic-top digital hotplate magnetic stirrer with precise temperature and rpm feedback control",
+      "application": "Dissolution of reagents, agarose gel preparation, and controlled-temperature chemical mixing"
     },
     {
       "id": "R37",
@@ -1586,7 +1650,9 @@
       "in_y71": false,
       "courses": [],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Digital pH/mV/conductivity meter with automatic temperature compensation (ATC) and multi-point calibration",
+      "application": "Precise pH adjustment of physiological buffers (Krebs, Ringer, PBS) and culture media"
     },
     {
       "id": "R38",
@@ -1632,7 +1698,9 @@
           "year": "Y2",
           "role": "ALP, viability, ELISA, assays"
         }
-      ]
+      ],
+      "capability": "Monochromator/filter multimode microplate reader supporting UV-Vis absorbance, fluorescence, and luminescence (Synergy H1)",
+      "application": "ELISA, cell viability (MTT/CCK-8), ALP activity, protein quantification (BCA/Bradford), and reporter assays"
     },
     {
       "id": "R39",
@@ -1669,7 +1737,9 @@
           "slide_no": 5
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Multi-laser benchtop flow cytometer with avalanche photodiode detectors for high-sensitivity immunophenotyping (CytoFLEX)",
+      "application": "Cell cycle analysis, apoptosis (Annexin V/PI), surface/intracellular marker profiling, and ROS quantification"
     },
     {
       "id": "R40",
@@ -1715,7 +1785,9 @@
           "year": "Y1",
           "role": "Primary + cell-line culture"
         }
-      ]
+      ],
+      "capability": "NSF/EN-certified Class II Type A2 biological safety cabinet (4 ft) with ULPA/HEPA filtration and laminar airflow",
+      "application": "Sterile handling of mammalian cell lines, primary bone cells, and BSL-2 biological agents"
     },
     {
       "id": "R41",
@@ -1761,7 +1833,9 @@
           "year": "Y1",
           "role": "Western blot/DNA"
         }
-      ]
+      ],
+      "capability": "Cooled CCD/CMOS multiplex gel and Western blot imaging system for chemiluminescence, fluorescence, and colorimetric detection (ChemiDoc MP)",
+      "application": "Quantitative densitometry of Western blots (ECL/fluorescent) and nucleic acid gel documentation"
     },
     {
       "id": "R42",
@@ -1798,7 +1872,9 @@
           "year": "Y1",
           "role": "RNA/protein/sample storage"
         }
-      ]
+      ],
+      "capability": "Upright ultra-low temperature (−80°C) freezer with dual-compressor/cascade cooling and backup monitoring",
+      "application": "Long-term preservation of RNA, protein lysates, engineered plasmids, viral vectors, and clinical/tissue samples"
     },
     {
       "id": "R43",
@@ -1834,7 +1910,9 @@
           "year": "Y1",
           "role": "Reagents storage"
         }
-      ]
+      ],
+      "capability": "Double-door laboratory refrigerator (4°C, ≥20 cu.ft.) with forced-air circulation and digital temperature alarm",
+      "application": "Cold storage of cell culture media, growth factors, ELISA kits, and working reagents"
     },
     {
       "id": "R44",
@@ -1871,7 +1949,9 @@
           "year": "Y1",
           "role": "Cell/sample processing"
         }
-      ]
+      ],
+      "capability": "Benchtop refrigerated centrifuge with swing-bucket and fixed-angle rotors for 15/50 mL conical tubes and microplates",
+      "application": "Cell harvesting, blood/tissue fractionation, and large-volume sample clarification at controlled temperatures"
     },
     {
       "id": "R45",
@@ -1917,7 +1997,9 @@
           "year": "Y1",
           "role": "Primary + cell-line culture"
         }
-      ]
+      ],
+      "capability": "Water-jacketed CO₂ incubator (37°C, 5% CO₂) with IR sensor, high-humidity control, and contamination control",
+      "application": "Continuous propagation and maintenance of mammalian cell lines and primary osteoblast/epithelial cultures"
     },
     {
       "id": "R46",
@@ -1954,7 +2036,9 @@
           "year": "Y1",
           "role": "Cell banking"
         }
-      ]
+      ],
+      "capability": "Vacuum-insulated liquid nitrogen (LN₂) cryogenic storage dewar (≥120 L & 10 L transfer tank) with rack inventory system",
+      "application": "Long-term vapor/liquid-phase cryopreservation of master and working cell banks"
     },
     {
       "id": "R47",
@@ -1992,7 +2076,9 @@
           "slide_no": 9
         }
       ],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Microvolume UV-Vis spectrophotometer (1–2 µL sample) with full-spectrum contaminant detection (NanoDrop One)",
+      "application": "Rapid quantification and purity assessment (A260/A280, A260/A230) of extracted DNA, RNA, and purified proteins"
     },
     {
       "id": "R48",
@@ -2028,7 +2114,9 @@
           "year": "Y1",
           "role": "Cell morphology/confluency"
         }
-      ]
+      ],
+      "capability": "Inverted routine microscope with phase-contrast optics and long-working-distance objectives",
+      "application": "Daily inspection of adherent cell morphology, confluency, and contamination in culture flasks and multi-well plates"
     },
     {
       "id": "R49",
@@ -2065,7 +2153,9 @@
           "year": "Y1",
           "role": "Molecular/cell culture"
         }
-      ]
+      ],
+      "capability": "Calibrated single-channel (P1–P1000) and multichannel (P100, P300) variable-volume micropipette sets with stands",
+      "application": "Precision microliter liquid dispensing for PCR, qPCR, ELISA, and cell-based assays"
     },
     {
       "id": "R50",
@@ -2102,7 +2192,9 @@
           "year": "Y1",
           "role": "Cell culture"
         }
-      ]
+      ],
+      "capability": "Digital temperature-controlled stainless steel water bath (24 L) with uniform thermal circulation",
+      "application": "Pre-warming of cell culture media, rapid thawing of cryovials at 37°C, and enzymatic incubations"
     },
     {
       "id": "R51",
@@ -2139,7 +2231,9 @@
           "year": "Y1",
           "role": "Molecular biology"
         }
-      ]
+      ],
+      "capability": "Horizontal submarine agarose gel electrophoresis chamber with digital power supply and casting trays",
+      "application": "Separation and size verification of PCR products, restriction digests, and RNA integrity checks"
     },
     {
       "id": "R52",
@@ -2168,7 +2262,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Dead-air UV-decontaminated PCR workstation cabinet with HEPA filtration",
+      "application": "Contamination-free RNA extraction, cDNA synthesis, and PCR master mix preparation"
     },
     {
       "id": "R53",
@@ -2197,7 +2293,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Automated brightfield/fluorescence benchtop cell counter with disposable or reusable slides",
+      "application": "Fast, operator-independent determination of total cell concentration and live/dead cell ratio"
     },
     {
       "id": "R54",
@@ -2226,7 +2324,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Temperature-controlled orbital incubator shaker with interchangeable flask clamps",
+      "application": "Aerobic propagation of E. coli and recombinant microbial cultures for plasmid prep and protein expression"
     },
     {
       "id": "R55",
@@ -2255,7 +2355,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Compact personal microcentrifuge (spin-down) for 1.5/2.0 mL tubes and 8-strip PCR tubes",
+      "application": "Quick collection of droplets from tube walls and caps prior to PCR, qPCR, and enzymatic reactions"
     },
     {
       "id": "R56",
@@ -2284,7 +2386,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Benchtop digital orbital platform shaker with continuous duty motor",
+      "application": "Uniform mixing, gel washing, and suspension aeration at ambient temperature"
     },
     {
       "id": "R57",
@@ -2313,7 +2417,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "High-speed mechanical rotor-stator tissue homogenizer and ultrasonic probe sonicator",
+      "application": "Disruption of animal tissues, plant matrices, and bacterial/mammalian cells for protein and nucleic acid extraction"
     },
     {
       "id": "R58",
@@ -2342,7 +2448,9 @@
         "CHPD1107"
       ],
       "ns_specs": [],
-      "sa_phasing": []
+      "sa_phasing": [],
+      "capability": "Continuous automatic flake ice maker with insulated storage bin",
+      "application": "Maintaining 0–4°C ice baths during RNA extraction, protein lysis, and enzyme setup to prevent degradation"
     },
     {
       "id": "R59",
@@ -21026,7 +21134,11 @@
       "application": "Fast, reproducible extraction of standardized herbal extracts",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "งบปี 70 มีเฉพาะชุดสกัด Soxhlet (ข้อ 52) และ Percolator (ข้อ 39) พื้นฐานสำหรับการสอน ยังไม่มีระบบสกัดแรงดันสูง-อุณหภูมิสูงอัตโนมัติ (PLE/ASE)"
+      "note": "งบปี 70 มีเฉพาะชุดสกัด Soxhlet (ข้อ 52) และ Percolator (ข้อ 39) พื้นฐานสำหรับการสอน ยังไม่มีระบบสกัดแรงดันสูง-อุณหภูมิสูงอัตโนมัติ (PLE/ASE)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R60",
@@ -21040,7 +21152,11 @@
       "application": "Large-batch GMP extraction with consistent yield",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบสกัดไหลสวนทางหลายขั้นตอนแบบปิดพร้อมระบบหมุนเวียนตัวทำละลาย สำหรับงานสกัดสมุนไพรมาตรฐาน GMP ระดับขยายขนาด"
+      "note": "ระบบสกัดไหลสวนทางหลายขั้นตอนแบบปิดพร้อมระบบหมุนเวียนตัวทำละลาย สำหรับงานสกัดสมุนไพรมาตรฐาน GMP ระดับขยายขนาด",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R61",
@@ -21054,7 +21170,11 @@
       "application": "Essential oils and lipophilic compounds without residual solvent",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบสกัดด้วยของไหลวิกฤตยิ่งยวด (SFE-CO₂) พร้อมปั๊มเติมตัวทำละลายร่วม สำหรับสกัดน้ำมันหอมระเหยและสารไม่ชอบน้ำโดยไร้ตัวทำละลายตกค้าง"
+      "note": "ระบบสกัดด้วยของไหลวิกฤตยิ่งยวด (SFE-CO₂) พร้อมปั๊มเติมตัวทำละลายร่วม สำหรับสกัดน้ำมันหอมระเหยและสารไม่ชอบน้ำโดยไร้ตัวทำละลายตกค้าง",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R62",
@@ -21068,7 +21188,11 @@
       "application": "Purification and concentration of polysaccharides and bioactive fractions",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบเมมเบรนคัดแยกตามขนาดโมเลกุล (MWCO) สำหรับทำบริสุทธิ์พอลิแซ็กคาไรด์และแฟรกชันออกฤทธิ์ (งบปี 70 ข้อ 15 เป็นเพียงชุดกรองพื้นฐาน)"
+      "note": "ระบบเมมเบรนคัดแยกตามขนาดโมเลกุล (MWCO) สำหรับทำบริสุทธิ์พอลิแซ็กคาไรด์และแฟรกชันออกฤทธิ์ (งบปี 70 ข้อ 15 เป็นเพียงชุดกรองพื้นฐาน)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R63",
@@ -21082,7 +21206,11 @@
       "application": "Enrichment of target compounds such as flavonoids or saponins",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบคอลัมน์เรซินรูพรุนขนาดใหญ่อัตโนมัติพร้อมชุดเก็บแฟรกชัน สำหรับเพิ่มความเข้มข้นสารกลุ่มฟลาโวนอยด์หรือซาโปนิน"
+      "note": "ระบบคอลัมน์เรซินรูพรุนขนาดใหญ่อัตโนมัติพร้อมชุดเก็บแฟรกชัน สำหรับเพิ่มความเข้มข้นสารกลุ่มฟลาโวนอยด์หรือซาโปนิน",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R64",
@@ -21096,7 +21224,11 @@
       "application": "Preserves heat-sensitive actives during concentration",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "เครื่องระเหยข้นแบบฟิล์มบาง/หลายหอ ใช้อุณหภูมิต่ำและเวลาสัมผัสร้อนสั้นเพื่อรักษาสารสำคัญที่ไวต่อความร้อน (งบปี 70 มีเฉพาะ Rotary evaporator ระดับห้องปฏิบัติการ)"
+      "note": "เครื่องระเหยข้นแบบฟิล์มบาง/หลายหอ ใช้อุณหภูมิต่ำและเวลาสัมผัสร้อนสั้นเพื่อรักษาสารสำคัญที่ไวต่อความร้อน (งบปี 70 มีเฉพาะ Rotary evaporator ระดับห้องปฏิบัติการ)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R65",
@@ -21110,7 +21242,11 @@
       "application": "Preparation of reference standards and marker compounds",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC และ R21 เป็น FPLC สำหรับโปรตีนของ PL)"
+      "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC และ R21 เป็น FPLC สำหรับโปรตีนของ PL)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R66",
@@ -21124,7 +21260,11 @@
       "application": "Consistent quality for high-volume herbal tablets and granules",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบผลิตแกรนูลแบบต่อเนื่อง (Twin-Screw Granulator) พร้อมการควบคุมในสายการผลิต (ในแผนมีเฉพาะ Granulator แบบกะในชุดปี 70 และ High Shear Granulator ปี 71 ที่ติด Hold)"
+      "note": "ระบบผลิตแกรนูลแบบต่อเนื่อง (Twin-Screw Granulator) พร้อมการควบคุมในสายการผลิต (ในแผนมีเฉพาะ Granulator แบบกะในชุดปี 70 และ High Shear Granulator ปี 71 ที่ติด Hold)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R67",
@@ -21138,7 +21278,11 @@
       "application": "Batch release based on process data rather than end-testing only",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์ (เชื่อมต่อชุดสเปกโทรมิเตอร์ R79 ได้)"
+      "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์ (เชื่อมต่อชุดสเปกโทรมิเตอร์ R79 ได้)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R68",
@@ -21152,7 +21296,11 @@
       "application": "Improves solubility of poorly soluble herbal actives such as curcumin",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold เพื่อใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold เพื่อใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R69",
@@ -21166,7 +21314,11 @@
       "application": "Standardized herbal powder for capsules and sachets",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 10 (folder 81) เครื่องทำแห้งแบบพ่นฝอย (Spray dryer) แต่ติดสถานะ Hold (Y5)"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 10 (folder 81) เครื่องทำแห้งแบบพ่นฝอย (Spray dryer) แต่ติดสถานะ Hold (Y5)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R70",
@@ -21180,7 +21332,11 @@
       "application": "Stable products for heat-sensitive extracts and injectables",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer ซึ่งติดสถานะ Hold (Y5) และตรงกับแผนแม่บทวิจัย 5 ปี ลำดับที่ 2 (Laboratory freeze dryer)"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer ซึ่งติดสถานะ Hold (Y5) และตรงกับแผนแม่บทวิจัย 5 ปี ลำดับที่ 2 (Laboratory freeze dryer)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R71",
@@ -21194,7 +21350,11 @@
       "application": "GMP-compliant production with minimal operator intervention",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold)",
-      "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต"
+      "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R72",
@@ -21208,7 +21368,11 @@
       "application": "Taste masking and targeted release of herbal tablets",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติหรือไม่"
+      "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติหรือไม่",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R73",
@@ -21222,7 +21386,11 @@
       "application": "Meets GMP grade requirements for sterile or high-purity herbal products",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบห้องสะอาด ISO 8 / ISO 7 พร้อมระบบกรอง HEPA และระบบติดตามอนุภาค/จุลชีพต่อเนื่อง สำหรับการผลิตผลิตภัณฑ์สมุนไพรบริสุทธิ์สูงตามมาตรฐาน GMP"
+      "note": "ระบบห้องสะอาด ISO 8 / ISO 7 พร้อมระบบกรอง HEPA และระบบติดตามอนุภาค/จุลชีพต่อเนื่อง สำหรับการผลิตผลิตภัณฑ์สมุนไพรบริสุทธิ์สูงตามมาตรฐาน GMP",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R74",
@@ -21236,7 +21404,11 @@
       "application": "Untargeted chemical profiling and identification of adulterants",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC ส่วนลำดับ 13 (R22) เป็น QqQ LC-MS/MS ที่ติด Hold ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics"
+      "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC ส่วนลำดับ 13 (R22) เป็น QqQ LC-MS/MS ที่ติด Hold ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R22",
@@ -21250,7 +21422,12 @@
       "application": "Quantitation of markers and multi-residue pesticide analysis",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (Hold/NA)",
-      "note": "จัดกลุ่มรวม PL (Proteomics) และ NK (UHPLC-QqQ-MS/MS วิเคราะห์สารบ่งชี้สมุนไพรและสารพิษตกค้าง) · ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) ซึ่งติดสถานะ Hold"
+      "note": "จัดกลุ่มรวม PL (Proteomics) และ NK (UHPLC-QqQ-MS/MS วิเคราะห์สารบ่งชี้สมุนไพรและสารพิษตกค้าง) · ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) ซึ่งติดสถานะ Hold",
+      "users": "PL, NK",
+      "user_list": [
+        "PL",
+        "NK"
+      ]
     },
     {
       "id": "R75",
@@ -21264,7 +21441,11 @@
       "application": "Purity assignment of reference standards and marker compounds",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "เครื่องนิวเคลียร์แมกเนติกเรโซแนนซ์เชิงปริมาณ (qNMR 400–600 MHz) สำหรับหาความบริสุทธิ์สัมบูรณ์ของสารมาตรฐานและสารบ่งชี้สมุนไพร"
+      "note": "เครื่องนิวเคลียร์แมกเนติกเรโซแนนซ์เชิงปริมาณ (qNMR 400–600 MHz) สำหรับหาความบริสุทธิ์สัมบูรณ์ของสารมาตรฐานและสารบ่งชี้สมุนไพร",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R76",
@@ -21278,7 +21459,11 @@
       "application": "Essential oil profiling and residue testing",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "note": "งบปี 70 (ข้อ 19) มีเครื่อง Gas chromatography (GC) แล้ว ต้องตรวจสเปกว่ามีหัวตรวจ Triple Quadrupole MS/MS สำหรับวิเคราะห์สารพิษตกค้างและน้ำมันหอมระเหยความไวสูงหรือไม่"
+      "note": "งบปี 70 (ข้อ 19) มีเครื่อง Gas chromatography (GC) แล้ว ต้องตรวจสเปกว่ามีหัวตรวจ Triple Quadrupole MS/MS สำหรับวิเคราะห์สารพิษตกค้างและน้ำมันหอมระเหยความไวสูงหรือไม่",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R77",
@@ -21292,7 +21477,11 @@
       "application": "Heavy metal limits (lead, arsenic, cadmium, mercury)",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "เครื่อง ICP-MS สำหรับตรวจวิเคราะห์โลหะหนักปนเปื้อนระดับร่องรอย (ตะกั่ว สารหนู แคดเมียม ปรอท) ตามเกณฑ์ตำรายาสมุนไพร"
+      "note": "เครื่อง ICP-MS สำหรับตรวจวิเคราะห์โลหะหนักปนเปื้อนระดับร่องรอย (ตะกั่ว สารหนู แคดเมียม ปรอท) ตามเกณฑ์ตำรายาสมุนไพร",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R23",
@@ -21306,7 +21495,14 @@
       "application": "Authentication against substitution and misidentification",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
-      "note": "ใช้ร่วมกันทั้ง 4 ท่าน (NS, PL, SA, NK) · ตรงกับคำขอปี 71 ลำดับ 57 (folder 145) ต้องตรวจสเปกบล็อก Gradient และความพร้อมสำหรับงาน DNA barcoding สมุนไพร"
+      "note": "ใช้ร่วมกันทั้ง 4 ท่าน (NS, PL, SA, NK) · ตรงกับคำขอปี 71 ลำดับ 57 (folder 145) ต้องตรวจสเปกบล็อก Gradient และความพร้อมสำหรับงาน DNA barcoding สมุนไพร",
+      "users": "NS, PL, SA, NK",
+      "user_list": [
+        "NS",
+        "PL",
+        "SA",
+        "NK"
+      ]
     },
     {
       "id": "R78",
@@ -21320,7 +21516,11 @@
       "application": "Identification of microbial contaminants in finished products",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "เครื่อง MALDI-TOF MS สำหรับจำแนกชนิดจุลินทรีย์ปนเปื้อนในผลิตภัณฑ์สมุนไพรอย่างรวดเร็ว"
+      "note": "เครื่อง MALDI-TOF MS สำหรับจำแนกชนิดจุลินทรีย์ปนเปื้อนในผลิตภัณฑ์สมุนไพรอย่างรวดเร็ว",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R79",
@@ -21334,7 +21534,11 @@
       "application": "Incoming raw material screening and batch-to-batch consistency",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "คำขอปี 71 ลำดับ 2 มีเฉพาะเครื่อง FTIR ยังไม่มีเครื่อง NIR และ Raman spectrometer พร้อมซอฟต์แวร์ Chemometrics สำหรับคัดกรองวัตถุดิบสมุนไพรแบบไม่ทำลายตัวอย่าง"
+      "note": "คำขอปี 71 ลำดับ 2 มีเฉพาะเครื่อง FTIR ยังไม่มีเครื่อง NIR และ Raman spectrometer พร้อมซอฟต์แวร์ Chemometrics สำหรับคัดกรองวัตถุดิบสมุนไพรแบบไม่ทำลายตัวอย่าง",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R80",
@@ -21348,7 +21552,11 @@
       "application": "Characterization of solid-state forms of herbal actives",
       "status": "ปี 71 พักไว้ (Hold/NA)",
       "plan_year": "ปี 71 (NA)",
-      "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผน"
+      "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผน",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R81",
@@ -21362,7 +21570,11 @@
       "application": "Stability and compatibility studies of formulations",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 71",
-      "note": "คำขอปี 71 ลำดับ 3 (folder 73) มีเครื่อง DSC อยู่แล้ว (ขอตามรายวิชา) แต่ต้องตรวจสเปกว่าครอบคลุมชุดวิเคราะห์ TGA (Thermogravimetric Analyzer) หรือเป็น STA (Simultaneous DSC-TGA) หรือไม่"
+      "note": "คำขอปี 71 ลำดับ 3 (folder 73) มีเครื่อง DSC อยู่แล้ว (ขอตามรายวิชา) แต่ต้องตรวจสเปกว่าครอบคลุมชุดวิเคราะห์ TGA (Thermogravimetric Analyzer) หรือเป็น STA (Simultaneous DSC-TGA) หรือไม่",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R82",
@@ -21376,7 +21588,11 @@
       "application": "Fingerprint-based quality control as used in Chinese pharmacopeia practice",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ซอฟต์แวร์ประเมินความคล้ายคลึงของลายพิมพ์นิ้วมือโครมาโทกราฟี (Chromatographic Fingerprint Similarity) ตามแนวทางตำรายาจีน (Chinese Pharmacopoeia)"
+      "note": "ซอฟต์แวร์ประเมินความคล้ายคลึงของลายพิมพ์นิ้วมือโครมาโทกราฟี (Chromatographic Fingerprint Similarity) ตามแนวทางตำรายาจีน (Chinese Pharmacopoeia)",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R83",
@@ -21390,7 +21606,11 @@
       "application": "Release profiling of tablets, granules and patches",
       "status": "มีในแผน แต่ต้องตรวจสเปก",
       "plan_year": "ปี 70",
-      "note": "งบปี 70 (ข้อ 14) มีการจัดซื้อเครื่องวัดการละลาย (Dissolution apparatus) แล้ว ต้องตรวจสเปกว่ามีระบบสุ่มเก็บตัวอย่างอัตโนมัติเชื่อมออนไลน์กับ UV/HPLC หรือไม่"
+      "note": "งบปี 70 (ข้อ 14) มีการจัดซื้อเครื่องวัดการละลาย (Dissolution apparatus) แล้ว ต้องตรวจสเปกว่ามีระบบสุ่มเก็บตัวอย่างอัตโนมัติเชื่อมออนไลน์กับ UV/HPLC หรือไม่",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R84",
@@ -21404,7 +21624,11 @@
       "application": "Rapid sensory consistency checks of herbal products",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "ระบบจมูกและลิ้นอิเล็กทรอนิกส์ (E-nose / E-tongue) สำหรับสร้างลายพิมพ์นิ้วมือทางประสาทสัมผัสของกลิ่นและรสผลิตภัณฑ์สมุนไพร"
+      "note": "ระบบจมูกและลิ้นอิเล็กทรอนิกส์ (E-nose / E-tongue) สำหรับสร้างลายพิมพ์นิ้วมือทางประสาทสัมผัสของกลิ่นและรสผลิตภัณฑ์สมุนไพร",
+      "users": "NK",
+      "user_list": [
+        "NK"
+      ]
     },
     {
       "id": "R01",
@@ -21418,7 +21642,2278 @@
       "application": "Confirms bioactivity of standardized extracts and fractions",
       "status": "ไม่มีในแผน",
       "plan_year": "ไม่มี",
-      "note": "รวม 4 แถวที่ซ้ำความหมาย (PL 1, NS 2, NK 1: Cell-based bioassay platform / high-content screening สำหรับยืนยันฤทธิ์ชีวภาพของสารสกัดสมุนไพร)"
+      "note": "รวม 4 แถวที่ซ้ำความหมาย (PL 1, NS 2, NK 1: Cell-based bioassay platform / high-content screening สำหรับยืนยันฤทธิ์ชีวภาพของสารสกัดสมุนไพร)",
+      "users": "NS, PL, NK",
+      "user_list": [
+        "NS",
+        "PL",
+        "NK"
+      ]
     }
-  ]
+  ],
+  "faculty_showcases": {
+    "NK": {
+      "code": "NK",
+      "eyebrow": "NARISA KAMKAN'S REQUEST · ADVANCED HERBAL PHARMACY INSTRUMENTS (๒๙ รายการ)",
+      "title": "ความต้องการเครื่องมือขั้นสูงด้านเภสัชกรรมสมุนไพร — รองศาสตราจารย์ ดร.เภสัชกรหญิงนริศา คำแก่น (NK)",
+      "subtitle": "แบ่งเป็น ๓ หมวดหลัก: ๑) การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (๗ รายการ) · ๒) กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (๘ รายการ) · ๓) การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (๑๔ รายการ · ใช้ร่วมกับ NS/PL/SA ได้ ๓ รายการ คือ R01, R22, R23/R29)",
+      "total_items": 29,
+      "categories": [
+        {
+          "no": 1,
+          "short": "๑. การสกัดสมุนไพร (7)",
+          "title": "หมวดที่ ๑: การสกัดและแยกสารสำคัญสมุนไพรขั้นสูง (Advanced Extraction & Purification — ๗ รายการ)",
+          "icon": "fa-flask-vial",
+          "items": [
+            {
+              "id": "R59",
+              "id_label": "R59",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 1,
+              "instrument": "Pressurized liquid extraction (PLE / ASE)",
+              "capability": "Automated high-pressure, high-temperature extraction with solvent and time control",
+              "application": "Fast, reproducible extraction of standardized herbal extracts",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "งบปี 70 มีเฉพาะชุดสกัด Soxhlet (ข้อ 52) และ Percolator (ข้อ 39) พื้นฐานสำหรับการสอน ยังไม่มีระบบสกัดแรงดันสูง-อุณหภูมิสูงอัตโนมัติ (PLE/ASE)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R60",
+              "id_label": "R60",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 2,
+              "instrument": "Multi-stage countercurrent extraction line",
+              "capability": "Automated multi-tank extraction with closed-loop solvent recovery",
+              "application": "Large-batch GMP extraction with consistent yield",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบสกัดไหลสวนทางหลายขั้นตอนแบบปิดพร้อมระบบหมุนเวียนตัวทำละลาย สำหรับงานสกัดสมุนไพรมาตรฐาน GMP ระดับขยายขนาด",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R61",
+              "id_label": "R61",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 3,
+              "instrument": "Supercritical fluid extraction (SFE-CO2) with modifier",
+              "capability": "Solvent-free extraction with pressure and modifier programming",
+              "application": "Essential oils and lipophilic compounds without residual solvent",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบสกัดด้วยของไหลวิกฤตยิ่งยวด (SFE-CO₂) พร้อมปั๊มเติมตัวทำละลายร่วม สำหรับสกัดน้ำมันหอมระเหยและสารไม่ชอบน้ำโดยไร้ตัวทำละลายตกค้าง",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R62",
+              "id_label": "R62",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 4,
+              "instrument": "Ultrafiltration / nanofiltration membrane system",
+              "capability": "Selective separation by molecular weight cut-off",
+              "application": "Purification and concentration of polysaccharides and bioactive fractions",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบเมมเบรนคัดแยกตามขนาดโมเลกุล (MWCO) สำหรับทำบริสุทธิ์พอลิแซ็กคาไรด์และแฟรกชันออกฤทธิ์ (งบปี 70 ข้อ 15 เป็นเพียงชุดกรองพื้นฐาน)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R63",
+              "id_label": "R63",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 5,
+              "instrument": "Macroporous resin column chromatography system",
+              "capability": "Automated adsorption and elution with fraction collection",
+              "application": "Enrichment of target compounds such as flavonoids or saponins",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบคอลัมน์เรซินรูพรุนขนาดใหญ่อัตโนมัติพร้อมชุดเก็บแฟรกชัน สำหรับเพิ่มความเข้มข้นสารกลุ่มฟลาโวนอยด์หรือซาโปนิน",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R64",
+              "id_label": "R64",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 6,
+              "instrument": "Thin-film evaporator / multi-effect concentrator",
+              "capability": "Low-temperature, short-residence-time concentration",
+              "application": "Preserves heat-sensitive actives during concentration",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "เครื่องระเหยข้นแบบฟิล์มบาง/หลายหอ ใช้อุณหภูมิต่ำและเวลาสัมผัสร้อนสั้นเพื่อรักษาสารสำคัญที่ไวต่อความร้อน (งบปี 70 มีเฉพาะ Rotary evaporator ระดับห้องปฏิบัติการ)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R65",
+              "id_label": "R65",
+              "grouped_with": null,
+              "group": "การสกัดและแยกสารบริสุทธิ์",
+              "table_no": 1,
+              "no": 7,
+              "instrument": "Preparative HPLC / high-speed countercurrent chromatography (HSCCC)",
+              "capability": "Scalable isolation of individual compounds with high purity",
+              "application": "Preparation of reference standards and marker compounds",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบแยกสารบริสุทธิ์ระดับ Preparative HPLC / HSCCC สำหรับเตรียมสารมาตรฐานอ้างอิงและสารบ่งชี้ (ในแผนปี 70–71 มีเฉพาะ Analytical HPLC/UPLC และ R21 เป็น FPLC สำหรับโปรตีนของ PL)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "short": "๒. การผลิตและพัฒนาตำรับ (8)",
+          "title": "หมวดที่ ๒: กระบวนการผลิตและพัฒนาตำรับสมุนไพรขั้นสูง (Advanced Herbal Manufacturing & Formulation — ๘ รายการ)",
+          "icon": "fa-industry",
+          "items": [
+            {
+              "id": "R66",
+              "id_label": "R66",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 1,
+              "instrument": "Continuous manufacturing line (twin-screw granulator)",
+              "capability": "Continuous wet or dry granulation with inline control",
+              "application": "Consistent quality for high-volume herbal tablets and granules",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบผลิตแกรนูลแบบต่อเนื่อง (Twin-Screw Granulator) พร้อมการควบคุมในสายการผลิต (ในแผนมีเฉพาะ Granulator แบบกะในชุดปี 70 และ High Shear Granulator ปี 71 ที่ติด Hold)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R67",
+              "id_label": "R67",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 2,
+              "instrument": "Process Analytical Technology (PAT): inline NIR and Raman probes",
+              "capability": "Real-time monitoring of moisture, blend uniformity and API content",
+              "application": "Batch release based on process data rather than end-testing only",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "หัววัด NIR และ Raman แบบติดตั้งในสายการผลิต (Inline PAT) เพื่อติดตามความชื้น ความสม่ำเสมอของการผสม และปริมาณสารสำคัญแบบเรียลไทม์ (เชื่อมต่อชุดสเปกโทรมิเตอร์ R79 ได้)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R68",
+              "id_label": "R68",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 3,
+              "instrument": "Hot-melt extruder",
+              "capability": "Solid dispersion formation with precise temperature and screw control",
+              "application": "Improves solubility of poorly soluble herbal actives such as curcumin",
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold)",
+              "note": "ตรงกับคำขอปี 71 ลำดับ 8 (folder 79) เครื่องเอ็กซ์ทรูเดอร์แบบหลอมความร้อน แต่ติดสถานะ Hold (Y5) ต้องทบทวนปลด Hold เพื่อใช้ทำวิจัย Solid dispersion ของสารสกัดสมุนไพร",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R69",
+              "id_label": "R69",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 4,
+              "instrument": "Automated spray dryer with inlet/outlet control",
+              "capability": "Controlled particle morphology and moisture content",
+              "application": "Standardized herbal powder for capsules and sachets",
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold)",
+              "note": "ตรงกับคำขอปี 71 ลำดับ 10 (folder 81) เครื่องทำแห้งแบบพ่นฝอย (Spray dryer) แต่ติดสถานะ Hold (Y5)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R70",
+              "id_label": "R70",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 5,
+              "instrument": "Lyophilizer with programmed freezing and drying cycles",
+              "capability": "Automated, validated freeze-drying with recording",
+              "application": "Stable products for heat-sensitive extracts and injectables",
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold)",
+              "note": "ตรงกับคำขอปี 71 ลำดับ 9 (folder 80) Freeze dryer ซึ่งติดสถานะ Hold (Y5) และตรงกับแผนแม่บทวิจัย 5 ปี ลำดับที่ 2 (Laboratory freeze dryer)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R71",
+              "id_label": "R71",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 6,
+              "instrument": "Automatic capsule filling and tablet press with in-process weight control",
+              "capability": "High-speed filling with automated weight and hardness checks",
+              "application": "GMP-compliant production with minimal operator intervention",
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold)",
+              "note": "คำขอปี 71 ลำดับ 28 (Rotary tablet press) และลำดับ 29 (Capsule filling machine) ติดสถานะ Hold (Y3) ทั้งคู่ และต้องตรวจสเปกระบบควบคุมน้ำหนัก/ความแข็งอัตโนมัติระหว่างผลิต",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R72",
+              "id_label": "R72",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 7,
+              "instrument": "Hot-air or pan coating system with automated spray control",
+              "capability": "Uniform film or enteric coating with controlled process parameters",
+              "application": "Taste masking and targeted release of herbal tablets",
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 70",
+              "note": "รวมในชุดงบปี 70 (ข้อ 9 เครื่องเคลือบฟิล์ม และข้อ 10 เครื่องเคลือบแบบหม้อ) ต้องตรวจสเปกใน TOR ว่ามีระบบควบคุมการพ่นสเปรย์อัตโนมัติหรือไม่",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R73",
+              "id_label": "R73",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 2,
+              "no": 8,
+              "instrument": "Cleanroom with HEPA filtration and environmental monitoring (ISO 8 / ISO 7)",
+              "capability": "Continuous particle and microbial monitoring",
+              "application": "Meets GMP grade requirements for sterile or high-purity herbal products",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบห้องสะอาด ISO 8 / ISO 7 พร้อมระบบกรอง HEPA และระบบติดตามอนุภาค/จุลชีพต่อเนื่อง สำหรับการผลิตผลิตภัณฑ์สมุนไพรบริสุทธิ์สูงตามมาตรฐาน GMP",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "short": "๓. การวิเคราะห์และควบคุมคุณภาพ (14)",
+          "title": "หมวดที่ ๓: การวิเคราะห์ ควบคุมคุณภาพ และฤทธิ์ทางชีวภาพสมุนไพรขั้นสูง (Advanced Analytical, QC & Bioassay — ๑๔ รายการ)",
+          "icon": "fa-microscope",
+          "items": [
+            {
+              "id": "R74",
+              "id_label": "R74",
+              "grouped_with": null,
+              "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
+              "table_no": 3,
+              "no": 1,
+              "instrument": "UHPLC-Q-TOF-MS (high-resolution LC-MS)",
+              "capability": "Accurate-mass identification of hundreds of compounds in one run",
+              "application": "Untargeted chemical profiling and identification of adulterants",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "คำขอปี 71 ลำดับ 12 มีเฉพาะเครื่อง UPLC ส่วนลำดับ 13 (R22) เป็น QqQ LC-MS/MS ที่ติด Hold ยังไม่มีหัวตรวจวัดมวลความละเอียดสูง Q-TOF-MS สำหรับทำ Untargeted metabolomics",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R22",
+              "id_label": "R22",
+              "grouped_with": "PL (R22)",
+              "group": "เจล/โปรตีน",
+              "table_no": 3,
+              "no": 2,
+              "instrument": "UHPLC-QqQ-MS/MS (triple quadrupole)",
+              "capability": "Highly sensitive, targeted quantitation with multiple reaction monitoring",
+              "application": "Quantitation of markers and multi-residue pesticide analysis",
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold/NA)",
+              "note": "จัดกลุ่มรวม PL (Proteomics) และ NK (UHPLC-QqQ-MS/MS วิเคราะห์สารบ่งชี้สมุนไพรและสารพิษตกค้าง) · ตรงกับคำขอปี 71 ลำดับ 13 (folder 85) ซึ่งติดสถานะ Hold",
+              "users": "PL, NK",
+              "user_list": [
+                "PL",
+                "NK"
+              ]
+            },
+            {
+              "id": "R75",
+              "id_label": "R75",
+              "grouped_with": null,
+              "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
+              "table_no": 3,
+              "no": 3,
+              "instrument": "Quantitative NMR (qNMR, 400–600 MHz)",
+              "capability": "Absolute quantification without identical reference standards",
+              "application": "Purity assignment of reference standards and marker compounds",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "เครื่องนิวเคลียร์แมกเนติกเรโซแนนซ์เชิงปริมาณ (qNMR 400–600 MHz) สำหรับหาความบริสุทธิ์สัมบูรณ์ของสารมาตรฐานและสารบ่งชี้สมุนไพร",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R76",
+              "id_label": "R76",
+              "grouped_with": null,
+              "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
+              "table_no": 3,
+              "no": 4,
+              "instrument": "GC-MS/MS",
+              "capability": "High-sensitivity analysis of volatile compounds and pesticide residues",
+              "application": "Essential oil profiling and residue testing",
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 70",
+              "note": "งบปี 70 (ข้อ 19) มีเครื่อง Gas chromatography (GC) แล้ว ต้องตรวจสเปกว่ามีหัวตรวจ Triple Quadrupole MS/MS สำหรับวิเคราะห์สารพิษตกค้างและน้ำมันหอมระเหยความไวสูงหรือไม่",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R77",
+              "id_label": "R77",
+              "grouped_with": null,
+              "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
+              "table_no": 3,
+              "no": 5,
+              "instrument": "ICP-MS (inductively coupled plasma mass spectrometry)",
+              "capability": "Trace-level multi-element analysis including heavy metals",
+              "application": "Heavy metal limits (lead, arsenic, cadmium, mercury)",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "เครื่อง ICP-MS สำหรับตรวจวิเคราะห์โลหะหนักปนเปื้อนระดับร่องรอย (ตะกั่ว สารหนู แคดเมียม ปรอท) ตามเกณฑ์ตำรายาสมุนไพร",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R23",
+              "id_label": "R23 / R29",
+              "grouped_with": "NS, PL, SA (R23 qPCR & R29 NGS)",
+              "group": "PCR / อณูชีววิทยา",
+              "table_no": 3,
+              "no": 6,
+              "instrument": "DNA barcoding and qPCR / next-generation sequencing (NGS) metabarcoding",
+              "capability": "Species-level identification of plant material and mixtures",
+              "application": "Authentication against substitution and misidentification",
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "note": "ใช้ร่วมกันทั้ง 4 ท่าน (NS, PL, SA, NK) · ตรงกับคำขอปี 71 ลำดับ 57 (folder 145) ต้องตรวจสเปกบล็อก Gradient และความพร้อมสำหรับงาน DNA barcoding สมุนไพร",
+              "users": "NS, PL, SA, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA",
+                "NK"
+              ]
+            },
+            {
+              "id": "R78",
+              "id_label": "R78",
+              "grouped_with": null,
+              "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
+              "table_no": 3,
+              "no": 7,
+              "instrument": "MALDI-TOF MS",
+              "capability": "Rapid microbial identification from colonies",
+              "application": "Identification of microbial contaminants in finished products",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "เครื่อง MALDI-TOF MS สำหรับจำแนกชนิดจุลินทรีย์ปนเปื้อนในผลิตภัณฑ์สมุนไพรอย่างรวดเร็ว",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R79",
+              "id_label": "R79",
+              "grouped_with": null,
+              "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
+              "table_no": 3,
+              "no": 8,
+              "instrument": "NIR and Raman spectrometers with chemometric software",
+              "capability": "Non-destructive, rapid screening of raw materials and finished products",
+              "application": "Incoming raw material screening and batch-to-batch consistency",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "คำขอปี 71 ลำดับ 2 มีเฉพาะเครื่อง FTIR ยังไม่มีเครื่อง NIR และ Raman spectrometer พร้อมซอฟต์แวร์ Chemometrics สำหรับคัดกรองวัตถุดิบสมุนไพรแบบไม่ทำลายตัวอย่าง",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R80",
+              "id_label": "R80",
+              "grouped_with": null,
+              "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
+              "table_no": 3,
+              "no": 9,
+              "instrument": "X-ray powder diffraction (XRPD)",
+              "capability": "Identification of crystalline and amorphous forms",
+              "application": "Characterization of solid-state forms of herbal actives",
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (NA)",
+              "note": "ตรงกับคำขอปี 71 ลำดับ 4 (folder 75) เครื่อง XRPD แต่ถูกติดสถานะ NA (ตัดออก) จากการอัปเดต 3 พ.ย. 69 ต้องทบทวนนำกลับเข้าแผน",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R81",
+              "id_label": "R81",
+              "grouped_with": null,
+              "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
+              "table_no": 3,
+              "no": 10,
+              "instrument": "DSC and TGA thermal analyzers",
+              "capability": "Thermal transitions, decomposition and moisture content",
+              "application": "Stability and compatibility studies of formulations",
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "note": "คำขอปี 71 ลำดับ 3 (folder 73) มีเครื่อง DSC อยู่แล้ว (ขอตามรายวิชา) แต่ต้องตรวจสเปกว่าครอบคลุมชุดวิเคราะห์ TGA (Thermogravimetric Analyzer) หรือเป็น STA (Simultaneous DSC-TGA) หรือไม่",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R82",
+              "id_label": "R82",
+              "grouped_with": null,
+              "group": "โครมาโทกราฟี/แมสสเปกโตรเมทรี",
+              "table_no": 3,
+              "no": 11,
+              "instrument": "Chromatographic fingerprint similarity software",
+              "capability": "Automated similarity evaluation of HPLC or GC fingerprints",
+              "application": "Fingerprint-based quality control as used in Chinese pharmacopeia practice",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ซอฟต์แวร์ประเมินความคล้ายคลึงของลายพิมพ์นิ้วมือโครมาโทกราฟี (Chromatographic Fingerprint Similarity) ตามแนวทางตำรายาจีน (Chinese Pharmacopoeia)",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R83",
+              "id_label": "R83",
+              "grouped_with": null,
+              "group": "เทคโนโลยีเภสัชอุตสาหการ/ผลิตยา",
+              "table_no": 3,
+              "no": 12,
+              "instrument": "Automated dissolution tester with online UV/HPLC sampling",
+              "capability": "Unattended release testing with automated sampling and analysis",
+              "application": "Release profiling of tablets, granules and patches",
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 70",
+              "note": "งบปี 70 (ข้อ 14) มีการจัดซื้อเครื่องวัดการละลาย (Dissolution apparatus) แล้ว ต้องตรวจสเปกว่ามีระบบสุ่มเก็บตัวอย่างอัตโนมัติเชื่อมออนไลน์กับ UV/HPLC หรือไม่",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R84",
+              "id_label": "R84",
+              "grouped_with": null,
+              "group": "สเปกโทรสโกปี/วิเคราะห์คุณลักษณะสาร",
+              "table_no": 3,
+              "no": 13,
+              "instrument": "Electronic nose / electronic tongue",
+              "capability": "Pattern-based sensory fingerprinting of aroma and taste",
+              "application": "Rapid sensory consistency checks of herbal products",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "ระบบจมูกและลิ้นอิเล็กทรอนิกส์ (E-nose / E-tongue) สำหรับสร้างลายพิมพ์นิ้วมือทางประสาทสัมผัสของกลิ่นและรสผลิตภัณฑ์สมุนไพร",
+              "users": "NK",
+              "user_list": [
+                "NK"
+              ]
+            },
+            {
+              "id": "R01",
+              "id_label": "R01",
+              "grouped_with": "NS, PL (R01)",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "table_no": 3,
+              "no": 14,
+              "instrument": "Cell-based bioassay platform (high-content screening)",
+              "capability": "Automated, multi-well measurement of biological activity",
+              "application": "Confirms bioactivity of standardized extracts and fractions",
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "note": "รวม 4 แถวที่ซ้ำความหมาย (PL 1, NS 2, NK 1: Cell-based bioassay platform / high-content screening สำหรับยืนยันฤทธิ์ชีวภาพของสารสกัดสมุนไพร)",
+              "users": "NS, PL, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "NK"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "PL": {
+      "code": "PL",
+      "eyebrow": "PATWIKA LERTPATIPANPONG'S REQUEST · MOLECULAR BIOLOGY, GENOMICS & PROTEOMICS (๔๐ รายการ)",
+      "title": "ความต้องการเครื่องมือวิจัยด้านชีววิทยาโมเลกุล พันธุศาสตร์ และเพาะเลี้ยงเซลล์ — อาจารย์ ดร.เภสัชกรหญิงปัฐวิกา เลิศปฏิภานพงษ์ (PL)",
+      "subtitle": "แบ่งเป็น ๔ หมวดหลัก: ๑) อณูชีววิทยา พันธุศาสตร์ และวิเคราะห์โปรตีนขั้นสูง (๑๓ รายการ) · ๒) กล้องจุลทรรศน์ขั้นสูงและเพาะเลี้ยงเซลล์ (๘ รายการ) · ๓) ระบบจัดเก็บตัวอย่างอุณหภูมิต่ำและเครื่องปั่นเหวี่ยง (๖ รายการ) · ๔) เครื่องมือพื้นฐานห้องปฏิบัติการชีววิทยาโมเลกุล (๑๓ รายการ)",
+      "total_items": 40,
+      "categories": [
+        {
+          "no": 1,
+          "short": "๑. อณูชีววิทยา & โปรตีน (13)",
+          "title": "หมวดที่ ๑: อณูชีววิทยา พันธุศาสตร์ และวิเคราะห์โปรตีนขั้นสูง (Molecular Biology, Genomics & Proteomics — 13 รายการ)",
+          "icon": "fa-dna",
+          "items": [
+            {
+              "no": 1,
+              "id": "R18",
+              "id_label": "R18",
+              "instrument": "Biacore / Octet (SPR/BLI)",
+              "capability": "Label-free real-time biomolecular interaction analysis via Surface Plasmon Resonance (SPR) or Bio-Layer Interferometry (BLI)",
+              "application": "Kinetic characterization (kon, koff, KD) of antibody-antigen, protein-protein, and small-molecule target binding",
+              "group": "เจล/โปรตีน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 2,
+              "id": "R21",
+              "id_label": "R21",
+              "instrument": "FPLC (ทำโปรตีนบริสุทธิ์)",
+              "capability": "Biocompatible fast protein liquid chromatography (FPLC) with UV/conductivity monitoring and fraction collector (SEC, IEX, Affinity)",
+              "application": "Purification of recombinant proteins, therapeutic antibodies, and native enzyme complexes",
+              "group": "เจล/โปรตีน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold/NA)",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 3,
+              "id": "R22",
+              "id_label": "R22",
+              "instrument": "LC-MS/MS / UHPLC-QqQ-MS/MS (Proteomics & Herbal Quantitation)",
+              "capability": "Highly sensitive, targeted quantitation with multiple reaction monitoring (MRM) & tandem MS",
+              "application": "Quantitation of herbal markers, multi-residue pesticide analysis (NK) & targeted/shotgun proteomics (PL)",
+              "group": "เจล/โปรตีน",
+              "users": "PL, NK",
+              "user_list": [
+                "PL",
+                "NK"
+              ],
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold/NA)",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 4,
+              "id": "R23",
+              "id_label": "R23",
+              "instrument": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+              "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
+              "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)",
+              "group": "PCR",
+              "users": "NS, PL, SA, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA",
+                "NK"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 1300000.0,
+              "max_price": 1327161.0
+            },
+            {
+              "no": 5,
+              "id": "R26",
+              "id_label": "R26",
+              "instrument": "PCR thermal cycler (PL ขอ gradient)",
+              "capability": "Peltier-driven end-point PCR thermal cycler with thermal gradient capability for primer annealing optimization (Bio-Rad T100)",
+              "application": "Routine DNA amplification, cloning, genotyping, and molecular biology assay development",
+              "group": "PCR",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 231189.42,
+              "max_price": 233000.0
+            },
+            {
+              "no": 6,
+              "id": "R27",
+              "id_label": "R27",
+              "instrument": "ชุด Western blot (แยก + ถ่ายโอนแบบ tank)",
+              "capability": "Vertical mini-gel SDS-PAGE electrophoresis tank and wet tank transfer assembly with power supply (Bio-Rad Mini-PROTEAN)",
+              "application": "Size-based protein separation and Western blot analysis of intracellular signaling pathways",
+              "group": "เจล/โปรตีน",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 60011.9916,
+              "max_price": 95500.0
+            },
+            {
+              "no": 7,
+              "id": "R29",
+              "id_label": "R29",
+              "instrument": "Next-generation sequencer (NGS & Herbal Metabarcoding)",
+              "capability": "High-throughput sequencing & multi-species NGS metabarcoding of herbal mixtures",
+              "application": "Genomic sequencing (PL) & species authentication of multi-herb formulations (NK)",
+              "group": "อณูชีววิทยา",
+              "users": "PL, NK",
+              "user_list": [
+                "PL",
+                "NK"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 8,
+              "id": "R38",
+              "id_label": "R38",
+              "instrument": "Multimode microplate reader",
+              "capability": "Monochromator/filter multimode microplate reader supporting UV-Vis absorbance, fluorescence, and luminescence (Synergy H1)",
+              "application": "ELISA, cell viability (MTT/CCK-8), ALP activity, protein quantification (BCA/Bradford), and reporter assays",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 2216936.337,
+              "max_price": 2482667.0
+            },
+            {
+              "no": 9,
+              "id": "R41",
+              "id_label": "R41",
+              "instrument": "เครื่องถ่ายภาพเจล/เคมีลูมิเนสเซนซ์",
+              "capability": "Cooled CCD/CMOS multiplex gel and Western blot imaging system for chemiluminescence, fluorescence, and colorimetric detection (ChemiDoc MP)",
+              "application": "Quantitative densitometry of Western blots (ECL/fluorescent) and nucleic acid gel documentation",
+              "group": "เจล/โปรตีน",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 1230000.0,
+              "max_price": 1734089.5
+            },
+            {
+              "no": 10,
+              "id": "R47",
+              "id_label": "R47",
+              "instrument": "NanoDrop / microvolume UV-Vis",
+              "capability": "Microvolume UV-Vis spectrophotometer (1–2 µL sample) with full-spectrum contaminant detection (NanoDrop One)",
+              "application": "Rapid quantification and purity assessment (A260/A280, A260/A230) of extracted DNA, RNA, and purified proteins",
+              "group": "อณูชีววิทยา",
+              "users": "NS, PL",
+              "user_list": [
+                "NS",
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 327000.0,
+              "max_price": 327000.0
+            },
+            {
+              "no": 11,
+              "id": "R51",
+              "id_label": "R51",
+              "instrument": "ชุด gel electrophoresis แนวนอน + power supply",
+              "capability": "Horizontal submarine agarose gel electrophoresis chamber with digital power supply and casting trays",
+              "application": "Separation and size verification of PCR products, restriction digests, and RNA integrity checks",
+              "group": "เจล/โปรตีน",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 51205.451,
+              "max_price": 51205.451
+            },
+            {
+              "no": 12,
+              "id": "R52",
+              "id_label": "R52",
+              "instrument": "ตู้ PCR สำหรับสกัด RNA",
+              "capability": "Dead-air UV-decontaminated PCR workstation cabinet with HEPA filtration",
+              "application": "Contamination-free RNA extraction, cDNA synthesis, and PCR master mix preparation",
+              "group": "PCR",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 13,
+              "id": "R54",
+              "id_label": "R54",
+              "instrument": "ตู้บ่มพร้อมเขย่าสำหรับ E. coli",
+              "capability": "Temperature-controlled orbital incubator shaker with interchangeable flask clamps",
+              "application": "Aerobic propagation of E. coli and recombinant microbial cultures for plasmid prep and protein expression",
+              "group": "อณูชีววิทยา",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": null,
+              "max_price": null
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "short": "๒. กล้องจุลทรรศน์ & เพาะเลี้ยงเซลล์ (8)",
+          "title": "หมวดที่ ๒: กล้องจุลทรรศน์ขั้นสูงและระบบเพาะเลี้ยงเซลล์ (Advanced Microscopy & Cell Culture — 8 รายการ)",
+          "icon": "fa-microscope",
+          "items": [
+            {
+              "no": 1,
+              "id": "R01",
+              "id_label": "R01",
+              "instrument": "High-content imaging/screening (Cell-based bioassay)",
+              "capability": "Automated, multi-well measurement of biological activity & high-content cellular imaging",
+              "application": "Confirms bioactivity of standardized herbal extracts/fractions (NK) & high-content cell screening (NS, PL)",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "NK"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 15000000.0,
+              "max_price": 25500000.0
+            },
+            {
+              "no": 2,
+              "id": "R06",
+              "id_label": "R06",
+              "instrument": "Confocal microscope",
+              "capability": "Laser scanning confocal microscopy with optical sectioning, spectral detection, and 3D Z-stack reconstruction (ZEISS LSM 900)",
+              "application": "Subcellular protein localization, tight junction architecture, and 3D tissue/spheroid imaging",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL",
+              "user_list": [
+                "NS",
+                "PL"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 6885000.0,
+              "max_price": 6885000.0
+            },
+            {
+              "no": 3,
+              "id": "R16",
+              "id_label": "R16",
+              "instrument": "Hemocytometer",
+              "capability": "Precision etched glass counting chamber (Neubauer improved grid) for manual microscopic cell enumeration",
+              "application": "Routine cell density and trypan blue viability verification in cell culture workflows",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 4,
+              "id": "R24",
+              "id_label": "R24",
+              "instrument": "กล้องฟลูออเรสเซนซ์ (inverted/ดู live cell)",
+              "capability": "Inverted epifluorescence and phase-contrast microscope with high-sensitivity digital CMOS camera (Nikon Eclipse Ts2-FL)",
+              "application": "Live-cell fluorescence imaging, immunofluorescence (IF) of osteogenic/cellular markers, and reporter gene expression",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 425000.0,
+              "max_price": 911621.1500000001
+            },
+            {
+              "no": 5,
+              "id": "R28",
+              "id_label": "R28",
+              "instrument": "ระบบดูดสารทิ้งสุญญากาศ",
+              "capability": "Integrated vacuum pump, collection bottle with hydrophobic overflow filter, and multi-channel aspiration handpiece",
+              "application": "Safe, aseptic removal of spent cell culture supernatants and wash buffers inside biosafety cabinets",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 72723.01960000001,
+              "max_price": 72723.01960000001
+            },
+            {
+              "no": 6,
+              "id": "R40",
+              "id_label": "R40",
+              "instrument": "ตู้ชีวนิรภัย Class II A2",
+              "capability": "NSF/EN-certified Class II Type A2 biological safety cabinet (4 ft) with ULPA/HEPA filtration and laminar airflow",
+              "application": "Sterile handling of mammalian cell lines, primary bone cells, and BSL-2 biological agents",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 481500.0,
+              "max_price": 1847058.9302
+            },
+            {
+              "no": 7,
+              "id": "R45",
+              "id_label": "R45",
+              "instrument": "ตู้บ่ม CO₂",
+              "capability": "Water-jacketed CO₂ incubator (37°C, 5% CO₂) with IR sensor, high-humidity control, and contamination control",
+              "application": "Continuous propagation and maintenance of mammalian cell lines and primary osteoblast/epithelial cultures",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 428617.6202000001,
+              "max_price": 430000.0
+            },
+            {
+              "no": 8,
+              "id": "R53",
+              "id_label": "R53",
+              "instrument": "เครื่องนับเซลล์อัตโนมัติ",
+              "capability": "Automated brightfield/fluorescence benchtop cell counter with disposable or reusable slides",
+              "application": "Fast, operator-independent determination of total cell concentration and live/dead cell ratio",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": null,
+              "max_price": null
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "short": "๓. ตู้แช่เยือกแข็ง & เครื่องปั่นเหวี่ยง (6)",
+          "title": "หมวดที่ ๓: ระบบจัดเก็บตัวอย่างชีวภาพอุณหภูมิต่ำและเครื่องปั่นเหวี่ยง (Cryostorage & Centrifugation — 6 รายการ)",
+          "icon": "fa-snowflake",
+          "items": [
+            {
+              "no": 1,
+              "id": "R20",
+              "id_label": "R20",
+              "instrument": "Refrigerated microcentrifuge (≥15,000 rpm)",
+              "capability": "High-speed refrigerated microcentrifuge (≥15,000 rpm / >21,000 ×g) with rapid precooling to 4°C",
+              "application": "Pelleting of nucleic acids (DNA/RNA), protein precipitates, and temperature-sensitive subcellular fractions",
+              "group": "เครื่องปั่นเหวี่ยง",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold/NA)",
+              "min_price": 115263.0886,
+              "max_price": 115263.0886
+            },
+            {
+              "no": 2,
+              "id": "R32",
+              "id_label": "R32",
+              "instrument": "ตู้แช่แข็ง −20°C",
+              "capability": "Laboratory −20°C freezer with stable temperature regulation for enzyme and reagent storage",
+              "application": "Storage of restriction enzymes, PCR master mixes, antibodies, and chemical standards",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": 314237.6171,
+              "max_price": 314237.6171
+            },
+            {
+              "no": 3,
+              "id": "R42",
+              "id_label": "R42",
+              "instrument": "ตู้แช่แข็ง −80°C",
+              "capability": "Upright ultra-low temperature (−80°C) freezer with dual-compressor/cascade cooling and backup monitoring",
+              "application": "Long-term preservation of RNA, protein lysates, engineered plasmids, viral vectors, and clinical/tissue samples",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 943871.5000000001,
+              "max_price": 943871.5000000001
+            },
+            {
+              "no": 4,
+              "id": "R44",
+              "id_label": "R44",
+              "instrument": "เครื่องปั่นเหวี่ยงหลอด 15/50 mL",
+              "capability": "Benchtop refrigerated centrifuge with swing-bucket and fixed-angle rotors for 15/50 mL conical tubes and microplates",
+              "application": "Cell harvesting, blood/tissue fractionation, and large-volume sample clarification at controlled temperatures",
+              "group": "เครื่องปั่นเหวี่ยง",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71",
+              "min_price": 452368.7366000001,
+              "max_price": 452368.7366000001
+            },
+            {
+              "no": 5,
+              "id": "R46",
+              "id_label": "R46",
+              "instrument": "ถังไนโตรเจนเหลวเก็บเซลล์",
+              "capability": "Vacuum-insulated liquid nitrogen (LN₂) cryogenic storage dewar (≥120 L & 10 L transfer tank) with rack inventory system",
+              "application": "Long-term vapor/liquid-phase cryopreservation of master and working cell banks",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 390829.6656000001,
+              "max_price": 390829.6656000001
+            },
+            {
+              "no": 6,
+              "id": "R55",
+              "id_label": "R55",
+              "instrument": "Mini centrifuge (spin-down)",
+              "capability": "Compact personal microcentrifuge (spin-down) for 1.5/2.0 mL tubes and 8-strip PCR tubes",
+              "application": "Quick collection of droplets from tube walls and caps prior to PCR, qPCR, and enzymatic reactions",
+              "group": "เครื่องปั่นเหวี่ยง",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": null,
+              "max_price": null
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "short": "๔. เครื่องมือพื้นฐานห้องปฏิบัติการ (13)",
+          "title": "หมวดที่ ๔: เครื่องมือพื้นฐานและเตรียมตัวอย่างห้องปฏิบัติการชีววิทยาโมเลกุล (Core Molecular Lab Infrastructure — 13 รายการ)",
+          "icon": "fa-flask",
+          "items": [
+            {
+              "no": 1,
+              "id": "R17",
+              "id_label": "R17",
+              "instrument": "Pipette gun",
+              "capability": "Rechargeable motorized serological pipette controller with adjustable aspiration/dispense speed and hydrophobic filter",
+              "application": "Ergonomic, accurate liquid handling of media and reagents (1–100 mL) in biosafety cabinets",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 2,
+              "id": "R30",
+              "id_label": "R30",
+              "instrument": "Rocking shaker",
+              "capability": "Adjustable-speed and tilt-angle platform rocking shaker for gentle uniform wave mixing",
+              "application": "Gel staining/destaining, Western blot membrane antibody incubation, and hybridizations",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "รายการปี 71 แต่ปีงบว่าง",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 3,
+              "id": "R31",
+              "id_label": "R31",
+              "instrument": "น้ำบริสุทธิ์พิเศษ (MilliQ)",
+              "capability": "Ultrapure Type I water purification system (18.2 MΩ·cm resistivity, <5 ppb TOC, RNase/DNase/endotoxin-free)",
+              "application": "Preparation of molecular biology, HPLC/LC-MS, cell culture, and analytical grade buffers",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 70",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 4,
+              "id": "R33",
+              "id_label": "R33",
+              "instrument": "Vortex mixer",
+              "capability": "Variable-speed touch/continuous orbital vortex mixer for rapid tube resuspension",
+              "application": "Homogeneous mixing of microcentrifuge tubes, assay reagents, and cell pellets",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 5,
+              "id": "R34",
+              "id_label": "R34",
+              "instrument": "เครื่องชั่ง 4 ตำแหน่ง",
+              "capability": "Analytical balance with 0.1 mg (4-decimal) readability, internal calibration, and draft shield",
+              "application": "Accurate weighing of reference standards, buffers, and active pharmaceutical ingredients",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 6,
+              "id": "R35",
+              "id_label": "R35",
+              "instrument": "Autoclave",
+              "capability": "Automated high-pressure steam sterilizer (Autoclave) with programmable sterilization and drying cycles",
+              "application": "Sterilization of culture media, buffers, glassware, and biohazardous waste decontamination",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 7,
+              "id": "R36",
+              "id_label": "R36",
+              "instrument": "Magnetic stirrer + hotplate",
+              "capability": "Ceramic-top digital hotplate magnetic stirrer with precise temperature and rpm feedback control",
+              "application": "Dissolution of reagents, agarose gel preparation, and controlled-temperature chemical mixing",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 8,
+              "id": "R37",
+              "id_label": "R37",
+              "instrument": "pH meter",
+              "capability": "Digital pH/mV/conductivity meter with automatic temperature compensation (ATC) and multi-point calibration",
+              "application": "Precise pH adjustment of physiological buffers (Krebs, Ringer, PBS) and culture media",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 9,
+              "id": "R49",
+              "id_label": "R49",
+              "instrument": "Micropipette set",
+              "capability": "Calibrated single-channel (P1–P1000) and multichannel (P100, P300) variable-volume micropipette sets with stands",
+              "application": "Precision microliter liquid dispensing for PCR, qPCR, ELISA, and cell-based assays",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 138744.045,
+              "max_price": 138744.045
+            },
+            {
+              "no": 10,
+              "id": "R50",
+              "id_label": "R50",
+              "instrument": "อ่างน้ำควบคุมอุณหภูมิ",
+              "capability": "Digital temperature-controlled stainless steel water bath (24 L) with uniform thermal circulation",
+              "application": "Pre-warming of cell culture media, rapid thawing of cryovials at 37°C, and enzymatic incubations",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71",
+              "min_price": 59435.2,
+              "max_price": 59435.2
+            },
+            {
+              "no": 11,
+              "id": "R56",
+              "id_label": "R56",
+              "instrument": "Orbital shaker",
+              "capability": "Benchtop digital orbital platform shaker with continuous duty motor",
+              "application": "Uniform mixing, gel washing, and suspension aeration at ambient temperature",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71 (ปีงบว่าง)",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 12,
+              "id": "R57",
+              "id_label": "R57",
+              "instrument": "Tissue homogenizer / sonicator",
+              "capability": "High-speed mechanical rotor-stator tissue homogenizer and ultrasonic probe sonicator",
+              "application": "Disruption of animal tissues, plant matrices, and bacterial/mammalian cells for protein and nucleic acid extraction",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71",
+              "min_price": null,
+              "max_price": null
+            },
+            {
+              "no": 13,
+              "id": "R58",
+              "id_label": "R58",
+              "instrument": "เครื่องทำน้ำแข็งเกล็ด",
+              "capability": "Continuous automatic flake ice maker with insulated storage bin",
+              "application": "Maintaining 0–4°C ice baths during RNA extraction, protein lysis, and enzyme setup to prevent degradation",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL",
+              "user_list": [
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": null,
+              "max_price": null
+            }
+          ]
+        }
+      ]
+    },
+    "NS": {
+      "code": "NS",
+      "eyebrow": "NIPITPON SRIMAI'S REQUEST · ELECTROPHYSIOLOGY & HIGH-CONTENT CELLULAR SCREENING (๒๕ รายการ)",
+      "title": "ความต้องการเครื่องมือวิจัยด้านสรีรวิทยาไฟฟ้าและการคัดกรองเซลล์สมรรถนะสูง (หน่วยวิจัย GenZ) — อาจารย์ ดร.นิพิฐพนธ์ ศรีไม้ (NS)",
+      "subtitle": "แบ่งเป็น ๔ หมวดหลัก: ๑) สรีรวิทยาไฟฟ้าและการขนส่งไอออนผ่านเยื่อหุ้มเซลล์ (๔ รายการ) · ๒) การคัดกรองเซลล์สมรรถนะสูงและกล้องจุลทรรศน์ขั้นสูง (๘ รายการ) · ๓) เมตาบอลิซึมของเซลล์และการคัดแยกเซลล์ด้วยแสงเลเซอร์ (๖ รายการ) · ๔) อณูชีววิทยา ddPCR/qPCR และวิเคราะห์โปรตีน (๗ รายการ)",
+      "total_items": 25,
+      "categories": [
+        {
+          "no": 1,
+          "short": "๑. สรีรวิทยาไฟฟ้า & ขนส่งไอออน (4)",
+          "title": "หมวดที่ ๑: สรีรวิทยาไฟฟ้าและการขนส่งไอออนผ่านเยื่อหุ้มเซลล์ (Electrophysiology & Epithelial Ion Transport — 4 รายการ)",
+          "icon": "fa-bolt",
+          "items": [
+            {
+              "no": 1,
+              "id": "R03",
+              "id_label": "R03",
+              "instrument": "Patch-clamp system",
+              "capability": "Ultra-low-noise voltage/current clamp recording with micromanipulator and inverted microscope integration",
+              "application": "Direct single-cell and whole-cell ion channel electrophysiology (CFTR, TMEM16A, and membrane transporters)",
+              "group": "ไฟฟ้าสรีรวิทยา (NS)",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 14000000.0,
+              "max_price": 14000000.0
+            },
+            {
+              "no": 2,
+              "id": "R04",
+              "id_label": "R04",
+              "instrument": "Automated patch-clamp",
+              "capability": "Multi-channel planar patch-clamp array with automated cell capture and microfluidic compound perfusion (Nanion Patchliner)",
+              "application": "Medium-throughput pharmacological profiling and IC50/EC50 determination of ion channel modulators",
+              "group": "ไฟฟ้าสรีรวิทยา (NS)",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 3760000.0,
+              "max_price": 11280000.0
+            },
+            {
+              "no": 3,
+              "id": "R08",
+              "id_label": "R08",
+              "instrument": "Ussing chamber (cell & tissue)",
+              "capability": "Multi-channel epithelial transport chamber with short-circuit current (Isc) and voltage clamp amplifier (EasyMount P2300 EM8-C)",
+              "application": "Vectorial ion transport, drug permeability, and barrier function across polarized epithelial monolayers and intestinal tissues",
+              "group": "ไฟฟ้าสรีรวิทยา (NS)",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 3500000.0,
+              "max_price": 3500000.0
+            },
+            {
+              "no": 4,
+              "id": "R14",
+              "id_label": "R14",
+              "instrument": "Epithelial voltohmmeter (TEER)",
+              "capability": "Digital chopstick/EndOhm voltohmmeter for non-destructive transepithelial electrical resistance (TEER) measurement (Millicell ERS 3.0)",
+              "application": "Quality control of epithelial monolayer integrity and blood-brain/intestinal barrier permeability models",
+              "group": "ไฟฟ้าสรีรวิทยา (NS)",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 500000.0,
+              "max_price": 500000.0
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "short": "๒. คัดกรองเซลล์สมรรถนะสูง & ภาพ (8)",
+          "title": "หมวดที่ ๒: การคัดกรองเซลล์สมรรถนะสูง กล้องจุลทรรศน์ขั้นสูง และระบบเลี้ยงเซลล์ควบคุมก๊าซ (HCS/HTS Imaging & Cell Culture — 8 รายการ)",
+          "icon": "fa-microscope",
+          "items": [
+            {
+              "no": 1,
+              "id": "R01",
+              "id_label": "R01",
+              "instrument": "High-content imaging/screening (Cell-based bioassay)",
+              "capability": "Automated, multi-well measurement of biological activity & high-content cellular imaging",
+              "application": "Confirms bioactivity of standardized herbal extracts/fractions (NK) & high-content cell screening (NS, PL)",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "NK"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 15000000.0,
+              "max_price": 25500000.0
+            },
+            {
+              "no": 2,
+              "id": "R02",
+              "id_label": "R02",
+              "instrument": "High-throughput cellular screening",
+              "capability": "High-speed kinetic fluorescence/luminescence screening across 96/384-well plates with automated liquid handling (FLIPR Penta)",
+              "application": "High-throughput intracellular Ca²⁺ flux, membrane potential, and GPCR/ion-channel drug discovery assays",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 20000000.0,
+              "max_price": 20000000.0
+            },
+            {
+              "no": 3,
+              "id": "R06",
+              "id_label": "R06",
+              "instrument": "Confocal microscope",
+              "capability": "Laser scanning confocal microscopy with optical sectioning, spectral detection, and 3D Z-stack reconstruction (ZEISS LSM 900)",
+              "application": "Subcellular protein localization, tight junction architecture, and 3D tissue/spheroid imaging",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL",
+              "user_list": [
+                "NS",
+                "PL"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 6885000.0,
+              "max_price": 6885000.0
+            },
+            {
+              "no": 4,
+              "id": "R10",
+              "id_label": "R10",
+              "instrument": "ระบบถ่ายภาพ live-cell อัตโนมัติ",
+              "capability": "Incubator-compatible automated time-lapse fluorescence and brightfield live-cell imaging system (Curiosis Celloger Mini Plus)",
+              "application": "Continuous real-time monitoring of cell proliferation, wound healing, migration, and osteogenic differentiation dynamics",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, SA",
+              "user_list": [
+                "NS",
+                "SA"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 1500000.0,
+              "max_price": 1958491.15
+            },
+            {
+              "no": 5,
+              "id": "R24",
+              "id_label": "R24",
+              "instrument": "กล้องฟลูออเรสเซนซ์ (inverted/ดู live cell)",
+              "capability": "Inverted epifluorescence and phase-contrast microscope with high-sensitivity digital CMOS camera (Nikon Eclipse Ts2-FL)",
+              "application": "Live-cell fluorescence imaging, immunofluorescence (IF) of osteogenic/cellular markers, and reporter gene expression",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 425000.0,
+              "max_price": 911621.1500000001
+            },
+            {
+              "no": 6,
+              "id": "R19",
+              "id_label": "R19",
+              "instrument": "ตู้บ่ม Tri-gas (คุม O₂)",
+              "capability": "Water-jacketed tri-gas incubator with independent O₂ (1–21%) and CO₂ control and HEPA filtration (Heracell VIOS 160i Tri-Gas)",
+              "application": "Physiological hypoxia/normoxia modeling, stem cell niche maintenance, and ischemia-reperfusion studies",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold/NA)",
+              "min_price": 612000.0,
+              "max_price": 612000.0
+            },
+            {
+              "no": 7,
+              "id": "R40",
+              "id_label": "R40",
+              "instrument": "ตู้ชีวนิรภัย Class II A2",
+              "capability": "NSF/EN-certified Class II Type A2 biological safety cabinet (4 ft) with ULPA/HEPA filtration and laminar airflow",
+              "application": "Sterile handling of mammalian cell lines, primary bone cells, and BSL-2 biological agents",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 481500.0,
+              "max_price": 1847058.9302
+            },
+            {
+              "no": 8,
+              "id": "R45",
+              "id_label": "R45",
+              "instrument": "ตู้บ่ม CO₂",
+              "capability": "Water-jacketed CO₂ incubator (37°C, 5% CO₂) with IR sensor, high-humidity control, and contamination control",
+              "application": "Continuous propagation and maintenance of mammalian cell lines and primary osteoblast/epithelial cultures",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 428617.6202000001,
+              "max_price": 430000.0
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "short": "๓. เมตาบอลิซึม & วิเคราะห์เซลล์ (6)",
+          "title": "หมวดที่ ๓: การวิเคราะห์เมตาบอลิซึมของเซลล์ การคัดแยกเซลล์ด้วยแสงเลเซอร์ และส่งถ่ายยีน (Cellular Metabolism, FACS & Functional Assays — 6 รายการ)",
+          "icon": "fa-chart-line",
+          "items": [
+            {
+              "no": 1,
+              "id": "R05",
+              "id_label": "R05",
+              "instrument": "Seahorse / cell metabolic analyzer",
+              "capability": "Real-time simultaneous measurement of oxygen consumption rate (OCR) and extracellular acidification rate (ECAR) in live cells (Agilent Seahorse XF Pro)",
+              "application": "Mitochondrial respiration, glycolysis, and cellular bioenergetics in epithelial and bone cells (osteoblasts/osteoclasts)",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS, SA",
+              "user_list": [
+                "NS",
+                "SA"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 7072000.0,
+              "max_price": 9967877.392
+            },
+            {
+              "no": 2,
+              "id": "R07",
+              "id_label": "R07",
+              "instrument": "Fluorescence-activated cell sorter",
+              "capability": "Multi-laser fluorescence-activated cell sorting (FACS) with high-purity single-cell and multi-way sorting (BD FACSMelody)",
+              "application": "Isolation of specific cell subpopulations, CRISPR-edited clones, and primary stem/progenitor cells",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 6120000.0,
+              "max_price": 6120000.0
+            },
+            {
+              "no": 3,
+              "id": "R12",
+              "id_label": "R12",
+              "instrument": "Liquid scintillation beta counter",
+              "capability": "High-efficiency beta-particle liquid scintillation counting with luminescence correction",
+              "application": "Radiolabeled solute transport, receptor-ligand binding assays, and metabolic tracer studies",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 710000.0,
+              "max_price": 710000.0
+            },
+            {
+              "no": 4,
+              "id": "R25",
+              "id_label": "R25",
+              "instrument": "Electroporation สำหรับส่ง Cas9",
+              "capability": "Pipette-tip chamber electroporation system with customizable pulse voltage, width, and number (Invitrogen Neon NxT)",
+              "application": "High-efficiency delivery of CRISPR-Cas9 ribonucleoproteins (RNPs), siRNA, and plasmid DNA into hard-to-transfect cells",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 405000.0,
+              "max_price": 405000.0
+            },
+            {
+              "no": 5,
+              "id": "R38",
+              "id_label": "R38",
+              "instrument": "Multimode microplate reader",
+              "capability": "Monochromator/filter multimode microplate reader supporting UV-Vis absorbance, fluorescence, and luminescence (Synergy H1)",
+              "application": "ELISA, cell viability (MTT/CCK-8), ALP activity, protein quantification (BCA/Bradford), and reporter assays",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 2216936.337,
+              "max_price": 2482667.0
+            },
+            {
+              "no": 6,
+              "id": "R39",
+              "id_label": "R39",
+              "instrument": "Flow cytometer",
+              "capability": "Multi-laser benchtop flow cytometer with avalanche photodiode detectors for high-sensitivity immunophenotyping (CytoFLEX)",
+              "application": "Cell cycle analysis, apoptosis (Annexin V/PI), surface/intracellular marker profiling, and ROS quantification",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 1904000.0,
+              "max_price": 1904000.0
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "short": "๔. อณูชีววิทยา ddPCR/qPCR & โปรตีน (7)",
+          "title": "หมวดที่ ๔: อณูชีววิทยาความไวสูง (ddPCR/qPCR) และวิเคราะห์การแสดงออกของโปรตีน (Molecular Biology & Protein Analysis — 7 รายการ)",
+          "icon": "fa-dna",
+          "items": [
+            {
+              "no": 1,
+              "id": "R09",
+              "id_label": "R09",
+              "instrument": "Droplet digital PCR",
+              "capability": "Nanoliter droplet partitioning (~20,000 droplets/sample) for absolute nucleic acid quantification without standard curves (Bio-Rad QX200 ddPCR)",
+              "application": "Ultra-sensitive detection of rare mutations, copy number variation (CNV), and low-abundance transcripts",
+              "group": "PCR",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 2210000.0,
+              "max_price": 3060000.0
+            },
+            {
+              "no": 2,
+              "id": "R15",
+              "id_label": "R15",
+              "instrument": "Western blot แบบ semi-dry transfer",
+              "capability": "Rapid high-efficiency semi-dry electroblotting system (7–10 min transfer) with integrated power supply (Bio-Rad Trans-Blot Turbo)",
+              "application": "Fast, reproducible protein transfer from SDS-PAGE gels to PVDF/nitrocellulose membranes for Western blotting",
+              "group": "เจล/โปรตีน",
+              "users": "NS",
+              "user_list": [
+                "NS"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 121500.0,
+              "max_price": 121500.0
+            },
+            {
+              "no": 3,
+              "id": "R23",
+              "id_label": "R23",
+              "instrument": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+              "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
+              "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)",
+              "group": "PCR",
+              "users": "NS, PL, SA, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA",
+                "NK"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 1300000.0,
+              "max_price": 1327161.0
+            },
+            {
+              "no": 4,
+              "id": "R26",
+              "id_label": "R26",
+              "instrument": "PCR thermal cycler (PL ขอ gradient)",
+              "capability": "Peltier-driven end-point PCR thermal cycler with thermal gradient capability for primer annealing optimization (Bio-Rad T100)",
+              "application": "Routine DNA amplification, cloning, genotyping, and molecular biology assay development",
+              "group": "PCR",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 231189.42,
+              "max_price": 233000.0
+            },
+            {
+              "no": 5,
+              "id": "R27",
+              "id_label": "R27",
+              "instrument": "ชุด Western blot (แยก + ถ่ายโอนแบบ tank)",
+              "capability": "Vertical mini-gel SDS-PAGE electrophoresis tank and wet tank transfer assembly with power supply (Bio-Rad Mini-PROTEAN)",
+              "application": "Size-based protein separation and Western blot analysis of intracellular signaling pathways",
+              "group": "เจล/โปรตีน",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 60011.9916,
+              "max_price": 95500.0
+            },
+            {
+              "no": 6,
+              "id": "R41",
+              "id_label": "R41",
+              "instrument": "เครื่องถ่ายภาพเจล/เคมีลูมิเนสเซนซ์",
+              "capability": "Cooled CCD/CMOS multiplex gel and Western blot imaging system for chemiluminescence, fluorescence, and colorimetric detection (ChemiDoc MP)",
+              "application": "Quantitative densitometry of Western blots (ECL/fluorescent) and nucleic acid gel documentation",
+              "group": "เจล/โปรตีน",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 1230000.0,
+              "max_price": 1734089.5
+            },
+            {
+              "no": 7,
+              "id": "R47",
+              "id_label": "R47",
+              "instrument": "NanoDrop / microvolume UV-Vis",
+              "capability": "Microvolume UV-Vis spectrophotometer (1–2 µL sample) with full-spectrum contaminant detection (NanoDrop One)",
+              "application": "Rapid quantification and purity assessment (A260/A280, A260/A230) of extracted DNA, RNA, and purified proteins",
+              "group": "อณูชีววิทยา",
+              "users": "NS, PL",
+              "user_list": [
+                "NS",
+                "PL"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 327000.0,
+              "max_price": 327000.0
+            }
+          ]
+        }
+      ]
+    },
+    "SA": {
+      "code": "SA",
+      "eyebrow": "SIRION AKSORNTHONG'S REQUEST · BONE PHYSIOLOGY & HISTOMORPHOMETRY RESEARCH (๒๓ รายการ)",
+      "title": "ความต้องการเครื่องมือวิจัยด้านสรีรวิทยากระดูกและจุลกายวิภาคศาสตร์ — อาจารย์ ดร.สิริอร อักษรทอง (SA)",
+      "subtitle": "แบ่งเป็น ๔ หมวดหลัก: ๑) จุลกายวิภาคศาสตร์เนื้อเยื่อกระดูก เมตาบอลิซึมของเซลล์ และภาพถ่ายเซลล์มีชีวิต (๖ รายการ) · ๒) อณูชีววิทยาและสัญญาณโปรตีนของเซลล์กระดูก (๖ รายการ) · ๓) เพาะเลี้ยงเซลล์ปฐมภูมิและธนาคารเซลล์แช่เยือกแข็ง (๗ รายการ) · ๔) เครื่องปั่นเหวี่ยงและเตรียมตัวอย่างพื้นฐาน (๔ รายการ)",
+      "total_items": 23,
+      "categories": [
+        {
+          "no": 1,
+          "short": "๑. เนื้อเยื่อกระดูก เมตาบอลิซึม & ภาพ (6)",
+          "title": "หมวดที่ ๑: จุลกายวิภาคศาสตร์เนื้อเยื่อกระดูก เมตาบอลิซึมของเซลล์ และระบบถ่ายภาพเซลล์มีชีวิต (Bone Histology, Bioenergetics & Live Imaging — 6 รายการ)",
+          "icon": "fa-bone",
+          "items": [
+            {
+              "no": 1,
+              "id": "R05",
+              "id_label": "R05",
+              "instrument": "Seahorse / cell metabolic analyzer",
+              "capability": "Real-time simultaneous measurement of oxygen consumption rate (OCR) and extracellular acidification rate (ECAR) in live cells (Agilent Seahorse XF Pro)",
+              "application": "Mitochondrial respiration, glycolysis, and cellular bioenergetics in epithelial and bone cells (osteoblasts/osteoclasts)",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS, SA",
+              "user_list": [
+                "NS",
+                "SA"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 7072000.0,
+              "max_price": 9967877.392
+            },
+            {
+              "no": 2,
+              "id": "R10",
+              "id_label": "R10",
+              "instrument": "ระบบถ่ายภาพ live-cell อัตโนมัติ",
+              "capability": "Incubator-compatible automated time-lapse fluorescence and brightfield live-cell imaging system (Curiosis Celloger Mini Plus)",
+              "application": "Continuous real-time monitoring of cell proliferation, wound healing, migration, and osteogenic differentiation dynamics",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, SA",
+              "user_list": [
+                "NS",
+                "SA"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 1500000.0,
+              "max_price": 1958491.15
+            },
+            {
+              "no": 3,
+              "id": "R11",
+              "id_label": "R11",
+              "instrument": "Histology processor",
+              "capability": "Automated enclosed tissue fixation, dehydration, clearing, and paraffin infiltration system",
+              "application": "Standardized histological processing of bone, cartilage, and soft tissue specimens for pathology and morphometry",
+              "group": "เนื้อเยื่อ/กระดูก (SA)",
+              "users": "SA",
+              "user_list": [
+                "SA"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 1861907.9369,
+              "max_price": 1861907.9369
+            },
+            {
+              "no": 4,
+              "id": "R13",
+              "id_label": "R13",
+              "instrument": "Microtome motorized + มีดและที่จับมีด",
+              "capability": "Motorized precision rotary microtome with heavy-duty tungsten carbide blade assembly",
+              "application": "Thin sectioning of calcified/decalcified bone and paraffin-embedded tissues for histomorphometry and IHC",
+              "group": "เนื้อเยื่อ/กระดูก (SA)",
+              "users": "SA",
+              "user_list": [
+                "SA"
+              ],
+              "status": "ไม่มีในแผน",
+              "plan_year": "ไม่มี",
+              "min_price": 656217.29,
+              "max_price": 656217.29
+            },
+            {
+              "no": 5,
+              "id": "R24",
+              "id_label": "R24",
+              "instrument": "กล้องฟลูออเรสเซนซ์ (inverted/ดู live cell)",
+              "capability": "Inverted epifluorescence and phase-contrast microscope with high-sensitivity digital CMOS camera (Nikon Eclipse Ts2-FL)",
+              "application": "Live-cell fluorescence imaging, immunofluorescence (IF) of osteogenic/cellular markers, and reporter gene expression",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 425000.0,
+              "max_price": 911621.1500000001
+            },
+            {
+              "no": 6,
+              "id": "R48",
+              "id_label": "R48",
+              "instrument": "กล้องหัวกลับ phase-contrast",
+              "capability": "Inverted routine microscope with phase-contrast optics and long-working-distance objectives",
+              "application": "Daily inspection of adherent cell morphology, confluency, and contamination in culture flasks and multi-well plates",
+              "group": "กล้องจุลทรรศน์/ภาพ",
+              "users": "SA",
+              "user_list": [
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 300553.0,
+              "max_price": 300553.0
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "short": "๒. อณูชีววิทยา & สัญญาณโปรตีน (6)",
+          "title": "หมวดที่ ๒: อณูชีววิทยาและการวิเคราะห์สัญญาณโปรตีนของเซลล์กระดูก (Bone Molecular Biology & Protein Signaling — 6 รายการ)",
+          "icon": "fa-dna",
+          "items": [
+            {
+              "no": 1,
+              "id": "R23",
+              "id_label": "R23",
+              "instrument": "Real-time qPCR (PL ขอ gradient · NK ใช้ทำ DNA barcoding พืชสมุนไพร)",
+              "capability": "Quantitative PCR amplification & species-level DNA barcoding of plant material",
+              "application": "Gene expression (NS, PL, SA) & herbal authentication against substitution/misidentification (NK)",
+              "group": "PCR",
+              "users": "NS, PL, SA, NK",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA",
+                "NK"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 1300000.0,
+              "max_price": 1327161.0
+            },
+            {
+              "no": 2,
+              "id": "R26",
+              "id_label": "R26",
+              "instrument": "PCR thermal cycler (PL ขอ gradient)",
+              "capability": "Peltier-driven end-point PCR thermal cycler with thermal gradient capability for primer annealing optimization (Bio-Rad T100)",
+              "application": "Routine DNA amplification, cloning, genotyping, and molecular biology assay development",
+              "group": "PCR",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 231189.42,
+              "max_price": 233000.0
+            },
+            {
+              "no": 3,
+              "id": "R27",
+              "id_label": "R27",
+              "instrument": "ชุด Western blot (แยก + ถ่ายโอนแบบ tank)",
+              "capability": "Vertical mini-gel SDS-PAGE electrophoresis tank and wet tank transfer assembly with power supply (Bio-Rad Mini-PROTEAN)",
+              "application": "Size-based protein separation and Western blot analysis of intracellular signaling pathways",
+              "group": "เจล/โปรตีน",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 60011.9916,
+              "max_price": 95500.0
+            },
+            {
+              "no": 4,
+              "id": "R38",
+              "id_label": "R38",
+              "instrument": "Multimode microplate reader",
+              "capability": "Monochromator/filter multimode microplate reader supporting UV-Vis absorbance, fluorescence, and luminescence (Synergy H1)",
+              "application": "ELISA, cell viability (MTT/CCK-8), ALP activity, protein quantification (BCA/Bradford), and reporter assays",
+              "group": "เซลล์/การวิเคราะห์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 2216936.337,
+              "max_price": 2482667.0
+            },
+            {
+              "no": 5,
+              "id": "R41",
+              "id_label": "R41",
+              "instrument": "เครื่องถ่ายภาพเจล/เคมีลูมิเนสเซนซ์",
+              "capability": "Cooled CCD/CMOS multiplex gel and Western blot imaging system for chemiluminescence, fluorescence, and colorimetric detection (ChemiDoc MP)",
+              "application": "Quantitative densitometry of Western blots (ECL/fluorescent) and nucleic acid gel documentation",
+              "group": "เจล/โปรตีน",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 1230000.0,
+              "max_price": 1734089.5
+            },
+            {
+              "no": 6,
+              "id": "R51",
+              "id_label": "R51",
+              "instrument": "ชุด gel electrophoresis แนวนอน + power supply",
+              "capability": "Horizontal submarine agarose gel electrophoresis chamber with digital power supply and casting trays",
+              "application": "Separation and size verification of PCR products, restriction digests, and RNA integrity checks",
+              "group": "เจล/โปรตีน",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 51205.451,
+              "max_price": 51205.451
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "short": "๓. เพาะเลี้ยงเซลล์ปฐมภูมิ & ธนาคารเซลล์ (7)",
+          "title": "หมวดที่ ๓: ระบบเพาะเลี้ยงเซลล์กระดูกปฐมภูมิและธนาคารเซลล์แช่เยือกแข็ง (Primary Bone Cell Culture & Cryobanking — 7 รายการ)",
+          "icon": "fa-snowflake",
+          "items": [
+            {
+              "no": 1,
+              "id": "R28",
+              "id_label": "R28",
+              "instrument": "ระบบดูดสารทิ้งสุญญากาศ",
+              "capability": "Integrated vacuum pump, collection bottle with hydrophobic overflow filter, and multi-channel aspiration handpiece",
+              "application": "Safe, aseptic removal of spent cell culture supernatants and wash buffers inside biosafety cabinets",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "มีในแผน แต่ต้องตรวจสเปก",
+              "plan_year": "ปี 71",
+              "min_price": 72723.01960000001,
+              "max_price": 72723.01960000001
+            },
+            {
+              "no": 2,
+              "id": "R32",
+              "id_label": "R32",
+              "instrument": "ตู้แช่แข็ง −20°C",
+              "capability": "Laboratory −20°C freezer with stable temperature regulation for enzyme and reagent storage",
+              "application": "Storage of restriction enzymes, PCR master mixes, antibodies, and chemical standards",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ครอบคลุมแล้วในปี 70",
+              "plan_year": "ปี 70",
+              "min_price": 314237.6171,
+              "max_price": 314237.6171
+            },
+            {
+              "no": 3,
+              "id": "R40",
+              "id_label": "R40",
+              "instrument": "ตู้ชีวนิรภัย Class II A2",
+              "capability": "NSF/EN-certified Class II Type A2 biological safety cabinet (4 ft) with ULPA/HEPA filtration and laminar airflow",
+              "application": "Sterile handling of mammalian cell lines, primary bone cells, and BSL-2 biological agents",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 481500.0,
+              "max_price": 1847058.9302
+            },
+            {
+              "no": 4,
+              "id": "R42",
+              "id_label": "R42",
+              "instrument": "ตู้แช่แข็ง −80°C",
+              "capability": "Upright ultra-low temperature (−80°C) freezer with dual-compressor/cascade cooling and backup monitoring",
+              "application": "Long-term preservation of RNA, protein lysates, engineered plasmids, viral vectors, and clinical/tissue samples",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 943871.5000000001,
+              "max_price": 943871.5000000001
+            },
+            {
+              "no": 5,
+              "id": "R43",
+              "id_label": "R43",
+              "instrument": "ตู้เย็น 4°C",
+              "capability": "Double-door laboratory refrigerator (4°C, ≥20 cu.ft.) with forced-air circulation and digital temperature alarm",
+              "application": "Cold storage of cell culture media, growth factors, ELISA kits, and working reagents",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "SA",
+              "user_list": [
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71",
+              "min_price": 465485.6800000001,
+              "max_price": 465485.6800000001
+            },
+            {
+              "no": 6,
+              "id": "R45",
+              "id_label": "R45",
+              "instrument": "ตู้บ่ม CO₂",
+              "capability": "Water-jacketed CO₂ incubator (37°C, 5% CO₂) with IR sensor, high-humidity control, and contamination control",
+              "application": "Continuous propagation and maintenance of mammalian cell lines and primary osteoblast/epithelial cultures",
+              "group": "งานเพาะเลี้ยงเซลล์",
+              "users": "NS, PL, SA",
+              "user_list": [
+                "NS",
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 428617.6202000001,
+              "max_price": 430000.0
+            },
+            {
+              "no": 7,
+              "id": "R46",
+              "id_label": "R46",
+              "instrument": "ถังไนโตรเจนเหลวเก็บเซลล์",
+              "capability": "Vacuum-insulated liquid nitrogen (LN₂) cryogenic storage dewar (≥120 L & 10 L transfer tank) with rack inventory system",
+              "application": "Long-term vapor/liquid-phase cryopreservation of master and working cell banks",
+              "group": "ตู้เย็น/ตู้แช่",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 390829.6656000001,
+              "max_price": 390829.6656000001
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "short": "๔. เครื่องปั่นเหวี่ยง & เตรียมตัวอย่าง (4)",
+          "title": "หมวดที่ ๔: เครื่องปั่นเหวี่ยงควบคุมอุณหภูมิและเครื่องมือพื้นฐาน (Sample Processing & Core Instruments — 4 รายการ)",
+          "icon": "fa-flask",
+          "items": [
+            {
+              "no": 1,
+              "id": "R20",
+              "id_label": "R20",
+              "instrument": "Refrigerated microcentrifuge (≥15,000 rpm)",
+              "capability": "High-speed refrigerated microcentrifuge (≥15,000 rpm / >21,000 ×g) with rapid precooling to 4°C",
+              "application": "Pelleting of nucleic acids (DNA/RNA), protein precipitates, and temperature-sensitive subcellular fractions",
+              "group": "เครื่องปั่นเหวี่ยง",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ปี 71 พักไว้ (Hold/NA)",
+              "plan_year": "ปี 71 (Hold/NA)",
+              "min_price": 115263.0886,
+              "max_price": 115263.0886
+            },
+            {
+              "no": 2,
+              "id": "R44",
+              "id_label": "R44",
+              "instrument": "เครื่องปั่นเหวี่ยงหลอด 15/50 mL",
+              "capability": "Benchtop refrigerated centrifuge with swing-bucket and fixed-angle rotors for 15/50 mL conical tubes and microplates",
+              "application": "Cell harvesting, blood/tissue fractionation, and large-volume sample clarification at controlled temperatures",
+              "group": "เครื่องปั่นเหวี่ยง",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71",
+              "min_price": 452368.7366000001,
+              "max_price": 452368.7366000001
+            },
+            {
+              "no": 3,
+              "id": "R49",
+              "id_label": "R49",
+              "instrument": "Micropipette set",
+              "capability": "Calibrated single-channel (P1–P1000) and multichannel (P100, P300) variable-volume micropipette sets with stands",
+              "application": "Precision microliter liquid dispensing for PCR, qPCR, ELISA, and cell-based assays",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 71",
+              "min_price": 138744.045,
+              "max_price": 138744.045
+            },
+            {
+              "no": 4,
+              "id": "R50",
+              "id_label": "R50",
+              "instrument": "อ่างน้ำควบคุมอุณหภูมิ",
+              "capability": "Digital temperature-controlled stainless steel water bath (24 L) with uniform thermal circulation",
+              "application": "Pre-warming of cell culture media, rapid thawing of cryovials at 37°C, and enzymatic incubations",
+              "group": "เครื่องมือพื้นฐาน",
+              "users": "PL, SA",
+              "user_list": [
+                "PL",
+                "SA"
+              ],
+              "status": "ตรงกับปี 71",
+              "plan_year": "ปี 70 + ปี 71",
+              "min_price": 59435.2,
+              "max_price": 59435.2
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
