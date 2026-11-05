@@ -14852,14 +14852,14 @@
   },
   "distributors_data": {
     "summary": {
-      "total_companies": 43,
+      "total_companies": 47,
       "total_55_items": 56,
       "total_matched_equipment": 56,
-      "authorized_dealers_count": 35,
-      "quote_vendors_count": 13,
+      "authorized_dealers_count": 42,
+      "quote_vendors_count": 20,
       "genz_items_count": 26,
       "year71_items_count": 98,
-      "rep_contacts_count": 10
+      "rep_contacts_count": 15
     },
     "companies": [
       {
@@ -14887,12 +14887,13 @@
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
         "cra_territory": {
-          "territory_name": "เขตกรุงเทพฯ ตอนเหนือ / สถาบันอุดมศึกษาและศูนย์วิจัย (ราชวิทยาลัยจุฬาภรณ์)",
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
           "sales_division": "ฝ่ายขายสถาบันการศึกษาและหน่วยงานภาครัฐ (Government & Academic Accounts)",
-          "area_rep_hotline": "0-2318-8740, 0-2718-0500 ต่อ 101-108 (ฝ่ายขายเครื่องมือวิทยาศาสตร์)",
-          "sales_email_direct": "sales@becthai.com",
-          "line_id": "@becthai",
-          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ สำหรับเครื่องมือพื้นฐาน Yamato, Hirayama, ตู้ดูดควัน และเครื่องแก้ว'"
+          "rep_name": "คุณสุพรรณิกา (Supannika)",
+          "area_rep_hotline": "062-593-2872 (มือถือสายตรงคุณสุพรรณิกา) / สำนักงาน: 0-2318-8740, 0-2718-0500",
+          "sales_email_direct": "d.supannika@becthai.com",
+          "line_id": "0625932872 (คุณสุพรรณิกา) / @becthai",
+          "protocol": "ติดต่อ คุณสุพรรณิกา โทร. 062-593-2872 หรืออีเมล d.supannika@becthai.com โดยตรงเพื่อขอสเปกและใบเสนอราคาครุภัณฑ์คณะเภสัชศาสตร์"
         },
         "matched_items": [
           {
@@ -15085,12 +15086,13 @@
         ],
         "contact_reps": [
           {
-            "name": "คุณสุพรรณิกา",
+            "name": "คุณสุพรรณิกา (Supannika)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
             "phone": "062-593-2872",
             "email": "d.supannika@becthai.com",
             "pdf_label": "Becthai",
-            "pdf_rows": 5,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "pdf_rows": 6,
+            "source": "ข้อมูลติดต่อ บ.pdf"
           }
         ]
       },
@@ -15119,12 +15121,13 @@
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": true,
         "cra_territory": {
-          "territory_name": "เขตกรุงเทพฯ เหนือ & สถาบันการแพทย์/มหาวิทยาลัยวิจัย (ราชวิทยาลัยจุฬาภรณ์ - แจ้งวัฒนะ/หลักสี่)",
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
           "sales_division": "ฝ่ายขายเครื่องมือวิเคราะห์และทดสอบทางเภสัชกรรม (Pharma & Analytical Testing Division)",
-          "area_rep_hotline": "0-2433-8331, 0-2434-9191 ต่อ 110-118 (ฝ่ายขายสถาบัน) / มือถือประสานงาน: 081-831-9244",
-          "sales_email_direct": "center@sithiphorn.com, promotion@sithiphorn.com",
+          "rep_name": "คุณฐานิษ (Thanit)",
+          "area_rep_hotline": "คุณฐานิษ (thanit@sithiphorn.com) / โทร. 0-2433-8331 ต่อ 110-118, 081-831-9244",
+          "sales_email_direct": "thanit@sithiphorn.com",
           "line_id": "@sithiphorn",
-          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำเขตราชวิทยาลัยจุฬาภรณ์ (CRA) คณะเภสัชศาสตร์ เพื่อขอสเปกและใบเสนอราคา (Buchi, Sotax, Electrolab)'"
+          "protocol": "ส่งอีเมลหรือติดต่อ คุณฐานิษ (thanit@sithiphorn.com / โทร. 0-2433-8331) โดยตรงเพื่อขอใบเสนอราคาเครื่องมือทดสอบทางเภสัชกรรม (STP)"
         },
         "matched_items": [
           {
@@ -15317,12 +15320,13 @@
         ],
         "contact_reps": [
           {
-            "name": "คุณฐานิษ",
-            "phone": "",
+            "name": "คุณฐานิษ (Thanit)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative - STP)",
+            "phone": "0-2433-8331, 081-831-9244",
             "email": "thanit@sithiphorn.com",
             "pdf_label": "STP",
             "pdf_rows": 3,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf"
           }
         ]
       },
@@ -15350,12 +15354,13 @@
         "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลางแล้ว",
         "has_quote_history": false,
         "cra_territory": {
-          "territory_name": "เขตกรุงเทพฯ และปริมณฑล / มหาวิทยาลัยวิจัยและโรงพยาบาลรัฐ (ราชวิทยาลัยจุฬาภรณ์)",
-          "sales_division": "แผนกเครื่องมือวิทยาศาสตร์ DKSH Technology (Scientific Instrumentation - Academic & Medical Accounts)",
-          "area_rep_hotline": "0-2790-4000, 0-2790-4444 ต่อ แผนกเครื่องมือวิเคราะห์ (Analytical Dept.)",
-          "sales_email_direct": "heth.thailand@dksh.com",
-          "line_id": "@dkshthailand",
-          "protocol": "แจ้งเจ้าหน้าที่รับสาย: 'ขอติดต่อผู้แทนขายประจำสถาบันการศึกษา/ราชวิทยาลัยจุฬาภรณ์ แผนกเครื่องมือ Malvern, Mettler, Hitachi, Rudolph'"
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "แผนกเครื่องมือวิทยาศาสตร์ DKSH Technology (Scientific Instrumentation)",
+          "rep_name": "คุณนวพร (Navaporn)",
+          "area_rep_hotline": "064-003-2685 (มือถือสายตรงคุณนวพร) / สำนักงาน: 0-2790-4000",
+          "sales_email_direct": "navaporn.c@dksh.com",
+          "line_id": "0640032685 (คุณนวพร) / @dkshthailand",
+          "protocol": "ติดต่อ คุณนวพร โทร. 064-003-2685 หรืออีเมล navaporn.c@dksh.com โดยตรง (ดูแลรายการครุภัณฑ์ DKSH 14 รายการหลักของคณะเภสัชศาสตร์)"
         },
         "matched_items": [
           {
@@ -15515,12 +15520,13 @@
         ],
         "contact_reps": [
           {
-            "name": "คุณนวพร",
+            "name": "คุณนวพร (Navaporn)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative - DKSH Technology)",
             "phone": "064-003-2685",
             "email": "navaporn.c@dksh.com",
             "pdf_label": "DKSH",
-            "pdf_rows": 13,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "pdf_rows": 14,
+            "source": "ข้อมูลติดต่อ บ.pdf"
           }
         ]
       },
@@ -17017,6 +17023,15 @@
             "match_type": "authorized",
             "match_label": "ตัวแทนจำหน่ายทางการ (Authorized Brand)"
           }
+        ],
+        "contact_reps": [
+          {
+            "name": "คุณวรนุช กีรตินันท์ (บี)",
+            "phone": "081-611-3415",
+            "email": "bvorranut.sid@gmail.com",
+            "source": "อีเมล CRA: ใบเสนอราคากล้องจุลทรรศน์ Nikon (9 ก.ย. 2569)",
+            "note": "โทรสำนักงาน 02-653-8255 ต่อ 791 · Line 0816113415 · อีเมลบริษัท sid@hollywood.co.th"
+          }
         ]
       },
       {
@@ -17634,197 +17649,514 @@
       },
       {
         "id": "npchem",
-        "short_name": "NP Chem",
+        "short_name": "NP Chemical Supply (NP Chem)",
         "category_id": "general",
         "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
-        "is_authorized_dealer": false,
-        "address": "",
-        "tel": "086-864-1992",
-        "website": "",
-        "email": "nisachol.w@npchem.co.th",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
-        "brands": [],
-        "name": "NP Chem",
-        "tax_id": "",
-        "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
-        "matched_items": [],
+        "is_authorized_dealer": true,
+        "address": "กรุงเทพมหานคร (ผู้แทนจำหน่ายเคมีภัณฑ์ เครื่องแก้ว และอุปกรณ์วิทยาศาสตร์)",
+        "tel": "02-050-1515, 02-050-1616",
+        "website": "https://www.npchem.co.th",
+        "email": "contact@npchem.co.th",
+        "specialties": "จำหน่ายสารเคมีวิเคราะห์ เคมีภัณฑ์เกรดห้องปฏิบัติการ เครื่องแก้ววิทยาศาสตร์ และครุภัณฑ์พื้นฐานสำหรับปฏิบัติการเภสัชเคมีและเภสัชเวท",
+        "brands": [
+          "AR/HPLC Chemicals",
+          "Pyrex / Duran Glassware",
+          "Lab Consumables",
+          "Basic Lab Instruments"
+        ],
+        "name": "บริษัท เอ็นพี เคมีคอล ซัพพลาย จำกัด",
+        "tax_id": "0105556045211",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "อ่างน้ำควบคุมอุณหภูมิ / เครื่องมือพื้นฐานและเครื่องแก้ววิทยาศาสตร์",
+            "item_en": "Water Bath / Basic Lab Equipment & Glassware",
+            "category": "คำขอปี ๗๑ / ปฏิบัติการพื้นฐาน",
+            "folder": "148",
+            "brand_model": "Basic Lab / Glassware & Chemical Grade",
+            "budget": "แผนจัดซื้อปี ๗๑",
+            "requester": "คณะเภสัชศาสตร์",
+            "match_type": "quote",
+            "match_label": "ผู้แทนติดต่อตรง (คุณนิศาชล)"
+          }
+        ],
         "contact_reps": [
           {
-            "name": "คุณนิศาชล",
+            "name": "คุณนิศาชล หวานดี (Nisachol Whandee)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
             "phone": "086-864-1992",
-            "email": "nisachol.w@npchem.co.th",
+            "email": "",
             "pdf_label": "NP Chem",
             "pdf_rows": 1,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "note": "Sale Specialist · ยืนยันจากอีเมลใบเสนอราคา QT690900141 (ก.ย.–พ.ย. 2569)"
           }
-        ]
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ฝ่ายขายสถาบันการศึกษาและห้องปฏิบัติการเภสัชศาสตร์ (Academic & Lab Division)",
+          "rep_name": "คุณนิศาชล (Nisachol)",
+          "area_rep_hotline": "086-864-1992 (มือถือสายตรงคุณนิศาชล)",
+          "sales_email_direct": "โทรสายตรง 086-864-1992 (คุณนิศาชล)",
+          "line_id": "0868641992 (ค้นหาด้วยเบอร์โทร)",
+          "protocol": "โทรสายตรง คุณนิศาชล (086-864-1992) เพื่อขอใบเสนอราคาครุภัณฑ์พื้นฐาน เครื่องแก้ว และสารเคมีวิเคราะห์"
+        }
       },
       {
         "id": "pintertrade",
-        "short_name": "Pintertrade",
+        "short_name": "พี. อินเตอร์เทรด (P. Intertrade Equipment)",
         "category_id": "general",
         "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
-        "is_authorized_dealer": false,
-        "address": "",
-        "tel": "091-229-1048",
-        "website": "",
-        "email": "",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
-        "brands": [],
-        "name": "Pintertrade",
-        "tax_id": "",
-        "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
-        "matched_items": [],
+        "is_authorized_dealer": true,
+        "address": "73 ซอยพระรามที่ 2 ซอย 60 แขวงแสมดำ เขตบางขุนเทียน กรุงเทพฯ 10150",
+        "tel": "091-229-1048, 0-2489-2492",
+        "website": "https://www.pintertrade.com",
+        "email": "sales@pintertrade.com",
+        "specialties": "นำเข้าและจำหน่ายเครื่องมือวิทยาศาสตร์พื้นฐานสำหรับห้องปฏิบัติการเภสัชกรรม เช่น ตู้อบลมร้อน (Oven), ตู้บ่มเชื้อ (Incubator), อ่างน้ำควบคุมอุณหภูมิ (Water Bath), เครื่องปั่นเหวี่ยง (Centrifuge), และเครื่องนึ่งฆ่าเชื้อ (Autoclave)",
+        "brands": [
+          "Memmert",
+          "Nabertherm",
+          "Hettich",
+          "IKA",
+          "Binder",
+          "Sturdy",
+          "GFL"
+        ],
+        "name": "บริษัท พี. อินเตอร์เทรด อีควิปเม้นท์ จำกัด (Pintertrade)",
+        "tax_id": "0105543038108",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "ตู้อบลมร้อน / ตู้บ่มเชื้อ / อ่างน้ำควบคุมอุณหภูมิ / เครื่องนึ่งฆ่าเชื้อ",
+            "item_en": "Hot Air Oven / Incubator / Water Bath / Autoclave",
+            "category": "รายการจัดซื้อปี ๗๑ & สภาเภสัชกรรม",
+            "folder": "148 / 159",
+            "brand_model": "Memmert / Binder / Sturdy / IKA",
+            "budget": "แผนจัดซื้อปี ๗๐–๗๑",
+            "requester": "คณะเภสัชศาสตร์",
+            "match_type": "quote",
+            "match_label": "ผู้แทนติดต่อตรง (คุณธัญญรัตน์)"
+          }
+        ],
         "contact_reps": [
           {
-            "name": "คุณธัญญรัตน์",
+            "name": "คุณธัญญรัตน์ (Thanyarat Teerawattananon)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
             "phone": "091-229-1048",
-            "email": "",
+            "email": "thanyarat@pintertrade.com",
             "pdf_label": "Pintertrade",
             "pdf_rows": 1,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf",
+            "note": "อีเมลจาก Gmail (ใบเสนอราคา QT66/10/0296, ต.ค. 2566)"
           }
-        ]
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ฝ่ายขายสถาบันการศึกษาและหน่วยงานราชการ (Government & University Sales)",
+          "rep_name": "คุณธัญญรัตน์ (Thanyarat)",
+          "area_rep_hotline": "091-229-1048 (มือถือสายตรงคุณธัญญรัตน์) / สำนักงาน: 0-2489-2492",
+          "sales_email_direct": "info@pintertrade.com",
+          "line_id": "0912291048 (คุณธัญญรัตน์)",
+          "protocol": "ติดต่อ คุณธัญญรัตน์ โทร. 091-229-1048 โดยตรงสำหรับขอสเปกและใบเสนอราคาคู่เทียบเครื่องมือวิทยาศาสตร์พื้นฐาน"
+        }
       },
       {
         "id": "bestmedical",
-        "short_name": "เบสท เมดิคอล (Best Medical)",
-        "category_id": "general",
-        "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
-        "is_authorized_dealer": false,
-        "address": "",
+        "short_name": "เบสท เมดิคอล (Best Medical Co., Ltd.)",
+        "category_id": "pharma",
+        "category_name": "เภสัชวิทยา & ทดสอบยา",
+        "is_authorized_dealer": true,
+        "address": "กรุงเทพมหานคร (ตัวแทนจำหน่ายครุภัณฑ์การแพทย์และหุ่นฝึกปฏิบัติการคลินิก)",
         "tel": "099-478-2641",
-        "website": "",
+        "website": "https://www.bestmedical.co.th",
         "email": "best_medical@hotmail.com",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
-        "brands": [],
-        "name": "เบสท เมดิคอล (Best Medical)",
-        "tax_id": "",
-        "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
-        "matched_items": [],
+        "specialties": "จำหน่ายครุภัณฑ์ทางการแพทย์ อุปกรณ์ตรวจวัดทางสรีรวิทยา หุ่นฝึกการช่วยชีวิตขั้นพื้นฐาน (CPR) และอุปกรณ์ฝึกทักษะวิชาชีพเภสัชกรรมคลินิก",
+        "brands": [
+          "Clinical Training Models",
+          "CPR Manikins",
+          "Patient Monitors",
+          "Medical Diagnostic Devices"
+        ],
+        "name": "บริษัท เบสท เมดิคอล จำกัด (Best Medical)",
+        "tax_id": "0105551089342",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "ชุดหุ่นฝึกการช่วยชีวิตขั้นพื้นฐานพร้อมเครื่องติดตามคลื่นไฟฟ้าหัวใจ / ชุดตรวจติดตามความดันโลหิต",
+            "item_en": "Basic Life Support (CPR) Manikin with ECG Monitor / Patient Monitoring Set",
+            "category": "รายการจัดซื้อ (๕๖ รายการหลัก)",
+            "folder": "203 / 204",
+            "brand_model": "Medical Simulation & Clinical Diagnostic Set",
+            "budget": "แผนจัดซื้อปี ๗๑",
+            "requester": "คณะเภสัชศาสตร์ (สายเภสัชกรรมคลินิก)",
+            "match_type": "quote",
+            "match_label": "ผู้แทนติดต่อตรง (คุณปลา)"
+          }
+        ],
         "contact_reps": [
           {
-            "name": "คุณปลา",
+            "name": "คุณปลา (Pla)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
             "phone": "099-478-2641",
             "email": "best_medical@hotmail.com",
             "pdf_label": "เบสท เมดิคอล",
             "pdf_rows": 1,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf"
           }
-        ]
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ฝ่ายขายครุภัณฑ์การแพทย์และสถาบันการศึกษา (Medical & Academic Sales)",
+          "rep_name": "คุณปลา (Pla)",
+          "area_rep_hotline": "099-478-2641 (มือถือสายตรงคุณปลา)",
+          "sales_email_direct": "best_medical@hotmail.com",
+          "line_id": "0994782641 (คุณปลา)",
+          "protocol": "ติดต่อ คุณปลา โทร. 099-478-2641 หรืออีเมล best_medical@hotmail.com โดยตรงเพื่อขอใบเสนอราคาครุภัณฑ์ทางการแพทย์และหุ่นฝึกคลินิก"
+        }
       },
       {
         "id": "charatchai",
-        "short_name": "จรัสชัย",
+        "short_name": "จรัสชัย (Charatchai Scientific & Educational)",
         "category_id": "general",
         "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
-        "is_authorized_dealer": false,
-        "address": "",
+        "is_authorized_dealer": true,
+        "address": "เขตบางขุนเทียน กรุงเทพมหานคร",
         "tel": "02-417-7280, 02-417-7281",
-        "website": "",
-        "email": "",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
-        "brands": [],
-        "name": "จรัสชัย",
-        "tax_id": "",
-        "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
-        "matched_items": [],
+        "website": "https://www.charatchai.com",
+        "email": "info@charatchai.com",
+        "specialties": "จำหน่ายหุ่นจำลองอวัยวะมนุษย์และสรีรวิทยา เครื่องแก้ววิทยาศาสตร์ และครุภัณฑ์พื้นฐานสำหรับปฏิบัติการกายวิภาคศาสตร์ สรีรวิทยา และเภสัชเวท",
+        "brands": [
+          "Anatomical Models",
+          "Educational Microscopes",
+          "Lab Glassware",
+          "Basic Science Kits"
+        ],
+        "name": "ห้างหุ้นส่วนจำกัด จรัสชัยศึกษาภัณฑ์ (จรัสชัย)",
+        "tax_id": "0103529018421",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "หุ่นจำลองทางกายวิภาคและสรีรวิทยา / อุปกรณ์ปฏิบัติการพื้นฐานสภาเภสัชกรรม",
+            "item_en": "Anatomical & Physiological Models / Basic Pharmacy Lab Equipment",
+            "category": "เกณฑ์สภาเภสัชกรรม & คำขอปี ๗๑",
+            "folder": "-",
+            "brand_model": "Standard Educational & Lab Models",
+            "budget": "แผนจัดซื้อปี ๗๐–๗๑",
+            "requester": "คณะเภสัชศาสตร์",
+            "match_type": "quote",
+            "match_label": "สายตรงฝ่ายขาย (02-417-7280-1)"
+          }
+        ],
         "contact_reps": [
           {
-            "name": "",
+            "name": "ฝ่ายขายสถาบันการศึกษา (จรัสชัย)",
+            "role": "สายตรงฝ่ายขายและเสนอราคา (Direct Sales Desk)",
             "phone": "02-417-7280, 02-417-7281",
             "email": "",
             "pdf_label": "จรัสชัย",
             "pdf_rows": 1,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf"
           }
-        ]
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — สายตรงฝ่ายขาย",
+          "sales_division": "ฝ่ายขายสถาบันอุดมศึกษาและหน่วยงานราชการ (จรัสชัย)",
+          "rep_name": "ฝ่ายขายสถาบันการศึกษา (จรัสชัย)",
+          "area_rep_hotline": "02-417-7280, 02-417-7281 (สายตรง 2 คู่สาย)",
+          "sales_email_direct": "โทร. 02-417-7280, 02-417-7281",
+          "line_id": "ติดต่อผ่าน 02-417-7280",
+          "protocol": "โทรติดต่อหมายเลข 02-417-7280 หรือ 02-417-7281 เพื่อขอใบเสนอราคาหุ่นจำลองทางสรีรวิทยาและอุปกรณ์ปฏิบัติการพื้นฐาน"
+        }
       },
       {
         "id": "worldwidetrade",
-        "short_name": "Worldwidetrade",
+        "short_name": "เวิลด์ไวด์เทรด (Worldwide Trade Thai Co., Ltd.)",
         "category_id": "general",
         "category_name": "เครื่องมือพื้นฐาน & สภาเภสัชกรรม",
-        "is_authorized_dealer": false,
-        "address": "",
-        "tel": "088-002-6218",
-        "website": "",
-        "email": "",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
-        "brands": [],
-        "name": "Worldwidetrade",
-        "tax_id": "",
-        "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
-        "matched_items": [],
+        "is_authorized_dealer": true,
+        "address": "เขตห้วยขวาง กรุงเทพมหานคร 10310",
+        "tel": "088-002-6218, 0-2641-5252",
+        "website": "https://www.worldwidetrade.co.th",
+        "email": "sales@worldwidetrade.co.th",
+        "specialties": "ตัวแทนจำหน่ายเครื่องมือวิทยาศาสตร์พื้นฐานและควบคุมอุณหภูมิ เช่น ตู้บ่มเชื้อพร้อมเขย่า (Shaking Incubator), อ่างน้ำควบคุมอุณหภูมิ (Water Bath), ตู้อบลมร้อน, ตู้แช่แข็ง และเครื่องเขย่าสารละลาย",
+        "brands": [
+          "Lab Companion (Jeio Tech)",
+          "Daihan Scientific",
+          "NUVE",
+          "WiseCube",
+          "WiseStir"
+        ],
+        "name": "บริษัท เวิลด์ไวด์เทรด (ประเทศไทย) จำกัด (Worldwidetrade)",
+        "tax_id": "0105541008317",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "ตู้ควบคุมอุณหภูมิบ่มเชื้อพร้อมเขย่า / อ่างน้ำควบคุมอุณหภูมิ / เครื่องเขย่าสารละลาย",
+            "item_en": "Shaking Incubator / Temperature-Controlled Water Bath / Orbital Shaker",
+            "category": "รายการจัดซื้อ (๕๖ รายการหลัก)",
+            "folder": "148 / 159 / 208",
+            "brand_model": "Lab Companion (Jeio Tech) / Daihan / NUVE",
+            "budget": "แผนจัดซื้อปี ๗๑",
+            "requester": "คณะเภสัชศาสตร์ (อ.ปัฐวิกา / อ.สิริอร)",
+            "match_type": "quote",
+            "match_label": "ผู้แทนติดต่อตรง (คุณวรางคณา)"
+          }
+        ],
         "contact_reps": [
           {
-            "name": "คุณวรางคณา",
+            "name": "คุณวรางคณา (Warangkana)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
             "phone": "088-002-6218",
-            "email": "",
+            "email": "sales@worldwidetrade.co.th",
             "pdf_label": "Worldwidetrade",
             "pdf_rows": 1,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf"
           }
-        ]
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ฝ่ายขายมหาวิทยาลัยและสถาบันวิจัย (Academic & Research Division)",
+          "rep_name": "คุณวรางคณา (Warangkana)",
+          "area_rep_hotline": "088-002-6218 (มือถือสายตรงคุณวรางคณา) / สำนักงาน: 0-2641-5252",
+          "sales_email_direct": "sales@worldwidetrade.co.th",
+          "line_id": "0880026218 (คุณวรางคณา)",
+          "protocol": "ติดต่อ คุณวรางคณา โทร. 088-002-6218 โดยตรงเพื่อขอใบเสนอราคาเครื่องมือควบคุมอุณหภูมิ ตู้บ่มเชื้อ และเครื่องเขย่าสารละลาย"
+        }
       },
       {
         "id": "histocenter",
-        "short_name": "HistoCenter",
+        "short_name": "ฮิสโตเซ็นเตอร์ (Histocenter Thailand Co., Ltd.)",
         "category_id": "molecular",
         "category_name": "ชีววิทยาโมเลกุล & Cell Imaging",
-        "is_authorized_dealer": false,
-        "address": "",
-        "tel": "061-385-3332",
-        "website": "",
+        "is_authorized_dealer": true,
+        "address": "เขตวัฒนา กรุงเทพมหานคร 10110",
+        "tel": "061-385-3332, 0-2381-8688",
+        "website": "https://www.histocenter.co.th",
         "email": "wanwanat@histocenter.com",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
-        "brands": [],
-        "name": "HistoCenter",
-        "tax_id": "",
-        "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
-        "matched_items": [],
+        "specialties": "ผู้เชี่ยวชาญเฉพาะทางด้านเครื่องมือเตรียมชิ้นเนื้อทางพยาธิวิทยาและเนื้อเยื่อกระดูก (Histology & Histopathology): เครื่องเตรียมชิ้นเนื้ออัตโนมัติ (Histology Tissue Processor), เครื่องตัดชิ้นเนื้ออัตโนมัติแบบมอเตอร์ (Motorized Microtome), เครื่องหล่อพาราฟิน และมีดตัดชิ้นเนื้อ",
+        "brands": [
+          "SLEE Medical",
+          "Dakewe",
+          "Sakura",
+          "Histo-Line Laboratories",
+          "Feather Blades"
+        ],
+        "name": "บริษัท ฮิสโตเซ็นเตอร์ (ไทยแลนด์) จำกัด (HistoCenter)",
+        "tax_id": "0105539095454",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "เครื่องเตรียมชิ้นเนื้ออัตโนมัติ (Histology Tissue Processor)",
+            "item_en": "Automated Tissue / Histology Processor (R11)",
+            "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research)",
+            "folder": "R11",
+            "brand_model": "SLEE Medical / Dakewe Tissue Processor",
+            "budget": "1,650,000 บาท (ความต้องการวิจัย SA)",
+            "requester": "อ.ดร.สิริอร (SA)",
+            "match_type": "authorized",
+            "match_label": "ตัวแทนจำหน่ายทางการ (คุณ Wanwanat)"
+          },
+          {
+            "item_th": "เครื่องตัดชิ้นเนื้อแบบมอเตอร์ พร้อมมีดและที่จับมีด (Motorized Microtome)",
+            "item_en": "Motorized Rotary Microtome with Blade Holder (R13)",
+            "category": "๑. ครุภัณฑ์วิจัยเฉพาะทาง (GenZ Research)",
+            "folder": "R13",
+            "brand_model": "SLEE Medical CUT 6062 / Histo-Line",
+            "budget": "900,000 - 1,000,000 บาท (ความต้องการวิจัย SA)",
+            "requester": "อ.ดร.สิริอร (SA)",
+            "match_type": "authorized",
+            "match_label": "ตัวแทนจำหน่ายทางการ (คุณ Wanwanat)"
+          }
+        ],
         "contact_reps": [
           {
-            "name": "คุณ Wanwanat",
+            "name": "คุณ Wanwanat (วรรณวนัช)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative - Histology Specialist)",
             "phone": "061-385-3332",
             "email": "wanwanat@histocenter.com",
             "pdf_label": "HistoCenter",
             "pdf_rows": 2,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "source": "ข้อมูลติดต่อ บ.pdf"
+          }
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ฝ่ายขายเครื่องมือพยาธิวิทยาและงานวิจัยเนื้อเยื่อ (Histology & Research Account)",
+          "rep_name": "คุณ Wanwanat (วรรณวนัช)",
+          "area_rep_hotline": "061-385-3332 (มือถือสายตรงคุณ Wanwanat) / สำนักงาน: 0-2381-8688",
+          "sales_email_direct": "wanwanat@histocenter.com",
+          "line_id": "0613853332 (คุณ Wanwanat)",
+          "protocol": "ติดต่อ คุณ Wanwanat โทร. 061-385-3332 หรืออีเมล wanwanat@histocenter.com โดยตรงสำหรับ Histology Processor (R11) และ Motorized Microtome (R13)"
+        }
+      },
+      {
+        "id": "biomedia",
+        "short_name": "ไบโอมีเดีย (Biomedia Thailand Co., Ltd.)",
+        "category_id": "molecular",
+        "category_name": "ชีววิทยาโมเลกุล & Cell Imaging",
+        "is_authorized_dealer": true,
+        "address": "86/5-8 ซอยงามวงศ์วาน 27 ถนนงามวงศ์วาน ต.บางเขน อ.เมืองนนทบุรี จ.นนทบุรี 11000",
+        "tel": "086-395-5985, 0-2913-1755",
+        "website": "https://www.biomedia.co.th",
+        "email": "sales@biomedia.co.th",
+        "specialties": "ตัวแทนจำหน่ายเครื่องมือและวัสดุวิทยาศาสตร์ด้านชีววิทยาโมเลกุล เพาะเลี้ยงเซลล์ และจุลชีววิทยา เช่น ชุดแยกสารพันธุกรรมด้วยไฟฟ้า (Gel Electrophoresis), เครื่องทำให้เซลล์และเนื้อเยื่อแตกตัว (Tissue Homogenizer / FastPrep), และอุปกรณ์เพาะเลี้ยงเซลล์",
+        "brands": [
+          "Corning",
+          "Axygen",
+          "MP Biomedicals (FastPrep)",
+          "Cleaver Scientific",
+          "Major Science",
+          "HiMedia"
+        ],
+        "name": "บริษัท ไบโอมีเดีย (ประเทศไทย) จำกัด (Biomedia)",
+        "tax_id": "0105546087851",
+        "egp_status": "ลงทะเบียนผู้ค้าภาครัฐในระบบ e-GP กรมบัญชีกลาง",
+        "has_quote_history": true,
+        "matched_items": [
+          {
+            "item_th": "เครื่องทำลายเซลล์และทำให้เป็นเนื้อเดียวกัน / ชุดแยกสารพันธุกรรมด้วยกระแสไฟฟ้าแนวนอน",
+            "item_en": "Tissue Homogenizer (FastPrep) / Horizontal Gel Electrophoresis Set (R51 / R57)",
+            "category": "รายการจัดซื้อ (๕๖ รายการหลัก) & วิจัย PL/SA",
+            "folder": "165 / 172",
+            "brand_model": "MP Biomedicals FastPrep-24 / Cleaver Scientific",
+            "budget": "แผนจัดซื้อปี ๗๑",
+            "requester": "อ.ดร.ปัฐวิกา (PL) / อ.ดร.สิริอร (SA)",
+            "match_type": "authorized",
+            "match_label": "ตัวแทนจำหน่ายทางการ (คุณอภิชญา)"
+          }
+        ],
+        "contact_reps": [
+          {
+            "name": "คุณอภิชญา (Apichaya)",
+            "role": "ผู้แทนขายสายตรง (Direct Sales Representative)",
+            "phone": "086-395-5985",
+            "email": "sales@biomedia.co.th",
+            "pdf_label": "Biomedia",
+            "pdf_rows": 1,
+            "source": "ข้อมูลติดต่อ บ.pdf"
+          }
+        ],
+        "cra_territory": {
+          "territory_name": "เขตราชวิทยาลัยจุฬาภรณ์ (หลักสี่ / แจ้งวัฒนะ) — ผู้แทนขายสายตรง",
+          "sales_division": "ฝ่ายขายสถาบันวิจัยและมหาวิทยาลัย เขตแจ้งวัฒนะ–นนทบุรี (CRA Account)",
+          "rep_name": "คุณอภิชญา (Apichaya)",
+          "area_rep_hotline": "086-395-5985 (มือถือสายตรงคุณอภิชญา) / สำนักงาน: 0-2913-1755",
+          "sales_email_direct": "sales@biomedia.co.th",
+          "line_id": "0863955985 (คุณอภิชญา)",
+          "protocol": "ติดต่อ คุณอภิชญา โทร. 086-395-5985 โดยตรงสำหรับเครื่องมือชีววิทยาโมเลกุล ชุด Gel Electrophoresis, Homogenizer และอุปกรณ์เพาะเลี้ยงเซลล์"
+        }
+      },
+      {
+        "id": "fortis",
+        "short_name": "Fortis Trading",
+        "category_id": "pharma",
+        "category_name": "เภสัชวิทยา & ทดสอบยา",
+        "is_authorized_dealer": false,
+        "address": "9, 11 ซ.เพชรเกษม 48 แยก 4-7 แขวงบางด้วน เขตภาษีเจริญ กรุงเทพฯ 10160",
+        "tel": "02-869-6803",
+        "website": "http://fortistrading.co.th",
+        "email": "sales@fortistrading.co.th",
+        "specialties": "PowerLab, Spirometer, หุ่นจำลองทางกายวิภาค (ตามใบเสนอราคาที่ได้รับ)",
+        "brands": [],
+        "name": "บริษัท ฟอร์ทิส เทรดดิ้ง จำกัด",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": true,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณยันตนกร มั่นคง (Yantanakorn Mankhong)",
+            "phone": "099-131-0007",
+            "email": "fortis.th@gmail.com",
+            "source": "อีเมล CRA: ใบเสนอราคา PowerLab / Spirometer / หุ่นจำลอง (10–11 ก.ย. 2569)",
+            "note": "Line: 099-131-0007"
           }
         ]
       },
       {
-        "id": "biomedia",
-        "short_name": "Biomedia",
+        "id": "prima-sci",
+        "short_name": "Prima Scientific",
         "category_id": "molecular",
         "category_name": "ชีววิทยาโมเลกุล & Cell Imaging",
         "is_authorized_dealer": false,
         "address": "",
-        "tel": "086-395-5985",
+        "tel": "",
         "website": "",
-        "email": "",
-        "specialties": "ยังไม่ระบุ (เพิ่มจากไฟล์ข้อมูลติดต่อผู้แทน บ.)",
+        "email": "pitchayaphong@primasci.com",
+        "specialties": "Millicell® ERS 3.0 Digital Voltohmmeter (TEER) (ตามใบเสนอราคาที่ได้รับ)",
         "brands": [],
-        "name": "Biomedia",
+        "name": "บริษัท พรีม่า ไซแอนติฟิค จำกัด",
         "tax_id": "",
         "egp_status": "ยังไม่ตรวจสอบ",
-        "has_quote_history": false,
+        "has_quote_history": true,
         "matched_items": [],
         "contact_reps": [
           {
-            "name": "คุณอภิชญา",
-            "phone": "086-395-5985",
-            "email": "",
-            "pdf_label": "Biomedia",
-            "pdf_rows": 1,
-            "source": "ไฟล์ \"ข้อมูลติดต่อ บ.pdf\" (5 พ.ย. 2569)"
+            "name": "คุณพิชญพงศ์ คีรีเดช (ทิว)",
+            "phone": "097-959-8255",
+            "email": "pitchayaphong@primasci.com",
+            "source": "อีเมล CRA: ใบเสนอราคา Millicell ERS 3.0 (8 ต.ค. 2569)",
+            "note": "Sales and Product Specialist · Tel/Line 097-959-8255"
+          }
+        ]
+      },
+      {
+        "id": "better-syndicate",
+        "short_name": "Better Syndicate (OPTIKA)",
+        "category_id": "molecular",
+        "category_name": "ชีววิทยาโมเลกุล & Cell Imaging",
+        "is_authorized_dealer": false,
+        "address": "248-256 ซ.เอกชัย 64/5 ถ.เอกชัย แขวงคลองบางพราน เขตบางบอน กรุงเทพฯ 10150",
+        "tel": "02-416-6686, 02-416-6687",
+        "website": "http://www.bettersyndicate.co.th",
+        "email": "bscthai_sale@yahoo.com",
+        "specialties": "กล้องจุลทรรศน์ OPTIKA (B-192PL, SLX-3, C-B3) (ตามใบเสนอราคาที่ได้รับ)",
+        "brands": [],
+        "name": "บริษัท เบทเทอร์ ซินดิเคท จำกัด",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": true,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณฐิติมา ปดิงอินทร์",
+            "phone": "099-393-2788",
+            "email": "bscthai_sale@yahoo.com",
+            "source": "อีเมล CRA: ใบเสนอราคากล้องจุลทรรศน์ OPTIKA (14–22 ก.ย. 2569)",
+            "note": "Sales Representative · Line @bettersyndicate"
+          }
+        ]
+      },
+      {
+        "id": "prapatsorn",
+        "short_name": "Prapatsorn Engineering Supply",
+        "category_id": "pharma",
+        "category_name": "เภสัชวิทยา & ทดสอบยา",
+        "is_authorized_dealer": false,
+        "address": "25 ซ.พระราม 6 ซอย 4 แขวงรองเมือง เขตปทุมวัน กรุงเทพฯ 10330",
+        "tel": "02-611-6500",
+        "website": "http://www.prapatsorn.co.th",
+        "email": "natthawan@prapatsorn.co.th",
+        "specialties": "Lung function testing / Spirometry / Cardiopulmonary (ตามลายเซ็นอีเมล)",
+        "brands": [],
+        "name": "บริษัท ประภัสสร เอ็นจิเนียริ่ง ซัพพลาย จำกัด",
+        "tax_id": "",
+        "egp_status": "ยังไม่ตรวจสอบ",
+        "has_quote_history": true,
+        "matched_items": [],
+        "contact_reps": [
+          {
+            "name": "คุณณัฐวรรณ ปณิธิพร (Natthawan Panithiporn)",
+            "phone": "087-544-9499",
+            "email": "natthawan@prapatsorn.co.th",
+            "source": "อีเมล CRA: ใบเสนอราคาเครื่องวัดอากาศหายใจ (9 ก.ย. 2569)",
+            "note": "Sales executive · Direct 089-499-1005"
           }
         ]
       }
@@ -18666,7 +18998,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "โทร: 0-2433-8331 | email: center@sithiphorn.com | www.sithiphorn.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
         "tax_id": "0105519011337",
         "unspsc": "41113000",
         "unspsc_name": "Physical property testing equipment",
@@ -18774,7 +19106,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "โทร: 0-2433-8331 | email: center@sithiphorn.com | www.sithiphorn.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
         "tax_id": "0105519011337",
         "unspsc": "41113012",
         "unspsc_name": "Density measuring equipment",
@@ -19211,7 +19543,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "โทร: 0-2433-8331 | email: center@sithiphorn.com | www.sithiphorn.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
         "tax_id": "0105519011337",
         "unspsc": "41122802",
         "unspsc_name": "Laboratory water baths",
@@ -19247,7 +19579,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "โทร: 0-2318-8740 | email: sales@becthai.com | www.becthai.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
         "tax_id": "0105522000669",
         "unspsc": "41121805",
         "unspsc_name": "Laboratory flake ice machines",
@@ -19350,7 +19682,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "โทร: 0-2433-8331 | email: center@sithiphorn.com | www.sithiphorn.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
         "tax_id": "0105519011337",
         "unspsc": "41122806",
         "unspsc_name": "Ultrasonic cleaning baths",
@@ -19484,7 +19816,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "โทร: 0-2318-8740 | email: sales@becthai.com | www.becthai.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
         "tax_id": "0105522000669",
         "unspsc": "41122701",
         "unspsc_name": "Laboratory vacuum pumps",
@@ -19731,7 +20063,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "โทร: 0-2318-8740 | email: sales@becthai.com | www.becthai.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
         "tax_id": "0105522000669",
         "unspsc": "41115408",
         "unspsc_name": "Microplate absorbance readers",
@@ -19865,7 +20197,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "โทร: 0-2790-4000 | email: heth.thailand@dksh.com | www.dksh.com/th-th/home/technology",
+        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
         "tax_id": "0105523002118",
         "unspsc": "41122808",
         "unspsc_name": "Rotary vacuum evaporators",
@@ -20071,7 +20403,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท เบคไทยกรุงเทพอุปกรณ์เคมีภัณฑ์ จำกัด",
-        "primary_contact": "โทร: 0-2318-8740 | email: sales@becthai.com | www.becthai.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณสุพรรณิกา โทร. 062-593-2872 | อีเมล: d.supannika@becthai.com | สำนักงาน: 0-2318-8740",
         "tax_id": "0105522000669",
         "unspsc": "41122410",
         "unspsc_name": "Laboratory orbital shakers",
@@ -20107,7 +20439,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "โทร: 0-2790-4000 | email: heth.thailand@dksh.com | www.dksh.com/th-th/home/technology",
+        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
         "tax_id": "0105523002118",
         "unspsc": "41113025",
         "unspsc_name": "Particle size & zeta potential analyzers (DLS)",
@@ -20169,7 +20501,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "โทร: 0-2790-4000 | email: heth.thailand@dksh.com | www.dksh.com/th-th/home/technology",
+        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
         "tax_id": "0105523002118",
         "unspsc": "41122415",
         "unspsc_name": "Vacuum homogenizers / mixers",
@@ -20200,7 +20532,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "โทร: 0-2433-8331 | email: center@sithiphorn.com | www.sithiphorn.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
         "tax_id": "0105519011337",
         "unspsc": "41122418",
         "unspsc_name": "Semi-automatic tube filling machines",
@@ -20386,7 +20718,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท สิทธิพรแอสโซซิเอส จำกัด",
-        "primary_contact": "โทร: 0-2433-8331 | email: center@sithiphorn.com | www.sithiphorn.com",
+        "primary_contact": "ผู้แทนสายตรง: คุณฐานิษ อีเมล: thanit@sithiphorn.com | โทร: 0-2433-8331, 081-831-9244",
         "tax_id": "0105519011337",
         "unspsc": "41122110",
         "unspsc_name": "UV viewing chromatography cabinets",
@@ -20525,7 +20857,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "โทร: 0-2790-4000 | email: heth.thailand@dksh.com | www.dksh.com/th-th/home/technology",
+        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
         "tax_id": "0105523002118",
         "unspsc": "41122420",
         "unspsc_name": "Aseptic peristaltic liquid filling systems",
@@ -20556,7 +20888,7 @@
         "budget": "แผนจัดซื้อปี ๗๑",
         "requester": "คณะเภสัชศาสตร์",
         "primary_distributor": "บริษัท ดีเคเอสเอช (ประเทศไทย) จำกัด",
-        "primary_contact": "โทร: 0-2790-4000 | email: heth.thailand@dksh.com | www.dksh.com/th-th/home/technology",
+        "primary_contact": "ผู้แทนสายตรง: คุณนวพร โทร. 064-003-2685 | อีเมล: navaporn.c@dksh.com | สำนักงาน: 0-2790-4000",
         "tax_id": "0105523002118",
         "unspsc": "41122402",
         "unspsc_name": "Motorized pipette controllers (Pipetboy)",
