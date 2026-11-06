@@ -7777,15 +7777,15 @@
     {
       "seq": 3,
       "priority": "สูง",
-      "title": "ความต้องการวิจัย 4 รายการหลุดจากคำขอปี 71",
-      "finding": "update 3 พ.ย. 69 ทำให้แถวปี 71 ที่จับคู่ไว้เป็น Hold หรือ NA ทั้งหมด: ตู้บ่ม Tri-gas (คุม O₂) (ลำดับ 97: Hold) | Refrigerated microcentrifuge (≥15,000 rpm) (ลำดับ 55: NA) | FPLC (ทำโปรตีนบริสุทธิ์) (ลำดับ 73: Hold) | Proteomics (shotgun/targeted) (ลำดับ 13: Hold)",
+      "title": "ความต้องการวิจัย 9 รายการหลุดจากคำขอปี 71",
+      "finding": "update 3 พ.ย. 69 ทำให้แถวปี 71 ที่จับคู่ไว้เป็น Hold หรือ NA ทั้งหมด: ตู้บ่ม Tri-gas (คุม O₂) (ลำดับ 97: Hold) | Refrigerated microcentrifuge (≥15,000 rpm) (ลำดับ 55: NA) | FPLC (ทำโปรตีนบริสุทธิ์) (ลำดับ 73: Hold) | Proteomics (shotgun/targeted) (ลำดับ 13: Hold) | คำขอ NK: Hot-melt extruder | Automated spray dryer with inlet/outlet control | Lyophilizer with programmed freezing and drying cycles | Automatic capsule filling and tablet press with in-process weight control | X-ray powder diffraction (XRPD)",
       "action": "ยืนยันกับผู้ขอว่ายอมรับการเลื่อน หรือเสนอกลับเข้าปี 71"
     },
     {
       "seq": 4,
       "priority": "สูง",
       "title": "รายการวิจัยที่ไม่มีในแผน",
-      "finding": "18 ความต้องการไม่มีทั้งปี 70 และปี 71 กลุ่มใหญ่คือไฟฟ้าสรีรวิทยา ถ่ายภาพ และ histology ราคารวมในชีต \"สรุป\"",
+      "finding": "34 ความต้องการไม่มีทั้งปี 70 และปี 71 มีราคา 15 รายการ รวม 83.9-106.1 ล้านบาท อีก 19 รายการยังไม่มีราคา (คำขอ NK 17 รายการ) กลุ่มที่มูลค่าสูงคือถ่ายภาพและไฟฟ้าสรีรวิทยา",
       "action": "ที่ประชุมเลือกว่าจะเพิ่มรายการใดเข้าปี 71 ก่อนรวบรวมใบเสนอราคาเดือน พ.ย."
     },
     {

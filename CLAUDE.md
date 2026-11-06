@@ -20,7 +20,7 @@
 ## ไฟล์หลัก
 - `index.html` หน้า dashboard HTML5 ไฟล์เดียว
 - `data.json` สำเนาข้อมูล: `year71`, `research`, `council`, `issues`, `metrics`, `distributors_data` (companies, equipment_matrix, items_55, summary)
-- `infographic/` สไลด์จาก Canva (PNG และ PPTX) ตัวเลขบนสไลด์ไม่คำนวณอัตโนมัติ และเก่ากว่าข้อมูลใน dashboard
+- `infographic/` สไลด์จาก Canva (PNG และ PPTX) อัปเดตล่าสุด 6 พ.ย. 69 ตัวเลขบนสไลด์ไม่คำนวณอัตโนมัติ ถ้าข้อมูลเปลี่ยนต้องแก้ใน Canva แล้ว export ทับไฟล์เดิม
 - `curriculum_explorer.html`, `booklet.html` และไฟล์ `curriculum_*` หน้าหลักสูตร
 - ไฟล์ docx/xlsx/pdf รายชื่อ vendor เป็นเอกสารประกอบ ไม่ได้อัปเดตตามข้อมูล SA อัตโนมัติ
 
@@ -43,6 +43,3 @@ python -m http.server 8765 --bind 127.0.0.1
 ```
 
 แล้วเปิด http://127.0.0.1:8765/index.html ตรวจทุกแท็บว่าไม่มี error ใน console และตัวเลขบนหน้าตรงกับ `D.metrics`
-
-## ปัญหาที่ทราบแล้ว
-รูปในแท็บ Infographic ไม่แสดง เพราะโค้ดใช้ `g.src` แต่ข้อมูลมีแค่ `g.file` ถ้าแก้แล้วจะแสดงสไลด์ที่มีตัวเลขเก่า จึงต้องอัปเดตสไลด์ไปพร้อมกัน
